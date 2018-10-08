@@ -1,0 +1,17 @@
+To ZIp the files :====
+==========================
+When file system 90 % above thresold 
+
+ # df -H /var/log/audit/
+ # cd /var/log/audit/
+ # ls -ltr
+ # bzip2 audit.log.9
+ # bzip2 audit.log.8
+ #bzip2 audit.log.7
+  #bzip2 audit.log.6
+  745  #bzip2 audit.log.5
+  746  #bzip2 audit.log.4
+  747  #bzip2 audit.log.3
+  748  #bzip2 audit.log.2
+  749  #bzip2 audit.log.1
+  750  #df -H /var/log/audit/

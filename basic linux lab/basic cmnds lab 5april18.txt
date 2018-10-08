@@ -1,0 +1,626 @@
+      4 -rw-r--r--.  1 root root        100 Sep 23  2004 .cshrc
+      4 drwxr-xr-x.  9 root root       4096 Mar 10 17:49 data
+      4 -rw-r--r--.  1 root root        493 Mar 10 17:25 databackup.tar.gz
+      4 drwx------.  3 root root       4096 Feb  6 21:45 .dbus
+      0 -rw-r--r--.  1 root root          0 Mar 24 13:10 dd.pdf
+      4 drwxr-xr-x.  2 root root       4096 Feb  6 21:45 Desktop
+      4 drwxr-xr-x.  2 root root       4096 Feb  6 21:45 Documents
+      4 drwxr-xr-x.  2 root root       4096 Feb  6 21:45 Downloads
+      4 drwxr-xr-x.  2 root root       4096 Mar 24 13:58 Enterprise,Oracle
+      4 -rw-------.  1 root root         16 Feb  6 21:45 .esd_auth
+      0 -rw-r--r--.  1 root root          0 Mar 24 14:19 file2
+      0 lrwxrwxrwx.  1 root root          7 Mar 24 16:24 file2bkp -> myfile2
+      4 -rw-r--r--.  2 root root        126 Mar 24 16:16 file3bkp
+      4 drwx------.  4 root root       4096 Mar 23 19:02 .gconf
+      4 drwx------.  2 root root       4096 Feb  7 14:07 .gconfd
+      4 drwx------.  7 root root       4096 Mar 10 19:43 .gnome2
+      4 drwx------.  2 root root       4096 Feb  6 16:54 .gnome2_private
+      4 drwxr-xr-x.  3 root root       4096 Feb  6 21:45 .gnote
+      4 drwx------.  2 root root       4096 Mar 23 19:02 .gnupg
+      4 drwxr-xr-x.  2 root root       4096 Mar 10 19:41 .gstreamer-0.10
+      4 -rw-r--r--.  1 root root        107 Mar 23 19:02 .gtk-bookmarks
+      0 dr-x------.  2 root root          0 Mar 23 19:02 .gvfs
+      4 -rw-------.  1 root root        104 Mar 13 03:16 .history
+      4 -rw-------.  1 root root       3100 Mar 23 19:02 .ICEauthority
+      0 -rw-r--r--.  1 root root          0 Mar 24 13:10 image.jpg
+      4 -rw-r--r--.  1 root root        623 Mar 23 19:03 .imsettings.log
+      0 -rw-r--r--.  1 root root          0 Mar 24 15:59 king
+      4 drwxr-xr-x.  2 root root       4096 Mar 24 14:09 kong
+      4 drwxr-xr-x.  2 root root       4096 Mar 24 14:09 linux
+      4 drwxr-xr-x.  3 root root       4096 Mar 24 13:58 Linux
+      4 drwxr-xr-x.  4 root root       4096 Mar 24 14:07 Linux2
+      4 drwxr-xr-x.  5 root root       4096 Mar 24 14:14 Linux3
+      4 drwxr-xr-x.  2 root root       4096 Mar 24 13:58 Linux,Suse
+      4 drwxr-xr-x.  2 root root       4096 Mar 24 14:09 lion
+      4 drwxr-xr-x.  3 root root       4096 Feb  6 21:45 .local
+      4 drwxr-xr-x.  4 root root       4096 Feb  6 16:54 .mozilla
+      4 drwxr-xr-x.  2 root root       4096 Feb  6 21:45 Music
+      4 drwxr-xr-x.  2 root root       4096 Mar 24 15:59 mydir2
+      4 drwxr-xr-x.  5 root root       4096 Mar 24 07:15 mydir3
+      4 -rw-r--r--.  1 root root         42 Mar 24 13:51 mydoc
+      4 -rw-r--r--.  1 root root        106 Mar 24 13:38 myfile
+      4 -rw-r--r--.  2 root root        126 Mar 24 16:16 myfile2
+      0 lrwxrwxrwx.  1 root root          7 Mar 24 16:16 myfile2bkp -> myfile2
+      4 drwxr-xr-x.  4 root root       4096 Mar 12 21:30 nagios
+      4 -rw-r--r--.  1 root root       1026 Mar 15 23:14 nagios.cfg
+      4 drwxr-xr-x.  2 root root       4096 Feb  6 21:45 .nautilus
+      4 drwxr-xr-x.  3 root root       4096 Mar 24 14:02 pics
+      4 drwxr-xr-x.  2 root root       4096 Feb  6 21:45 Pictures
+      4 drwxr-----.  3 root root       4096 Feb  7 15:29 .pki
+     12 -rw-r--r--.  1 root root      11955 Nov 29  2013 post-install
+      4 -rw-r--r--.  1 root root        552 Nov 29  2013 post-install.log
+      4 drwxr-xr-x.  2 root root       4096 Mar 24 16:25 Public
+      4 drwx------.  2 root root       4096 Feb  6 16:15 .pulse
+      4 -rw-------.  1 root root        256 Feb  6 21:45 .pulse-cookie
+      4 -rwxr-xr-x.  1 root root         64 Mar 16 06:05 pyscrip.py
+      4 drwxr-xr-x.  2 root root       4096 Mar 10 19:17 python-scripts
+      4 drwxr-xr-x.  3 root root       4096 Mar 10 17:24 recover
+      4 drwxr-xr-x.  3 root root       4096 Mar 10 17:53 recover1
+      4 drwxr-xr-x.  2 root root       4096 Mar 24 16:19 shellscripts
+      4 drwx------.  2 root root       4096 Feb  6 21:45 .ssh
+      4 -rw-r--r--.  1 root root        129 Dec  4  2004 .tcshrc
+      4 drwxr-xr-x.  3 root root       4096 Mar 24 20:42 Templates
+      4 drwxr-xr-x.  5 root root       4096 Mar 24 01:40 TLA
+      0 -rw-r--r--.  1 root root          0 Mar 24 13:10 t.txt
+      4 drwxr-xr-x.  2 root root       4096 Feb  6 21:45 Videos
+      8 -rw-------.  1 root root       6739 Mar 24 13:51 .viminfo
+[root@localhost ~]#
+[root@localhost ~]# ls -alsh
+total 2.2G
+4.0K dr-xr-x---. 45 root root 4.0K Mar 24 16:27 .
+4.0K dr-xr-xr-x. 28 root root 4.0K Mar 24 20:41 ..
+4.0K -rw-r--r--.  1 root root   23 Mar 24 13:09 a
+4.0K -rw-------.  1 root root  746 Feb  6 21:37 anaconda-ks.cfg
+ 16K -rw-------.  1 root root  16K Mar 24 18:59 .bash_history
+4.0K -rw-r--r--.  1 root root   18 May 20  2009 .bash_logout
+4.0K -rw-r--r--.  1 root root  176 May 20  2009 .bash_profile
+4.0K -rw-r--r--.  1 root root  176 Sep 23  2004 .bashrc
+4.0K drwxr-xr-x.  4 root root 4.0K Mar 10 19:43 .cache
+2.2G -rw-r--r--.  1 root root 2.2G Mar 12 22:19 CentOS-7-x86_64-DVD-1708.iso
+4.0K drwx------.  6 root root 4.0K Mar 24 14:18 .config
+4.0K -rw-r--r--.  1 root root  100 Sep 23  2004 .cshrc
+4.0K drwxr-xr-x.  9 root root 4.0K Mar 10 17:49 data
+4.0K -rw-r--r--.  1 root root  493 Mar 10 17:25 databackup.tar.gz
+4.0K drwx------.  3 root root 4.0K Feb  6 21:45 .dbus
+   0 -rw-r--r--.  1 root root    0 Mar 24 13:10 dd.pdf
+4.0K drwxr-xr-x.  2 root root 4.0K Feb  6 21:45 Desktop
+4.0K drwxr-xr-x.  2 root root 4.0K Feb  6 21:45 Documents
+4.0K drwxr-xr-x.  2 root root 4.0K Feb  6 21:45 Downloads
+4.0K drwxr-xr-x.  2 root root 4.0K Mar 24 13:58 Enterprise,Oracle
+4.0K -rw-------.  1 root root   16 Feb  6 21:45 .esd_auth
+   0 -rw-r--r--.  1 root root    0 Mar 24 14:19 file2
+   0 lrwxrwxrwx.  1 root root    7 Mar 24 16:24 file2bkp -> myfile2
+4.0K -rw-r--r--.  2 root root  126 Mar 24 16:16 file3bkp
+4.0K drwx------.  4 root root 4.0K Mar 23 19:02 .gconf
+4.0K drwx------.  2 root root 4.0K Feb  7 14:07 .gconfd
+4.0K drwx------.  7 root root 4.0K Mar 10 19:43 .gnome2
+4.0K drwx------.  2 root root 4.0K Feb  6 16:54 .gnome2_private
+4.0K drwxr-xr-x.  3 root root 4.0K Feb  6 21:45 .gnote
+4.0K drwx------.  2 root root 4.0K Mar 23 19:02 .gnupg
+4.0K drwxr-xr-x.  2 root root 4.0K Mar 10 19:41 .gstreamer-0.10
+4.0K -rw-r--r--.  1 root root  107 Mar 23 19:02 .gtk-bookmarks
+   0 dr-x------.  2 root root    0 Mar 23 19:02 .gvfs
+4.0K -rw-------.  1 root root  104 Mar 13 03:16 .history
+4.0K -rw-------.  1 root root 3.1K Mar 23 19:02 .ICEauthority
+   0 -rw-r--r--.  1 root root    0 Mar 24 13:10 image.jpg
+4.0K -rw-r--r--.  1 root root  623 Mar 23 19:03 .imsettings.log
+   0 -rw-r--r--.  1 root root    0 Mar 24 15:59 king
+4.0K drwxr-xr-x.  2 root root 4.0K Mar 24 14:09 kong
+4.0K drwxr-xr-x.  2 root root 4.0K Mar 24 14:09 linux
+4.0K drwxr-xr-x.  3 root root 4.0K Mar 24 13:58 Linux
+4.0K drwxr-xr-x.  4 root root 4.0K Mar 24 14:07 Linux2
+4.0K drwxr-xr-x.  5 root root 4.0K Mar 24 14:14 Linux3
+4.0K drwxr-xr-x.  2 root root 4.0K Mar 24 13:58 Linux,Suse
+4.0K drwxr-xr-x.  2 root root 4.0K Mar 24 14:09 lion
+4.0K drwxr-xr-x.  3 root root 4.0K Feb  6 21:45 .local
+4.0K drwxr-xr-x.  4 root root 4.0K Feb  6 16:54 .mozilla
+4.0K drwxr-xr-x.  2 root root 4.0K Feb  6 21:45 Music
+4.0K drwxr-xr-x.  2 root root 4.0K Mar 24 15:59 mydir2
+4.0K drwxr-xr-x.  5 root root 4.0K Mar 24 07:15 mydir3
+4.0K -rw-r--r--.  1 root root   42 Mar 24 13:51 mydoc
+4.0K -rw-r--r--.  1 root root  106 Mar 24 13:38 myfile
+4.0K -rw-r--r--.  2 root root  126 Mar 24 16:16 myfile2
+   0 lrwxrwxrwx.  1 root root    7 Mar 24 16:16 myfile2bkp -> myfile2
+4.0K drwxr-xr-x.  4 root root 4.0K Mar 12 21:30 nagios
+4.0K -rw-r--r--.  1 root root 1.1K Mar 15 23:14 nagios.cfg
+4.0K drwxr-xr-x.  2 root root 4.0K Feb  6 21:45 .nautilus
+4.0K drwxr-xr-x.  3 root root 4.0K Mar 24 14:02 pics
+4.0K drwxr-xr-x.  2 root root 4.0K Feb  6 21:45 Pictures
+4.0K drwxr-----.  3 root root 4.0K Feb  7 15:29 .pki
+ 12K -rw-r--r--.  1 root root  12K Nov 29  2013 post-install
+4.0K -rw-r--r--.  1 root root  552 Nov 29  2013 post-install.log
+4.0K drwxr-xr-x.  2 root root 4.0K Mar 24 16:25 Public
+4.0K drwx------.  2 root root 4.0K Feb  6 16:15 .pulse
+4.0K -rw-------.  1 root root  256 Feb  6 21:45 .pulse-cookie
+4.0K -rwxr-xr-x.  1 root root   64 Mar 16 06:05 pyscrip.py
+4.0K drwxr-xr-x.  2 root root 4.0K Mar 10 19:17 python-scripts
+4.0K drwxr-xr-x.  3 root root 4.0K Mar 10 17:24 recover
+4.0K drwxr-xr-x.  3 root root 4.0K Mar 10 17:53 recover1
+4.0K drwxr-xr-x.  2 root root 4.0K Mar 24 16:19 shellscripts
+4.0K drwx------.  2 root root 4.0K Feb  6 21:45 .ssh
+4.0K -rw-r--r--.  1 root root  129 Dec  4  2004 .tcshrc
+4.0K drwxr-xr-x.  3 root root 4.0K Mar 24 20:42 Templates
+4.0K drwxr-xr-x.  5 root root 4.0K Mar 24 01:40 TLA
+   0 -rw-r--r--.  1 root root    0 Mar 24 13:10 t.txt
+4.0K drwxr-xr-x.  2 root root 4.0K Feb  6 21:45 Videos
+8.0K -rw-------.  1 root root 6.6K Mar 24 13:51 .viminfo
+[root@localhost ~]# ls -alshi
+total 2.2G
+130651 4.0K dr-xr-x---. 45 root root 4.0K Mar 24 16:27 .
+     2 4.0K dr-xr-xr-x. 28 root root 4.0K Mar 24 20:41 ..
+140955 4.0K -rw-r--r--.  1 root root   23 Mar 24 13:09 a
+191877 4.0K -rw-------.  1 root root  746 Feb  6 21:37 anaconda-ks.cfg
+192026  16K -rw-------.  1 root root  16K Mar 24 18:59 .bash_history
+186808 4.0K -rw-r--r--.  1 root root   18 May 20  2009 .bash_logout
+186809 4.0K -rw-r--r--.  1 root root  176 May 20  2009 .bash_profile
+186810 4.0K -rw-r--r--.  1 root root  176 Sep 23  2004 .bashrc
+391691 4.0K drwxr-xr-x.  4 root root 4.0K Mar 10 19:43 .cache
+140687 2.2G -rw-r--r--.  1 root root 2.2G Mar 12 22:19 CentOS-7-x86_64-DVD-1708.iso
+391694 4.0K drwx------.  6 root root 4.0K Mar 24 14:18 .config
+186811 4.0K -rw-r--r--.  1 root root  100 Sep 23  2004 .cshrc
+402332 4.0K drwxr-xr-x.  9 root root 4.0K Mar 10 17:49 data
+137887 4.0K -rw-r--r--.  1 root root  493 Mar 10 17:25 databackup.tar.gz
+391712 4.0K drwx------.  3 root root 4.0K Feb  6 21:45 .dbus
+140959    0 -rw-r--r--.  1 root root    0 Mar 24 13:10 dd.pdf
+391737 4.0K drwxr-xr-x.  2 root root 4.0K Feb  6 21:45 Desktop
+391741 4.0K drwxr-xr-x.  2 root root 4.0K Feb  6 21:45 Documents
+391738 4.0K drwxr-xr-x.  2 root root 4.0K Feb  6 21:45 Downloads
+403592 4.0K drwxr-xr-x.  2 root root 4.0K Mar 24 13:58 Enterprise,Oracle
+192013 4.0K -rw-------.  1 root root   16 Feb  6 21:45 .esd_auth
+140962    0 -rw-r--r--.  1 root root    0 Mar 24 14:19 file2
+140948    0 lrwxrwxrwx.  1 root root    7 Mar 24 16:24 file2bkp -> myfile2
+140900 4.0K -rw-r--r--.  2 root root  126 Mar 24 16:16 file3bkp
+391690 4.0K drwx------.  4 root root 4.0K Mar 23 19:02 .gconf
+391692 4.0K drwx------.  2 root root 4.0K Feb  7 14:07 .gconfd
+391732 4.0K drwx------.  7 root root 4.0K Mar 10 19:43 .gnome2
+392000 4.0K drwx------.  2 root root 4.0K Feb  6 16:54 .gnome2_private
+391794 4.0K drwxr-xr-x.  3 root root 4.0K Feb  6 21:45 .gnote
+391775 4.0K drwx------.  2 root root 4.0K Mar 23 19:02 .gnupg
+391851 4.0K drwxr-xr-x.  2 root root 4.0K Mar 10 19:41 .gstreamer-0.10
+137877 4.0K -rw-r--r--.  1 root root  107 Mar 23 19:02 .gtk-bookmarks
+     1    0 dr-x------.  2 root root    0 Mar 23 19:02 .gvfs
+140932 4.0K -rw-------.  1 root root  104 Mar 13 03:16 .history
+192011 4.0K -rw-------.  1 root root 3.1K Mar 23 19:02 .ICEauthority
+140958    0 -rw-r--r--.  1 root root    0 Mar 24 13:10 image.jpg
+137899 4.0K -rw-r--r--.  1 root root  623 Mar 23 19:03 .imsettings.log
+130604    0 -rw-r--r--.  1 root root    0 Mar 24 15:59 king
+403618 4.0K drwxr-xr-x.  2 root root 4.0K Mar 24 14:09 kong
+403617 4.0K drwxr-xr-x.  2 root root 4.0K Mar 24 14:09 linux
+403584 4.0K drwxr-xr-x.  3 root root 4.0K Mar 24 13:58 Linux
+403609 4.0K drwxr-xr-x.  4 root root 4.0K Mar 24 14:07 Linux2
+403593 4.0K drwxr-xr-x.  5 root root 4.0K Mar 24 14:14 Linux3
+403595 4.0K drwxr-xr-x.  2 root root 4.0K Mar 24 13:58 Linux,Suse
+403616 4.0K drwxr-xr-x.  2 root root 4.0K Mar 24 14:09 lion
+391771 4.0K drwxr-xr-x.  3 root root 4.0K Feb  6 21:45 .local
+391994 4.0K drwxr-xr-x.  4 root root 4.0K Feb  6 16:54 .mozilla
+391742 4.0K drwxr-xr-x.  2 root root 4.0K Feb  6 21:45 Music
+403577 4.0K drwxr-xr-x.  2 root root 4.0K Mar 24 15:59 mydir2
+403579 4.0K drwxr-xr-x.  5 root root 4.0K Mar 24 07:15 mydir3
+140963 4.0K -rw-r--r--.  1 root root   42 Mar 24 13:51 mydoc
+140961 4.0K -rw-r--r--.  1 root root  106 Mar 24 13:38 myfile
+140900 4.0K -rw-r--r--.  2 root root  126 Mar 24 16:16 myfile2
+137860    0 lrwxrwxrwx.  1 root root    7 Mar 24 16:16 myfile2bkp -> myfile2
+522298 4.0K drwxr-xr-x.  4 root root 4.0K Mar 12 21:30 nagios
+137872 4.0K -rw-r--r--.  1 root root 1.1K Mar 15 23:14 nagios.cfg
+391812 4.0K drwxr-xr-x.  2 root root 4.0K Feb  6 21:45 .nautilus
+403597 4.0K drwxr-xr-x.  3 root root 4.0K Mar 24 14:02 pics
+391743 4.0K drwxr-xr-x.  2 root root 4.0K Feb  6 21:45 Pictures
+391909 4.0K drwxr-----.  3 root root 4.0K Feb  7 15:29 .pki
+191836  12K -rw-r--r--.  1 root root  12K Nov 29  2013 post-install
+191839 4.0K -rw-r--r--.  1 root root  552 Nov 29  2013 post-install.log
+391740 4.0K drwxr-xr-x.  2 root root 4.0K Mar 24 16:25 Public
+391757 4.0K drwx------.  2 root root 4.0K Feb  6 16:15 .pulse
+157158 4.0K -rw-------.  1 root root  256 Feb  6 21:45 .pulse-cookie
+140920 4.0K -rwxr-xr-x.  1 root root   64 Mar 16 06:05 pyscrip.py
+391697 4.0K drwxr-xr-x.  2 root root 4.0K Mar 10 19:17 python-scripts
+402567 4.0K drwxr-xr-x.  3 root root 4.0K Mar 10 17:24 recover
+391871 4.0K drwxr-xr-x.  3 root root 4.0K Mar 10 17:53 recover1
+656305 4.0K drwxr-xr-x.  2 root root 4.0K Mar 24 16:19 shellscripts
+391774 4.0K drwx------.  2 root root 4.0K Feb  6 21:45 .ssh
+186812 4.0K -rw-r--r--.  1 root root  129 Dec  4  2004 .tcshrc
+391739 4.0K drwxr-xr-x.  3 root root 4.0K Mar 24 20:42 Templates
+402349 4.0K drwxr-xr-x.  5 root root 4.0K Mar 24 01:40 TLA
+140956    0 -rw-r--r--.  1 root root    0 Mar 24 13:10 t.txt
+391744 4.0K drwxr-xr-x.  2 root root 4.0K Feb  6 21:45 Videos
+140960 8.0K -rw-------.  1 root root 6.6K Mar 24 13:51 .viminfo
+[root@localhost ~]#
+[root@localhost ~]# ls -S
+CentOS-7-x86_64-DVD-1708.iso  Downloads          Linux2      mydir2    Public          Templates        post-install.log   pyscrip.py  dd.pdf
+post-install                  Enterprise,Oracle  Linux3      mydir3    python-scripts  TLA              databackup.tar.gz  mydoc       file2
+data                          kong               Linux,Suse  nagios    recover         Videos           file3bkp           a           image.jpg
+Desktop                       linux              lion        pics      recover1        nagios.cfg       myfile2            file2bkp    king
+Documents                     Linux              Music       Pictures  shellscripts    anaconda-ks.cfg  myfile             myfile2bkp  t.txt
+[root@localhost ~]# ls -SL
+CentOS-7-x86_64-DVD-1708.iso  Downloads          Linux2      mydir2    Public          Templates        post-install.log   myfile2bkp  dd.pdf
+post-install                  Enterprise,Oracle  Linux3      mydir3    python-scripts  TLA              databackup.tar.gz  myfile      file2
+data                          kong               Linux,Suse  nagios    recover         Videos           file2bkp           pyscrip.py  image.jpg
+Desktop                       linux              lion        pics      recover1        nagios.cfg       file3bkp           mydoc       king
+Documents                     Linux              Music       Pictures  shellscripts    anaconda-ks.cfg  myfile2            a           t.txt
+[root@localhost ~]# ls -Sl
+total 2238264
+-rw-r--r--. 1 root root 2291815993 Mar 12 22:19 CentOS-7-x86_64-DVD-1708.iso
+-rw-r--r--. 1 root root      11955 Nov 29  2013 post-install
+drwxr-xr-x. 9 root root       4096 Mar 10 17:49 data
+drwxr-xr-x. 2 root root       4096 Feb  6 21:45 Desktop
+drwxr-xr-x. 2 root root       4096 Feb  6 21:45 Documents
+drwxr-xr-x. 2 root root       4096 Feb  6 21:45 Downloads
+drwxr-xr-x. 2 root root       4096 Mar 24 13:58 Enterprise,Oracle
+drwxr-xr-x. 2 root root       4096 Mar 24 14:09 kong
+drwxr-xr-x. 2 root root       4096 Mar 24 14:09 linux
+drwxr-xr-x. 3 root root       4096 Mar 24 13:58 Linux
+drwxr-xr-x. 4 root root       4096 Mar 24 14:07 Linux2
+drwxr-xr-x. 5 root root       4096 Mar 24 14:14 Linux3
+drwxr-xr-x. 2 root root       4096 Mar 24 13:58 Linux,Suse
+drwxr-xr-x. 2 root root       4096 Mar 24 14:09 lion
+drwxr-xr-x. 2 root root       4096 Feb  6 21:45 Music
+drwxr-xr-x. 2 root root       4096 Mar 24 15:59 mydir2
+drwxr-xr-x. 5 root root       4096 Mar 24 07:15 mydir3
+drwxr-xr-x. 4 root root       4096 Mar 12 21:30 nagios
+drwxr-xr-x. 3 root root       4096 Mar 24 14:02 pics
+drwxr-xr-x. 2 root root       4096 Feb  6 21:45 Pictures
+drwxr-xr-x. 2 root root       4096 Mar 24 16:25 Public
+drwxr-xr-x. 2 root root       4096 Mar 10 19:17 python-scripts
+drwxr-xr-x. 3 root root       4096 Mar 10 17:24 recover
+drwxr-xr-x. 3 root root       4096 Mar 10 17:53 recover1
+drwxr-xr-x. 2 root root       4096 Mar 24 16:19 shellscripts
+drwxr-xr-x. 3 root root       4096 Mar 24 20:42 Templates
+drwxr-xr-x. 5 root root       4096 Mar 24 01:40 TLA
+drwxr-xr-x. 2 root root       4096 Feb  6 21:45 Videos
+-rw-r--r--. 1 root root       1026 Mar 15 23:14 nagios.cfg
+-rw-------. 1 root root        746 Feb  6 21:37 anaconda-ks.cfg
+-rw-r--r--. 1 root root        552 Nov 29  2013 post-install.log
+-rw-r--r--. 1 root root        493 Mar 10 17:25 databackup.tar.gz
+-rw-r--r--. 2 root root        126 Mar 24 16:16 file3bkp
+-rw-r--r--. 2 root root        126 Mar 24 16:16 myfile2
+-rw-r--r--. 1 root root        106 Mar 24 13:38 myfile
+-rwxr-xr-x. 1 root root         64 Mar 16 06:05 pyscrip.py
+-rw-r--r--. 1 root root         42 Mar 24 13:51 mydoc
+-rw-r--r--. 1 root root         23 Mar 24 13:09 a
+lrwxrwxrwx. 1 root root          7 Mar 24 16:24 file2bkp -> myfile2
+lrwxrwxrwx. 1 root root          7 Mar 24 16:16 myfile2bkp -> myfile2
+-rw-r--r--. 1 root root          0 Mar 24 13:10 dd.pdf
+-rw-r--r--. 1 root root          0 Mar 24 14:19 file2
+-rw-r--r--. 1 root root          0 Mar 24 13:10 image.jpg
+-rw-r--r--. 1 root root          0 Mar 24 15:59 king
+-rw-r--r--. 1 root root          0 Mar 24 13:10 t.txt
+[root@localhost ~]# ls -rSl
+total 2238264
+-rw-r--r--. 1 root root          0 Mar 24 13:10 t.txt
+-rw-r--r--. 1 root root          0 Mar 24 15:59 king
+-rw-r--r--. 1 root root          0 Mar 24 13:10 image.jpg
+-rw-r--r--. 1 root root          0 Mar 24 14:19 file2
+-rw-r--r--. 1 root root          0 Mar 24 13:10 dd.pdf
+lrwxrwxrwx. 1 root root          7 Mar 24 16:16 myfile2bkp -> myfile2
+lrwxrwxrwx. 1 root root          7 Mar 24 16:24 file2bkp -> myfile2
+-rw-r--r--. 1 root root         23 Mar 24 13:09 a
+-rw-r--r--. 1 root root         42 Mar 24 13:51 mydoc
+-rwxr-xr-x. 1 root root         64 Mar 16 06:05 pyscrip.py
+-rw-r--r--. 1 root root        106 Mar 24 13:38 myfile
+-rw-r--r--. 2 root root        126 Mar 24 16:16 myfile2
+-rw-r--r--. 2 root root        126 Mar 24 16:16 file3bkp
+-rw-r--r--. 1 root root        493 Mar 10 17:25 databackup.tar.gz
+-rw-r--r--. 1 root root        552 Nov 29  2013 post-install.log
+-rw-------. 1 root root        746 Feb  6 21:37 anaconda-ks.cfg
+-rw-r--r--. 1 root root       1026 Mar 15 23:14 nagios.cfg
+drwxr-xr-x. 2 root root       4096 Feb  6 21:45 Videos
+drwxr-xr-x. 5 root root       4096 Mar 24 01:40 TLA
+drwxr-xr-x. 3 root root       4096 Mar 24 20:42 Templates
+drwxr-xr-x. 2 root root       4096 Mar 24 16:19 shellscripts
+drwxr-xr-x. 3 root root       4096 Mar 10 17:53 recover1
+drwxr-xr-x. 3 root root       4096 Mar 10 17:24 recover
+drwxr-xr-x. 2 root root       4096 Mar 10 19:17 python-scripts
+drwxr-xr-x. 2 root root       4096 Mar 24 16:25 Public
+drwxr-xr-x. 2 root root       4096 Feb  6 21:45 Pictures
+drwxr-xr-x. 3 root root       4096 Mar 24 14:02 pics
+drwxr-xr-x. 4 root root       4096 Mar 12 21:30 nagios
+drwxr-xr-x. 5 root root       4096 Mar 24 07:15 mydir3
+drwxr-xr-x. 2 root root       4096 Mar 24 15:59 mydir2
+drwxr-xr-x. 2 root root       4096 Feb  6 21:45 Music
+drwxr-xr-x. 2 root root       4096 Mar 24 14:09 lion
+drwxr-xr-x. 2 root root       4096 Mar 24 13:58 Linux,Suse
+drwxr-xr-x. 5 root root       4096 Mar 24 14:14 Linux3
+drwxr-xr-x. 4 root root       4096 Mar 24 14:07 Linux2
+drwxr-xr-x. 3 root root       4096 Mar 24 13:58 Linux
+drwxr-xr-x. 2 root root       4096 Mar 24 14:09 linux
+drwxr-xr-x. 2 root root       4096 Mar 24 14:09 kong
+drwxr-xr-x. 2 root root       4096 Mar 24 13:58 Enterprise,Oracle
+drwxr-xr-x. 2 root root       4096 Feb  6 21:45 Downloads
+drwxr-xr-x. 2 root root       4096 Feb  6 21:45 Documents
+drwxr-xr-x. 2 root root       4096 Feb  6 21:45 Desktop
+drwxr-xr-x. 9 root root       4096 Mar 10 17:49 data
+-rw-r--r--. 1 root root      11955 Nov 29  2013 post-install
+-rw-r--r--. 1 root root 2291815993 Mar 12 22:19 CentOS-7-x86_64-DVD-1708.iso
+[root@localhost ~]# ls -ld
+dr-xr-x---. 45 root root 4096 Mar 24 16:27 .
+[root@localhost ~]# ls -l
+total 2238264
+-rw-r--r--. 1 root root         23 Mar 24 13:09 a
+-rw-------. 1 root root        746 Feb  6 21:37 anaconda-ks.cfg
+-rw-r--r--. 1 root root 2291815993 Mar 12 22:19 CentOS-7-x86_64-DVD-1708.iso
+drwxr-xr-x. 9 root root       4096 Mar 10 17:49 data
+-rw-r--r--. 1 root root        493 Mar 10 17:25 databackup.tar.gz
+-rw-r--r--. 1 root root          0 Mar 24 13:10 dd.pdf
+drwxr-xr-x. 2 root root       4096 Feb  6 21:45 Desktop
+drwxr-xr-x. 2 root root       4096 Feb  6 21:45 Documents
+drwxr-xr-x. 2 root root       4096 Feb  6 21:45 Downloads
+drwxr-xr-x. 2 root root       4096 Mar 24 13:58 Enterprise,Oracle
+-rw-r--r--. 1 root root          0 Mar 24 14:19 file2
+lrwxrwxrwx. 1 root root          7 Mar 24 16:24 file2bkp -> myfile2
+-rw-r--r--. 2 root root        126 Mar 24 16:16 file3bkp
+-rw-r--r--. 1 root root          0 Mar 24 13:10 image.jpg
+-rw-r--r--. 1 root root          0 Mar 24 15:59 king
+drwxr-xr-x. 2 root root       4096 Mar 24 14:09 kong
+drwxr-xr-x. 2 root root       4096 Mar 24 14:09 linux
+drwxr-xr-x. 3 root root       4096 Mar 24 13:58 Linux
+drwxr-xr-x. 4 root root       4096 Mar 24 14:07 Linux2
+drwxr-xr-x. 5 root root       4096 Mar 24 14:14 Linux3
+drwxr-xr-x. 2 root root       4096 Mar 24 13:58 Linux,Suse
+drwxr-xr-x. 2 root root       4096 Mar 24 14:09 lion
+drwxr-xr-x. 2 root root       4096 Feb  6 21:45 Music
+drwxr-xr-x. 2 root root       4096 Mar 24 15:59 mydir2
+drwxr-xr-x. 5 root root       4096 Mar 24 07:15 mydir3
+-rw-r--r--. 1 root root         42 Mar 24 13:51 mydoc
+-rw-r--r--. 1 root root        106 Mar 24 13:38 myfile
+-rw-r--r--. 2 root root        126 Mar 24 16:16 myfile2
+lrwxrwxrwx. 1 root root          7 Mar 24 16:16 myfile2bkp -> myfile2
+drwxr-xr-x. 4 root root       4096 Mar 12 21:30 nagios
+-rw-r--r--. 1 root root       1026 Mar 15 23:14 nagios.cfg
+drwxr-xr-x. 3 root root       4096 Mar 24 14:02 pics
+drwxr-xr-x. 2 root root       4096 Feb  6 21:45 Pictures
+-rw-r--r--. 1 root root      11955 Nov 29  2013 post-install
+-rw-r--r--. 1 root root        552 Nov 29  2013 post-install.log
+drwxr-xr-x. 2 root root       4096 Mar 24 16:25 Public
+-rwxr-xr-x. 1 root root         64 Mar 16 06:05 pyscrip.py
+drwxr-xr-x. 2 root root       4096 Mar 10 19:17 python-scripts
+drwxr-xr-x. 3 root root       4096 Mar 10 17:24 recover
+drwxr-xr-x. 3 root root       4096 Mar 10 17:53 recover1
+drwxr-xr-x. 2 root root       4096 Mar 24 16:19 shellscripts
+drwxr-xr-x. 3 root root       4096 Mar 24 20:42 Templates
+drwxr-xr-x. 5 root root       4096 Mar 24 01:40 TLA
+-rw-r--r--. 1 root root          0 Mar 24 13:10 t.txt
+drwxr-xr-x. 2 root root       4096 Feb  6 21:45 Videos
+[root@localhost ~]# ls -d
+.
+[root@localhost ~]# ls -ld Public/
+drwxr-xr-x. 2 root root 4096 Mar 24 16:25 Public/
+[root@localhost ~]# ls -lt
+total 2238264
+drwxr-xr-x. 3 root root       4096 Mar 24 20:42 Templates
+drwxr-xr-x. 2 root root       4096 Mar 24 16:25 Public
+lrwxrwxrwx. 1 root root          7 Mar 24 16:24 file2bkp -> myfile2
+drwxr-xr-x. 2 root root       4096 Mar 24 16:19 shellscripts
+lrwxrwxrwx. 1 root root          7 Mar 24 16:16 myfile2bkp -> myfile2
+-rw-r--r--. 2 root root        126 Mar 24 16:16 file3bkp
+-rw-r--r--. 2 root root        126 Mar 24 16:16 myfile2
+drwxr-xr-x. 2 root root       4096 Mar 24 15:59 mydir2
+-rw-r--r--. 1 root root          0 Mar 24 15:59 king
+-rw-r--r--. 1 root root          0 Mar 24 14:19 file2
+drwxr-xr-x. 5 root root       4096 Mar 24 14:14 Linux3
+drwxr-xr-x. 2 root root       4096 Mar 24 14:09 kong
+drwxr-xr-x. 2 root root       4096 Mar 24 14:09 linux
+drwxr-xr-x. 2 root root       4096 Mar 24 14:09 lion
+drwxr-xr-x. 4 root root       4096 Mar 24 14:07 Linux2
+drwxr-xr-x. 3 root root       4096 Mar 24 14:02 pics
+drwxr-xr-x. 2 root root       4096 Mar 24 13:58 Linux,Suse
+drwxr-xr-x. 2 root root       4096 Mar 24 13:58 Enterprise,Oracle
+drwxr-xr-x. 3 root root       4096 Mar 24 13:58 Linux
+-rw-r--r--. 1 root root         42 Mar 24 13:51 mydoc
+-rw-r--r--. 1 root root        106 Mar 24 13:38 myfile
+-rw-r--r--. 1 root root          0 Mar 24 13:10 dd.pdf
+-rw-r--r--. 1 root root          0 Mar 24 13:10 image.jpg
+-rw-r--r--. 1 root root          0 Mar 24 13:10 t.txt
+-rw-r--r--. 1 root root         23 Mar 24 13:09 a
+drwxr-xr-x. 5 root root       4096 Mar 24 07:15 mydir3
+drwxr-xr-x. 5 root root       4096 Mar 24 01:40 TLA
+-rwxr-xr-x. 1 root root         64 Mar 16 06:05 pyscrip.py
+-rw-r--r--. 1 root root       1026 Mar 15 23:14 nagios.cfg
+-rw-r--r--. 1 root root 2291815993 Mar 12 22:19 CentOS-7-x86_64-DVD-1708.iso
+drwxr-xr-x. 4 root root       4096 Mar 12 21:30 nagios
+drwxr-xr-x. 2 root root       4096 Mar 10 19:17 python-scripts
+drwxr-xr-x. 3 root root       4096 Mar 10 17:53 recover1
+drwxr-xr-x. 9 root root       4096 Mar 10 17:49 data
+-rw-r--r--. 1 root root        493 Mar 10 17:25 databackup.tar.gz
+drwxr-xr-x. 3 root root       4096 Mar 10 17:24 recover
+drwxr-xr-x. 2 root root       4096 Feb  6 21:45 Desktop
+drwxr-xr-x. 2 root root       4096 Feb  6 21:45 Documents
+drwxr-xr-x. 2 root root       4096 Feb  6 21:45 Downloads
+drwxr-xr-x. 2 root root       4096 Feb  6 21:45 Music
+drwxr-xr-x. 2 root root       4096 Feb  6 21:45 Pictures
+drwxr-xr-x. 2 root root       4096 Feb  6 21:45 Videos
+-rw-------. 1 root root        746 Feb  6 21:37 anaconda-ks.cfg
+-rw-r--r--. 1 root root        552 Nov 29  2013 post-install.log
+-rw-r--r--. 1 root root      11955 Nov 29  2013 post-install
+[root@localhost ~]#
+[root@localhost ~]# pwd
+/root
+[root@localhost ~]# ls
+a                             dd.pdf             file2      kong    Linux,Suse  mydoc       nagios.cfg        Public          shellscripts
+anaconda-ks.cfg               Desktop            file2bkp   linux   lion        myfile      pics              pyscrip.py      Templates
+CentOS-7-x86_64-DVD-1708.iso  Documents          file3bkp   Linux   Music       myfile2     Pictures          python-scripts  TLA
+data                          Downloads          image.jpg  Linux2  mydir2      myfile2bkp  post-install      recover         t.txt
+databackup.tar.gz             Enterprise,Oracle  king       Linux3  mydir3      nagios      post-install.log  recover1        Videos
+[root@localhost ~]# cd mydir2
+[root@localhost mydir2]# ls
+king  myfile
+[root@localhost mydir2]# cat > file1
+hi, how are you doing
+[root@localhost mydir2]# cat file1
+hi, how are you doing
+[root@localhost mydir2]# cat >> file1
+welcome to linux class
+[root@localhost mydir2]#
+[root@localhost mydir2]# cat file`1
+>
+> -bash: unexpected EOF while looking for matching ``'
+-bash: syntax error: unexpected end of file
+[root@localhost mydir2]# cat file
+
+cat: file: No such file or directory
+[root@localhost mydir2]# cat file1
+hi, how are you doing
+welcome to linux class
+[root@localhost mydir2]#
+[root@localhost mydir2]# touch file2 file3 file4 file5
+[root@localhost mydir2]# ls
+file1  file2  file3  file4  file5  king  myfile
+[root@localhost mydir2]# cat >> file5
+dsfmkm okamdofl  nasdfkn
+[root@localhost mydir2]#
+[root@localhost mydir2]# ls -l
+total 12
+-rw-r--r--. 1 root root 45 Mar 24 21:14 file1
+-rw-r--r--. 1 root root  0 Mar 24 21:15 file2
+-rw-r--r--. 1 root root  0 Mar 24 21:15 file3
+-rw-r--r--. 1 root root  0 Mar 24 21:15 file4
+-rw-r--r--. 1 root root 25 Mar 24 21:16 file5
+-rw-r--r--. 1 root root  0 Mar 24 15:59 king
+-rw-r--r--. 1 root root 31 Mar 24 06:38 myfile
+[root@localhost mydir2]# ls -lh
+total 12K
+-rw-r--r--. 1 root root 45 Mar 24 21:14 file1
+-rw-r--r--. 1 root root  0 Mar 24 21:15 file2
+-rw-r--r--. 1 root root  0 Mar 24 21:15 file3
+-rw-r--r--. 1 root root  0 Mar 24 21:15 file4
+-rw-r--r--. 1 root root 25 Mar 24 21:16 file5
+-rw-r--r--. 1 root root  0 Mar 24 15:59 king
+-rw-r--r--. 1 root root 31 Mar 24 06:38 myfile
+[root@localhost mydir2]# ls -lsh
+total 12K
+4.0K -rw-r--r--. 1 root root 45 Mar 24 21:14 file1
+   0 -rw-r--r--. 1 root root  0 Mar 24 21:15 file2
+   0 -rw-r--r--. 1 root root  0 Mar 24 21:15 file3
+   0 -rw-r--r--. 1 root root  0 Mar 24 21:15 file4
+4.0K -rw-r--r--. 1 root root 25 Mar 24 21:16 file5
+   0 -rw-r--r--. 1 root root  0 Mar 24 15:59 king
+4.0K -rw-r--r--. 1 root root 31 Mar 24 06:38 myfile
+[root@localhost mydir2]#
+[root@localhost mydir2]# ls
+file1  file2  file3  file4  file5  king  myfile
+[root@localhost mydir2]# vim file5
+[root@localhost mydir2]# cat file5
+dsfmkm okamdofl  nasdfkn
+[root@localhost mydir2]# cd
+[root@localhost ~]# pwd
+/root
+[root@localhost ~]#
+[root@localhost ~]# cd Public
+[root@localhost Public]# ls
+file2bkp
+[root@localhost Public]# mkdir dir1
+[root@localhost Public]# cd /home
+[root@localhost home]# ls
+lost+found  nagios  us1
+[root@localhost home]# pwd
+/home
+[root@localhost home]# cd us1
+[root@localhost us1]# ls
+[root@localhost us1]# mkdir Ubuntu
+[root@localhost us1]# ls
+Ubuntu
+[root@localhost us1]# cd
+You have new mail in /var/spool/mail/root
+[root@localhost ~]# pwd
+/root
+[root@localhost ~]# cat /var/spool/mail/root
+
+
+[root@localhost ~]# cd Public
+[root@localhost Public]# ls
+dir1  file2bkp
+[root@localhost Public]# mkdir dir2 dir3 dir4
+[root@localhost Public]# ls
+dir1  dir2  dir3  dir4  file2bkp
+[root@localhost Public]# mkdir -p dir1/dir3/d3/d4
+[root@localhost Public]# ls -R
+.:
+dir1  dir2  dir3  dir4  file2bkp
+
+./dir1:
+dir3
+
+./dir1/dir3:
+d3
+
+./dir1/dir3/d3:
+d4
+
+./dir1/dir3/d3/d4:
+
+./dir2:
+
+./dir3:
+
+./dir4:
+[root@localhost Public]# tree dir1
+dir1
++-- dir3
+    +-- d3
+        +-- d4
+
+3 directories, 0 files
+[root@localhost Public]# mkdir -p d2/{Redhat/{fedora,centos},Suse/{susecloud,suselinux},HP/{UX}}                                                                        [root@localhost Public]# tree d2
+d2
++-- HP
+¦   +-- {UX}
++-- Redhat
+¦   +-- centos
+¦   +-- fedora
++-- Suse
+    +-- susecloud
+    +-- suselinux
+
+8 directories, 0 files
+[root@localhost Public]# ls -r
+file2bkp  dir4  dir3  dir2  dir1  d2
+[root@localhost Public]# ls -r d2
+Suse  Redhat  HP
+[root@localhost Public]# ls d2
+HP  Redhat  Suse
+[root@localhost Public]# tree d2
+d2
++-- HP
+¦   +-- {UX}
++-- Redhat
+¦   +-- centos
+¦   +-- fedora
++-- Suse
+    +-- susecloud
+    +-- suselinux
+
+8 directories, 0 files
+[root@localhost Public]# man tree
+[root@localhost Public]# tree -r d2
+d2
++-- Suse
+¦   +-- suselinux
+¦   +-- susecloud
++-- Redhat
+¦   +-- fedora
+¦   +-- centos
++-- HP
+    +-- {UX}
+
+8 directories, 0 files
+[root@localhost Public]# tree -t d2
+d2
++-- HP
+¦   +-- {UX}
++-- Redhat
+¦   +-- centos
+¦   +-- fedora
++-- Suse
+    +-- susecloud
+    +-- suselinux
+
+8 directories, 0 files
+[root@localhost Public]#
+[root@localhost Public]# mkdir -p f1/f2/f3/f4/f5
+[root@localhost Public]# tree f1
+f1
++-- f2
+    +-- f3
+        +-- f4
+            +-- f5
+
+4 directories, 0 files
+[root@localhost Public]# mkdir dir2 dir3 dir4

@@ -1,0 +1,442 @@
+login as: root
+root@192.168.71.138's password:
+Last login: Thu Apr  5 15:29:28 2018 from 192.168.71.1
+[root@localhost ~]# cd Public/
+[root@localhost Public]# ld
+ld: no input files
+[root@localhost Public]# ls
+d2  dir1  dir2  dir3  dir4  f1  file2  file2bkp  link2  link3  link4  shortcut
+[root@localhost Public]# mkdir linux
+[root@localhost Public]# ls
+d2  dir1  dir2  dir3  dir4  f1  file2  file2bkp  link2  link3  link4  linux  shortcut
+[root@localhost Public]# mkdir aws devops oracle hadoop
+[root@localhost Public]# ls
+aws  d2  devops  dir1  dir2  dir3  dir4  f1  file2  file2bkp  hadoop  link2  link3  link4  linux  oracle  shortcut
+[root@localhost Public]# mkdir -p linux/Redhat/Ubuntu/Suse/Fedora/CentOS
+[root@localhost Public]# ls -R linux/
+linux/:
+Redhat
+
+linux/Redhat:
+Ubuntu
+
+linux/Redhat/Ubuntu:
+Suse
+
+linux/Redhat/Ubuntu/Suse:
+Fedora
+
+linux/Redhat/Ubuntu/Suse/Fedora:
+CentOS
+
+linux/Redhat/Ubuntu/Suse/Fedora/CentOS:
+[root@localhost Public]# tree linux/
+linux/
++-- Redhat
+    +-- Ubuntu
+        +-- Suse
+            +-- Fedora
+                +-- CentOS
+
+5 directories, 0 files
+[root@localhost Public]# mkdir -p oracle/{cloud/{oracle11g,oracle10c},Oracle/{DBA,Rac},oracledb/{18c,appdev}}
+[root@localhost Public]# tree oracle/
+oracle/
++-- cloud
+¦   +-- oracle10c
+¦   +-- oracle11g
++-- Oracle
+¦   +-- DBA
+¦   +-- Rac
++-- oracledb
+    +-- 18c
+    +-- appdev
+
+9 directories, 0 files
+[root@localhost Public]# mkdir oracle_\rac
+[root@localhost Public]# ls
+aws  d2  devops  dir1  dir2  dir3  dir4  f1  file2  file2bkp  hadoop  link2  link3  link4  linux  oracle  oracle_rac  shortcut
+[root@localhost Public]# mkdir oracle-rac
+[root@localhost Public]# ls
+aws  d2  devops  dir1  dir2  dir3  dir4  f1  file2  file2bkp  hadoop  link2  link3  link4  linux  oracle  oracle_rac  oracle-rac  shortcut
+[root@localhost Public]#
+[root@localhost Public]# cd linux/
+[root@localhost linux]# ls
+Redhat
+[root@localhost linux]# ll
+total 4
+drwxr-xr-x. 3 root root 4096 Apr  5 18:45 Redhat
+[root@localhost linux]# cd Redhat/
+[root@localhost Redhat]# pwd
+/root/Public/linux/Redhat
+[root@localhost Redhat]# cat > linux1
+hi, linux is open source operting system.
+it is command based operating system.
+[root@localhost Redhat]# ls
+linux1  Ubuntu
+[root@localhost Redhat]# cp linux1 /oracle/cloud/oracle10c
+cp: cannot create regular file `/oracle/cloud/oracle10c': No such file or directory
+[root@localhost Redhat]# cp linux1 oracle/cloud/oracle10c
+cp: cannot create regular file `oracle/cloud/oracle10c': No such file or directory
+[root@localhost Redhat]# cp -r linux1 oracle/cloud/oracle10c
+cp: cannot create regular file `oracle/cloud/oracle10c': No such file or directory
+[root@localhost Redhat]# cp -r linux1 oracle/cloud/
+cp: cannot create regular file `oracle/cloud/': No such file or directory
+[root@localhost Redhat]# man cp
+[root@localhost Redhat]# man cp
+[root@localhost Redhat]#
+[root@localhost Redhat]# cp linux1 oracle
+[root@localhost Redhat]# cp -T linux1 oracle/cloud
+cp: cannot stat `oracle/cloud': Not a directory
+[root@localhost Redhat]# cp -rf linux1 oracle/cloud
+cp: accessing `oracle/cloud': Not a directory
+[root@localhost Redhat]# cp Ubuntu/ oracle/cloud
+cp: accessing `oracle/cloud': Not a directory
+[root@localhost Redhat]# cp -b Ubuntu/ oracle/cloud
+cp: accessing `oracle/cloud': Not a directory
+[root@localhost Redhat]# cp -b Ubuntu/ oracle/
+cp: accessing `oracle/': Not a directory
+[root@localhost Redhat]# cp Ubuntu/ oracle/
+cp: accessing `oracle/': Not a directory
+[root@localhost Redhat]# mv Ubuntu/ oracle
+mv: overwrite `oracle'? y
+mv: cannot overwrite non-directory `oracle' with directory `Ubuntu/'
+[root@localhost Redhat]# ls oracle
+oracle
+[root@localhost Redhat]# ls
+linux1  oracle  Ubuntu
+[root@localhost Redhat]# cd ..
+[root@localhost linux]# cd ..
+[root@localhost Public]# ls oracle
+cloud  Oracle  oracledb
+[root@localhost Public]# cd linux/
+[root@localhost linux]# cd Redhat/
+[root@localhost Redhat]# mv linux1 oracle/cloud
+mv: accessing `oracle/cloud': Not a directory
+[root@localhost Redhat]# mv linux1 /root/Public/oracle/cloud
+[root@localhost Redhat]# ls
+oracle  Ubuntu
+[root@localhost Redhat]# /root/Public/oracle/cloud
+-bash: /root/Public/oracle/cloud: is a directory
+[root@localhost Redhat]# ls /root/Public/oracle/cloud
+linux1  oracle10c  oracle11g
+[root@localhost Redhat]# cat > linux3
+naknsf  kndifnknk njidasnfk  d kdafnndfs k kndnk dsan
+lsdanfo kndfns djio  dnasfnsndofn pkdofj
+d fjadsnfn
+[root@localhost Redhat]# cp linux3 /root/Public/oracle/Oracle/
+DBA/ Rac/
+[root@localhost Redhat]# cp linux3 /root/Public/oracle/Oracle/
+DBA/ Rac/
+[root@localhost Redhat]# cp linux3 /root/Public/
+aws/        devops/     dir2/       dir4/       file2       hadoop/     link3       linux/      oracle_rac/ shortcut/
+d2/         dir1/       dir3/       f1/         file2bkp    link2       link4       oracle/     oracle-rac/
+[root@localhost Redhat]# cp linux3 /root/Public/
+aws/        devops/     dir2/       dir4/       file2       hadoop/     link3       linux/      oracle_rac/ shortcut/
+d2/         dir1/       dir3/       f1/         file2bkp    link2       link4       oracle/     oracle-rac/
+[root@localhost Redhat]# cp linux3 /root/Public/oracle-rac/
+[root@localhost Redhat]# ls /root/Public/oracle-rac/
+linux3
+[root@localhost Redhat]# cp linux3 /root/
+a                             Downloads/                    .gvfs/                        .mozilla/                     Public/
+anaconda-ks.cfg               Enterprise,Oracle/            .history                      Music/                        .pulse/
+.bash_history                 .esd_auth                     .ICEauthority                 mydir2/                       .pulse-cookie
+.bash_logout                  file2                         image.jpg                     mydir3/                       pyscrip.py
+.bash_profile                 file2bkp                      .imsettings.log               mydoc                         python-scripts/
+.bashrc                       file32                        king                          myfile                        recover/
+.cache/                       file32bkp                     kong/                         myfile2                       recover1/
+CentOS-7-x86_64-DVD-1708.iso  file3bkp                      .lesshst                      myfile2bkp                    shellscripts/
+.config/                      .gconf/                       link2                         nagios/                       .ssh/
+.cshrc                        .gconfd/                      linux/                        nagios.cfg                    .tcshrc
+data/                         .gnome2/                      Linux/                        .nautilus/                    Templates/
+databackup.tar.gz             .gnome2_private/              Linux2/                       pics/                         test
+.dbus/                        .gnote/                       Linux3/                       Pictures/                     TLA/
+dd.pdf                        .gnupg/                       Linux,Suse/                   .pki/                         t.txt
+Desktop/                      .gstreamer-0.10/              lion/                         post-install                  Videos/
+Documents/                    .gtk-bookmarks                .local/                       post-install.log              .viminfo
+[root@localhost Redhat]# cp linux3 /root/pics/\{college/
+best,school/    general,school/
+[root@localhost Redhat]# mv Ubuntu/ UbuntuLinux
+[root@localhost Redhat]# ls
+linux3  oracle  UbuntuLinux
+[root@localhost Redhat]# mkdir Ubuntu
+[root@localhost Redhat]# mv UbuntuLinux/   Ubuntu
+[root@localhost Redhat]# ls
+linux3  oracle  Ubuntu
+[root@localhost Redhat]# ls Ubuntu/
+UbuntuLinux
+[root@localhost Redhat]#
+[root@localhost Redhat]# cd ..
+[root@localhost linux]# cd..
+-bash: cd..: command not found
+[root@localhost linux]# cd ..
+[root@localhost Public]# tree linux/
+linux/
++-- Redhat
+    +-- linux3
+    +-- oracle
+    +-- Ubuntu
+        +-- UbuntuLinux
+            +-- Suse
+                +-- Fedora
+                    +-- CentOS
+
+6 directories, 2 files
+[root@localhost Public]# rmdir linux
+rmdir: failed to remove `linux': Directory not empty
+[root@localhost Public]# rm -rif linux
+[root@localhost Public]# ls
+aws  d2  devops  dir1  dir2  dir3  dir4  f1  file2  file2bkp  hadoop  link2  link3  link4  oracle  oracle_rac  oracle-rac  shortcut
+[root@localhost Public]# tree linux
+linux [error opening dir]
+
+0 directories, 0 files
+[root@localhost Public]# rmdir dir4
+[root@localhost Public]# ls
+aws  d2  devops  dir1  dir2  dir3  f1  file2  file2bkp  hadoop  link2  link3  link4  oracle  oracle_rac  oracle-rac  shortcut
+[root@localhost Public]# 
+login as:
+@192.168.71.138's password:
+Access denied
+@192.168.71.138's password:
+Access denied
+@192.168.71.138's password:
+Access denied
+@192.168.71.138's password:
+Access denied
+@192.168.71.138's password:
+login as: root
+root@192.168.71.138's password:
+Last login: Thu Apr  5 19:28:11 2018 from 192.168.71.1
+[root@localhost ~]#
+[root@localhost ~]# pwd
+/root
+[root@localhost ~]# ll
+total 2238280
+-rw-r--r--.  1 root root         23 Mar 24 13:09 a
+-rw-------.  1 root root        746 Feb  6 21:37 anaconda-ks.cfg
+-rw-r--r--.  1 root root 2291815993 Mar 12 22:19 CentOS-7-x86_64-DVD-1708.iso
+drwxr-xr-x.  9 root root       4096 Mar 10 17:49 data
+-rw-r--r--.  1 root root        493 Mar 10 17:25 databackup.tar.gz
+-rw-r--r--.  1 root root          0 Mar 24 13:10 dd.pdf
+drw-r-xr--.  2 root root       4096 Apr  5 18:30 Desktop
+drwxr-xr-x.  2 root root       4096 Feb  6 21:45 Documents
+drwxr-xr-x.  2 root root       4096 Feb  6 21:45 Downloads
+drwxr-xr-x.  2 root root       4096 Mar 24 13:58 Enterprise,Oracle
+-rw-r--r--.  1 root root          0 Mar 24 14:19 file2
+lrwxrwxrwx.  1 root root          7 Mar 24 16:24 file2bkp -> myfile2
+-rwxrwxrwx.  2 root root         35 Apr  5 15:39 file32
+-rwxrwxrwx.  2 root root         35 Apr  5 15:39 file32bkp
+-rw-r--r--.  2 root root        126 Mar 24 16:16 file3bkp
+-rw-r--r--.  1 root root          0 Mar 24 13:10 image.jpg
+-rw-r--r--.  1 root root          0 Mar 24 15:59 king
+drwxr-xr-x.  2 root root       4096 Mar 24 14:09 kong
+-rw-r--r--.  2 root root         41 Apr  5 15:30 link2
+drwxr-xr-x.  2 root root       4096 Mar 24 14:09 linux
+drwxr-xr-x.  3 root root       4096 Mar 24 13:58 Linux
+drwxr-xr-x.  4 root root       4096 Mar 24 14:07 Linux2
+drwxr-xr-x.  5 root root       4096 Mar 24 14:14 Linux3
+drwxr-xr-x.  2 root root       4096 Mar 24 13:58 Linux,Suse
+drwxr-xr-x.  2 root root       4096 Mar 24 14:09 lion
+drwxr-xr-x.  2 root root       4096 Feb  6 21:45 Music
+drwxr-xr-x.  2 root root       4096 Mar 24 21:37 mydir2
+drwxr-xr-x.  5 root root       4096 Mar 24 07:15 mydir3
+-rw-r--r--.  1 root root         42 Mar 24 13:51 mydoc
+-rw-r--r--.  1 root root        106 Mar 24 13:38 myfile
+-rw-r--r--.  2 root root        126 Mar 24 16:16 myfile2
+lrwxrwxrwx.  1 root root          7 Mar 24 16:16 myfile2bkp -> myfile2
+drwxr-xr-x.  4 root root       4096 Mar 12 21:30 nagios
+-rw-r--r--.  1 root root       1026 Mar 15 23:14 nagios.cfg
+drwxr-xr-x.  3 root root       4096 Mar 24 14:02 pics
+drwxr-xr-x.  2 root root       4096 Feb  6 21:45 Pictures
+-rw-r--r--.  1 root root      11955 Nov 29  2013 post-install
+-rw-r--r--.  1 root root        552 Nov 29  2013 post-install.log
+drwxr-xr-x. 13 root root       4096 Apr  5 19:10 Public
+-rwxr-xr-x.  1 root root         64 Mar 16 06:05 pyscrip.py
+drwxr-xr-x.  2 root root       4096 Mar 10 19:17 python-scripts
+drwxr-xr-x.  3 root root       4096 Mar 10 17:24 recover
+drwxr-xr-x.  3 root root       4096 Mar 10 17:53 recover1
+drwxr-xr-x.  2 root root       4096 Mar 24 16:19 shellscripts
+drwxr-xr-x.  3 root root       4096 Mar 24 20:42 Templates
+-rw-r--r--.  1 root root        102 Apr  5 15:57 test
+drwxr-xr-x.  5 root root       4096 Mar 24 01:40 TLA
+-rw-r--r--.  1 root root          0 Mar 24 13:10 t.txt
+drwxr-xr-x.  2 root root       4096 Feb  6 21:45 Videos
+[root@localhost ~]# su
+[root@localhost ~]# su - us1
+[us1@localhost ~]$ pwd
+/home/us1
+[us1@localhost ~]$ cd /
+[us1@localhost /]$ ls
+bin   dev  green  lib    lost+found  misc  net  proc  sbin     srv  Templates  usr
+boot  etc  home   lib64  media       mnt   opt  root  selinux  sys  tmp        var
+[us1@localhost /]$ pwd
+/
+[us1@localhost /]$ cd /root
+-bash: cd: /root: Permission denied
+[us1@localhost /]$ tail -5 /etc/passwd
+tcpdump:x:72:72::/:/sbin/nologin
+us1:x:500:500:us1:/home/us1:/bin/bash
+unbound:x:496:491:Unbound DNS resolver:/etc/unbound:/sbin/nologin
+named:x:25:25:Named:/var/named:/sbin/nologin
+nagios:x:501:501::/home/nagios:/bin/bash
+[us1@localhost /]$ cd /nagios
+-bash: cd: /nagios: No such file or directory
+[us1@localhost /]$ cd nagios
+-bash: cd: nagios: No such file or directory
+[us1@localhost /]$ cd
+[us1@localhost ~]$ su - nagios
+Password:
+su: incorrect password
+[us1@localhost ~]$
+[us1@localhost ~]$
+[us1@localhost ~]$
+[us1@localhost ~]$
+[us1@localhost ~]$
+[us1@localhost ~]$
+[us1@localhost ~]$
+[us1@localhost ~]$
+[us1@localhost ~]$
+[us1@localhost ~]$ su - root
+Password:
+[root@localhost ~]#
+[root@localhost ~]# grep --color r /etc/passwd
+root:x:0:0:root:/root:/bin/bash
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+uucp:x:10:14:uucp:/var/spool/uucp:/sbin/nologin
+operator:x:11:0:operator:/root:/sbin/nologin
+games:x:12:100:games:/usr/games:/sbin/nologin
+gopher:x:13:30:gopher:/var/gopher:/sbin/nologin
+ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+usbmuxd:x:113:113:usbmuxd user:/:/sbin/nologin
+vcsa:x:69:69:virtual console memory owner:/dev:/sbin/nologin
+rpc:x:32:32:Rpcbind Daemon:/var/cache/rpcbind:/sbin/nologin
+rtkit:x:499:496:RealtimeKit:/proc:/sbin/nologin
+avahi-autoipd:x:170:170:Avahi IPv4LL Stack:/var/lib/avahi-autoipd:/sbin/nologin
+abrt:x:173:173::/etc/abrt:/sbin/nologin
+rpcuser:x:29:29:RPC Service User:/var/lib/nfs:/sbin/nologin
+nfsnobody:x:65534:65534:Anonymous NFS User:/var/lib/nfs:/sbin/nologin
+apache:x:48:48:Apache:/var/www:/sbin/nologin
+saslauth:x:498:76:"Saslauthd user":/var/empty/saslauth:/sbin/nologin
+postfix:x:89:89::/var/spool/postfix:/sbin/nologin
+mysql:x:27:27:MySQL Server:/var/lib/mysql:/bin/bash
+hsqldb:x:96:96::/var/lib/hsqldb:/sbin/nologin
+pulse:x:497:495:PulseAudio System Daemon:/var/run/pulse:/sbin/nologin
+gdm:x:42:42::/var/lib/gdm:/sbin/nologin
+sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin
+nslcd:x:65:55:LDAP Client User:/:/sbin/nologin
+unbound:x:496:491:Unbound DNS resolver:/etc/unbound:/sbin/nologin
+named:x:25:25:Named:/var/named:/sbin/nologin
+[root@localhost ~]#
+[root@localhost ~]# grep --color root /etc/passwd
+root:x:0:0:root:/root:/bin/bash
+operator:x:11:0:operator:/root:/sbin/nologin
+[root@localhost ~]# grep -A2 root /etc/
+grep: /etc/: Is a directory
+[root@localhost ~]# grep -A2 root /etc/passwd
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+--
+operator:x:11:0:operator:/root:/sbin/nologin
+games:x:12:100:games:/usr/games:/sbin/nologin
+gopher:x:13:30:gopher:/var/gopher:/sbin/nologin
+[root@localhost ~]# grep -A2 --color root /etc/passwd
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+--
+operator:x:11:0:operator:/root:/sbin/nologin
+games:x:12:100:games:/usr/games:/sbin/nologin
+gopher:x:13:30:gopher:/var/gopher:/sbin/nologin
+[root@localhost ~]# grep -B2 --color root /etc/passwd
+root:x:0:0:root:/root:/bin/bash
+--
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+uucp:x:10:14:uucp:/var/spool/uucp:/sbin/nologin
+operator:x:11:0:operator:/root:/sbin/nologin
+[root@localhost ~]# grep -B5 --color root /etc/passwd
+root:x:0:0:root:/root:/bin/bash
+--
+sync:x:5:0:sync:/sbin:/bin/sync
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+halt:x:7:0:halt:/sbin:/sbin/halt
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+uucp:x:10:14:uucp:/var/spool/uucp:/sbin/nologin
+operator:x:11:0:operator:/root:/sbin/nologin
+[root@localhost ~]#
+[root@localhost ~]# pwd
+/root
+[root@localhost ~]# cat > test3
+Linux is opensource
+it was build by Linus Trovlads
+Linux is portable
+It is command based interface
+[root@localhost ~]# grep -vi linux test3
+it was build by Linus Trovlads
+It is command based interface
+[root@localhost ~]# grep -v root /etc/passwd
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+sync:x:5:0:sync:/sbin:/bin/sync
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+halt:x:7:0:halt:/sbin:/sbin/halt
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+uucp:x:10:14:uucp:/var/spool/uucp:/sbin/nologin
+games:x:12:100:games:/usr/games:/sbin/nologin
+gopher:x:13:30:gopher:/var/gopher:/sbin/nologin
+ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+nobody:x:99:99:Nobody:/:/sbin/nologin
+dbus:x:81:81:System message bus:/:/sbin/nologin
+usbmuxd:x:113:113:usbmuxd user:/:/sbin/nologin
+vcsa:x:69:69:virtual console memory owner:/dev:/sbin/nologin
+rpc:x:32:32:Rpcbind Daemon:/var/cache/rpcbind:/sbin/nologin
+rtkit:x:499:496:RealtimeKit:/proc:/sbin/nologin
+nscd:x:28:28:NSCD Daemon:/:/sbin/nologin
+avahi-autoipd:x:170:170:Avahi IPv4LL Stack:/var/lib/avahi-autoipd:/sbin/nologin
+abrt:x:173:173::/etc/abrt:/sbin/nologin
+rpcuser:x:29:29:RPC Service User:/var/lib/nfs:/sbin/nologin
+nfsnobody:x:65534:65534:Anonymous NFS User:/var/lib/nfs:/sbin/nologin
+apache:x:48:48:Apache:/var/www:/sbin/nologin
+saslauth:x:498:76:"Saslauthd user":/var/empty/saslauth:/sbin/nologin
+postfix:x:89:89::/var/spool/postfix:/sbin/nologin
+mysql:x:27:27:MySQL Server:/var/lib/mysql:/bin/bash
+ntp:x:38:38::/etc/ntp:/sbin/nologin
+hsqldb:x:96:96::/var/lib/hsqldb:/sbin/nologin
+haldaemon:x:68:68:HAL daemon:/:/sbin/nologin
+pulse:x:497:495:PulseAudio System Daemon:/var/run/pulse:/sbin/nologin
+gdm:x:42:42::/var/lib/gdm:/sbin/nologin
+sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin
+nslcd:x:65:55:LDAP Client User:/:/sbin/nologin
+tcpdump:x:72:72::/:/sbin/nologin
+us1:x:500:500:us1:/home/us1:/bin/bash
+unbound:x:496:491:Unbound DNS resolver:/etc/unbound:/sbin/nologin
+named:x:25:25:Named:/var/named:/sbin/nologin
+nagios:x:501:501::/home/nagios:/bin/bash
+[root@localhost ~]# grep --color r /etc/passwd
+[root@localhost ~]# grep root /etc/passwd
+root:x:0:0:root:/root:/bin/bash
+operator:x:11:0:operator:/root:/sbin/nologin
+[root@localhost ~]# grep -nA2 --color root /etc/passwd
+1:root:x:0:0:root:/root:/bin/bash
+2-bin:x:1:1:bin:/bin:/sbin/nologin
+3-daemon:x:2:2:daemon:/sbin:/sbin/nologin
+--
+11:operator:x:11:0:operator:/root:/sbin/nologin
+12-games:x:12:100:games:/usr/games:/sbin/nologin
+13-gopher:x:13:30:gopher:/var/gopher:/sbin/nologin
+[root@localhost ~]# grep -nB5 --color root /etc/passwd
+1:root:x:0:0:root:/root:/bin/bash
+--
+6-sync:x:5:0:sync:/sbin:/bin/sync
+7-shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+8-halt:x:7:0:halt:/sbin:/sbin/halt
+9-mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+10-uucp:x:10:14:uucp:/var/spool/uucp:/sbin/nologin
+11:operator:x:11:0:operator:/root:/sbin/nologin
+[root@localhost ~]#
+[root@localhost ~]#

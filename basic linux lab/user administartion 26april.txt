@@ -1,0 +1,577 @@
+login as:
+login as: root
+root@192.168.71.140's password:
+Last login: Wed Apr 18 03:22:08 2018 from 192.168.71.1
+-bash-4.1#
+-bash-4.1# pwd
+/root
+-bash-4.1#
+-bash-4.1# ls -l Download
+ls: cannot access Download: No such file or directory
+You have new mail in /var/spool/mail/root
+-bash-4.1# ls -l Downloads
+total 141880
+-rw-r--r--. 1 root root 28861842 Apr 26 17:44 Deadpool 2- The Final Trailer.mp4
+-rw-r--r--. 1 root root        0 Apr 26 17:46 Hyper Aadi, Raising Raju Performa- 26th April 2018 - ETV  Telugu.mp4
+-rw-------. 1 root root 96266503 Apr 26 17:48 Hyper Aadi, Raising Raju Performa- 26th April 2018 - ETV  Telugu.mp4.part
+drwxr-xr-x. 7 root root     4096 Apr 18 03:23 linux
+-rw-r--r--. 1 root root 20146514 Apr 26 17:43 VENOM - Official Trailer (HD).mp4
+-bash-4.1# du -sh * Downloads/
+20K     app4
+4.0K    aws
+4.0K    brazil
+4.0K    brazil1
+4.0K    brazil2
+4.0K    Desktop
+44K     devops
+84K     Documents
+147M    Downloads
+0       file1
+0       file1bkp
+0       file2
+0       file3
+20K     linux
+52K     Linux
+16K     linux12
+12K     linux12.tar
+28K     Linux2
+44K     Linux3
+4.0K    linux.tar.gzip
+4.0K    mexico
+4.0K    Music
+4.0K    mydir2
+16K     mydir3
+1.8M    nagios
+48K     pics
+4.0K    Pictures
+144K    Public
+4.0K    python-scripts
+28K     recover
+44K     recover1
+4.0K    shellscripts
+8.0K    Templates
+32K     TLA
+4.0K    Videos
+147M    Downloads/
+-bash-4.1# cd Downloads/
+-bash-4.1# pwd
+/root/Downloads
+-bash-4.1#
+-bash-4.1# pwd
+/root/Downloads
+-bash-4.1# ls
+Deadpool 2- The Final Trailer.mp4
+Hyper Aadi, Raising Raju Performance - Jabardasth - 26th April 2018 - ETV  Telu
+Hyper Aadi, Raising Raju Performance - Jabardasth - 26th April 2018 - ETV  Telu
+linux
+VENOM - Official Trailer (HD).mp4
+-bash-4.1# mkdir vides
+You have new mail in /var/spool/mail/root
+-bash-4.1# mv Deadpool\ 2-\ The\ Final\ Trailer.mp4 vides/
+-bash-4.1# mv Hyper\ Aadi\,\ Raising\ Raju\ Performance\ -\ Jabardasth\ -\ 26th ETV\ \ Telugu.mp4 vides/
+-bash-4.1# mv VENOM\ -\ Official\ Trailer\ \(HD\).mp4 vides/
+-bash-4.1# ls -l vides/
+total 206984
+-rw-r--r--. 1 root root  28861842 Apr 26 17:44 Deadpool 2- The Final Trailer.mp
+-rw-r--r--. 1 root root 162934222 Apr 26 17:50 Hyper Aadi, Raising Raju Perform - 26th April 2018 - ETV  Telugu.mp4
+-rw-r--r--. 1 root root  20146514 Apr 26 17:43 VENOM - Official Trailer (HD).mp
+-bash-4.1# gzip vides/
+gzip: vides/ is a directory -- ignored
+-bash-4.1# cd vides/
+-bash-4.1# cd ..
+You have new mail in /var/spool/mail/root
+-bash-4.1#
+-bash-4.1# gzip vides/Hyper\ Aadi\,\ Raising\ Raju\ Performance\ -\ Jabardasth\2018\ -\ ETV\ \ Telugu.mp4
+-bash-4.1# ls - lvides/
+ls: cannot access -: No such file or directory
+ls: cannot access lvides/: No such file or directory
+-bash-4.1# ls -l vides/
+total 206724
+-rw-r--r--. 1 root root  28861842 Apr 26 17:44 Deadpool 2- The Final Trailer.mp
+-rw-r--r--. 1 root root 162670226 Apr 26 17:50 Hyper Aadi, Raising Raju Perform - 26th April 2018 - ETV  Telugu.mp4.gz
+-rw-r--r--. 1 root root  20146514 Apr 26 17:43 VENOM - Official Trailer (HD).mp
+-bash-4.1# ls -lh vides/
+total 202M
+-rw-r--r--. 1 root root  28M Apr 26 17:44 Deadpool 2- The Final Trailer.mp4
+-rw-r--r--. 1 root root 156M Apr 26 17:50 Hyper Aadi, Raising Raju Performance th April 2018 - ETV  Telugu.mp4.gz
+-rw-r--r--. 1 root root  20M Apr 26 17:43 VENOM - Official Trailer (HD).mp4
+You have new mail in /var/spool/mail/root
+-bash-4.1# cd vides/
+-bash-4.1# gzip Deadpool\ 2-\ The\ Final\ Trailer.mp4
+-bash-4.1# ls
+Deadpool 2- The Final Trailer.mp4.gz
+Hyper Aadi, Raising Raju Performance - Jabardasth - 26th April 2018 - ETV  Telu
+VENOM - Official Trailer (HD).mp4
+-bash-4.1# ls -h
+Deadpool 2- The Final Trailer.mp4.gz
+Hyper Aadi, Raising Raju Performance - Jabardasth - 26th April 2018 - ETV  Telu
+VENOM - Official Trailer (HD).mp4
+-bash-4.1# ls -lh
+total 202M
+-rw-r--r--. 1 root root  28M Apr 26 17:44 Deadpool 2- The Final Trailer.mp4.gz
+-rw-r--r--. 1 root root 156M Apr 26 17:50 Hyper Aadi, Raising Raju Performance th April 2018 - ETV  Telugu.mp4.gz
+-rw-r--r--. 1 root root  20M Apr 26 17:43 VENOM - Official Trailer (HD).mp4
+-bash-4.1# tar -cvf videos.tar.gz vides
+tar: vides: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+You have new mail in /var/spool/mail/root
+-bash-4.1# cd ..
+-bash-4.1# tar czvf videos.tar.gz vides/
+vides/
+vides/Hyper Aadi, Raising Raju Performance - Jabardasth - 26th April 2018 - ETV
+vides/VENOM - Official Trailer (HD).mp4
+vides/videos.tar.gz
+vides/Deadpool 2- The Final Trailer.mp4.gz
+-bash-4.1# ls -lh vides/
+total 202M
+-rw-r--r--. 1 root root  28M Apr 26 17:44 Deadpool 2- The Final Trailer.mp4.gz
+-rw-r--r--. 1 root root 156M Apr 26 17:50 Hyper Aadi, Raising Raju Performance th April 2018 - ETV  Telugu.mp4.gz
+-rw-r--r--. 1 root root  20M Apr 26 17:43 VENOM - Official Trailer (HD).mp4
+-rw-r--r--. 1 root root  10K Apr 26 17:54 videos.tar.gz
+You have new mail in /var/spool/mail/root
+-bash-4.1# tar -t videos.tar.gz
+^Z
+[1]+  Stopped                 tar -t videos.tar.gz
+-bash-4.1# tar -tv videos.tar.gz
+^Z
+[2]+  Stopped                 tar -tv videos.tar.gz
+You have new mail in /var/spool/mail/root
+-bash-4.1# tar -tvf videos.tar.gz
+drwxr-xr-x root/root         0 2018-04-26 17:54 vides/
+-rw-r--r-- root/root 162670226 2018-04-26 17:50 vides/Hyper Aadi, Raising Raju ardasth - 26th April 2018 - ETV  Telugu.mp4.gz
+-rw-r--r-- root/root  20146514 2018-04-26 17:43 vides/VENOM - Official Trailer
+-rw-r--r-- root/root     10240 2018-04-26 17:54 vides/videos.tar.gz
+-rw-r--r-- root/root  28669409 2018-04-26 17:44 vides/Deadpool 2- The Final Tra
+-bash-4.1# unzip videos.tar.gz
+Archive:  videos.tar.gz
+  End-of-central-directory signature not found.  Either this file is not
+  a zipfile, or it constitutes one disk of a multi-part archive.  In the
+  latter case the central directory and zipfile comment will be found on
+  the last disk(s) of this archive.
+unzip:  cannot find zipfile directory in one of videos.tar.gz or
+        videos.tar.gz.zip, and cannot find videos.tar.gz.ZIP, period.
+You have new mail in /var/spool/mail/root
+-bash-4.1# tar -xvf videos.tar.gz
+vides/
+vides/Hyper Aadi, Raising Raju Performance - Jabardasth - 26th April 2018 - ETV
+vides/VENOM - Official Trailer (HD).mp4
+vides/videos.tar.gz
+vides/Deadpool 2- The Final Trailer.mp4.gz
+-bash-4.1# ls -lh
+total 202M
+drwxr-xr-x. 7 root root 4.0K Apr 18 03:23 linux
+-rw-r--r--. 1 root root 202M Apr 26 17:55 videos.tar.gz
+drwxr-xr-x. 2 root root 4.0K Apr 26 17:54 vides
+-bash-4.1# pwd
+/root/Downloads
+-bash-4.1# ls vides
+Deadpool 2- The Final Trailer.mp4.gz
+Hyper Aadi, Raising Raju Performance - Jabardasth - 26th April 2018 - ETV  Telu
+VENOM - Official Trailer (HD).mp4
+videos.tar.gz
+You have new mail in /var/spool/mail/root
+-bash-4.1# ls vides/
+Deadpool 2- The Final Trailer.mp4.gz
+Hyper Aadi, Raising Raju Performance - Jabardasth - 26th April 2018 - ETV  Telu
+VENOM - Official Trailer (HD).mp4
+videos.tar.gz
+-bash-4.1# cd vide
+-bash: cd: vide: No such file or directory
+-bash-4.1# cd vides/
+-bash-4.1# gunzip Deadpool\ 2-\ The\ Final\ Trailer.mp4.gz
+You have new mail in /var/spool/mail/root
+-bash-4.1# ls
+Deadpool 2- The Final Trailer.mp4
+Hyper Aadi, Raising Raju Performance - Jabardasth - 26th April 2018 - ETV  Telu
+VENOM - Official Trailer (HD).mp4
+videos.tar.gz
+-bash-4.1# cd ..
+You have new mail in /var/spool/mail/root
+-bash-4.1# ls
+linux  videos.tar.gz  vides
+-bash-4.1#
+-bash-4.1# ls
+linux  videos.tar.gz  vides
+-bash-4.1# ls -lh
+total 202M
+drwxr-xr-x. 7 root root 4.0K Apr 18 03:23 linux
+-rw-r--r--. 1 root root 202M Apr 26 17:55 videos.tar.gz
+drwxr-xr-x. 2 root root 4.0K Apr 26 18:00 vides
+-bash-4.1# scp /root/Downloads/videos.tar.gz 192.168.71.142:/root/Downloads/
+The authenticity of host '192.168.71.142 (192.168.71.142)' can't be established
+RSA key fingerprint is 5b:ab:4b:10:55:36:48:e7:3c:ee:62:13:b5:f6:53:d0.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added '192.168.71.142' (RSA) to the list of known hosts.
+root@192.168.71.142's password:
+Permission denied, please try again.
+root@192.168.71.142's password:
+videos.tar.gz                                                 100%  201MB  12.6
+You have new mail in /var/spool/mail/root
+-bash-4.1# ssh 192.168.71.142
+root@192.168.71.142's password:
+Permission denied, please try again.
+root@192.168.71.142's password:
+Permission denied, please try again.
+root@192.168.71.142's password:
+Last login: Fri Apr 27 11:22:31 2018 from 192.168.71.1
+[root@sharu ~]# ip a
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+    inet6 ::1/128 scope host
+       valid_lft forever preferred_lft forever
+2: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UP q
+    link/ether 00:0c:29:34:4e:c9 brd ff:ff:ff:ff:ff:ff
+    inet 192.168.71.142/24 brd 192.168.71.255 scope global eth0
+    inet6 fe80::20c:29ff:fe34:4ec9/64 scope link
+       valid_lft forever preferred_lft forever
+[root@sharu ~]# ls Downloads/
+videos.tar.gz
+[root@sharu ~]# logout
+Connection to 192.168.71.142 closed.
+You have new mail in /var/spool/mail/root
+-bash-4.1#
+-bash-4.1# cat /etc/passwd | tail -5
+tcpdump:x:72:72::/:/sbin/nologin
+us1:x:500:500:us1:/home/us1:/bin/bash
+unbound:x:496:491:Unbound DNS resolver:/etc/unbound:/sbin/nologin
+named:x:25:25:Named:/var/named:/sbin/nologin
+nagios:x:501:501::/home/nagios:/bin/bash
+You have new mail in /var/spool/mail/root
+-bash-4.1# cat /etc/passwd | head -4
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+You have new mail in /var/spool/mail/root
+-bash-4.1# cat /etc/shadow | tail -5
+tcpdump:!!:16038::::::
+us1:$6$bhlgt2yAT/Qh7fNz$8Xa4qMaSQGCLYJ3u3Vpntzc4vuAjOzZLfwsRbGJ40XkMOwq0V3l1GTAn.BYt7/iRCL4y1:17568:0:99999:7:::
+unbound:!!:17569::::::
+named:!!:17570::::::
+nagios:!!:17602:0:99999:7:::
+You have new mail in /var/spool/mail/root
+-bash-4.1#
+-bash-4.1# useradd user1
+You have new mail in /var/spool/mail/root
+-bash-4.1# passwd user1
+Changing password for user user1.
+New password:
+BAD PASSWORD: it is WAY too short
+BAD PASSWORD: is too simple
+Retype new password:
+passwd: all authentication tokens updated successfully.
+-bash-4.1# passwd user1
+Changing password for user user1.
+New password:
+BAD PASSWORD: it is too short
+BAD PASSWORD: is too simple
+Retype new password:
+passwd: all authentication tokens updated successfully.
+-bash-4.1# passwd -S user1
+user1 PS 2018-04-26 0 99999 7 -1 (Password set, SHA512 crypt.)
+You have new mail in /var/spool/mail/root
+-bash-4.1# usermod -c "java dev user" -g 1001 -s /bin/csh user1
+usermod: group '1001' does not exist
+You have new mail in /var/spool/mail/root
+-bash-4.1# cat /etc/passwd
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+sync:x:5:0:sync:/sbin:/bin/sync
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+halt:x:7:0:halt:/sbin:/sbin/halt
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+uucp:x:10:14:uucp:/var/spool/uucp:/sbin/nologin
+operator:x:11:0:operator:/root:/sbin/nologin
+games:x:12:100:games:/usr/games:/sbin/nologin
+gopher:x:13:30:gopher:/var/gopher:/sbin/nologin
+ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+nobody:x:99:99:Nobody:/:/sbin/nologin
+dbus:x:81:81:System message bus:/:/sbin/nologin
+usbmuxd:x:113:113:usbmuxd user:/:/sbin/nologin
+vcsa:x:69:69:virtual console memory owner:/dev:/sbin/nologin
+rpc:x:32:32:Rpcbind Daemon:/var/cache/rpcbind:/sbin/nologin
+rtkit:x:499:496:RealtimeKit:/proc:/sbin/nologin
+nscd:x:28:28:NSCD Daemon:/:/sbin/nologin
+avahi-autoipd:x:170:170:Avahi IPv4LL Stack:/var/lib/avahi-autoipd:/sbin/nologin
+abrt:x:173:173::/etc/abrt:/sbin/nologin
+rpcuser:x:29:29:RPC Service User:/var/lib/nfs:/sbin/nologin
+nfsnobody:x:65534:65534:Anonymous NFS User:/var/lib/nfs:/sbin/nologin
+apache:x:48:48:Apache:/var/www:/sbin/nologin
+saslauth:x:498:76:"Saslauthd user":/var/empty/saslauth:/sbin/nologin
+postfix:x:89:89::/var/spool/postfix:/sbin/nologin
+mysql:x:27:27:MySQL Server:/var/lib/mysql:/bin/bash
+ntp:x:38:38::/etc/ntp:/sbin/nologin
+hsqldb:x:96:96::/var/lib/hsqldb:/sbin/nologin
+haldaemon:x:68:68:HAL daemon:/:/sbin/nologin
+pulse:x:497:495:PulseAudio System Daemon:/var/run/pulse:/sbin/nologin
+gdm:x:42:42::/var/lib/gdm:/sbin/nologin
+sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin
+nslcd:x:65:55:LDAP Client User:/:/sbin/nologin
+tcpdump:x:72:72::/:/sbin/nologin
+us1:x:500:500:us1:/home/us1:/bin/bash
+unbound:x:496:491:Unbound DNS resolver:/etc/unbound:/sbin/nologin
+named:x:25:25:Named:/var/named:/sbin/nologin
+nagios:x:501:501::/home/nagios:/bin/bash
+user1:x:502:503::/home/user1:/bin/bash
+-bash-4.1# id user1
+uid=502(user1) gid=503(user1) groups=503(user1)
+You have new mail in /var/spool/mail/root
+-bash-4.1# ls -l
+total 206332
+drwxr-xr-x. 7 root root      4096 Apr 18 03:23 linux
+-rw-r--r--. 1 root root 211268373 Apr 26 17:55 videos.tar.gz
+drwxr-xr-x. 2 root root      4096 Apr 26 18:00 vides
+-bash-4.1# su - user1
+[user1@localhost ~]$
+[user1@localhost ~]$ ls -l
+total 0
+[user1@localhost ~]$ mkdir rip
+[user1@localhost ~]$ ls -l
+total 4
+drwxrwxr-x. 2 user1 user1 4096 Apr 26 18:29 rip
+[user1@localhost ~]$ su - root
+Password:
+-bash-4.1#
+-bash-4.1# ls -l /var/spool/mail
+total 1448
+-rw-rw----. 1 nagios mail      0 Mar 12 21:28 nagios
+-rw-------. 1 root   mail 939426 Apr 26 18:33 root
+-rw-rw----. 1 rpc    mail      0 Nov 29  2013 rpc
+-rw-rw----. 1 us1    mail 532416 Apr 26 18:30 us1
+-rw-rw----. 1 user1  mail      0 Apr 26 18:21 user1
+You have new mail in /var/spool/mail/root
+-bash-4.1# usermod -c "java dev user" user1
+You have new mail in /var/spool/mail/root
+-bash-4.1# cat /etc/passwd | tail -2
+nagios:x:501:501::/home/nagios:/bin/bash
+user1:x:502:503:java dev user:/home/user1:/bin/bash
+-bash-4.1# usermod -c "zaid" user1
+You have new mail in /var/spool/mail/root
+-bash-4.1# cat /etc/passwd | tail -2
+nagios:x:501:501::/home/nagios:/bin/bash
+user1:x:502:503:zaid:/home/user1:/bin/bash
+-bash-4.1#
+-bash-4.1# useradd -u 501 -g 1000 user21
+useradd: group '1000' does not exist
+You have new mail in /var/spool/mail/root
+-bash-4.1# useradd -u 501 -g 1005 user21
+useradd: group '1005' does not exist
+-bash-4.1# useradd -u 501 -g 555 user21
+useradd: group '555' does not exist
+-bash-4.1# useradd -u 501 user21
+useradd: UID 501 is not unique
+-bash-4.1# useradd -u 505 user21
+-bash-4.1# cat /etc/passwd | tail -4
+named:x:25:25:Named:/var/named:/sbin/nologin
+nagios:x:501:501::/home/nagios:/bin/bash
+user1:x:502:503:zaid:/home/user1:/bin/bash
+user21:x:505:505::/home/user21:/bin/bash
+You have new mail in /var/spool/mail/root
+-bash-4.1#
+-bash-4.1# usermod -g 510 user21
+usermod: group '510' does not exist
+You have new mail in /var/spool/mail/root
+-bash-4.1# usermod -s /bin/csh user21
+-bash-4.1# cat /etc/passwd | tail -4
+named:x:25:25:Named:/var/named:/sbin/nologin
+nagios:x:501:501::/home/nagios:/bin/bash
+user1:x:502:503:zaid:/home/user1:/bin/bash
+user21:x:505:505::/home/user21:/bin/csh
+-bash-4.1# usermod -s /bin/bash user21
+-bash-4.1# cat /etc/passwd | tail -4
+named:x:25:25:Named:/var/named:/sbin/nologin
+nagios:x:501:501::/home/nagios:/bin/bash
+user1:x:502:503:zaid:/home/user1:/bin/bash
+user21:x:505:505::/home/user21:/bin/bash
+-bash-4.1#
+-bash-4.1# ls -l /home/user
+user1/  user21/
+-bash-4.1# ls -l /home/user21
+total 0
+You have new mail in /var/spool/mail/root
+-bash-4.1# su - user21
+[user21@localhost ~]$ ls
+[user21@localhost ~]$ mkdir mydir mydir3 king linux
+[user21@localhost ~]$ ls
+king  linux  mydir  mydir3
+[user21@localhost ~]$ su  - root
+Password:
+-bash-4.1#
+-bash-4.1# userdel user21
+userdel: user user21 is currently used by process 8196
+-bash-4.1# cat /etc/passwd | tail -3
+nagios:x:501:501::/home/nagios:/bin/bash
+user1:x:502:503:zaid:/home/user1:/bin/bash
+user21:x:505:505::/home/user21:/bin/bash
+-bash-4.1# ls /home
+file2bkp  lost+found  nagios  us1  user1  user21
+-bash-4.1# ls /home/user21
+king  linux  mydir  mydir3
+You have new mail in /var/spool/mail/root
+-bash-4.1# su - user21
+[user21@localhost ~]$ su - root
+Password:
+-bash-4.1# userdel -r user21
+userdel: user user21 is currently used by process 8196
+-bash-4.1# kill -9 8196
+-bash-4.1# Killed
+You have new mail in /var/spool/mail/root
+-bash-4.1# logout
+[user21@localhost ~]$ logout
+Alogout
+[user1@localhost ~]$ You have new mail in /var/spool/mail/root
+-bash-4.1# logout
+You have new mail in /var/spool/mail/root
+logout
+-bash-4.1# logout
+There are stopped jobs.
+-bash-4.1# cat /etc/passwd | tail -3
+nagios:x:501:501::/home/nagios:/bin/bash
+user1:x:502:503:zaid:/home/user1:/bin/bash
+user21:x:505:505::/home/user21:/bin/bash
+-bash-4.1# ls /home/user21
+king  linux  mydir  mydir3
+-bash-4.1# userdel -r user21
+-bash-4.1# ls /home/user21
+ls: cannot access /home/user21: No such file or directory
+-bash-4.1# ls /var/spool/mail
+nagios  root  rpc  us1  user1
+You have new mail in /var/spool/mail/root
+-bash-4.1#
+-bash-4.1# passwd -S user1
+user1 PS 2018-04-26 0 99999 7 -1 (Password set, SHA512 crypt.)
+-bash-4.1# usermod -l user1
+Usage: usermod [options] LOGIN
+
+Options:
+  -c, --comment COMMENT         new value of the GECOS field
+  -d, --home HOME_DIR           new home directory for the user                account
+  -e, --expiredate EXPIRE_DATE  set account expiration date to E               XPIRE_DATE
+  -f, --inactive INACTIVE       set password inactive after expi               ration
+                                to INACTIVE
+  -g, --gid GROUP               force use GROUP as new primary g               roup
+  -G, --groups GROUPS           new list of supplementary GROUPS
+  -a, --append                  append the user to the supplemen               tal GROUPS
+                                mentioned by the -G option witho               ut removing
+                                him/her from other groups
+  -h, --help                    display this help message and ex               it
+  -l, --login NEW_LOGIN         new value of the login name
+  -L, --lock                    lock the user account
+  -m, --move-home               move contents of the home direct               ory to the
+                                new location (use only with -d)
+  -o, --non-unique              allow using duplicate (non-uniqu               e) UID
+  -p, --password PASSWORD       use encrypted password for the n               ew password
+  -R, --root CHROOT_DIR         directory to chroot into
+  -s, --shell SHELL             new login shell for the user acc               ount
+  -u, --uid UID                 new UID for the user account
+  -U, --unlock                  unlock the user account
+  -Z, --selinux-user SEUSER     new SELinux user mapping for the                user account
+
+-bash-4.1#
+-bash-4.1# usermod -L user1
+You have new mail in /var/spool/mail/root
+-bash-4.1# passwd -S user1
+user1 LK 2018-04-26 0 99999 7 -1 (Password locked.)
+-bash-4.1# su - user1
+[user1@localhost ~]$ touch sd
+[user1@localhost ~]$ su - root
+Password:
+su: incorrect password
+[user1@localhost ~]$ su - root
+Password:
+-bash-4.1#
+-bash-4.1# usermod -U user1
+-bash-4.1# passwd -S user1
+user1 PS 2018-04-26 0 99999 7 -1 (Password set, SHA512 crypt.)
+-bash-4.1# passwd -L user1
+passwd: bad argument -L: unknown option
+-bash-4.1#
+-bash-4.1# chage -l user1
+Last password change                                    : Apr 26               , 2018
+Password expires                                        : never
+Password inactive                                       : never
+Account expires                                         : never
+Minimum number of days between password change          : 0
+Maximum number of days between password change          : 99999
+Number of days of warning before password expires       : 7
+You have new mail in /var/spool/mail/root
+-bash-4.1# chage -m 10 user1
+-bash-4.1# chage -l user1
+Last password change                                    : Apr 26               , 2018
+Password expires                                        : never
+Password inactive                                       : never
+Account expires                                         : never
+Minimum number of days between password change          : 10
+Maximum number of days between password change          : 99999
+Number of days of warning before password expires       : 7
+-bash-4.1# chage -m 40 user1
+-bash-4.1# chage -l user1
+Last password change                                    : Apr 26               , 2018
+Password expires                                        : never
+Password inactive                                       : never
+Account expires                                         : never
+Minimum number of days between password change          : 40
+Maximum number of days between password change          : 99999
+Number of days of warning before password expires       : 7
+-bash-4.1# chage -M 40 user1
+You have new mail in /var/spool/mail/root
+-bash-4.1# chage -l user1
+Last password change                                    : Apr 26               , 2018
+Password expires                                        : Jun 05               , 2018
+Password inactive                                       : never
+Account expires                                         : never
+Minimum number of days between password change          : 40
+Maximum number of days between password change          : 40
+Number of days of warning before password expires       : 7
+-bash-4.1# chage -m 10 user1
+-bash-4.1# chage -l user1
+Last password change                                    : Apr 26               , 2018
+Password expires                                        : Jun 05               , 2018
+Password inactive                                       : never
+Account expires                                         : never
+Minimum number of days between password change          : 10
+Maximum number of days between password change          : 40
+Number of days of warning before password expires       : 7
+-bash-4.1# chage -d 0 user1
+-bash-4.1# chage -d 0 user1
+You have new mail in /var/spool/mail/root
+-bash-4.1# su - user1
+[user1@localhost ~]$ su - root\
+> > Password:
+-bash-4.1#
+-bash-4.1# chage -E 2018-05-20 user1
+You have new mail in /var/spool/mail/root
+-bash-4.1# chage -l user1
+Last password change                                    : passwo               rd must be changed
+Password expires                                        : passwo               rd must be changed
+Password inactive                                       : passwo               rd must be changed
+Account expires                                         : May 20               , 2018
+Minimum number of days between password change          : 10
+Maximum number of days between password change          : 40
+Number of days of warning before password expires       : 7
+-bash-4.1# chage -l user1
+Last password change                                    : password must be changed
+Password expires                                        : password must be changed
+Password inactive                                       : password must be changed
+Account expires                                         : May 20, 2018
+Minimum number of days between password change          : 10
+Maximum number of days between password change          : 40
+Number of days of warning before password expires       : 7
+-bash-4.1# chage -W 10 user1
+You have new mail in /var/spool/mail/root
+-bash-4.1# chage -l user1
+Last password change                                    : password must be changed
+Password expires                                        : password must be changed
+Password inactive                                       : password must be changed
+Account expires                                         : May 20, 2018
+Minimum number of days between password change          : 10
+Maximum number of days between password change          : 40
+Number of days of warning before password expires       : 10
+-bash-4.1# password must be changed
+-bash: password: command not found
+You have new mail in /var/spool/mail/root
+-bash-4.1#

@@ -1,0 +1,36 @@
+[?9/?30/?2016 10:35 AM] Nagaraj, Ananthanarayanan: 
+No Title
+[root@usnencvl063 audit]# ls -tlr
+total 183230
+drwx------. 2 root root    12288 Nov 10  2015 lost+found
+-r--------  1 root root   950362 Jun 17 09:25 audit.log.9.bz2
+-r--------  1 root root 20971660 Jul 27 06:45 audit.log.8
+-r--------  1 root root 20971603 Aug 19 02:20 audit.log.7
+-r--------  1 root root 20971579 Aug 25 14:53 audit.log.6
+-r--------  1 root root 20971623 Aug 31 11:35 audit.log.5
+-r--------  1 root root 20971724 Sep  6 08:30 audit.log.4
+-r--------  1 root root 20971719 Sep 12 05:00 audit.log.3
+-r--------  1 root root 20971536 Sep 17 20:30 audit.log.2
+-r--------  1 root root 20971542 Sep 23 23:20 audit.log.1
+-rw-------  1 root root 18873402 Sep 29 22:52 audit.log
+[root@usnencvl063 audit]# bzip2 audit.log.8
+[root@usnencvl063 audit]# df -PhT /var/log/audit
+Filesystem                Type  Size  Used Avail Use% Mounted on
+/dev/mapper/vg00-auditvol ext4  240M  162M   66M  72% /var/log/audit
+[root@usnencvl063 audit]# ls -tlr
+total 163698
+drwx------. 2 root root    12288 Nov 10  2015 lost+found
+-r--------  1 root root   950362 Jun 17 09:25 audit.log.9.bz2
+-r--------  1 root root   969823 Jul 27 06:45 audit.log.8.bz2
+-r--------  1 root root 20971603 Aug 19 02:20 audit.log.7
+-r--------  1 root root 20971579 Aug 25 14:53 audit.log.6
+-r--------  1 root root 20971623 Aug 31 11:35 audit.log.5
+-r--------  1 root root 20971724 Sep  6 08:30 audit.log.4
+-r--------  1 root root 20971719 Sep 12 05:00 audit.log.3
+-r--------  1 root root 20971536 Sep 17 20:30 audit.log.2
+-r--------  1 root root 20971542 Sep 23 23:20 audit.log.1
+-rw-------  1 root root 18875549 Sep 29 22:52 audit.log
+[root@usnencvl063 audit]# 
+ To zip the file :-
+================
+#   bzip2 audit.log.8 

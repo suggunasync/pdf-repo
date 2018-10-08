@@ -1,0 +1,13 @@
+Ticket Created By bzdz80
+
+***ALERT DATA ***
+FIRST OCCURRENCE : 29-Jun-2016 12:43:25 PM CDT
+NODE : USNENCPL015
+NODEALIAS : 10.78.15.27
+CONSOLE COLOR CODE(5-Critical/4-Major/3-Minor/2-Info/1-Repaired/0-Clear) : 5
+SUMMARY : users approaching maximum configured cursors for OSDBGRID2 )=95% of max, most serious is SYSMAN at 6148914691236517888.00% of max. [Policy:DBMON-DBSPI-0031-ARM]
+CATEGORY : VCCGateway
+SOURCE : VCCGateway
+
+
+Tools team email id:-  toll team -----ZUS-EMTOOLS-MR-IN02 <zus-emtools-mr-in02@hpe.com> 

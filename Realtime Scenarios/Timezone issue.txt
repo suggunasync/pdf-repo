@@ -1,0 +1,18 @@
+     How to change from UTC time zone to MDT time zone in linux ?
+     ============================================================
+   
+   # cd /usr/share/zoneinfo/America/ 
+   #ls
+
+   #date
+   [root@usnencpl037 America]# date
+   Thu Jun 30 19:33:28 UTC 2016
+
+   ok, run 
+   cp -p /etc/localtime /etc/localtime-backup  
+   rm  /etc/localtime 
+   ln -s /usr/share/zoneinfo/America/Denver /etc/localtime
+   then run #date 
+   
+
+ Its done, but if its production server we need to get confirmation , there m8 be run some applications time basis

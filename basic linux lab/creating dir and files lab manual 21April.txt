@@ -1,0 +1,2028 @@
+Auto-Submitted: auto-generated
+X-Cron-Env: <LANG=en_US.UTF-8>
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+X-Cron-Env: <USER=root>
+Message-Id: <20180417090502.3FC475FE48@localhost.localdomain>
+Date: Tue, 17 Apr 2018 14:35:01 +0530 (IST)
+
+tar: data: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+
+From root@localhost.localdomain  Tue Apr 17 14:36:02 2018
+Return-Path: <root@localhost.localdomain>
+X-Original-To: root
+Delivered-To: root@localhost.localdomain
+Received: by localhost.localdomain (Postfix, from userid 0)
+        id 68A9C5FE48; Tue, 17 Apr 2018 14:36:02 +0530 (IST)
+From: root@localhost.localdomain (Cron Daemon)
+To: root@localhost.localdomain
+Subject: Cron <root@localhost> sudo tar -cpzf recover1/minutebckup.tar.gz  data
+Content-Type: text/plain; charset=UTF-8
+Auto-Submitted: auto-generated
+X-Cron-Env: <LANG=en_US.UTF-8>
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+X-Cron-Env: <USER=root>
+Message-Id: <20180417090602.68A9C5FE48@localhost.localdomain>
+Date: Tue, 17 Apr 2018 14:36:02 +0530 (IST)
+
+tar: data: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+
+From root@localhost.localdomain  Tue Apr 17 14:37:02 2018
+Return-Path: <root@localhost.localdomain>
+X-Original-To: root
+Delivered-To: root@localhost.localdomain
+Received: by localhost.localdomain (Postfix, from userid 0)
+        id 8A2385FE48; Tue, 17 Apr 2018 14:37:01 +0530 (IST)
+From: root@localhost.localdomain (Cron Daemon)
+To: root@localhost.localdomain
+Subject: Cron <root@localhost> sudo tar -cpzf recover1/minutebckup.tar.gz  data
+Content-Type: text/plain; charset=UTF-8
+Auto-Submitted: auto-generated
+X-Cron-Env: <LANG=en_US.UTF-8>
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+X-Cron-Env: <USER=root>
+Message-Id: <20180417090702.8A2385FE48@localhost.localdomain>
+Date: Tue, 17 Apr 2018 14:37:01 +0530 (IST)
+
+tar: data: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+
+From root@localhost.localdomain  Tue Apr 17 14:38:01 2018
+Return-Path: <root@localhost.localdomain>
+X-Original-To: root
+Delivered-To: root@localhost.localdomain
+Received: by localhost.localdomain (Postfix, from userid 0)
+        id 990205FE48; Tue, 17 Apr 2018 14:38:01 +0530 (IST)
+From: root@localhost.localdomain (Cron Daemon)
+To: root@localhost.localdomain
+Subject: Cron <root@localhost> sudo tar -cpzf recover1/minutebckup.tar.gz  data
+Content-Type: text/plain; charset=UTF-8
+Auto-Submitted: auto-generated
+X-Cron-Env: <LANG=en_US.UTF-8>
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+X-Cron-Env: <USER=root>
+Message-Id: <20180417090801.990205FE48@localhost.localdomain>
+Date: Tue, 17 Apr 2018 14:38:01 +0530 (IST)
+
+tar: data: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+
+From root@localhost.localdomain  Tue Apr 17 14:39:01 2018
+Return-Path: <root@localhost.localdomain>
+X-Original-To: root
+Delivered-To: root@localhost.localdomain
+Received: by localhost.localdomain (Postfix, from userid 0)
+        id B5A965FE48; Tue, 17 Apr 2018 14:39:01 +0530 (IST)
+From: root@localhost.localdomain (Cron Daemon)
+To: root@localhost.localdomain
+Subject: Cron <root@localhost> sudo tar -cpzf recover1/minutebckup.tar.gz  data
+Content-Type: text/plain; charset=UTF-8
+Auto-Submitted: auto-generated
+X-Cron-Env: <LANG=en_US.UTF-8>
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+X-Cron-Env: <USER=root>
+Message-Id: <20180417090901.B5A965FE48@localhost.localdomain>
+Date: Tue, 17 Apr 2018 14:39:01 +0530 (IST)
+
+tar: data: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+
+From root@localhost.localdomain  Tue Apr 17 14:40:02 2018
+Return-Path: <root@localhost.localdomain>
+X-Original-To: root
+Delivered-To: root@localhost.localdomain
+Received: by localhost.localdomain (Postfix, from userid 0)
+        id 029A55FE48; Tue, 17 Apr 2018 14:40:02 +0530 (IST)
+From: root@localhost.localdomain (Cron Daemon)
+To: root@localhost.localdomain
+Subject: Cron <root@localhost> sudo tar -cpzf recover1/minutebckup.tar.gz  data
+Content-Type: text/plain; charset=UTF-8
+Auto-Submitted: auto-generated
+X-Cron-Env: <LANG=en_US.UTF-8>
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+X-Cron-Env: <USER=root>
+Message-Id: <20180417091002.029A55FE48@localhost.localdomain>
+Date: Tue, 17 Apr 2018 14:40:02 +0530 (IST)
+
+tar: data: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+
+From root@localhost.localdomain  Tue Apr 17 14:41:01 2018
+Return-Path: <root@localhost.localdomain>
+X-Original-To: root
+Delivered-To: root@localhost.localdomain
+Received: by localhost.localdomain (Postfix, from userid 0)
+        id 148C25FE48; Tue, 17 Apr 2018 14:41:01 +0530 (IST)
+From: root@localhost.localdomain (Cron Daemon)
+To: root@localhost.localdomain
+Subject: Cron <root@localhost> sudo tar -cpzf recover1/minutebckup.tar.gz  data
+Content-Type: text/plain; charset=UTF-8
+Auto-Submitted: auto-generated
+X-Cron-Env: <LANG=en_US.UTF-8>
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+X-Cron-Env: <USER=root>
+Message-Id: <20180417091101.148C25FE48@localhost.localdomain>
+Date: Tue, 17 Apr 2018 14:41:01 +0530 (IST)
+
+tar: data: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+
+From root@localhost.localdomain  Tue Apr 17 14:42:01 2018
+Return-Path: <root@localhost.localdomain>
+X-Original-To: root
+Delivered-To: root@localhost.localdomain
+Received: by localhost.localdomain (Postfix, from userid 0)
+        id 25FC75FE48; Tue, 17 Apr 2018 14:42:01 +0530 (IST)
+From: root@localhost.localdomain (Cron Daemon)
+To: root@localhost.localdomain
+Subject: Cron <root@localhost> sudo tar -cpzf recover1/minutebckup.tar.gz  data
+Content-Type: text/plain; charset=UTF-8
+Auto-Submitted: auto-generated
+X-Cron-Env: <LANG=en_US.UTF-8>
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+X-Cron-Env: <USER=root>
+Message-Id: <20180417091201.25FC75FE48@localhost.localdomain>
+Date: Tue, 17 Apr 2018 14:42:01 +0530 (IST)
+
+tar: data: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+
+From root@localhost.localdomain  Tue Apr 17 14:43:01 2018
+Return-Path: <root@localhost.localdomain>
+X-Original-To: root
+Delivered-To: root@localhost.localdomain
+Received: by localhost.localdomain (Postfix, from userid 0)
+        id 4DDB25FE48; Tue, 17 Apr 2018 14:43:01 +0530 (IST)
+From: root@localhost.localdomain (Cron Daemon)
+To: root@localhost.localdomain
+Subject: Cron <root@localhost> sudo tar -cpzf recover1/minutebckup.tar.gz  data
+Content-Type: text/plain; charset=UTF-8
+Auto-Submitted: auto-generated
+X-Cron-Env: <LANG=en_US.UTF-8>
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+X-Cron-Env: <USER=root>
+Message-Id: <20180417091301.4DDB25FE48@localhost.localdomain>
+Date: Tue, 17 Apr 2018 14:43:01 +0530 (IST)
+
+tar: data: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+
+From root@localhost.localdomain  Tue Apr 17 14:44:01 2018
+Return-Path: <root@localhost.localdomain>
+X-Original-To: root
+Delivered-To: root@localhost.localdomain
+Received: by localhost.localdomain (Postfix, from userid 0)
+        id 75B865FE48; Tue, 17 Apr 2018 14:44:01 +0530 (IST)
+From: root@localhost.localdomain (Cron Daemon)
+To: root@localhost.localdomain
+Subject: Cron <root@localhost> sudo tar -cpzf recover1/minutebckup.tar.gz  data
+Content-Type: text/plain; charset=UTF-8
+Auto-Submitted: auto-generated
+X-Cron-Env: <LANG=en_US.UTF-8>
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+X-Cron-Env: <USER=root>
+Message-Id: <20180417091401.75B865FE48@localhost.localdomain>
+Date: Tue, 17 Apr 2018 14:44:01 +0530 (IST)
+
+tar: data: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+
+From root@localhost.localdomain  Tue Apr 17 14:45:01 2018
+Return-Path: <root@localhost.localdomain>
+X-Original-To: root
+Delivered-To: root@localhost.localdomain
+Received: by localhost.localdomain (Postfix, from userid 0)
+        id 862DE5FE48; Tue, 17 Apr 2018 14:45:01 +0530 (IST)
+From: root@localhost.localdomain (Cron Daemon)
+To: root@localhost.localdomain
+Subject: Cron <root@localhost> sudo tar -cpzf recover1/minutebckup.tar.gz  data
+Content-Type: text/plain; charset=UTF-8
+Auto-Submitted: auto-generated
+X-Cron-Env: <LANG=en_US.UTF-8>
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+X-Cron-Env: <USER=root>
+Message-Id: <20180417091501.862DE5FE48@localhost.localdomain>
+Date: Tue, 17 Apr 2018 14:45:01 +0530 (IST)
+
+tar: data: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+
+From root@localhost.localdomain  Tue Apr 17 14:46:01 2018
+Return-Path: <root@localhost.localdomain>
+X-Original-To: root
+Delivered-To: root@localhost.localdomain
+Received: by localhost.localdomain (Postfix, from userid 0)
+        id 999F65FE48; Tue, 17 Apr 2018 14:46:01 +0530 (IST)
+From: root@localhost.localdomain (Cron Daemon)
+To: root@localhost.localdomain
+Subject: Cron <root@localhost> sudo tar -cpzf recover1/minutebckup.tar.gz  data
+Content-Type: text/plain; charset=UTF-8
+Auto-Submitted: auto-generated
+X-Cron-Env: <LANG=en_US.UTF-8>
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+X-Cron-Env: <USER=root>
+Message-Id: <20180417091601.999F65FE48@localhost.localdomain>
+Date: Tue, 17 Apr 2018 14:46:01 +0530 (IST)
+
+tar: data: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+
+From root@localhost.localdomain  Tue Apr 17 14:47:01 2018
+Return-Path: <root@localhost.localdomain>
+X-Original-To: root
+Delivered-To: root@localhost.localdomain
+Received: by localhost.localdomain (Postfix, from userid 0)
+        id A7CDD5FE48; Tue, 17 Apr 2018 14:47:01 +0530 (IST)
+From: root@localhost.localdomain (Cron Daemon)
+To: root@localhost.localdomain
+Subject: Cron <root@localhost> sudo tar -cpzf recover1/minutebckup.tar.gz  data
+Content-Type: text/plain; charset=UTF-8
+Auto-Submitted: auto-generated
+X-Cron-Env: <LANG=en_US.UTF-8>
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+X-Cron-Env: <USER=root>
+Message-Id: <20180417091701.A7CDD5FE48@localhost.localdomain>
+Date: Tue, 17 Apr 2018 14:47:01 +0530 (IST)
+
+tar: data: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+
+From root@localhost.localdomain  Tue Apr 17 14:48:01 2018
+Return-Path: <root@localhost.localdomain>
+X-Original-To: root
+Delivered-To: root@localhost.localdomain
+Received: by localhost.localdomain (Postfix, from userid 0)
+        id C38F85FE48; Tue, 17 Apr 2018 14:48:01 +0530 (IST)
+From: root@localhost.localdomain (Cron Daemon)
+To: root@localhost.localdomain
+Subject: Cron <root@localhost> sudo tar -cpzf recover1/minutebckup.tar.gz  data
+Content-Type: text/plain; charset=UTF-8
+Auto-Submitted: auto-generated
+X-Cron-Env: <LANG=en_US.UTF-8>
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+X-Cron-Env: <USER=root>
+Message-Id: <20180417091801.C38F85FE48@localhost.localdomain>
+Date: Tue, 17 Apr 2018 14:48:01 +0530 (IST)
+
+tar: data: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+
+From root@localhost.localdomain  Tue Apr 17 14:49:01 2018
+Return-Path: <root@localhost.localdomain>
+X-Original-To: root
+Delivered-To: root@localhost.localdomain
+Received: by localhost.localdomain (Postfix, from userid 0)
+        id D76565FE48; Tue, 17 Apr 2018 14:49:01 +0530 (IST)
+From: root@localhost.localdomain (Cron Daemon)
+To: root@localhost.localdomain
+Subject: Cron <root@localhost> sudo tar -cpzf recover1/minutebckup.tar.gz  data
+Content-Type: text/plain; charset=UTF-8
+Auto-Submitted: auto-generated
+X-Cron-Env: <LANG=en_US.UTF-8>
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+X-Cron-Env: <USER=root>
+Message-Id: <20180417091901.D76565FE48@localhost.localdomain>
+Date: Tue, 17 Apr 2018 14:49:01 +0530 (IST)
+
+tar: data: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+
+From root@localhost.localdomain  Tue Apr 17 14:50:02 2018
+Return-Path: <root@localhost.localdomain>
+X-Original-To: root
+Delivered-To: root@localhost.localdomain
+Received: by localhost.localdomain (Postfix, from userid 0)
+        id 727365FE48; Tue, 17 Apr 2018 14:50:02 +0530 (IST)
+From: root@localhost.localdomain (Cron Daemon)
+To: root@localhost.localdomain
+Subject: Cron <root@localhost> sudo tar -cpzf recover1/minutebckup.tar.gz  data
+Content-Type: text/plain; charset=UTF-8
+Auto-Submitted: auto-generated
+X-Cron-Env: <LANG=en_US.UTF-8>
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+X-Cron-Env: <USER=root>
+Message-Id: <20180417092002.727365FE48@localhost.localdomain>
+Date: Tue, 17 Apr 2018 14:50:02 +0530 (IST)
+
+tar: data: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+
+From root@localhost.localdomain  Tue Apr 17 14:51:01 2018
+Return-Path: <root@localhost.localdomain>
+X-Original-To: root
+Delivered-To: root@localhost.localdomain
+Received: by localhost.localdomain (Postfix, from userid 0)
+        id 862495FE48; Tue, 17 Apr 2018 14:51:01 +0530 (IST)
+From: root@localhost.localdomain (Cron Daemon)
+To: root@localhost.localdomain
+Subject: Cron <root@localhost> sudo tar -cpzf recover1/minutebckup.tar.gz  data
+Content-Type: text/plain; charset=UTF-8
+Auto-Submitted: auto-generated
+X-Cron-Env: <LANG=en_US.UTF-8>
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+X-Cron-Env: <USER=root>
+Message-Id: <20180417092101.862495FE48@localhost.localdomain>
+Date: Tue, 17 Apr 2018 14:51:01 +0530 (IST)
+
+tar: data: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+
+From root@localhost.localdomain  Tue Apr 17 14:52:01 2018
+Return-Path: <root@localhost.localdomain>
+X-Original-To: root
+Delivered-To: root@localhost.localdomain
+Received: by localhost.localdomain (Postfix, from userid 0)
+        id A6B3B5FE48; Tue, 17 Apr 2018 14:52:01 +0530 (IST)
+From: root@localhost.localdomain (Cron Daemon)
+To: root@localhost.localdomain
+Subject: Cron <root@localhost> sudo tar -cpzf recover1/minutebckup.tar.gz  data
+Content-Type: text/plain; charset=UTF-8
+Auto-Submitted: auto-generated
+X-Cron-Env: <LANG=en_US.UTF-8>
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+X-Cron-Env: <USER=root>
+Message-Id: <20180417092201.A6B3B5FE48@localhost.localdomain>
+Date: Tue, 17 Apr 2018 14:52:01 +0530 (IST)
+
+tar: data: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+
+From root@localhost.localdomain  Tue Apr 17 14:53:01 2018
+Return-Path: <root@localhost.localdomain>
+X-Original-To: root
+Delivered-To: root@localhost.localdomain
+Received: by localhost.localdomain (Postfix, from userid 0)
+        id B4EB65FE48; Tue, 17 Apr 2018 14:53:01 +0530 (IST)
+From: root@localhost.localdomain (Cron Daemon)
+To: root@localhost.localdomain
+Subject: Cron <root@localhost> sudo tar -cpzf recover1/minutebckup.tar.gz  data
+Content-Type: text/plain; charset=UTF-8
+Auto-Submitted: auto-generated
+X-Cron-Env: <LANG=en_US.UTF-8>
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+X-Cron-Env: <USER=root>
+Message-Id: <20180417092301.B4EB65FE48@localhost.localdomain>
+Date: Tue, 17 Apr 2018 14:53:01 +0530 (IST)
+
+tar: data: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+
+From root@localhost.localdomain  Tue Apr 17 14:54:01 2018
+Return-Path: <root@localhost.localdomain>
+X-Original-To: root
+Delivered-To: root@localhost.localdomain
+Received: by localhost.localdomain (Postfix, from userid 0)
+        id C48085FE48; Tue, 17 Apr 2018 14:54:01 +0530 (IST)
+From: root@localhost.localdomain (Cron Daemon)
+To: root@localhost.localdomain
+Subject: Cron <root@localhost> sudo tar -cpzf recover1/minutebckup.tar.gz  data
+Content-Type: text/plain; charset=UTF-8
+Auto-Submitted: auto-generated
+X-Cron-Env: <LANG=en_US.UTF-8>
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+X-Cron-Env: <USER=root>
+Message-Id: <20180417092401.C48085FE48@localhost.localdomain>
+Date: Tue, 17 Apr 2018 14:54:01 +0530 (IST)
+
+tar: data: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+
+From root@localhost.localdomain  Tue Apr 17 14:55:02 2018
+Return-Path: <root@localhost.localdomain>
+X-Original-To: root
+Delivered-To: root@localhost.localdomain
+Received: by localhost.localdomain (Postfix, from userid 0)
+        id A88085FE48; Tue, 17 Apr 2018 14:55:01 +0530 (IST)
+From: root@localhost.localdomain (Cron Daemon)
+To: root@localhost.localdomain
+Subject: Cron <root@localhost> sudo tar -cpzf recover1/minutebckup.tar.gz  data
+Content-Type: text/plain; charset=UTF-8
+Auto-Submitted: auto-generated
+X-Cron-Env: <LANG=en_US.UTF-8>
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+X-Cron-Env: <USER=root>
+Message-Id: <20180417092502.A88085FE48@localhost.localdomain>
+Date: Tue, 17 Apr 2018 14:55:01 +0530 (IST)
+
+tar: data: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+
+From root@localhost.localdomain  Tue Apr 17 14:56:02 2018
+Return-Path: <root@localhost.localdomain>
+X-Original-To: root
+Delivered-To: root@localhost.localdomain
+Received: by localhost.localdomain (Postfix, from userid 0)
+        id DE81E5FE48; Tue, 17 Apr 2018 14:56:01 +0530 (IST)
+From: root@localhost.localdomain (Cron Daemon)
+To: root@localhost.localdomain
+Subject: Cron <root@localhost> sudo tar -cpzf recover1/minutebckup.tar.gz  data
+Content-Type: text/plain; charset=UTF-8
+Auto-Submitted: auto-generated
+X-Cron-Env: <LANG=en_US.UTF-8>
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+X-Cron-Env: <USER=root>
+Message-Id: <20180417092602.DE81E5FE48@localhost.localdomain>
+Date: Tue, 17 Apr 2018 14:56:01 +0530 (IST)
+
+tar: data: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+
+From root@localhost.localdomain  Tue Apr 17 14:57:03 2018
+Return-Path: <root@localhost.localdomain>
+X-Original-To: root
+Delivered-To: root@localhost.localdomain
+Received: by localhost.localdomain (Postfix, from userid 0)
+        id 3176D5FE48; Tue, 17 Apr 2018 14:57:01 +0530 (IST)
+From: root@localhost.localdomain (Cron Daemon)
+To: root@localhost.localdomain
+Subject: Cron <root@localhost> sudo tar -cpzf recover1/minutebckup.tar.gz  data
+Content-Type: text/plain; charset=UTF-8
+Auto-Submitted: auto-generated
+X-Cron-Env: <LANG=en_US.UTF-8>
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+X-Cron-Env: <USER=root>
+Message-Id: <20180417092703.3176D5FE48@localhost.localdomain>
+Date: Tue, 17 Apr 2018 14:57:01 +0530 (IST)
+
+tar: data: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+
+From root@localhost.localdomain  Tue Apr 17 14:58:01 2018
+Return-Path: <root@localhost.localdomain>
+X-Original-To: root
+Delivered-To: root@localhost.localdomain
+Received: by localhost.localdomain (Postfix, from userid 0)
+        id DCB115FE48; Tue, 17 Apr 2018 14:58:01 +0530 (IST)
+From: root@localhost.localdomain (Cron Daemon)
+To: root@localhost.localdomain
+Subject: Cron <root@localhost> sudo tar -cpzf recover1/minutebckup.tar.gz  data
+Content-Type: text/plain; charset=UTF-8
+Auto-Submitted: auto-generated
+X-Cron-Env: <LANG=en_US.UTF-8>
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+X-Cron-Env: <USER=root>
+Message-Id: <20180417092801.DCB115FE48@localhost.localdomain>
+Date: Tue, 17 Apr 2018 14:58:01 +0530 (IST)
+
+tar: data: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+
+From root@localhost.localdomain  Tue Apr 17 14:59:01 2018
+Return-Path: <root@localhost.localdomain>
+X-Original-To: root
+Delivered-To: root@localhost.localdomain
+Received: by localhost.localdomain (Postfix, from userid 0)
+        id E8F8F5FE48; Tue, 17 Apr 2018 14:59:01 +0530 (IST)
+From: root@localhost.localdomain (Cron Daemon)
+To: root@localhost.localdomain
+Subject: Cron <root@localhost> sudo tar -cpzf recover1/minutebckup.tar.gz  data
+Content-Type: text/plain; charset=UTF-8
+Auto-Submitted: auto-generated
+X-Cron-Env: <LANG=en_US.UTF-8>
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+X-Cron-Env: <USER=root>
+Message-Id: <20180417092901.E8F8F5FE48@localhost.localdomain>
+Date: Tue, 17 Apr 2018 14:59:01 +0530 (IST)
+
+tar: data: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+
+From root@localhost.localdomain  Tue Apr 17 15:00:02 2018
+Return-Path: <root@localhost.localdomain>
+X-Original-To: root
+Delivered-To: root@localhost.localdomain
+Received: by localhost.localdomain (Postfix, from userid 0)
+        id 23D625FBE7; Tue, 17 Apr 2018 15:00:02 +0530 (IST)
+From: root@localhost.localdomain (Cron Daemon)
+To: root@localhost.localdomain
+Subject: Cron <root@localhost> sudo tar -cpzf recover1/minutebckup.tar.gz  data
+Content-Type: text/plain; charset=UTF-8
+Auto-Submitted: auto-generated
+X-Cron-Env: <LANG=en_US.UTF-8>
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+X-Cron-Env: <USER=root>
+Message-Id: <20180417093002.23D625FBE7@localhost.localdomain>
+Date: Tue, 17 Apr 2018 15:00:02 +0530 (IST)
+
+tar: data: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+
+From root@localhost.localdomain  Tue Apr 17 15:01:01 2018
+Return-Path: <root@localhost.localdomain>
+X-Original-To: root
+Delivered-To: root@localhost.localdomain
+Received: by localhost.localdomain (Postfix, from userid 0)
+        id 5D4A55FE48; Tue, 17 Apr 2018 15:01:01 +0530 (IST)
+From: root@localhost.localdomain (Cron Daemon)
+To: root@localhost.localdomain
+Subject: Cron <root@localhost> sudo tar -cpzf recover1/minutebckup.tar.gz  data
+Content-Type: text/plain; charset=UTF-8
+Auto-Submitted: auto-generated
+X-Cron-Env: <LANG=en_US.UTF-8>
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+X-Cron-Env: <USER=root>
+Message-Id: <20180417093101.5D4A55FE48@localhost.localdomain>
+Date: Tue, 17 Apr 2018 15:01:01 +0530 (IST)
+
+tar: data: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+
+From root@localhost.localdomain  Tue Apr 17 15:02:01 2018
+Return-Path: <root@localhost.localdomain>
+X-Original-To: root
+Delivered-To: root@localhost.localdomain
+Received: by localhost.localdomain (Postfix, from userid 0)
+        id 6DBB95FE48; Tue, 17 Apr 2018 15:02:01 +0530 (IST)
+From: root@localhost.localdomain (Cron Daemon)
+To: root@localhost.localdomain
+Subject: Cron <root@localhost> sudo tar -cpzf recover1/minutebckup.tar.gz  data
+Content-Type: text/plain; charset=UTF-8
+Auto-Submitted: auto-generated
+X-Cron-Env: <LANG=en_US.UTF-8>
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+X-Cron-Env: <USER=root>
+Message-Id: <20180417093201.6DBB95FE48@localhost.localdomain>
+Date: Tue, 17 Apr 2018 15:02:01 +0530 (IST)
+
+tar: data: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+
+From root@localhost.localdomain  Tue Apr 17 15:03:01 2018
+Return-Path: <root@localhost.localdomain>
+X-Original-To: root
+Delivered-To: root@localhost.localdomain
+Received: by localhost.localdomain (Postfix, from userid 0)
+        id 7B1AB5FE48; Tue, 17 Apr 2018 15:03:01 +0530 (IST)
+From: root@localhost.localdomain (Cron Daemon)
+To: root@localhost.localdomain
+Subject: Cron <root@localhost> sudo tar -cpzf recover1/minutebckup.tar.gz  data
+Content-Type: text/plain; charset=UTF-8
+Auto-Submitted: auto-generated
+X-Cron-Env: <LANG=en_US.UTF-8>
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+X-Cron-Env: <USER=root>
+Message-Id: <20180417093301.7B1AB5FE48@localhost.localdomain>
+Date: Tue, 17 Apr 2018 15:03:01 +0530 (IST)
+
+tar: data: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+
+From root@localhost.localdomain  Tue Apr 17 15:04:01 2018
+Return-Path: <root@localhost.localdomain>
+X-Original-To: root
+Delivered-To: root@localhost.localdomain
+Received: by localhost.localdomain (Postfix, from userid 0)
+        id 968925FE48; Tue, 17 Apr 2018 15:04:01 +0530 (IST)
+From: root@localhost.localdomain (Cron Daemon)
+To: root@localhost.localdomain
+Subject: Cron <root@localhost> sudo tar -cpzf recover1/minutebckup.tar.gz  data
+Content-Type: text/plain; charset=UTF-8
+Auto-Submitted: auto-generated
+X-Cron-Env: <LANG=en_US.UTF-8>
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+X-Cron-Env: <USER=root>
+Message-Id: <20180417093401.968925FE48@localhost.localdomain>
+Date: Tue, 17 Apr 2018 15:04:01 +0530 (IST)
+
+tar: data: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+
+From root@localhost.localdomain  Tue Apr 17 15:05:01 2018
+Return-Path: <root@localhost.localdomain>
+X-Original-To: root
+Delivered-To: root@localhost.localdomain
+Received: by localhost.localdomain (Postfix, from userid 0)
+        id B47D25FE48; Tue, 17 Apr 2018 15:05:01 +0530 (IST)
+From: root@localhost.localdomain (Cron Daemon)
+To: root@localhost.localdomain
+Subject: Cron <root@localhost> sudo tar -cpzf recover1/minutebckup.tar.gz  data
+Content-Type: text/plain; charset=UTF-8
+Auto-Submitted: auto-generated
+X-Cron-Env: <LANG=en_US.UTF-8>
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+X-Cron-Env: <USER=root>
+Message-Id: <20180417093501.B47D25FE48@localhost.localdomain>
+Date: Tue, 17 Apr 2018 15:05:01 +0530 (IST)
+
+tar: data: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+
+From root@localhost.localdomain  Tue Apr 17 15:06:01 2018
+Return-Path: <root@localhost.localdomain>
+X-Original-To: root
+Delivered-To: root@localhost.localdomain
+Received: by localhost.localdomain (Postfix, from userid 0)
+        id C77B15FE48; Tue, 17 Apr 2018 15:06:01 +0530 (IST)
+From: root@localhost.localdomain (Cron Daemon)
+To: root@localhost.localdomain
+Subject: Cron <root@localhost> sudo tar -cpzf recover1/minutebckup.tar.gz  data
+Content-Type: text/plain; charset=UTF-8
+Auto-Submitted: auto-generated
+X-Cron-Env: <LANG=en_US.UTF-8>
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+X-Cron-Env: <USER=root>
+Message-Id: <20180417093601.C77B15FE48@localhost.localdomain>
+Date: Tue, 17 Apr 2018 15:06:01 +0530 (IST)
+
+tar: data: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+
+From root@localhost.localdomain  Tue Apr 17 15:07:01 2018
+Return-Path: <root@localhost.localdomain>
+X-Original-To: root
+Delivered-To: root@localhost.localdomain
+Received: by localhost.localdomain (Postfix, from userid 0)
+        id D690B5FE48; Tue, 17 Apr 2018 15:07:01 +0530 (IST)
+From: root@localhost.localdomain (Cron Daemon)
+To: root@localhost.localdomain
+Subject: Cron <root@localhost> sudo tar -cpzf recover1/minutebckup.tar.gz  data
+Content-Type: text/plain; charset=UTF-8
+Auto-Submitted: auto-generated
+X-Cron-Env: <LANG=en_US.UTF-8>
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+X-Cron-Env: <USER=root>
+Message-Id: <20180417093701.D690B5FE48@localhost.localdomain>
+Date: Tue, 17 Apr 2018 15:07:01 +0530 (IST)
+
+tar: data: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+
+From root@localhost.localdomain  Tue Apr 17 15:08:01 2018
+Return-Path: <root@localhost.localdomain>
+X-Original-To: root
+Delivered-To: root@localhost.localdomain
+Received: by localhost.localdomain (Postfix, from userid 0)
+        id E54775FE48; Tue, 17 Apr 2018 15:08:01 +0530 (IST)
+From: root@localhost.localdomain (Cron Daemon)
+To: root@localhost.localdomain
+Subject: Cron <root@localhost> sudo tar -cpzf recover1/minutebckup.tar.gz  data
+Content-Type: text/plain; charset=UTF-8
+Auto-Submitted: auto-generated
+X-Cron-Env: <LANG=en_US.UTF-8>
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+X-Cron-Env: <USER=root>
+Message-Id: <20180417093801.E54775FE48@localhost.localdomain>
+Date: Tue, 17 Apr 2018 15:08:01 +0530 (IST)
+
+tar: data: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+
+From root@localhost.localdomain  Tue Apr 17 15:09:02 2018
+Return-Path: <root@localhost.localdomain>
+X-Original-To: root
+Delivered-To: root@localhost.localdomain
+Received: by localhost.localdomain (Postfix, from userid 0)
+        id 0189D5FE48; Tue, 17 Apr 2018 15:09:02 +0530 (IST)
+From: root@localhost.localdomain (Cron Daemon)
+To: root@localhost.localdomain
+Subject: Cron <root@localhost> sudo tar -cpzf recover1/minutebckup.tar.gz  data
+Content-Type: text/plain; charset=UTF-8
+Auto-Submitted: auto-generated
+X-Cron-Env: <LANG=en_US.UTF-8>
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+X-Cron-Env: <USER=root>
+Message-Id: <20180417093902.0189D5FE48@localhost.localdomain>
+Date: Tue, 17 Apr 2018 15:09:02 +0530 (IST)
+
+tar: data: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+
+From root@localhost.localdomain  Tue Apr 17 15:10:01 2018
+Return-Path: <root@localhost.localdomain>
+X-Original-To: root
+Delivered-To: root@localhost.localdomain
+Received: by localhost.localdomain (Postfix, from userid 0)
+        id 2C3A15FE48; Tue, 17 Apr 2018 15:10:01 +0530 (IST)
+From: root@localhost.localdomain (Cron Daemon)
+To: root@localhost.localdomain
+Subject: Cron <root@localhost> sudo tar -cpzf recover1/minutebckup.tar.gz  data
+Content-Type: text/plain; charset=UTF-8
+Auto-Submitted: auto-generated
+X-Cron-Env: <LANG=en_US.UTF-8>
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+X-Cron-Env: <USER=root>
+Message-Id: <20180417094001.2C3A15FE48@localhost.localdomain>
+Date: Tue, 17 Apr 2018 15:10:01 +0530 (IST)
+
+tar: data: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+
+From root@localhost.localdomain  Tue Apr 17 15:11:01 2018
+Return-Path: <root@localhost.localdomain>
+X-Original-To: root
+Delivered-To: root@localhost.localdomain
+Received: by localhost.localdomain (Postfix, from userid 0)
+        id 409195FE48; Tue, 17 Apr 2018 15:11:01 +0530 (IST)
+From: root@localhost.localdomain (Cron Daemon)
+To: root@localhost.localdomain
+Subject: Cron <root@localhost> sudo tar -cpzf recover1/minutebckup.tar.gz  data
+Content-Type: text/plain; charset=UTF-8
+Auto-Submitted: auto-generated
+X-Cron-Env: <LANG=en_US.UTF-8>
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+X-Cron-Env: <USER=root>
+Message-Id: <20180417094101.409195FE48@localhost.localdomain>
+Date: Tue, 17 Apr 2018 15:11:01 +0530 (IST)
+
+tar: data: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+
+From root@localhost.localdomain  Tue Apr 17 15:12:01 2018
+Return-Path: <root@localhost.localdomain>
+X-Original-To: root
+Delivered-To: root@localhost.localdomain
+Received: by localhost.localdomain (Postfix, from userid 0)
+        id 509F35FE48; Tue, 17 Apr 2018 15:12:01 +0530 (IST)
+From: root@localhost.localdomain (Cron Daemon)
+To: root@localhost.localdomain
+Subject: Cron <root@localhost> sudo tar -cpzf recover1/minutebckup.tar.gz  data
+Content-Type: text/plain; charset=UTF-8
+Auto-Submitted: auto-generated
+X-Cron-Env: <LANG=en_US.UTF-8>
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+X-Cron-Env: <USER=root>
+Message-Id: <20180417094201.509F35FE48@localhost.localdomain>
+Date: Tue, 17 Apr 2018 15:12:01 +0530 (IST)
+
+tar: data: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+
+From root@localhost.localdomain  Tue Apr 17 15:13:01 2018
+Return-Path: <root@localhost.localdomain>
+X-Original-To: root
+Delivered-To: root@localhost.localdomain
+Received: by localhost.localdomain (Postfix, from userid 0)
+        id 5ED0B5FE48; Tue, 17 Apr 2018 15:13:01 +0530 (IST)
+From: root@localhost.localdomain (Cron Daemon)
+To: root@localhost.localdomain
+Subject: Cron <root@localhost> sudo tar -cpzf recover1/minutebckup.tar.gz  data
+Content-Type: text/plain; charset=UTF-8
+Auto-Submitted: auto-generated
+X-Cron-Env: <LANG=en_US.UTF-8>
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+X-Cron-Env: <USER=root>
+Message-Id: <20180417094301.5ED0B5FE48@localhost.localdomain>
+Date: Tue, 17 Apr 2018 15:13:01 +0530 (IST)
+
+tar: data: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+
+From root@localhost.localdomain  Tue Apr 17 15:14:01 2018
+Return-Path: <root@localhost.localdomain>
+X-Original-To: root
+Delivered-To: root@localhost.localdomain
+Received: by localhost.localdomain (Postfix, from userid 0)
+        id 6CC4C5FE48; Tue, 17 Apr 2018 15:14:01 +0530 (IST)
+From: root@localhost.localdomain (Cron Daemon)
+To: root@localhost.localdomain
+Subject: Cron <root@localhost> sudo tar -cpzf recover1/minutebckup.tar.gz  data
+Content-Type: text/plain; charset=UTF-8
+Auto-Submitted: auto-generated
+X-Cron-Env: <LANG=en_US.UTF-8>
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+X-Cron-Env: <USER=root>
+Message-Id: <20180417094401.6CC4C5FE48@localhost.localdomain>
+Date: Tue, 17 Apr 2018 15:14:01 +0530 (IST)
+
+tar: data: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+
+From root@localhost.localdomain  Tue Apr 17 15:15:01 2018
+Return-Path: <root@localhost.localdomain>
+X-Original-To: root
+Delivered-To: root@localhost.localdomain
+Received: by localhost.localdomain (Postfix, from userid 0)
+        id 7D16B5FE48; Tue, 17 Apr 2018 15:15:01 +0530 (IST)
+From: root@localhost.localdomain (Cron Daemon)
+To: root@localhost.localdomain
+Subject: Cron <root@localhost> sudo tar -cpzf recover1/minutebckup.tar.gz  data
+Content-Type: text/plain; charset=UTF-8
+Auto-Submitted: auto-generated
+X-Cron-Env: <LANG=en_US.UTF-8>
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+X-Cron-Env: <USER=root>
+Message-Id: <20180417094501.7D16B5FE48@localhost.localdomain>
+Date: Tue, 17 Apr 2018 15:15:01 +0530 (IST)
+
+tar: data: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+
+From root@localhost.localdomain  Tue Apr 17 15:16:01 2018
+Return-Path: <root@localhost.localdomain>
+X-Original-To: root
+Delivered-To: root@localhost.localdomain
+Received: by localhost.localdomain (Postfix, from userid 0)
+        id A36DA5FE48; Tue, 17 Apr 2018 15:16:01 +0530 (IST)
+From: root@localhost.localdomain (Cron Daemon)
+To: root@localhost.localdomain
+Subject: Cron <root@localhost> sudo tar -cpzf recover1/minutebckup.tar.gz  data
+Content-Type: text/plain; charset=UTF-8
+Auto-Submitted: auto-generated
+X-Cron-Env: <LANG=en_US.UTF-8>
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+X-Cron-Env: <USER=root>
+Message-Id: <20180417094601.A36DA5FE48@localhost.localdomain>
+Date: Tue, 17 Apr 2018 15:16:01 +0530 (IST)
+
+tar: data: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+
+From root@localhost.localdomain  Tue Apr 17 15:17:01 2018
+Return-Path: <root@localhost.localdomain>
+X-Original-To: root
+Delivered-To: root@localhost.localdomain
+Received: by localhost.localdomain (Postfix, from userid 0)
+        id B77635FE48; Tue, 17 Apr 2018 15:17:01 +0530 (IST)
+From: root@localhost.localdomain (Cron Daemon)
+To: root@localhost.localdomain
+Subject: Cron <root@localhost> sudo tar -cpzf recover1/minutebckup.tar.gz  data
+Content-Type: text/plain; charset=UTF-8
+Auto-Submitted: auto-generated
+X-Cron-Env: <LANG=en_US.UTF-8>
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+X-Cron-Env: <USER=root>
+Message-Id: <20180417094701.B77635FE48@localhost.localdomain>
+Date: Tue, 17 Apr 2018 15:17:01 +0530 (IST)
+
+tar: data: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+
+From root@localhost.localdomain  Tue Apr 17 15:18:01 2018
+Return-Path: <root@localhost.localdomain>
+X-Original-To: root
+Delivered-To: root@localhost.localdomain
+Received: by localhost.localdomain (Postfix, from userid 0)
+        id C9EA95FE48; Tue, 17 Apr 2018 15:18:01 +0530 (IST)
+From: root@localhost.localdomain (Cron Daemon)
+To: root@localhost.localdomain
+Subject: Cron <root@localhost> sudo tar -cpzf recover1/minutebckup.tar.gz  data
+Content-Type: text/plain; charset=UTF-8
+Auto-Submitted: auto-generated
+X-Cron-Env: <LANG=en_US.UTF-8>
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+X-Cron-Env: <USER=root>
+Message-Id: <20180417094801.C9EA95FE48@localhost.localdomain>
+Date: Tue, 17 Apr 2018 15:18:01 +0530 (IST)
+
+tar: data: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+
+From root@localhost.localdomain  Tue Apr 17 15:19:01 2018
+Return-Path: <root@localhost.localdomain>
+X-Original-To: root
+Delivered-To: root@localhost.localdomain
+Received: by localhost.localdomain (Postfix, from userid 0)
+        id DD3E95FE48; Tue, 17 Apr 2018 15:19:01 +0530 (IST)
+From: root@localhost.localdomain (Cron Daemon)
+To: root@localhost.localdomain
+Subject: Cron <root@localhost> sudo tar -cpzf recover1/minutebckup.tar.gz  data
+Content-Type: text/plain; charset=UTF-8
+Auto-Submitted: auto-generated
+X-Cron-Env: <LANG=en_US.UTF-8>
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+X-Cron-Env: <USER=root>
+Message-Id: <20180417094901.DD3E95FE48@localhost.localdomain>
+Date: Tue, 17 Apr 2018 15:19:01 +0530 (IST)
+
+tar: data: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+
+From root@localhost.localdomain  Tue Apr 17 15:20:02 2018
+Return-Path: <root@localhost.localdomain>
+X-Original-To: root
+Delivered-To: root@localhost.localdomain
+Received: by localhost.localdomain (Postfix, from userid 0)
+        id 24C1F5FE48; Tue, 17 Apr 2018 15:20:02 +0530 (IST)
+From: root@localhost.localdomain (Cron Daemon)
+To: root@localhost.localdomain
+Subject: Cron <root@localhost> sudo tar -cpzf recover1/minutebckup.tar.gz  data
+Content-Type: text/plain; charset=UTF-8
+Auto-Submitted: auto-generated
+X-Cron-Env: <LANG=en_US.UTF-8>
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+X-Cron-Env: <USER=root>
+Message-Id: <20180417095002.24C1F5FE48@localhost.localdomain>
+Date: Tue, 17 Apr 2018 15:20:02 +0530 (IST)
+
+tar: data: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+
+From root@localhost.localdomain  Tue Apr 17 15:21:01 2018
+Return-Path: <root@localhost.localdomain>
+X-Original-To: root
+Delivered-To: root@localhost.localdomain
+Received: by localhost.localdomain (Postfix, from userid 0)
+        id 53CDD5FE48; Tue, 17 Apr 2018 15:21:01 +0530 (IST)
+From: root@localhost.localdomain (Cron Daemon)
+To: root@localhost.localdomain
+Subject: Cron <root@localhost> sudo tar -cpzf recover1/minutebckup.tar.gz  data
+Content-Type: text/plain; charset=UTF-8
+Auto-Submitted: auto-generated
+X-Cron-Env: <LANG=en_US.UTF-8>
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+X-Cron-Env: <USER=root>
+Message-Id: <20180417095101.53CDD5FE48@localhost.localdomain>
+Date: Tue, 17 Apr 2018 15:21:01 +0530 (IST)
+
+tar: data: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+
+From root@localhost.localdomain  Tue Apr 17 15:22:01 2018
+Return-Path: <root@localhost.localdomain>
+X-Original-To: root
+Delivered-To: root@localhost.localdomain
+Received: by localhost.localdomain (Postfix, from userid 0)
+        id 70DD75FE48; Tue, 17 Apr 2018 15:22:01 +0530 (IST)
+From: root@localhost.localdomain (Cron Daemon)
+To: root@localhost.localdomain
+Subject: Cron <root@localhost> sudo tar -cpzf recover1/minutebckup.tar.gz  data
+Content-Type: text/plain; charset=UTF-8
+Auto-Submitted: auto-generated
+X-Cron-Env: <LANG=en_US.UTF-8>
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+X-Cron-Env: <USER=root>
+Message-Id: <20180417095201.70DD75FE48@localhost.localdomain>
+Date: Tue, 17 Apr 2018 15:22:01 +0530 (IST)
+
+tar: data: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+
+From root@localhost.localdomain  Tue Apr 17 15:23:01 2018
+Return-Path: <root@localhost.localdomain>
+X-Original-To: root
+Delivered-To: root@localhost.localdomain
+Received: by localhost.localdomain (Postfix, from userid 0)
+        id 98E905FE48; Tue, 17 Apr 2018 15:23:01 +0530 (IST)
+From: root@localhost.localdomain (Cron Daemon)
+To: root@localhost.localdomain
+Subject: Cron <root@localhost> sudo tar -cpzf recover1/minutebckup.tar.gz  data
+Content-Type: text/plain; charset=UTF-8
+Auto-Submitted: auto-generated
+X-Cron-Env: <LANG=en_US.UTF-8>
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+X-Cron-Env: <USER=root>
+Message-Id: <20180417095301.98E905FE48@localhost.localdomain>
+Date: Tue, 17 Apr 2018 15:23:01 +0530 (IST)
+
+tar: data: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+
+From root@localhost.localdomain  Tue Apr 17 15:24:02 2018
+Return-Path: <root@localhost.localdomain>
+X-Original-To: root
+Delivered-To: root@localhost.localdomain
+Received: by localhost.localdomain (Postfix, from userid 0)
+        id CBC295FE48; Tue, 17 Apr 2018 15:24:01 +0530 (IST)
+From: root@localhost.localdomain (Cron Daemon)
+To: root@localhost.localdomain
+Subject: Cron <root@localhost> sudo tar -cpzf recover1/minutebckup.tar.gz  data
+Content-Type: text/plain; charset=UTF-8
+Auto-Submitted: auto-generated
+X-Cron-Env: <LANG=en_US.UTF-8>
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+X-Cron-Env: <USER=root>
+Message-Id: <20180417095401.CBC295FE48@localhost.localdomain>
+Date: Tue, 17 Apr 2018 15:24:01 +0530 (IST)
+
+tar: data: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+
+From root@localhost.localdomain  Tue Apr 17 15:25:01 2018
+Return-Path: <root@localhost.localdomain>
+X-Original-To: root
+Delivered-To: root@localhost.localdomain
+Received: by localhost.localdomain (Postfix, from userid 0)
+        id E99A05FE48; Tue, 17 Apr 2018 15:25:01 +0530 (IST)
+From: root@localhost.localdomain (Cron Daemon)
+To: root@localhost.localdomain
+Subject: Cron <root@localhost> sudo tar -cpzf recover1/minutebckup.tar.gz  data
+Content-Type: text/plain; charset=UTF-8
+Auto-Submitted: auto-generated
+X-Cron-Env: <LANG=en_US.UTF-8>
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+X-Cron-Env: <USER=root>
+Message-Id: <20180417095501.E99A05FE48@localhost.localdomain>
+Date: Tue, 17 Apr 2018 15:25:01 +0530 (IST)
+
+tar: data: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+
+From root@localhost.localdomain  Tue Apr 17 15:26:06 2018
+Return-Path: <root@localhost.localdomain>
+X-Original-To: root
+Delivered-To: root@localhost.localdomain
+Received: by localhost.localdomain (Postfix, from userid 0)
+        id E3F9C5FE48; Tue, 17 Apr 2018 15:26:05 +0530 (IST)
+From: root@localhost.localdomain (Cron Daemon)
+To: root@localhost.localdomain
+Subject: Cron <root@localhost> sudo tar -cpzf recover1/minutebckup.tar.gz  data
+Content-Type: text/plain; charset=UTF-8
+Auto-Submitted: auto-generated
+X-Cron-Env: <LANG=en_US.UTF-8>
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+X-Cron-Env: <USER=root>
+Message-Id: <20180417095605.E3F9C5FE48@localhost.localdomain>
+Date: Tue, 17 Apr 2018 15:26:05 +0530 (IST)
+
+tar: data: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+
+From root@localhost.localdomain  Tue Apr 17 15:27:01 2018
+Return-Path: <root@localhost.localdomain>
+X-Original-To: root
+Delivered-To: root@localhost.localdomain
+Received: by localhost.localdomain (Postfix, from userid 0)
+        id 810225FE47; Tue, 17 Apr 2018 15:27:01 +0530 (IST)
+From: root@localhost.localdomain (Cron Daemon)
+To: root@localhost.localdomain
+Subject: Cron <root@localhost> sudo tar -cpzf recover1/minutebckup.tar.gz  data
+Content-Type: text/plain; charset=UTF-8
+Auto-Submitted: auto-generated
+X-Cron-Env: <LANG=en_US.UTF-8>
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+X-Cron-Env: <USER=root>
+Message-Id: <20180417095701.810225FE47@localhost.localdomain>
+Date: Tue, 17 Apr 2018 15:27:01 +0530 (IST)
+
+tar: data: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+
+From root@localhost.localdomain  Tue Apr 17 15:28:01 2018
+Return-Path: <root@localhost.localdomain>
+X-Original-To: root
+Delivered-To: root@localhost.localdomain
+Received: by localhost.localdomain (Postfix, from userid 0)
+        id B5CAF6246C; Tue, 17 Apr 2018 15:28:01 +0530 (IST)
+From: root@localhost.localdomain (Cron Daemon)
+To: root@localhost.localdomain
+Subject: Cron <root@localhost> sudo tar -cpzf recover1/minutebckup.tar.gz  data
+Content-Type: text/plain; charset=UTF-8
+Auto-Submitted: auto-generated
+X-Cron-Env: <LANG=en_US.UTF-8>
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+X-Cron-Env: <USER=root>
+Message-Id: <20180417095801.B5CAF6246C@localhost.localdomain>
+Date: Tue, 17 Apr 2018 15:28:01 +0530 (IST)
+
+tar: data: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+
+From root@localhost.localdomain  Tue Apr 17 15:29:02 2018
+Return-Path: <root@localhost.localdomain>
+X-Original-To: root
+Delivered-To: root@localhost.localdomain
+Received: by localhost.localdomain (Postfix, from userid 0)
+        id EC1F56246C; Tue, 17 Apr 2018 15:29:01 +0530 (IST)
+From: root@localhost.localdomain (Cron Daemon)
+To: root@localhost.localdomain
+Subject: Cron <root@localhost> sudo tar -cpzf recover1/minutebckup.tar.gz  data
+Content-Type: text/plain; charset=UTF-8
+Auto-Submitted: auto-generated
+X-Cron-Env: <LANG=en_US.UTF-8>
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+X-Cron-Env: <USER=root>
+Message-Id: <20180417095901.EC1F56246C@localhost.localdomain>
+Date: Tue, 17 Apr 2018 15:29:01 +0530 (IST)
+
+tar: data: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+
+From root@localhost.localdomain  Tue Apr 17 15:30:02 2018
+Return-Path: <root@localhost.localdomain>
+X-Original-To: root
+Delivered-To: root@localhost.localdomain
+Received: by localhost.localdomain (Postfix, from userid 0)
+        id 22C0F62469; Tue, 17 Apr 2018 15:30:02 +0530 (IST)
+From: root@localhost.localdomain (Cron Daemon)
+To: root@localhost.localdomain
+Subject: Cron <root@localhost> sudo tar -cpzf recover1/minutebckup.tar.gz  data
+Content-Type: text/plain; charset=UTF-8
+Auto-Submitted: auto-generated
+X-Cron-Env: <LANG=en_US.UTF-8>
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+X-Cron-Env: <USER=root>
+Message-Id: <20180417100002.22C0F62469@localhost.localdomain>
+Date: Tue, 17 Apr 2018 15:30:02 +0530 (IST)
+
+tar: data: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+
+From root@localhost.localdomain  Tue Apr 17 15:31:01 2018
+Return-Path: <root@localhost.localdomain>
+X-Original-To: root
+Delivered-To: root@localhost.localdomain
+Received: by localhost.localdomain (Postfix, from userid 0)
+        id 652BC6246C; Tue, 17 Apr 2018 15:31:01 +0530 (IST)
+From: root@localhost.localdomain (Cron Daemon)
+To: root@localhost.localdomain
+Subject: Cron <root@localhost> sudo tar -cpzf recover1/minutebckup.tar.gz  data
+Content-Type: text/plain; charset=UTF-8
+Auto-Submitted: auto-generated
+X-Cron-Env: <LANG=en_US.UTF-8>
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+X-Cron-Env: <USER=root>
+Message-Id: <20180417100101.652BC6246C@localhost.localdomain>
+Date: Tue, 17 Apr 2018 15:31:01 +0530 (IST)
+
+tar: data: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+
+From root@localhost.localdomain  Tue Apr 17 15:32:01 2018
+Return-Path: <root@localhost.localdomain>
+X-Original-To: root
+Delivered-To: root@localhost.localdomain
+Received: by localhost.localdomain (Postfix, from userid 0)
+        id A1A096246F; Tue, 17 Apr 2018 15:32:01 +0530 (IST)
+From: root@localhost.localdomain (Cron Daemon)
+To: root@localhost.localdomain
+Subject: Cron <root@localhost> sudo tar -cpzf recover1/minutebckup.tar.gz  data
+Content-Type: text/plain; charset=UTF-8
+Auto-Submitted: auto-generated
+X-Cron-Env: <LANG=en_US.UTF-8>
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+X-Cron-Env: <USER=root>
+Message-Id: <20180417100201.A1A096246F@localhost.localdomain>
+Date: Tue, 17 Apr 2018 15:32:01 +0530 (IST)
+
+tar: data: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+
+From root@localhost.localdomain  Tue Apr 17 15:33:02 2018
+Return-Path: <root@localhost.localdomain>
+X-Original-To: root
+Delivered-To: root@localhost.localdomain
+Received: by localhost.localdomain (Postfix, from userid 0)
+        id 997DA62470; Tue, 17 Apr 2018 15:33:02 +0530 (IST)
+From: root@localhost.localdomain (Cron Daemon)
+To: root@localhost.localdomain
+Subject: Cron <root@localhost> sudo tar -cpzf recover1/minutebckup.tar.gz  data
+Content-Type: text/plain; charset=UTF-8
+Auto-Submitted: auto-generated
+X-Cron-Env: <LANG=en_US.UTF-8>
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+X-Cron-Env: <USER=root>
+Message-Id: <20180417100302.997DA62470@localhost.localdomain>
+Date: Tue, 17 Apr 2018 15:33:02 +0530 (IST)
+
+tar: data: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+
+From root@localhost.localdomain  Tue Apr 17 15:34:01 2018
+Return-Path: <root@localhost.localdomain>
+X-Original-To: root
+Delivered-To: root@localhost.localdomain
+Received: by localhost.localdomain (Postfix, from userid 0)
+        id B58C562470; Tue, 17 Apr 2018 15:34:01 +0530 (IST)
+From: root@localhost.localdomain (Cron Daemon)
+To: root@localhost.localdomain
+Subject: Cron <root@localhost> sudo tar -cpzf recover1/minutebckup.tar.gz  data
+Content-Type: text/plain; charset=UTF-8
+Auto-Submitted: auto-generated
+X-Cron-Env: <LANG=en_US.UTF-8>
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+X-Cron-Env: <USER=root>
+Message-Id: <20180417100401.B58C562470@localhost.localdomain>
+Date: Tue, 17 Apr 2018 15:34:01 +0530 (IST)
+
+tar: data: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+
+From root@localhost.localdomain  Tue Apr 17 15:35:01 2018
+Return-Path: <root@localhost.localdomain>
+X-Original-To: root
+Delivered-To: root@localhost.localdomain
+Received: by localhost.localdomain (Postfix, from userid 0)
+        id C96E362470; Tue, 17 Apr 2018 15:35:01 +0530 (IST)
+From: root@localhost.localdomain (Cron Daemon)
+To: root@localhost.localdomain
+Subject: Cron <root@localhost> sudo tar -cpzf recover1/minutebckup.tar.gz  data
+Content-Type: text/plain; charset=UTF-8
+Auto-Submitted: auto-generated
+X-Cron-Env: <LANG=en_US.UTF-8>
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+X-Cron-Env: <USER=root>
+Message-Id: <20180417100501.C96E362470@localhost.localdomain>
+Date: Tue, 17 Apr 2018 15:35:01 +0530 (IST)
+
+tar: data: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+
+From root@localhost.localdomain  Tue Apr 17 15:36:01 2018
+Return-Path: <root@localhost.localdomain>
+X-Original-To: root
+Delivered-To: root@localhost.localdomain
+Received: by localhost.localdomain (Postfix, from userid 0)
+        id E4DE362470; Tue, 17 Apr 2018 15:36:01 +0530 (IST)
+From: root@localhost.localdomain (Cron Daemon)
+To: root@localhost.localdomain
+Subject: Cron <root@localhost> sudo tar -cpzf recover1/minutebckup.tar.gz  data
+Content-Type: text/plain; charset=UTF-8
+Auto-Submitted: auto-generated
+X-Cron-Env: <LANG=en_US.UTF-8>
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+X-Cron-Env: <USER=root>
+Message-Id: <20180417100601.E4DE362470@localhost.localdomain>
+Date: Tue, 17 Apr 2018 15:36:01 +0530 (IST)
+
+tar: data: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+
+From root@localhost.localdomain  Tue Apr 17 15:37:02 2018
+Return-Path: <root@localhost.localdomain>
+X-Original-To: root
+Delivered-To: root@localhost.localdomain
+Received: by localhost.localdomain (Postfix, from userid 0)
+        id 0A4F662470; Tue, 17 Apr 2018 15:37:01 +0530 (IST)
+From: root@localhost.localdomain (Cron Daemon)
+To: root@localhost.localdomain
+Subject: Cron <root@localhost> sudo tar -cpzf recover1/minutebckup.tar.gz  data
+Content-Type: text/plain; charset=UTF-8
+Auto-Submitted: auto-generated
+X-Cron-Env: <LANG=en_US.UTF-8>
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+X-Cron-Env: <USER=root>
+Message-Id: <20180417100702.0A4F662470@localhost.localdomain>
+Date: Tue, 17 Apr 2018 15:37:02 +0530 (IST)
+
+tar: data: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+
+From root@localhost.localdomain  Tue Apr 17 15:38:01 2018
+Return-Path: <root@localhost.localdomain>
+X-Original-To: root
+Delivered-To: root@localhost.localdomain
+Received: by localhost.localdomain (Postfix, from userid 0)
+        id 201EF62470; Tue, 17 Apr 2018 15:38:01 +0530 (IST)
+From: root@localhost.localdomain (Cron Daemon)
+To: root@localhost.localdomain
+Subject: Cron <root@localhost> sudo tar -cpzf recover1/minutebckup.tar.gz  data
+Content-Type: text/plain; charset=UTF-8
+Auto-Submitted: auto-generated
+X-Cron-Env: <LANG=en_US.UTF-8>
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+X-Cron-Env: <USER=root>
+Message-Id: <20180417100801.201EF62470@localhost.localdomain>
+Date: Tue, 17 Apr 2018 15:38:01 +0530 (IST)
+
+tar: data: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+
+From root@localhost.localdomain  Tue Apr 17 15:39:01 2018
+Return-Path: <root@localhost.localdomain>
+X-Original-To: root
+Delivered-To: root@localhost.localdomain
+Received: by localhost.localdomain (Postfix, from userid 0)
+        id 3898C62470; Tue, 17 Apr 2018 15:39:01 +0530 (IST)
+From: root@localhost.localdomain (Cron Daemon)
+To: root@localhost.localdomain
+Subject: Cron <root@localhost> sudo tar -cpzf recover1/minutebckup.tar.gz  data
+Content-Type: text/plain; charset=UTF-8
+Auto-Submitted: auto-generated
+X-Cron-Env: <LANG=en_US.UTF-8>
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+X-Cron-Env: <USER=root>
+Message-Id: <20180417100901.3898C62470@localhost.localdomain>
+Date: Tue, 17 Apr 2018 15:39:01 +0530 (IST)
+
+tar: data: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+
+From root@localhost.localdomain  Tue Apr 17 15:40:01 2018
+Return-Path: <root@localhost.localdomain>
+X-Original-To: root
+Delivered-To: root@localhost.localdomain
+Received: by localhost.localdomain (Postfix, from userid 0)
+        id 6496E62469; Tue, 17 Apr 2018 15:40:01 +0530 (IST)
+From: root@localhost.localdomain (Cron Daemon)
+To: root@localhost.localdomain
+Subject: Cron <root@localhost> sudo tar -cpzf recover1/minutebckup.tar.gz  data
+Content-Type: text/plain; charset=UTF-8
+Auto-Submitted: auto-generated
+X-Cron-Env: <LANG=en_US.UTF-8>
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+X-Cron-Env: <USER=root>
+Message-Id: <20180417101001.6496E62469@localhost.localdomain>
+Date: Tue, 17 Apr 2018 15:40:01 +0530 (IST)
+
+tar: data: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+
+From root@localhost.localdomain  Tue Apr 17 15:41:01 2018
+Return-Path: <root@localhost.localdomain>
+X-Original-To: root
+Delivered-To: root@localhost.localdomain
+Received: by localhost.localdomain (Postfix, from userid 0)
+        id 8825062470; Tue, 17 Apr 2018 15:41:01 +0530 (IST)
+From: root@localhost.localdomain (Cron Daemon)
+To: root@localhost.localdomain
+Subject: Cron <root@localhost> sudo tar -cpzf recover1/minutebckup.tar.gz  data
+Content-Type: text/plain; charset=UTF-8
+Auto-Submitted: auto-generated
+X-Cron-Env: <LANG=en_US.UTF-8>
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+X-Cron-Env: <USER=root>
+Message-Id: <20180417101101.8825062470@localhost.localdomain>
+Date: Tue, 17 Apr 2018 15:41:01 +0530 (IST)
+
+tar: data: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+
+From root@localhost.localdomain  Tue Apr 17 15:42:01 2018
+Return-Path: <root@localhost.localdomain>
+X-Original-To: root
+Delivered-To: root@localhost.localdomain
+Received: by localhost.localdomain (Postfix, from userid 0)
+        id 9AD7662470; Tue, 17 Apr 2018 15:42:01 +0530 (IST)
+From: root@localhost.localdomain (Cron Daemon)
+To: root@localhost.localdomain
+Subject: Cron <root@localhost> sudo tar -cpzf recover1/minutebckup.tar.gz  data
+Content-Type: text/plain; charset=UTF-8
+Auto-Submitted: auto-generated
+X-Cron-Env: <LANG=en_US.UTF-8>
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+X-Cron-Env: <USER=root>
+Message-Id: <20180417101201.9AD7662470@localhost.localdomain>
+Date: Tue, 17 Apr 2018 15:42:01 +0530 (IST)
+
+tar: data: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+
+From root@localhost.localdomain  Tue Apr 17 15:43:01 2018
+Return-Path: <root@localhost.localdomain>
+X-Original-To: root
+Delivered-To: root@localhost.localdomain
+Received: by localhost.localdomain (Postfix, from userid 0)
+        id AEC7562470; Tue, 17 Apr 2018 15:43:01 +0530 (IST)
+From: root@localhost.localdomain (Cron Daemon)
+To: root@localhost.localdomain
+Subject: Cron <root@localhost> sudo tar -cpzf recover1/minutebckup.tar.gz  data
+Content-Type: text/plain; charset=UTF-8
+Auto-Submitted: auto-generated
+X-Cron-Env: <LANG=en_US.UTF-8>
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+X-Cron-Env: <USER=root>
+Message-Id: <20180417101301.AEC7562470@localhost.localdomain>
+Date: Tue, 17 Apr 2018 15:43:01 +0530 (IST)
+
+tar: data: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+
+From root@localhost.localdomain  Tue Apr 17 15:44:01 2018
+Return-Path: <root@localhost.localdomain>
+X-Original-To: root
+Delivered-To: root@localhost.localdomain
+Received: by localhost.localdomain (Postfix, from userid 0)
+        id BD96C62470; Tue, 17 Apr 2018 15:44:01 +0530 (IST)
+From: root@localhost.localdomain (Cron Daemon)
+To: root@localhost.localdomain
+Subject: Cron <root@localhost> sudo tar -cpzf recover1/minutebckup.tar.gz  data
+Content-Type: text/plain; charset=UTF-8
+Auto-Submitted: auto-generated
+X-Cron-Env: <LANG=en_US.UTF-8>
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+X-Cron-Env: <USER=root>
+Message-Id: <20180417101401.BD96C62470@localhost.localdomain>
+Date: Tue, 17 Apr 2018 15:44:01 +0530 (IST)
+
+tar: data: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+
+From root@localhost.localdomain  Tue Apr 17 15:45:01 2018
+Return-Path: <root@localhost.localdomain>
+X-Original-To: root
+Delivered-To: root@localhost.localdomain
+Received: by localhost.localdomain (Postfix, from userid 0)
+        id D2BB862470; Tue, 17 Apr 2018 15:45:01 +0530 (IST)
+From: root@localhost.localdomain (Cron Daemon)
+To: root@localhost.localdomain
+Subject: Cron <root@localhost> sudo tar -cpzf recover1/minutebckup.tar.gz  data
+Content-Type: text/plain; charset=UTF-8
+Auto-Submitted: auto-generated
+X-Cron-Env: <LANG=en_US.UTF-8>
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+X-Cron-Env: <USER=root>
+Message-Id: <20180417101501.D2BB862470@localhost.localdomain>
+Date: Tue, 17 Apr 2018 15:45:01 +0530 (IST)
+
+tar: data: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+
+From root@localhost.localdomain  Tue Apr 17 15:46:01 2018
+Return-Path: <root@localhost.localdomain>
+X-Original-To: root
+Delivered-To: root@localhost.localdomain
+Received: by localhost.localdomain (Postfix, from userid 0)
+        id E6A9D62470; Tue, 17 Apr 2018 15:46:01 +0530 (IST)
+From: root@localhost.localdomain (Cron Daemon)
+To: root@localhost.localdomain
+Subject: Cron <root@localhost> sudo tar -cpzf recover1/minutebckup.tar.gz  data
+Content-Type: text/plain; charset=UTF-8
+Auto-Submitted: auto-generated
+X-Cron-Env: <LANG=en_US.UTF-8>
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+X-Cron-Env: <USER=root>
+Message-Id: <20180417101601.E6A9D62470@localhost.localdomain>
+Date: Tue, 17 Apr 2018 15:46:01 +0530 (IST)
+
+tar: data: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+
+From root@localhost.localdomain  Tue Apr 17 15:47:02 2018
+Return-Path: <root@localhost.localdomain>
+X-Original-To: root
+Delivered-To: root@localhost.localdomain
+Received: by localhost.localdomain (Postfix, from userid 0)
+        id 0380A62470; Tue, 17 Apr 2018 15:47:02 +0530 (IST)
+From: root@localhost.localdomain (Cron Daemon)
+To: root@localhost.localdomain
+Subject: Cron <root@localhost> sudo tar -cpzf recover1/minutebckup.tar.gz  data
+Content-Type: text/plain; charset=UTF-8
+Auto-Submitted: auto-generated
+X-Cron-Env: <LANG=en_US.UTF-8>
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+X-Cron-Env: <USER=root>
+Message-Id: <20180417101702.0380A62470@localhost.localdomain>
+Date: Tue, 17 Apr 2018 15:47:02 +0530 (IST)
+
+tar: data: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+
+From root@localhost.localdomain  Tue Apr 17 15:48:01 2018
+Return-Path: <root@localhost.localdomain>
+X-Original-To: root
+Delivered-To: root@localhost.localdomain
+Received: by localhost.localdomain (Postfix, from userid 0)
+        id 1766C62470; Tue, 17 Apr 2018 15:48:01 +0530 (IST)
+From: root@localhost.localdomain (Cron Daemon)
+To: root@localhost.localdomain
+Subject: Cron <root@localhost> sudo tar -cpzf recover1/minutebckup.tar.gz  data
+Content-Type: text/plain; charset=UTF-8
+Auto-Submitted: auto-generated
+X-Cron-Env: <LANG=en_US.UTF-8>
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+X-Cron-Env: <USER=root>
+Message-Id: <20180417101801.1766C62470@localhost.localdomain>
+Date: Tue, 17 Apr 2018 15:48:01 +0530 (IST)
+
+tar: data: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+
+From root@localhost.localdomain  Tue Apr 17 15:49:01 2018
+Return-Path: <root@localhost.localdomain>
+X-Original-To: root
+Delivered-To: root@localhost.localdomain
+Received: by localhost.localdomain (Postfix, from userid 0)
+        id 27E4E62470; Tue, 17 Apr 2018 15:49:01 +0530 (IST)
+From: root@localhost.localdomain (Cron Daemon)
+To: root@localhost.localdomain
+Subject: Cron <root@localhost> sudo tar -cpzf recover1/minutebckup.tar.gz  data
+Content-Type: text/plain; charset=UTF-8
+Auto-Submitted: auto-generated
+X-Cron-Env: <LANG=en_US.UTF-8>
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+X-Cron-Env: <USER=root>
+Message-Id: <20180417101901.27E4E62470@localhost.localdomain>
+Date: Tue, 17 Apr 2018 15:49:01 +0530 (IST)
+
+tar: data: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+
+[root@localhost Documents]#
+[root@localhost Documents]# ls
+linux  mydir
+[root@localhost Documents]# mkdir mydir2 DevOps
+[root@localhost Documents]# ls
+DevOps  linux  mydir  mydir2
+[root@localhost Documents]# pwd
+/root/Documents
+[root@localhost Documents]# mkdir Linux/Redhat/oracle/opensuse
+mkdir: cannot create directory `Linux/Redhat/oracle/opensuse': No such file or directory
+You have new mail in /var/spool/mail/root
+[root@localhost Documents]# mkdir -p Linux/Redhat/oracle/opensuse
+You have new mail in /var/spool/mail/root
+[root@localhost Documents]# ls -R
+.:
+DevOps  linux  Linux  mydir  mydir2
+
+./DevOps:
+
+./linux:
+cloudcompute  dir2  dir3  linux  myfile
+
+./linux/cloudcompute:
+AWS  Devops
+
+./linux/cloudcompute/AWS:
+ebl  ebs  s3
+
+./linux/cloudcompute/AWS/ebl:
+
+./linux/cloudcompute/AWS/ebs:
+
+./linux/cloudcompute/AWS/s3:
+
+./linux/cloudcompute/Devops:
+chef  git  jenkins
+
+./linux/cloudcompute/Devops/chef:
+
+./linux/cloudcompute/Devops/git:
+
+./linux/cloudcompute/Devops/jenkins:
+
+./linux/dir2:
+dir
+
+./linux/dir2/dir:
+
+./linux/dir3:
+
+./linux/linux:
+Redhat
+
+./linux/linux/Redhat:
+Suse
+
+./linux/linux/Redhat/Suse:
+Oracle
+
+./linux/linux/Redhat/Suse/Oracle:
+Amazon
+
+./linux/linux/Redhat/Suse/Oracle/Amazon:
+
+./Linux:
+Redhat
+
+./Linux/Redhat:
+oracle
+
+./Linux/Redhat/oracle:
+opensuse
+
+./Linux/Redhat/oracle/opensuse:
+
+./mydir:
+
+./mydir2:
+[root@localhost Documents]# ls -R Linux/
+Linux/:
+Redhat
+
+Linux/Redhat:
+oracle
+
+Linux/Redhat/oracle:
+opensuse
+
+Linux/Redhat/oracle/opensuse:
+[root@localhost Documents]# mkdir -p dir1/{movies/{mv1,mv2,mv3},tmovies/{mov1,mov2,mov3},hmovies/{mv1,mv2}}
+You have new mail in /var/spool/mail/root
+[root@localhost Documents]# tree dir1
+dir1
++-- hmovies
+¦   +-- mv1
+¦   +-- mv2
++-- movies
+¦   +-- mv1
+¦   +-- mv2
+¦   +-- mv3
++-- tmovies
+    +-- mov1
+    +-- mov2
+    +-- mov3
+
+11 directories, 0 files
+[root@localhost Documents]# cd dir1/
+You have new mail in /var/spool/mail/root
+[root@localhost dir1]# cd tmovies/
+[root@localhost tmovies]# cd mov2
+[root@localhost mov2]# cd ..
+[root@localhost tmovies]# cd ..
+[root@localhost dir1]# cd ..
+[root@localhost Documents]# ls
+DevOps  dir1  linux  Linux  mydir  mydir2
+[root@localhost Documents]# cd dir1/
+hmovies/ movies/  tmovies/
+[root@localhost Documents]# cd dir1/movies/mv
+mv1/ mv2/ mv3/
+[root@localhost Documents]# cd dir1/movies/mv
+mv1/ mv2/ mv3/
+[root@localhost Documents]# cd dir1/movies/mv3
+You have new mail in /var/spool/mail/root
+[root@localhost mv3]# cat > file1
+if (i=o)
+{
+amm
+}
+You have new mail in /var/spool/mail/root
+[root@localhost mv3]# cat file1
+if (i=o)
+{
+amm
+}
+[root@localhost mv3]# cat >> file1
+hi hello welcome to linux class
+You have new mail in /var/spool/mail/root
+[root@localhost mv3]# cat file1
+if (i=o)
+{
+amm
+}
+hi hello welcome to linux class
+[root@localhost mv3]# vim file1
+You have new mail in /var/spool/mail/root
+[root@localhost mv3]# cat file1
+if (i=o)
+{
+
+haibdfib baidfidbf biabfk bdsi
+amm
+}
+haibdfib baidfidbf biabfk bdsi
+amm
+haibdfib baidfidbf biabfk bdsi
+amm
+}
+haibdfib baidfidbf biabfk bdsi
+amm
+}
+}
+[root@localhost mv3]# touch file file2 file3
+[root@localhost mv3]# ls
+file  file1  file2  file3
+[root@localhost mv3]# ll
+total 4
+-rw-r--r--. 1 root root   0 Apr 17 16:15 file
+-rw-r--r--. 1 root root 160 Apr 17 16:14 file1
+-rw-r--r--. 1 root root   0 Apr 17 16:15 file2
+-rw-r--r--. 1 root root   0 Apr 17 16:15 file3
+[root@localhost mv3]# vim file2 file5
+2 files to edit
+You have new mail in /var/spool/mail/root
+[root@localhost mv3]# nano file2
+[root@localhost mv3]# pwd
+/root/Documents/dir1/movies/mv3
+You have new mail in /var/spool/mail/root
+[root@localhost mv3]# cd ../..
+[root@localhost dir1]# cd
+[root@localhost ~]# pwd
+/root
+[root@localhost ~]# cd ..
+[root@localhost ~]# ls /root/Documents/
+DevOps  dir1  linux  Linux  mydir  mydir2
+You have new mail in /var/spool/mail/root
+[root@localhost ~]# tree /root/Documents/
+/root/Documents/
++-- DevOps
++-- dir1
+¦   +-- hmovies
+¦   ¦   +-- mv1
+¦   ¦   +-- mv2
+¦   +-- movies
+¦   ¦   +-- mv1
+¦   ¦   +-- mv2
+¦   ¦   +-- mv3
+¦   ¦       +-- file
+¦   ¦       +-- file1
+¦   ¦       +-- file2
+¦   ¦       +-- file3
+¦   +-- tmovies
+¦       +-- mov1
+¦       +-- mov2
+¦       +-- mov3
++-- linux
+¦   +-- cloudcompute
+¦   ¦   +-- AWS
+¦   ¦   ¦   +-- ebl
+¦   ¦   ¦   +-- ebs
+¦   ¦   ¦   +-- s3
+¦   ¦   +-- Devops
+¦   ¦       +-- chef
+¦   ¦       +-- git
+¦   ¦       +-- jenkins
+¦   +-- dir2
+¦   ¦   +-- dir
+¦   +-- dir3
+¦   +-- linux
+¦   ¦   +-- Redhat
+¦   ¦       +-- Suse
+¦   ¦           +-- Oracle
+¦   ¦               +-- Amazon
+¦   +-- myfile
++-- Linux
+¦   +-- Redhat
+¦       +-- oracle
+¦           +-- opensuse
++-- mydir
++-- mydir2
+
+37 directories, 5 files
+[root@localhost ~]# ls /
+bin   dev  green  lib    lost+found  misc  net  proc  sbin     srv  Templates  usr
+boot  etc  home   lib64  media       mnt   opt  root  selinux  sys  tmp        var
+[root@localhost ~]# pwd
+/root
+[root@localhost ~]# ls /etc/
+abrt                     gcrypt            mtab                          rc.local
+acpi                     gdm               mtools.conf                   rc.sysinit
+adjtime                  ggz.modules.d     multipath                     readahead.conf
+aliases                  ghostscript       my.cnf                        reader.conf
+aliases.db               gimp              my.cnf.d                      reader.conf.d
+alsa                     gnome-vfs-2.0     named                         redhat-release
+alternatives             gnupg             named.conf                    request-key.conf
+anacrontab               group             named.conf.rpmsave            request-key.d
+anthy-conf               group-            named.iscdlv.key              resolv.conf
+asound.conf              grub.conf         named.rfc1912.zones           reverse
+at.deny                  gshadow           named.rfc1912.zones.rpmsave   rndc.key
+audisp                   gshadow-          named.root.key                rpc
+audit                    gssapi_mech.conf  nanorc                        rpm
+autofs.conf              gtk-2.0           netconfig                     rsyslog.conf
+autofs_ldap_auth.conf    hal               NetworkManager                rsyslog.d
+auto.master              hba.conf          networks                      rwtab
+auto.misc                host.conf         nfsmount.conf                 rwtab.d
+auto.net                 hostname          nscd.conf                     samba
+auto.smb                 hosts             nslcd.conf                    sane.d
+avahi                    hosts.allow       nsswitch.conf                 sasl2
+bash_completion.d        hosts.deny        ntp                           scl
+bashrc                   hp                ntp.conf                      securetty
+blkid                    htdig             obex-data-server              security
+bluetooth                httpd             oddjob                        selinux
+bonobo-activation        idmapd.conf       oddjobd.conf                  services
+cas.conf                 ImageMagick       oddjobd.conf.d                sestatus.conf
+centos-release           init              openct.conf                   setuptool.d
+certmonger               init.conf         openldap                      sgml
+chkconfig.d              init.d            opt                           shadow
+ConsoleKit               inittab           PackageKit                    shadow-
+cron.d                   inputrc           pam.d                         shells
+cron.daily               ipa               pam_ldap.conf                 skel
+cron.deny                iproute2          pango                         smartd.conf
+cron.hourly              iscsi             passwd                        smi.conf
+cron.monthly             issue             passwd-                       snmp
+crontab                  issue.net         pbm2ppa.conf                  sos.conf
+cron.weekly              java              pcmcia                        sound
+crypttab                 jvm               php.d                         ssh
+csh.cshrc                jvm-commmon       php.ini                       ssl
+csh.login                kde               pinforc                       sssd
+cups                     kde4rc            pkcs11                        statetab
+dbus-1                   kderc             pki                           statetab.d
+default                  kdump-adv-conf    plymouth                      stunnel
+depmod.d                 kdump.conf        pm                            sudo.conf
+dhcp                     krb5.conf         pm-utils-hd-apm-restore.conf  sudoers
+DIR_COLORS               ksysguarddrc      pnm2ppa.conf                  sudoers.d
+DIR_COLORS.256color      latrace.conf      polkit-1                      sudo-ldap.conf
+DIR_COLORS.lightbgcolor  latrace.d         popt.d                        sysconfig
+dnsmasq.conf             ld.so.cache       portreserve                   sysctl.conf
+dnsmasq.conf~            ld.so.conf        postfix                       sysctl.d
+dnsmasq.conf.backup      ld.so.conf.d      ppp                           system-release
+dnsmasq.d                libaudit.conf     prelink.cache                 system-release-cpe
+dracut.conf              libnl             prelink.conf                  terminfo
+dracut.conf.d            libreport         prelink.conf.d                Trolltech.conf
+drirc                    libuser.conf      printcap                      udev
+enscript.cfg             localtime         profile                       updatedb.conf
+environment              login.defs        profile.d                     vimrc
+ethers                   logrotate.conf    protocols                     virc
+event.d                  logrotate.d       pulse                         warnquota.conf
+exports                  ltrace.conf       purple                        wgetrc
+favicon.png              lvm               quotagrpadmins                wpa_supplicant
+fcoe                     magic             quotatab                      X11
+festival                 mailcap           rc                            xdg
+filesystems              mail.rc           rc0.d                         xinetd.conf
+firefox                  makedev.d         rc1.d                         xinetd.d
+fonts                    man.config        rc2.d                         xml
+foomatic                 maven             rc3.d                         yp.conf
+fprintd.conf             mime.types        rc4.d                         yum
+fstab                    mke2fs.conf       rc5.d                         yum.conf
+gai.conf                 modprobe.d        rc6.d                         yum.repos.d
+gconf                    motd              rc.d
+You have new mail in /var/spool/mail/root
+[root@localhost ~]#
+
+
+

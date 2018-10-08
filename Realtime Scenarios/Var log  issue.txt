@@ -1,0 +1,65 @@
+If var log messages are dissappeared , what shall we do ? 
+=========================================================
+When we execute cat /var/log/messages it shows empty
+
+#ls -l /var/log/messages*
+rw-------. 1 root root     0 Oct  1 04:12 /var/log/messages
+-rw-------. 1 root root   257 May  1 04:46 /var/log/messages-20160501.gz
+-rw-------. 1 root root   342 Jun  1 04:22 /var/log/messages-20160601.gz
+-rw-------. 1 root root  1316 Jul  1 04:10 /var/log/messages-20160701.gz
+
+# cd /etc/init.d
+
+ps -ef |grep -i syslog
+
+service rsyslog restart
+
+[root@usesmcvl030 ~]# cd /etc/init.d
+[root@usesmcvl030 init.d]# ps -ef |grep -i syslog
+root      6244  5466  0 14:58 pts/0    00:00:00 grep -i syslog
+root     31513     1  0 Aug31 ?        00:00:21 /sbin/rsyslogd -i /var/run/syslogd.pid -c 5
+
+tail -f /var/log/messages
+
+[root@usesmcvl030 ~]# ls -l /var/log/messages*
+-rw-------. 1 root root     0 Oct  1 04:12 /var/log/messages
+-rw-------. 1 root root   257 May  1 04:46 /var/log/messages-20160501.gz
+-rw-------. 1 root root   342 Jun  1 04:22 /var/log/messages-20160601.gz
+-rw-------. 1 root root  1316 Jul  1 04:10 /var/log/messages-20160701.gz
+-rw-------. 1 root root 22163 Aug  1 03:45 /var/log/messages-20160801.gz
+
+[root@usesmcvl030 init.d]# ps -ef |grep -i syslog
+root      6297     1  0 14:58 ?        00:00:00 /sbin/rsyslogd -i /var/run/syslogd.pid -c 5
+root      7271  5466  0 15:04 pts/0    00:00:00 grep -i syslog
+
+kill -9 6297
+
+[root@usesmcvl030 init.d]#  ps -ef |grep -i syslog
+root      7547  5466  0 15:05 pts/0    00:00:00 grep -i syslog
+
+
+[?10/?21/?2016 1:36 AM] Surisetti, Balakumar: 
+service rsyslog start
+again
+ps -ef |grep -i syslog
+
+
+ls -l /var/log/messages*
+
+logrotate -f /etc/logrotate.conf 
+/etc/rc.d/init.d/syslog restart
+
+[root@usesmcvl030 init.d]# logrotate -f /etc/logrotate.conf
+[root@usesmcvl030 init.d]# /etc/rc.d/init.d/syslog restart
+-bash: /etc/rc.d/init.d/syslog: No such file or directory
+
+[root@usesmcvl030 init.d]# ./rsyslog  status
+rsyslogd (pid  7637) is running...
+[root@usesmcvl030 init.d]# 
+
+ ./rsyslog stop
+ ./rsyslog start
+ls -l /var/log/messages
+
+[root@usesmcvl030 init.d]# ls -l /var/log/messages
+-rw-------. 1 root root 0 Oct 20 15:09 /var/log/messages

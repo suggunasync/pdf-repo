@@ -1,0 +1,42 @@
+Can you please stop the below tomcat processes that are already running in the following machines. 
+=================================================================================================
+# usnencvl836
+Also, remove the tomcat process from the init list. So that in future it will not start automatically when the VM is rebooted. 
+ 
+Let us know if you need any other details:-
+=========================================
+ 
+ Tomcat process disabled as per request, kindly check it now.:=
+=============================================================== 
+
+
+ 
+Below is the output from one of the server for the process running off port 8080
+
+[apache@usnencvl836 ~]$ ps -ef|grep apache
+root      5996     1  0 Sep19 ?        00:29:47 /data01/webserver/apache1/jdk1.7.0_75/bin/java -d64 -Djava.util.logging.config.file=/data01/webserver/apache1/jboss-ews-2.1/tomcat6/conf/logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Djava.library.path=/data01/webserver/apache1/jboss-ews-2.1/tomcat6/lib -Djava.endorsed.dirs=/data01/webserver/apache1/jboss-ews-2.1/tomcat6/endorsed -classpath /data01/webserver/apache1/jboss-ews-2.1/tomcat6/bin/bootstrap.jar -Dcatalina.base=/data01/webserver/apache1/jboss-ews-2.1/tomcat6 -Dcatalina.home=/data01/webserver/apache1/jboss-ews-2.1/tomcat6 -Djava.io.tmpdir=/data01/webserver/apache1/jboss-ews-2.1/tomcat6/temp org.apache.catalina.startup.Bootstrap start
+root      6009     1  0 Sep19 ?        00:31:26 /data01/webserver/apache1/jdk1.7.0_75/bin/java -Djava.util.logging.config.file=/data01/webserver/apache1/jboss-ews-2.1/tomcat7/conf/logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Djava.library.path=/data01/webserver/apache1/jboss-ews-2.1/tomcat7/lib -Djava.endorsed.dirs=/data01/webserver/apache1/jboss-ews-2.1/tomcat7/endorsed -classpath /data01/webserver/apache1/jboss-ews-2.1/tomcat7/bin/bootstrap.jar:/data01/webserver/apache1/jboss-ews-2.1/tomcat7/bin/tomcat-juli.jar -Dcatalina.base=/data01/webserver/apache1/jboss-ews-2.1/tomcat7 -Dcatalina.home=/data01/webserver/apache1/jboss-ews-2.1/tomcat7 -Djava.io.tmpdir=/data01/webserver/apache1/jboss-ews-2.1/tomcat7/temp org.apache.catalina.startup.Bootstrap start
+ 
+
+
+ 980  ps -ef | grep apache
+  981  ps -ef | grep apache | more
+  982  ps -ef | grep apache | awk '{print $2}'
+  983  kill  -9 5996 6009
+  984  ps -ef | grep apache | awk '{print $2}'
+  985  ps -ef | grep apache
+  986  cd /etc/rc3.d
+  987  ls
+  988  chkconfig --list tomcat6
+  989  chkconfig --level 2345 tomcat6
+  990  chkconfig --level 2345 tomcat6 off
+  991  chkconfig --level 2345 tomcat7
+  992  chkconfig --list tomcat7
+  993  chkconfig --level 2345 tomcat7 off
+  994  service tomcat6 stop
+  995  service tomcat7 stop
+  996  service tomcat6 stopchkconfig --list tomcat7
+  997  service tomcat6 stop
+  998  chkconfig --list tomcat7
+  999  chkconfig --list tomcat6
+ 1000  ps -ef | grep tomcat

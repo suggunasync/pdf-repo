@@ -1,0 +1,16 @@
+
+
+Omniprocessremover :-
+====================
+
+ 577  ps -ef | grep -i omni
+  578  date
+  579  sar 1 5
+  580  ps -ef | grep -i omni
+  581  for i in `ps -ef | grep omni | awk '{print $2}'`; do kill -9 $i; done
+  582  ps -ef | grep -i omni
+  583  service xinetd restart
+  584  ps -ef | grep -i omni
+  585  sar 1 5
+  586  exit
+

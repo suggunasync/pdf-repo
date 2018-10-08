@@ -1,0 +1,41 @@
+Its our requirement :===
+===========================
+
+Please update below entries in usnencvl728-b.nmcorp.nissan.biz.
+Please update the below omnirc entry .
+
+#OMNI_HOSTS=usnencps011.nmcorp.nissan.biz: 10.79.112.177
+OMNI_HOSTS=usnencvwcm001.nmcorp.nissan.biz: 10.79.112.128
+
+Also , please update the below host entry in /etc/hosts
+
+10.79.112.128     usnencvwcm001.nmcorp.nissan.biz        usnencvwcm001
+
+Please refresh the inet services once done . Thanks 
+
+
+Implementation :====
+==================
+cd /opt
+  583  cd omni
+  584  ls -la
+  585  vi .omnirc
+      Esc Shift+g to go to last line. 
+  586  cat .omnirc
+  587   cd
+  588  cd /etc
+  589  vi hosts
+  590  /etc/init.d/xinetd restart
+  591  cat /etc/hosts
+
+
+[root@usnencvl761 ~]# cat /etc/hosts
+127.0.0.1       localhost localhost.localdomain localhost4 localhost4.localdomain4
+10.78.180.5     usnencvl761.nmcorp.nissan.biz usnencvl761
+10.79.112.177 usnencps011.nmcorp.nissan.biz usnencps011
+10.76.65.172 usetlcph001.nmcorp.nissan.biz
+10.76.65.173 usetlcph002.nmcorp.nissan.biz
+10.76.65.174 us-tl-cl-om-001.nmcorp.nissan.biz
+
+10.79.112.128     usnencvwcm001.nmcorp.nissan.biz        usnencvwcm001
+         

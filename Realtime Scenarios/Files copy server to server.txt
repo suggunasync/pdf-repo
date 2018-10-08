@@ -1,0 +1,91 @@
+Issue :=
+==========
+Please find the below points and let us know for further clarification.
+
+#1.  Please move the files under Interface dir (from root directory USNENCPL034)  to USNENCPL035 (/interface file system)
+
+USNENCPL034 
+
+usnencpl034.nmcorp.nissan.biz:pbwadm 64> cd /interface
+usnencpl034.nmcorp.nissan.biz:pbwadm 65> ls -ltr
+total 28
+drwxrwxrwx. 2 pbwadm sapsys 4096 Jul 29 05:23 LOGS
+drwxrwxrwx. 2 pbwadm sapsys 4096 Jul 29 05:24 GTOP_INBOUND
+drwxrwxrwx. 2 pbwadm sapsys 4096 Jul 29 05:24 HARP
+drwxrwxrwx. 2 pbwadm sapsys 4096 Jul 29 05:25 DCW
+drwxrwxrwx. 7 pbwadm sapsys 4096 Jul 29 05:27 OUTBOUND
+drwxrwxrwx. 6 pbwadm sapsys 4096 Jul 29 05:29 INBOUND
+drwxrwxrwx. 2 pbwadm sapsys 4096 Aug  5 05:50 SCRIPTS
+
+usnencpl034.nmcorp.nissan.biz:pbwadm 66> cd SCRIPTS
+
+usnencpl034.nmcorp.nissan.biz:pbwadm 67> df -k /interface
+
+Filesystem           1K-blocks    Used Available Use% Mounted on
+/dev/mapper/vg00-rootvol
+                       5029504 4752256     15104 100% /
+usnencpl034.nmcorp.nissan.biz:pbwadm 68>
+
+USENNCPL035
+
+/dev/mapper/oradbvg-interface
+                       50G   52M   47G   1% /interface
+
+#2 . Please export the  “/interface” file system from  USNENCPL035 and mount it on USNENCPL034.
+
+
+/dev/mapper/oradbvg-interface
+                       50G   52M   47G   1% /interface
+
+
+
+
+
+
+677  scp -pr /interface/* usnencpl035:/interface
+  678  clear
+  679  ls
+  680  scp -pr /interface/*  usnencpl035:/interface
+  681  scp -pr /interface/* manis@usnencpl035:/interface
+  682  ls -l
+  683  rm -rf /interface
+  684  mkdir /interface
+  685  nslookup
+  686  more /etc/hosts
+  687  nslookup usnencpl034
+  688  showmount -e usnencpl035
+  689  mount -t nfs 10.78.13.66/interface /interface
+  690  mount -t nfs 10.78.13.66:/interface /interface
+  691  mount -t nfs usnencpl035:/interface /interface
+  692  df -h
+  693  cd //interface
+  694  touch test
+  695  ls -ld .
+  696  exit
+  697  ls -ld /interface
+  698  ls
+  699  cd /interface/
+  700  ls
+  701  ls -l
+  702  cd /
+  703  umount -l /interface
+  704  history
+  705  mount -t nfs usnencpl035:/interface /interface
+  706  cd /interface/
+  707  touch a
+  708  cd /
+  709   umount -l /interface
+  710   mount -t nfs usnencpl035:/interface /interface
+  711  touch /interace/a
+  712  d f-h
+  713  df -h
+  714  cd /interface/
+  715  touch a
+  716  mkdir a
+  717  rm -rf a
+  718  mkdir test
+  719  df -h /
+  720  exi
+
+
+

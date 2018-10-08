@@ -1,0 +1,19 @@
+How to replace the files:==
+============================
+Hello Sameer/Team,
+
+Can you please rename the following directories and refresh Inet service, It’s a urgent request as we are in mid of migration and struck to integrate SAP online backups thanks.
+
+1.	/etc/opt/omni to            /etc/opt/omni_old
+2.	/var/opt/omni to            /var/opt/omni_old
+3.	/opt/omni           to            /opt/omni_old
+
+
+Solution:=
+============
+Directories renamed and refreshed inetd services..
+
+root@usnencpl039 ~]# ls -ld /etc/opt/omni_old /var/opt/omni_old /opt/omni_old
+drwxr-xr-x. 4 root root 4096 May 16 07:35 /etc/opt/omni_old
+drwxr-xr-x. 9 root root 4096 Sep 16 15:09 /opt/omni_old
+drwxr-xr-x. 7 root root 4096 May 16 07:35 /var/opt/omni_old

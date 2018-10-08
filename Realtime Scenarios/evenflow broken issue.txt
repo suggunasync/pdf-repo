@@ -1,0 +1,49 @@
+                                         
+                   Event flowbroken issue :-
+
+----------------------------------------------
+   1st login to the server
+   check 
+   uptime
+
+   #uptime
+  
+   #./ovc (agents running or not we can check the status)
+
+  # cd /opt/OV/bin
+   ./ovc
+  
+   #tail -f /var/opt/OV/log/System.txt
+
+
+ root@usetlcpl035 bin]# tail -f /var/opt/OV/log/System.txt
+0: INF: Sun Jun 26 00:00:00 2016: coda (12134/47933218985392): Stopping CODA
+0: WRN: Sun Jun 26 03:39:26 2016: ovbbccb (12009/47547885721920): (bbc-90)
+ The incoming HTTPS client connection from host 10.76.65.172 failed due to the SSL error
+
+resolution :-
+---------------
+ 
+some errors are there...
+cd /opt/OV/bin
+./ovc -kill 
+./ovc -start
+./ovc
+./opcagt -status
+
+
+
+
+[root@usetlcpl035 bin]# tail -f /var/opt/OV/log/System.txt
+
+0: INF: Mon Jun 27 18:13:05 2016: ovconfd (12030/47863215171712): (conf-393) Configuration and Deploy process 'ovconfd' stopped.
+0: INF: Mon Jun 27 18:13:06 2016: coda (12134/47933218985392): Stopping CODA
+0: INF: Mon Jun 27 18:13:07 2016: ovbbccb (12009/47547820695696): (bbc-250) OV Communication Broker stopped. Exit code (0).
+
+
+0: INF: Mon Jun 27 18:13:07 2016: ovcd (11992/47944369232192): (ctrl-115) The kill(<null>, SIGTERM); succeeded. The Control daemon will now exit gracefully.
+0: INF: Mon Jun 27 18:13:08 2016: ovcd (11992/47944282370208): (ctrl-115) The kill(<null>, SIGTERM); succeeded. The Control daemon will now exit gracefully.
+0: INF: Mon Jun 27 18:13:32 2016: ovconfd (16340/47780757362816): (conf-390) Configuration and Deploy process 'ovconfd' started.
+0: INF: Mon Jun 27 18:13:39 2016: coda (16444/47409488176560): Waiting to initialize SCOPE ...
+0: INF: Mon Jun 27 18:13:44 2016: coda (16444/47409488176560): SCOPE datasource initialization succeeded 
+                                                                                      

@@ -1,0 +1,66 @@
+       File system thresold issue
+     ------------------------------
+
+Stepd need to follow in dw tool 
+-------------------------------
+# first need to assign with our name as useully
+once  assigned need to work on that
+need to click on "Resolve" tab
+Fix type :-Temporary(nedd to select)
+Closure code:-fix/repair/correct  (side button has to select)
+Result of chnage :- No/yes  (i gave no)
+Solution:- its falls alert, its not in thresold
+
+
+Description:- (below outputs needto enter)
+===============
+ # df -h /home
+ #uname -a;date
+
+Need to check with below commands in Server :-
+-------------------------------------------
+df -h /home
+
+du -sh * | sort -nr | head
+
+ls -l
+
+Need to put the mail to application team:-
+-------------------------------------------
+
+you have to send like this.. 
+Hi Team,
+Following oracle related file system crossed threshold limit. Please do the housekeeping. 
+/dev/mapper/datavg-voldb--db03
+                      9.8G  8.8G  911M  91% /010fs11
+
+Note:== if it's the application file system need to put mail house keep
+        if it's process related plse takecare.
+ 
+ask someone, application contact details. 
+
+
+to change the ownership for specific file :-
+==========================================
+Examples
+First, list permissions for demo.txt, enter:
+# ls -l demo.txt
+
+Sample outputs:
+
+-rw-r--r-- 1 root root 0 Aug 31 05:48 demo.txt
+
+In this example change file ownership to vivek user and list the permissions, run:
+# chown vivek demo.txt
+# ls -l demo.txt
+
+Sample outputs:
+
+-rw-r--r-- 1 vivek root 0 Aug 31 05:48 demo.txt
+
+In this next example, the owner is set to vivek followed by a colon and a group onwership is also set to vivek group, run:
+# chown vivek:vivek demo.txt
+
+# ls -l demo.txt
+
+

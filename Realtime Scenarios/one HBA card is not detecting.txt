@@ -1,0 +1,42 @@
+                          NISSAN:USNENCPL055:UXMON: mpathe - Only one HBA detected, no HBA redundancy
+
+====================================================================================================================
+   # mulitpath -ll |more
+   #run
+ 
+echo "-  -  -" > /sys/class/scsi_host/host0/scan
+echo "-  -  -" > /sys/class/scsi_host/host1/scan
+echo "-  -  -" > /sys/class/scsi_host/host2/scan
+
+still its showing down
+
+echo 1 > /sys/class/fc_host/host4/issue_lip
+echo 1 > /sys/class/fc_host/host3/issue_lip
+echo "-  -  -" > /sys/class/scsi_host/host3/scan
+echo "-  -  -" > /sys/class/scsi_host/host3/scan
+/usr/bin/rescan-scsi-bus.sh
+multipath -ll 
+
+
+again run these...
+echo 1 > /sys/class/fc_host/host4/issue_lip
+echo 1 > /sys/class/fc_host/host3/issue_lip
+echo "-  -  -" > /sys/class/scsi_host/host3/scan
+echo "-  -  -" > /sys/class/scsi_host/host3/scan
+/usr/bin/rescan-scsi-bus.sh
+multipath -ll
+  
+
+echo "-  -  -" > /sys/class/scsi_host/host4/scan 
+now rescan 
+
+echo 1 > /sys/class/fc_host/host1/issue_lip
+echo 1 > /sys/class/fc_host/host2/issue_lip
+echo "-  -  -" > /sys/class/scsi_host/host1/scan
+echo "-  -  -" > /sys/class/scsi_host/host2/scan
+/usr/bin/rescan-scsi-bus.sh
+multipath -ll  
+
+
+
+

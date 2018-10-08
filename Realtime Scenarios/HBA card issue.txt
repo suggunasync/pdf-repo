@@ -1,0 +1,24 @@
+Ticket Created By tz33n6
+
+***ALERT DATA ***
+FIRST OCCURRENCE : 21-Jun-2016 11:00:54 AM CDT
+NODE : USNENCPL055
+NODEALIAS : 10.78.198.32
+CONSOLE COLOR CODE(5-Critical/4-Major/3-Minor/2-Info/1-Repaired/0-Clear) : 5
+SUMMARY : UXMON: mpathe - Only one HBA detected, no HBA redundancy
+CATEGORY : VCCGateway
+SOURCE : VCCGateway
+SUBSOURCE : mpmon
+INSTANCE : mp
+
+
+
+So;ution :-
+===========
+
+To check HBA card information
+# systool -c fc_host -v
+To check the multipath status
+# multipath -ll
+
+

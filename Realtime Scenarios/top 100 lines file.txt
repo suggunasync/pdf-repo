@@ -1,0 +1,10 @@
+how to get the last 100 lines of the file:-
+========================================
+
+# cat debug.log |tail -100
+
+
+How to get the first hundred lines of the file :-
+==============================================
+
+# cat debug.log |head -100

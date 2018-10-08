@@ -1,0 +1,24 @@
+NTP issue :-
+=============
+ntpq -p 
+
+[root@usesmcvl031 ~]# ntpq -p
+     remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*10.64.8.110     192.5.41.209     2 u  794 1024  377   44.626    6.578  11.517
++us-dc-001.nmcor 10.64.8.110      3 u  746 1024  377   51.488   -2.927  14.488
++us-dc-002.nmcor 10.64.8.82       4 u  844 1024  377   60.431  -10.811  19.534
+[root@usesmcvl031 ~]#
+
+ Note := offset time should be in -(minus values) it indicates time is sycing properly
+========
+if it's more than 0(zero) time is not syncing properly
+
+another one first filed ip is with star(*) time is syncing properly
+
+Solution:
+=========
+if there is no above conditions we need to check in cat /etc/ntp.conf
+
+try to ping that ip other wise we need to forward the networking team
+=========

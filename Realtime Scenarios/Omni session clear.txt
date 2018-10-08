@@ -1,0 +1,40 @@
+ please clear the files under /omni/tmp on Usesmcv012 & Usesmcvl008 servers.:-
+==========================================================================
+
+# ps -ef |grep -i omni
+# kill -9 PID ==> PIDs from above output
+# cd /var/opt/omni/tmp
+# ls
+# rm <all files>
+# service omniinet restart
+
+ find / -name omni
+  576  cd /opt/omni
+  577  ls -tor
+  578  find / -name omni/tmp
+  579  ls -tlr
+  580  cd ..
+  581  cd /usr
+  582  ls
+  583  cd bin
+  584  cd omni
+  585  ls -tlr
+  586  cd ..
+  587  ls -tlr
+  588  cd var/opt/omni/tmp
+  589  cd  var/opt/omni
+  590  cd
+  591  cd /var
+  592  cd opt
+  593  cd omni
+  594  ls -tlr
+  595  cd tmp
+  596  ls
+  597  ls -tlr
+  598  pwd
+  599  cd /var/opt/omni/tmp
+  600  ls -rlr
+  601  rm -rf *.*
+  602  ls -tkr
+
+

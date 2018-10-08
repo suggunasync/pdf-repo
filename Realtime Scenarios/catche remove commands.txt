@@ -1,0 +1,36 @@
+ To clear the catche:------
+=========================
+
+ #  echo 1 > /proc/sys/vm/drop_caches
+ #  echo 2 > /proc/sys/vm/drop_caches
+ #  echo 3 > /proc/sys/vm/drop_caches
+
+
+How to clear the Omni hung sessions:=
+===================================
+# ps -ef |grep -i omni
+# kill -9 PID ==> PIDs from above output
+# cd /var/opt/omni/tmp
+# ls
+# rm <all files>
+# service omniinet restart
+
+Mail format:- This has been actioned.
+
+
+
+
+Rhel cluster server :-
+======================
+we have one TASK like
+What is being changed (in terms the business can understand)?
+Restarting and configuring the  production harmony servers  to accomplish  below tasks.
+1.       Failover the RHEL cluster  (currently pointing to the secondary ).
+          usnencpl025 is the main server and usnencpl026 is the secondary server 
+          PGP team will start and stop harmony after HP team is done with the changes in RHEL cluster 
+ Move connection changes so that "cluster share" is referenced in the file path statements instead of hardcoded file system names.
+3.       The secondary Harmony server does not have the VL Proxy configuration showing so it needs to be manually updated
+
+Why is the change being performed?
+Restarting and configuring the  production harmony servers  to accomplish  below tasks 
+To do changes below changes in Production Harmony  server.  

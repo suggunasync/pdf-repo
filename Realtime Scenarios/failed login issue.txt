@@ -1,0 +1,44 @@
+         how to find
+1.       Last Locked data and  time by incorrect logins.
+2.       Password expired date for this user. 
+for user in linux server
+
+
+Answer is :-
+============
+  [?7/?1/?2016 11:23 PM] Surisetti, Balakumar: 
+
+ pam_tally2 --user=<user name>
+
+ faillog -l -u <user name>
+
+ those 2 commands are to see failed logins.
+
+To clear the failed logs:-
+==========================
+
+
+ To clear the failed logins
+
+ pam_tally2 --user=username --reset=0 
+
+ faillog -r -u  username
+ 
+
+
+
+If Server is abnormally rebooted need to do it :-
+==================================================
+
+# last |more
+# df -h 
+# check /var /tmp / size
+# grep -i signal /var/log/messages 
+# history
+
+#  cd /var/log
+
+#  egrep -i "reboot|runlevel|exiting on signal 15|sigterm|fenced|panic|machine check|temperature|dazed|soft lockup|block for|stack trace" messages* 
+ ticket no:- R-402262
+ Wps team:- 9881904667
+            8007744666

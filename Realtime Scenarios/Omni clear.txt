@@ -1,0 +1,28 @@
+how to clear the omni:=
+========================
+
+Issue :==
+==========
+Please clear debug.log file from below two servers and restart DP service.
+
+Server name :  USETLCVX022
+Path :     /usr/omni/log/debug.log
+
+Solution :=
+===========>>>
+
+1082    ls -ltr debug.log*
+1083    >debug.log
+1084    cd /usr/omni/tmp
+1085    ls -ltr | wc -l
+1086    ls -ltr | more
+1087    rm *
+1088    ls -tlr
+1089    refresh -s inetd
+1090    cd
+1091    df -gt /usr
+1092    exit
+1093    pwd
+1094    w
+1095    exit
+1096    pwd

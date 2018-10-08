@@ -1,0 +1,25 @@
+
+Hi Benzamin,
+
+                Please create the mount option for prod environment also. Please find below details.
+
+Storage Drive Path : \\ usiccsw002\Transfer\Broadcast\Monroney\Sample\NEPS-NCI\REPRINTS
+Storage Drive IP : 10.74.12.36
+
+Mount Path : /data01/appserver/logs/vps_config/mntwin
+Mount Path IP :  10.78.172.109
+
+
+Solution :==
+=============
+
+  #  mount -t cifs -o username=x069291,password='sep2016$',dir_mode=0777,file_mode=0777 //10.74.12.36/Transfer/Broadcast/Monroney/Sample/NEPS-NCI/REPRINTS /data01/shared/Script/code/mntwin
+  #  df -HPT
+  #  df -HPT | grep "/data01/shared/Script/code/mntwin/
+  #  df -HPT | grep "/data01/shared/Script/code/mntwin/"
+  #  df -HPT /data01/shared/Script/code/mntwin
+  #  vi /etc/fstab
+  #  cat /etc/fstab
+  #  cd /data01/shared/Script/code/mntwin
+  #  ls -ltr
+  #  exit

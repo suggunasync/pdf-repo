@@ -1,0 +1,400 @@
+login as: root
+root@192.168.71.140's password:
+Last login: Thu Apr  5 22:05:07 2018 from 192.168.71.1
+[root@localhost ~]# cd Documents/
+[root@localhost Documents]# ls
+linux
+[root@localhost Documents]# tree
+.
++-- linux
+    +-- cloud
+    ¦   +-- AWS
+    ¦   ¦   +-- ebl
+    ¦   ¦   +-- ebs
+    ¦   ¦   +-- s3
+    ¦   +-- Devops
+    ¦       +-- chef
+    ¦       +-- git
+    ¦       +-- jenkins
+    +-- dir
+    +-- dir2
+    +-- dir3
+    +-- linux
+    ¦   +-- Redhat
+    ¦       +-- Suse
+    ¦           +-- Oracle
+    ¦               +-- Amazon
+    +-- myfile
+
+18 directories, 1 file
+[root@localhost Documents]# cat > file1
+we are in file1 and we want to copy
+this file into other destination
+[root@localhost Documents]# ls
+file1  linux
+[root@localhost Documents]# [root@localhost Documents]# cat > file1
+-bash: [root@localhost: command not found
+[root@localhost Documents]# we are in file1 and we want to copy
+-bash: we: command not found
+[root@localhost Documents]# this file into other destination
+-bash: this: command not found
+[root@localhost Documents]# [root@localhost Documents]# ls
+-bash: [root@localhost: command not found
+[root@localhost Documents]# file1  linux
+-bash: file1: command not found
+[root@localhost Documents]# [root@localhost Documents]#
+[root@localhost Documents]# ls
+file1  linux
+[root@localhost Documents]# ls -l file1
+-rw-r--r--. 1 root root 0 Apr 10 14:22 file1
+[root@localhost Documents]# umask
+0022
+[root@localhost Documents]# ls -l linux/
+total 24
+drwxr-xr-x. 4 root root 4096 Apr  5 23:40 cloud
+drwxr-xr-x. 2 root root 4096 Apr  5 23:35 dir
+drwxr-xr-x. 2 root root 4096 Apr  5 23:35 dir2
+drwxr-xr-x. 2 root root 4096 Apr  5 23:35 dir3
+drwxr-xr-x. 3 root root 4096 Apr  5 23:32 linux
+-rw-r--r--. 1 root root   63 Apr  6 00:03 myfile
+[root@localhost Documents]# cp -rvi linux /root/Downloads/
+`linux' -> `/root/Downloads/linux'
+`linux/dir2' -> `/root/Downloads/linux/dir2'
+`linux/linux' -> `/root/Downloads/linux/linux'
+`linux/linux/Redhat' -> `/root/Downloads/linux/linux/Redhat'
+`linux/linux/Redhat/Suse' -> `/root/Downloads/linux/linux/Redhat/Suse'
+`linux/linux/Redhat/Suse/Oracle' -> `/root/Downloads/linux/linux/Redhat/Suse/Oracle'
+`linux/linux/Redhat/Suse/Oracle/Amazon' -> `/root/Downloads/linux/linux/Redhat/Suse/Oracle/Amazon'
+`linux/myfile' -> `/root/Downloads/linux/myfile'
+`linux/dir3' -> `/root/Downloads/linux/dir3'
+`linux/dir' -> `/root/Downloads/linux/dir'
+`linux/cloud' -> `/root/Downloads/linux/cloud'
+`linux/cloud/Devops' -> `/root/Downloads/linux/cloud/Devops'
+`linux/cloud/Devops/jenkins' -> `/root/Downloads/linux/cloud/Devops/jenkins'
+`linux/cloud/Devops/chef' -> `/root/Downloads/linux/cloud/Devops/chef'
+`linux/cloud/Devops/git' -> `/root/Downloads/linux/cloud/Devops/git'
+`linux/cloud/AWS' -> `/root/Downloads/linux/cloud/AWS'
+`linux/cloud/AWS/ebs' -> `/root/Downloads/linux/cloud/AWS/ebs'
+`linux/cloud/AWS/ebl' -> `/root/Downloads/linux/cloud/AWS/ebl'
+`linux/cloud/AWS/s3' -> `/root/Downloads/linux/cloud/AWS/s3'
+[root@localhost Documents]# cp file1 /tmp/
+.configtest.ui7iIqHy   keyring-SnpPfj/        virtual-root.AcQLmL/
+.esd-0/                keyring-taqVvB/        virtual-root.fwAjEC/
+gconfd-gdm/            keyring-uDYKX1/        virtual-root.QlC77B/
+gconfd-root/           keyring-WIChKA/        virtual-root.W8Z1A8/
+gedit.root.1231796462  orbit-gdm/             .X0-lock
+.ICE-unix/             orbit-root/            .X11-unix/
+keyring-HvWVJm/        pulse-auRMgcYzcK9r/
+keyring-qGYVUS/        pulse-RJdGjX2qex41/
+[root@localhost Documents]# cp file1 /tmp/orbit-root/
+[root@localhost Documents]# ls /tmp/orbit-root/
+bonobo-activation-register-152ab86c670a074f3aaec10c000000b6.lock
+bonobo-activation-server-152ab86c670a074f3aaec10c000000b6-ior
+file1
+linc-33c5-0-15e241afba9ef
+linc-34e7-0-9e914c1e65ad
+linc-981-0-7b4f981cdf55a
+linc-98b-0-600c9d01dff9
+linc-9dd-0-2bbd2608977c
+linc-9e6-0-79a37f95f0df7
+linc-9ee-0-3cc7ac72b25ee
+linc-9f8-0-678e0480a4b8a
+linc-9fa-0-1e475571b1c9d
+linc-a06-0-3816b1f905c3
+linc-a08-0-33c53ac561ac3
+linc-a16-0-2dce909427b1
+linc-a17-0-6b13ecfe14c82
+linc-a26-0-7a11565ad3ff5
+linc-a28-0-5ec5b84c7e094
+linc-a2a-0-29cc17d82e8a3
+linc-a2c-0-5f0b72ab8870
+linc-a47-0-3c6d46b71a3f7
+linc-a48-0-78eb81a9daf80
+linc-a4b-0-5d934435674fb
+linc-a56-0-54e3aaa86d20e
+linc-a5d-0-621f4fbf150c0
+linc-a60-0-1461210919451
+linc-a61-0-49467c802b2d2
+linc-a63-0-420e37d4c9a22
+linc-a65-0-61825ead5dc06
+linc-a67-0-2a856a4263f0
+linc-a69-0-30f2437790f9d
+linc-a6f-0-1eca24206e75c
+linc-b0a-0-42645e377ee99
+linc-b14-0-412a221d93ff4
+[root@localhost Documents]# grep file1 /tmp/orbit-root/
+grep: /tmp/orbit-root/: Is a directory
+[root@localhost Documents]# grep file1 /tmp/orbit-root
+grep: /tmp/orbit-root: Is a directory
+[root@localhost Documents]# grep file1 /tmp/orbit-root
+[root@localhost Documents]# tree linux/
+linux/
++-- cloud
+¦   +-- AWS
+¦   ¦   +-- ebl
+¦   ¦   +-- ebs
+¦   ¦   +-- s3
+¦   +-- Devops
+¦       +-- chef
+¦       +-- git
+¦       +-- jenkins
++-- dir
++-- dir2
++-- dir3
++-- linux
+¦   +-- Redhat
+¦       +-- Suse
+¦           +-- Oracle
+¦               +-- Amazon
++-- myfile
+
+17 directories, 1 file
+[root@localhost Documents]# cp file1 /root/Documents/linux/
+cloud/  dir/    dir2/   dir3/   linux/  myfile
+[root@localhost Documents]# cp file1 /root/Documents/linux/linux/Redhat/
+[root@localhost Documents]# ls /root/Documents/linux/linux/Redhat/
+file1  Suse
+[root@localhost Documents]# cd linux/
+[root@localhost linux]# ls
+cloud  dir  dir2  dir3  linux  myfile
+[root@localhost linux]# pwd
+/root/Documents/linux
+[root@localhost linux]# cp -rv dir
+dir/  dir2/ dir3/
+[root@localhost linux]# cp -rv linux/ /root/
+a                             linux/
+anaconda-ks.cfg               Linux/
+.bash_history                 Linux2/
+.bash_logout                  Linux3/
+.bash_profile                 Linux,Suse/
+.bashrc                       lion/
+.cache/                       .local/
+CentOS-7-x86_64-DVD-1708.iso  .mozilla/
+.config/                      Music/
+.cshrc                        mydir2/
+data/                         mydir3/
+databackup.tar.gz             mydoc
+.dbus/                        myfile
+dd.pdf                        myfile2
+Desktop/                      myfile2bkp
+Documents/                    nagios/
+Downloads/                    nagios.cfg
+Enterprise,Oracle/            .nautilus/
+.esd_auth                     pics/
+file2                         Pictures/
+file2bkp                      .pki/
+file32                        post-install
+file32bkp                     post-install.log
+file3bkp                      Public/
+.gconf/                       .pulse/
+.gconfd/                      .pulse-cookie
+.gnome2/                      pyscrip.py
+.gnome2_private/              python-scripts/
+.gnote/                       recover/
+.gnupg/                       recover1/
+.gstreamer-0.10/              shellscripts/
+.gtk-bookmarks                .ssh/
+.gvfs/                        .tcshrc
+.history                      Templates/
+.ICEauthority                 test
+image.jpg                     test3
+.imsettings.log               TLA/
+king                          t.txt
+kong/                         Videos/
+.lesshst                      .viminfo
+link2
+[root@localhost linux]# cp -rv linux/ /root/
+`linux/Redhat' -> `/root/linux/Redhat'
+`linux/Redhat/file1' -> `/root/linux/Redhat/file1'
+`linux/Redhat/Suse' -> `/root/linux/Redhat/Suse'
+`linux/Redhat/Suse/Oracle' -> `/root/linux/Redhat/Suse/Oracle'
+`linux/Redhat/Suse/Oracle/Amazon' -> `/root/linux/Redhat/Suse/Oracle/Amazon'
+[root@localhost linux]#
+[root@localhost linux]#
+[root@localhost linux]#
+[root@localhost linux]#
+[root@localhost linux]#
+[root@localhost linux]#
+[root@localhost linux]#
+[root@localhost linux]#
+[root@localhost linux]#
+[root@localhost linux]#
+[root@localhost linux]#
+[root@localhost linux]# cp -rv linux/ /root/Linux
+Linux/      Linux2/     Linux3/     Linux,Suse/
+[root@localhost linux]# cp -rv linux/ /root/Linux
+Linux/      Linux2/     Linux3/     Linux,Suse/
+[root@localhost linux]# cp -rv linux/ /root/Linux
+`linux/' -> `/root/Linux/linux'
+`linux/Redhat' -> `/root/Linux/linux/Redhat'
+`linux/Redhat/file1' -> `/root/Linux/linux/Redhat/file1'
+`linux/Redhat/Suse' -> `/root/Linux/linux/Redhat/Suse'
+`linux/Redhat/Suse/Oracle' -> `/root/Linux/linux/Redhat/Suse/Oracle'
+`linux/Redhat/Suse/Oracle/Amazon' -> `/root/Linux/linux/Redhat/Suse/Oracle/Amazon'
+[root@localhost linux]# tree /root/Linux/linux/
+/root/Linux/linux/
++-- Redhat
+    +-- file1
+    +-- Suse
+        +-- Oracle
+            +-- Amazon
+
+4 directories, 1 file
+[root@localhost linux]# ls
+cloud  dir  dir2  dir3  linux  myfile
+[root@localhost linux]# mv cloud/ cloudcompute
+[root@localhost linux]# ls
+cloudcompute  dir  dir2  dir3  linux  myfile
+[root@localhost linux]# mv dir dir2
+[root@localhost linux]# ls dir2
+dir
+[root@localhost linux]# ls
+cloudcompute  dir2  dir3  linux  myfile
+[root@localhost linux]# find . -name file1
+./linux/Redhat/file1
+[root@localhost linux]# find . -name "f"
+[root@localhost linux]# find . -type f  -name "f"
+[root@localhost linux]# find . -type f  -name "f*"
+./linux/Redhat/file1
+[root@localhost linux]# find . -type d  -name "d*"
+./dir2
+./dir2/dir
+./dir3
+[root@localhost linux]# find /root -type d  -name "d*"
+/root/.cache/mozilla/firefox/ra67ckkz.default/cache2/doomed
+/root/Documents/linux/dir2
+/root/Documents/linux/dir2/dir
+/root/Documents/linux/dir3
+/root/nagios/nagios-4.3.4/tap/tests/diag
+/root/nagios/nagios-4.3.4/contrib/eventhandlers/distributed-monitoring
+/root/nagios/nagios-4.3.4/docs
+/root/nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs
+/root/nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/partials/api/ngTouch/directive
+/root/nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/partials/api/ngMessages/directive
+/root/nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/partials/api/ng/directive
+/root/nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/partials/api/ngRoute/directive
+/root/nagios/nagios-4.3.4/html/docs
+/root/nagios/nagios-4.3.4/html/d3
+/root/recover1/recpveredfiles/data
+/root/data
+/root/recover/data
+/root/.gnome2/panel2.d/default
+/root/.mozilla/firefox/ra67ckkz.default/datareporting
+/root/.mozilla/firefox/ra67ckkz.default/storage/default
+/root/Downloads/linux/dir2
+/root/Downloads/linux/dir3
+/root/Downloads/linux/dir
+/root/Public/dir2
+/root/Public/d2
+/root/Public/dir1
+/root/Public/dir1/dir3
+/root/Public/dir1/dir3/d3
+/root/Public/dir1/dir3/d3/d4
+/root/Public/dir3
+/root/Public/devops
+/root/.gconf/apps/nautilus/desktop-metadata
+/root/.gconf/apps/nautilus/desktop-metadata/directory
+/root/.gconf/desktop
+[root@localhost linux]# find /root -type d  -iname "D*"
+/root/.cache/mozilla/firefox/ra67ckkz.default/cache2/doomed
+/root/Documents
+/root/Documents/linux/dir2
+/root/Documents/linux/dir2/dir
+/root/Documents/linux/cloudcompute/Devops
+/root/Documents/linux/dir3
+/root/Linux3/Cloud/DEVOPS
+/root/nagios/nagios-4.3.4/tap/tests/diag
+/root/nagios/nagios-4.3.4/contrib/eventhandlers/distributed-monitoring
+/root/nagios/nagios-4.3.4/docs
+/root/nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs
+/root/nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/partials/api/ngTouch/directive
+/root/nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/partials/api/ngMessages/directive
+/root/nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/partials/api/ng/directive
+/root/nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/partials/api/ngRoute/directive
+/root/nagios/nagios-4.3.4/html/docs
+/root/nagios/nagios-4.3.4/html/d3
+/root/Desktop
+/root/recover1/recpveredfiles/data
+/root/data
+/root/recover/data
+/root/.gnome2/panel2.d/default
+/root/Linux2/Oracle/Database
+/root/.mozilla/firefox/ra67ckkz.default/datareporting
+/root/.mozilla/firefox/ra67ckkz.default/storage/default
+/root/Downloads
+/root/Downloads/linux/dir2
+/root/Downloads/linux/dir3
+/root/Downloads/linux/dir
+/root/Downloads/linux/cloud/Devops
+/root/Public/dir2
+/root/Public/d2
+/root/Public/dir1
+/root/Public/dir1/dir3
+/root/Public/dir1/dir3/d3
+/root/Public/dir1/dir3/d3/d4
+/root/Public/dir3
+/root/Public/devops
+/root/Public/oracle/Oracle/DBA
+/root/.gconf/apps/gnome-terminal/profiles/Default
+/root/.gconf/apps/nautilus/desktop-metadata
+/root/.gconf/apps/nautilus/desktop-metadata/directory
+/root/.gconf/desktop
+/root/TLA/Cloud/DevOps
+[root@localhost linux]#
+[root@localhost linux]#
+[root@localhost linux]# find /root/Documents/ -type f -perm 777
+[root@localhost linux]# find /root/Documents/ -type f ! -perm 777
+/root/Documents/linux/linux/Redhat/file1
+/root/Documents/linux/myfile
+/root/Documents/file1
+[root@localhost linux]# find /root/Documents/ -type d ! -perm 777
+/root/Documents/
+/root/Documents/linux
+/root/Documents/linux/dir2
+/root/Documents/linux/dir2/dir
+/root/Documents/linux/linux
+/root/Documents/linux/linux/Redhat
+/root/Documents/linux/linux/Redhat/Suse
+/root/Documents/linux/linux/Redhat/Suse/Oracle
+/root/Documents/linux/linux/Redhat/Suse/Oracle/Amazon
+/root/Documents/linux/cloudcompute
+/root/Documents/linux/cloudcompute/Devops
+/root/Documents/linux/cloudcompute/Devops/jenkins
+/root/Documents/linux/cloudcompute/Devops/chef
+/root/Documents/linux/cloudcompute/Devops/git
+/root/Documents/linux/cloudcompute/AWS
+/root/Documents/linux/cloudcompute/AWS/ebs
+/root/Documents/linux/cloudcompute/AWS/ebl
+/root/Documents/linux/cloudcompute/AWS/s3
+/root/Documents/linux/dir3
+[root@localhost linux]# chmod 777 /root/Documents/linux/dir3
+[root@localhost linux]# chmod 777 /root/Documents/linux/dir2/dir
+[root@localhost linux]# find /root/Documents/ -type d -perm 777
+/root/Documents/linux/dir2/dir
+/root/Documents/linux/dir3
+[root@localhost linux]# find /root/Documents/ -type d -perm 777 -exec chmod 764 {} \;
+[root@localhost linux]# find /root/Documents/ -type d -perm 764
+/root/Documents/linux/dir2/dir
+/root/Documents/linux/dir3
+[root@localhost linux]# find /root/Documents/ -type f ! -perm 777 -exec chmod 777 {} \;
+[root@localhost linux]# find /root/Documents/ -type f  -perm 777
+/root/Documents/linux/linux/Redhat/file1
+/root/Documents/linux/myfile
+/root/Documents/file1
+[root@localhost linux]# find /root/Documents/ -type f ! -perm 777 -print  -exec chmod 644 {} \;
+[root@localhost linux]# find /root/Documents/ -type f  -perm 644 -print
+[root@localhost linux]# find /root/Documents/ -type f  -perm 644
+[root@localhost linux]# find /root/Documents/ -type f  -perm 644
+[root@localhost linux]# find /root/Documents/ -type f ! -perm 777 -exec chmod 644 {} \ ;
+find: missing argument to `-exec'
+[root@localhost linux]# find /root/Documents/ -type f ! -perm 777 -exec chmod 644 {} \;
+[root@localhost linux]# find /root/Documents/ -type f  -perm 644                    [root@localhost linux]# find /root/Documents/ -type f "file1" -exec rm -f {} \;
+find: paths must precede expression: file1
+Usage: find [-H] [-L] [-P] [-Olevel] [-D help|tree|search|stat|rates|opt|exec] [path...] [expression]
+[root@localhost linux]# find /root/Documents/ -type f file1 -exec rm -f {} \;
+find: paths must precede expression: file1
+Usage: find [-H] [-L] [-P] [-Olevel] [-D help|tree|search|stat|rates|opt|exec] [path...] [expression]
+[root@localhost linux]# find /root/Documents/ -type f -name file1 -exec rm -f {} \;
+[root@localhost linux]# ls /root/Documents/
+linux
+[root@localhost linux]#

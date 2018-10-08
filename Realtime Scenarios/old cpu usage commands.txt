@@ -1,0 +1,8 @@
+         CPU old usage 
+  =========================
+
+Cd /var/log/sa
+Then ls –l 
+Basing on date, we can tell the how many dated files are available 
+
+My guessing is sar –u –f  /var/log/sa/sa10 “ so by using this command last 10 days cpu usage we can find 

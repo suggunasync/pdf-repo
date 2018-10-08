@@ -1,0 +1,9 @@
+In particularr server multipath is there or not :-
+==================================================
+
+
+# multipath -v9
+
+#multipath -ll |more
+
+# to see the HBA cards systool -c fc_host -v

@@ -1,0 +1,43 @@
+If home directory is full we need to resolve like this :=
+=====================================================
+
+Hi Priyanka,
+
+USNENCVL840 server /home  file system using more space due to jboss package , kindly house keep the files 
+
+[root@usnencvl840 home]# du -sh * |sort -nr | head
+221M    x391196
+38K     jboss
+13K     lost+found
+11K     x987230
+10K     x765186
+10K     x671173
+10K     x389220
+10K     x376606
+10K     x344217
+10K     x223018
+[root@usnencvl840 home]# cd x391196
+[root@usnencvl840 x391196]# ls -l
+total 225987
+-rw-r--r-- 1 x391196 dba      2323 Oct  5 18:57 HelloWorld.war
+-rw-r--r-- 1 x391196 dba 165179304 Oct  5 18:08 jboss-eap-6.4.0.zip
+-rw-r--r-- 1 x391196 dba  47171103 Oct  5 18:08 jboss-eap-6.4.10-patch.zip
+-rw-r--r-- 1 x391196 dba  19054592 Oct 10 09:43 jboss-eap-6.4.9-patch.zip
+[root@usnencvl840 x391196]#
+
+or 
+find /var -xdev -type f | xargs ls -la | sort -rn -k 5 | head -25
+or
+
+
+[root@usnencvl334 /]# find / -xdev -size +94371840c -exec du -h {} \;
+95M     /usr/lib/locale/locale-archive
+129M    /data01/appserver/sprepo/tmp/Master 42P Distribute.pdf6916480221631744772.tmp
+129M    /data01/appserver/sprepo/tmp/Master 42P Distribute2745636921832608979.tmp
+129M    /data01/appserver/sprepo/repositories/magnolia/repository/datastore/e2/da/29/e2da290400fc6136d50b27eeaecd4f0de67c7e59
+226M    /data01/appserver/sprepo/repositories/magnolia/repository/datastore/08/e3/bd/08e3bd2222c5c0be340efacc7f45ab3f3c919214
+142M    /data01/appserver/sprepo/deploywar/sp-author-webapp-1.0.war
+
+HOW TO COPY THE file host server to remote server:-
+---------------------------------------------------
+# scp /home/x298506test.txt usencpl008:/tmp 

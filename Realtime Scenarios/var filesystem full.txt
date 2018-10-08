@@ -1,0 +1,64 @@
+If /var file system 100% full we can do below process:-
+-------------------------------------------------------
+first we need to check df -h /var
+then du- sh *
+which file consuming more space we need to zip it.
+if it's application related need to inform them.
+
+step :-2==
+===========
+\[x349864@usnencvl465 ~]$ sudo su -
+[root@usnencvl465 ~]# df -h /var
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/mapper/vg00-varvol
+                      2.0G  1.9G  2.7M 100% /var
+[root@usnencvl465 ~]# cd /var
+[root@usnencvl465 var]# du -sh *
+4.0K    account
+265M    cache
+20K     crash
+4.0K    cvs
+144K    db
+8.0K    empty
+36K     hp
+7.6M    install
+91M     lib
+4.0K    local
+20K     lock
+197M    log
+16K     lost+found
+0       mail
+4.0K    nis
+1.2G    opt
+4.0K    preserve
+188K    run
+9.1M    spool
+173M    tmp
+4.0K    yp
+[root@usnencvl465 var]# vgs
+  Configuration setting "activation/thin_check_executable" unknown.
+  Configuration setting "activation/thin_check_options" unknown.
+  VG      #PV #LV #SN Attr   VSize  VFree
+  vg00      2   7   0 wz--n- 67.25g   24.62g
+  vg00alt   1   0   0 wz--n- 34.25g   34.25g
+  voldb     2   3   0 wz--n- 51.99g 1016.00m
+[root@usnencvl465 var]# df -h /var
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/mapper/vg00-varvol
+                      2.0G  1.9G  2.6M 100% /var
+[root@usnencvl465 var]# lvextend -r -L +1G /dev/mapper/vg00-varvol
+  Configuration setting "activation/thin_check_executable" unknown.
+  Configuration setting "activation/thin_check_options" unknown.
+  Size of logical volume vg00/varvol changed from 2.00 GiB (16 extents) to 3.00
+  Logical volume varvol successfully resized
+resize2fs 1.41.12 (17-May-2010)
+Filesystem at /dev/mapper/vg00-varvol is mounted on /var; on-line resizing requi
+old desc_blocks = 1, new_desc_blocks = 1
+Performing an on-line resize of /dev/mapper/vg00-varvol to 786432 (4k) blocks.
+The filesystem on /dev/mapper/vg00-varvol is now 786432 blocks long.
+
+[root@usnencvl465 var]# df -h /var
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/mapper/vg00-varvol
+                      3.0G  1.9G  960M  67% /var
+[root@usnencvl465 var]#

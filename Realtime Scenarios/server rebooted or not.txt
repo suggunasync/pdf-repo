@@ -1,0 +1,21 @@
+how to check server reboot or not :
+======================================
+
+[root@usnencvl070 ~]# cd /var/log
+
+[root@usnencvl070 log]# egrep -i "reboot|runlevel|exiting on signal 15|sigterm|fenced|panic|machine check|temperature|dazed|soft lockup|block for|stack trace" messages*
+messages:Sep 13 20:12:10 usnencvl070 fenced[3548]: fencing deferred to usnencvl068-priv
+messages:Sep 13 21:19:08 usnencvl070 fenced[3548]: fencing deferred to usnencvl068-priv
+messages:Sep 13 21:24:46 usnencvl070 fenced[3548]: fencing deferred to usnencvl068-priv
+messages:Sep 13 21:59:50 usnencvl070 ntpd[3920]: ntpd exiting on signal 15
+messages:Sep 13 22:07:04 usnencvl070 fenced[5217]: fenced 3.0.12.1 started
+messages:Sep 14 22:07:03 usnencvl070 ntpd[3568]: ntpd exiting on signal 15
+messages:Sep 14 22:15:11 usnencvl070 fenced[5514]: fenced 3.0.12.1 started
+messages:Sep 17 21:53:33 usnencvl070 ntpd[3597]: ntpd exiting on signal 15
+messages:Sep 17 21:54:45 usnencvl070 rsyslogd: [origin software="rsyslogd" swVersion="5.8.10" x-pid="3002" x-info="http://www.rsyslog.com"] exiting on signal 15.
+messages:Sep 17 21:58:08 usnencvl070 fenced[4832]: fenced 3.0.12.1 started
+messages:Sep 23 12:51:07 usnencvl070 ntpd[3582]: ntpd exiting on signal 15
+messages:Sep 23 12:51:18 usnencvl070 rsyslogd: [origin software="rsyslogd" swVersion="5.8.10" x-pid="2987" x-info="http://www.rsyslog.com"] exiting on signal 15.
+messages:Sep 23 13:03:41 usnencvl070 fenced[5864]: fenced 3.0.12.1 started
+[root@usnencvl070 log]# 
+

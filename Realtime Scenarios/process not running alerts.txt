@@ -1,0 +1,18 @@
+  Process is not running alerts:=====
+================================
+
+If you get such alerts…
+
+usnencvl432:UXMON: Process not running: aiclient 
+ 
+
+Solution: 
+
+cd /opt/CA/SharedComponents/bin
+then 
+
+unicntrl start all  or ./ unicntrl start all
+
+then verify the status..
+
+unicntrl status  all

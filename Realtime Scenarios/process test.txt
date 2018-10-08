@@ -1,0 +1,19 @@
+              How to check the process and put the mail
+========================================================================
+to check the process is running or not
+=====================================
+
+ps -ef |grep -i <process name >
+
+Tocheck the exact process id's
+================================
+
+# pgrep <process name>
+
+To clear the process
+=====================
+
+# kill -9 <process id>
+
+To check the process 
+

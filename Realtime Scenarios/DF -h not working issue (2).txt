@@ -1,0 +1,438 @@
+      When DF -H command is not working
+ =========================================
+How to close the ticket:-
+============================
+It was due to dbsadmin user consuming more cpu resources.  
+
+Please let us know for any clarificaitons.
+
+Please confirm to close the ticket.
+
+
+
+#packet loss, time 2234ms
+rtt min/avg/max/mdev = 0.307/0.337/0.395/0.043 ms
+[root@usnencvl041 ~]# uname -a
+Linux usnencvl041 2.6.32-504.16.2.el6.x86_64 #1 SMP Tue Mar 10 17:01:00 EDT 2015 x86_64 x86_64 x86_64 GNU/Linux
+[root@usnencvl041 ~]#
+[root@usnencvl041 ~]# df -h
+^C
+[root@usnencvl041 ~]# top
+top - 00:39:08 up 86 days, 7 min,  1 user,  load average: 26.85, 26.58, 26.47
+Tasks: 422 total,   1 running, 421 sleeping,   0 stopped,   0 zombie
+Cpu(s):  9.1%us,  5.2%sy,  0.0%ni, 83.1%id,  1.9%wa,  0.3%hi,  0.3%si,  0.0%st
+Mem:  16326424k total, 12523736k used,  3802688k free,   316788k buffers
+Swap: 16777212k total,        0k used, 16777212k free,  8985052k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND
+ 2274 oraprd    20   0 9510m  69m  45m S 25.3  0.4   3:23.02 oracle
+ 5704 root      20   0 2270m 179m  18m S 16.4  1.1   1040:09 crsd.bin
+ 4718 oraprd    20   0 9489m 136m 131m S  2.5  0.9   0:00.95 oracle
+ 4911 root      20   0 1630m  58m  14m S  2.5  0.4 868:43.31 orarootagent.bi
+ 4979 oraprd    RT   0 1346m 119m  54m S  2.5  0.7   1006:40 ocssd.bin
+ 7556 root      20   0 15304 1488  916 R  2.5  0.0   0:00.36 top
+ 8152 oraprd    -2   0 9483m  16m  14m S  2.5  0.1   2060:06 oracle
+   22 root      20   0     0    0    0 S  1.3  0.0  75:45.35 events/3
+ 1689 root      20   0 2771m 281m 8060 S  1.3  1.8   1911:24 java
+ 5631 oraprd    -2   0 1306m  14m  12m S  1.3  0.1   2009:46 oracle
+ 5643 oraprd    20   0 1315m  25m  17m S  1.3  0.2 302:24.09 oracle
+ 5813 oraprd    20   0 2168m  47m  14m S  1.3  0.3 960:47.96 oraagent.bin
+ 5821 root      20   0 1166m  26m  11m S  1.3  0.2   1028:50 orarootagent.bi
+ 8172 oraprd    -2   0 9511m 5.1g 5.1g S  1.3 32.8   1172:02 oracle
+ 8178 oraprd    -2   0 9511m 5.1g 5.1g S  1.3 32.8   1196:59 oracle
+    1 root      20   0 19364 1328 1008 S  0.0  0.0   6:55.17 init
+    2 root      20   0     0    0    0 S  0.0  0.0   0:05.03 kthreadd
+    3 root      RT   0     0    0    0 S  0.0  0.0   6:03.72 migration/0
+    4 root      20   0     0    0    0 S  0.0  0.0   6:51.16 ksoftirqd/0
+    5 root      RT   0     0    0    0 S  0.0  0.0   0:00.00 stopper/0
+    6 root      RT   0     0    0    0 S  0.0  0.0   0:10.84 watchdog/0
+    7 root      RT   0     0    0    0 S  0.0  0.0   7:42.03 migration/1
+    8 root      RT   0     0    0    0 S  0.0  0.0   0:00.00 stopper/1
+    9 root      20   0     0    0    0 S  0.0  0.0   6:43.91 ksoftirqd/1
+   10 root      RT   0     0    0    0 S  0.0  0.0   0:10.77 watchdog/1
+   11 root      RT   0     0    0    0 S  0.0  0.0   5:55.23 migration/2
+   12 root      RT   0     0    0    0 S  0.0  0.0   0:00.00 stopper/2
+   13 root      20   0     0    0    0 S  0.0  0.0   5:02.53 ksoftirqd/2
+   14 root      RT   0     0    0    0 S  0.0  0.0   0:10.05 watchdog/2
+   15 root      RT   0     0    0    0 S  0.0  0.0   7:32.60 migration/3
+   16 root      RT   0     0    0    0 S  0.0  0.0   0:00.00 stopper/3
+   17 root      20   0     0    0    0 S  0.0  0.0   4:42.24 ksoftirqd/3
+   18 root      RT   0     0    0    0 S  0.0  0.0   0:10.09 watchdog/3
+   19 root      20   0     0    0    0 S  0.0  0.0   7:13.23 events/0
+   20 root      20   0     0    0    0 S  0.0  0.0  70:31.04 events/1
+   21 root      20   0     0    0    0 S  0.0  0.0  71:11.56 events/2
+   23 root      20   0     0    0    0 S  0.0  0.0   0:00.00 cgroup
+   24 root      20   0     0    0    0 S  0.0  0.0   0:21.95 khelper
+[root@usnencvl041 ~]# sar 2 5
+Linux 2.6.32-504.16.2.el6.x86_64 (usnencvl041)  08/03/2016      _x86_64_        (4 CPU)
+
+12:39:19 AM     CPU     %user     %nice   %system   %iowait    %steal     %idle
+12:39:21 AM     all      7.81      0.00      5.25      2.18      0.00     84.76
+12:39:23 AM     all      6.77      0.00      5.62      2.55      0.00     85.06
+12:39:25 AM     all      7.54      0.00      4.60      1.40      0.00     86.46
+12:39:27 AM     all      8.87      0.00      6.68      1.03      0.00     83.42
+12:39:29 AM     all      7.02      0.00      5.24      1.66      0.00     86.08
+Average:        all      7.60      0.00      5.48      1.77      0.00     85.16
+[root@usnencvl041 ~]# cat /etc/fstab
+#
+# /etc/fstab
+# Created by anaconda on Thu Sep 10 10:30:15 2015
+#
+# Accessible filesystems, by reference, are maintained under '/dev/disk'
+# See man pages fstab(5), findfs(8), mount(8) and/or blkid(8) for more info
+#
+/dev/mapper/vg00-rootvol /                       ext4    defaults        1 1
+UUID=4eb1d51d-f7ab-4b3b-940f-9bfb228e568f /boot                   ext4    defaults        1 2
+/dev/mapper/vg00-homevol /home                   ext4    defaults        1 2
+/dev/mapper/vg00-tmpvol /tmp                    ext4    defaults        1 2
+/dev/mapper/vg00-varvol /var                    ext4    defaults        1 2
+/dev/mapper/vg00-crashvol /var/crash              ext4    defaults        1 2
+/dev/mapper/vg00-auditvol /var/log/audit          ext4    defaults        1 2
+/dev/mapper/vg00-swapvol swap                    swap    defaults        0 0
+tmpfs                   /dev/shm                tmpfs   defaults,size=12G        0 0
+devpts                  /dev/pts                devpts  gid=5,mode=620  0 0
+sysfs                   /sys                    sysfs   defaults        0 0
+proc                    /proc                   proc    defaults        0 0
+/dev/mapper/vgdbprod-dbpvol01 /041fs01          ext4    defaults        1 2
+/dev/mapper/vgbackup-lvbackup /041fs03         ext4    defaults        0 0
+10.78.79.26:/043fs03 /043fs03  nfs tcp
+10.79.96.213:/037_038fs01 /037_038fs01 nfs tcp
+[root@usnencvl041 ~]# ping 10.78.79.26:
+ping: unknown host 10.78.79.26:
+[root@usnencvl041 ~]# ping 10.78.79.26
+PING 10.78.79.26 (10.78.79.26) 56(84) bytes of data.
+64 bytes from 10.78.79.26: icmp_seq=1 ttl=64 time=0.246 ms
+64 bytes from 10.78.79.26: icmp_seq=2 ttl=64 time=0.231 ms
+64 bytes from 10.78.79.26: icmp_seq=3 ttl=64 time=0.263 ms
+64 bytes from 10.78.79.26: icmp_seq=4 ttl=64 time=0.173 ms
+^C
+--- 10.78.79.26 ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3303ms
+rtt min/avg/max/mdev = 0.173/0.228/0.263/0.035 ms
+[root@usnencvl041 ~]# ping 10.79.96.213
+PING 10.79.96.213 (10.79.96.213) 56(84) bytes of data.
+64 bytes from 10.79.96.213: icmp_seq=1 ttl=64 time=0.314 ms
+64 bytes from 10.79.96.213: icmp_seq=2 ttl=64 time=0.342 ms
+64 bytes from 10.79.96.213: icmp_seq=3 ttl=64 time=0.279 ms
+64 bytes from 10.79.96.213: icmp_seq=4 ttl=64 time=0.264 ms
+^C
+--- 10.79.96.213 ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3287ms
+rtt min/avg/max/mdev = 0.264/0.299/0.342/0.037 ms
+[root@usnencvl041 ~]# top
+top - 00:48:53 up 86 days, 16 min,  1 user,  load average: 26.76, 26.40, 26.38
+Tasks: 422 total,   2 running, 420 sleeping,   0 stopped,   0 zombie
+Cpu(s): 17.6%us,  4.2%sy,  0.0%ni, 72.1%id,  5.8%wa,  0.0%hi,  0.3%si,  0.0%st
+Mem:  16326424k total, 12515656k used,  3810768k free,   316820k buffers
+Swap: 16777212k total,        0k used, 16777212k free,  8977204k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND
+ 2274 oraprd    20   0 9510m  69m  45m R 21.3  0.4   5:49.71 oracle
+ 5724 oraprd    20   0 1308m  19m  17m S  3.0  0.1  11:10.04 oracle
+ 8152 oraprd    -2   0 9483m  16m  14m S  3.0  0.1   2060:16 oracle
+12946 root      20   0 15300 1376  812 R  3.0  0.0   0:00.09 top
+ 4912 oraprd    20   0  623m  43m  12m S  1.5  0.3 675:49.63 gipcd.bin
+ 4979 oraprd    RT   0 1346m 119m  54m S  1.5  0.7   1006:45 ocssd.bin
+ 5631 oraprd    -2   0 1306m  14m  12m S  1.5  0.1   2009:56 oracle
+ 5813 oraprd    20   0 2168m  47m  14m S  1.5  0.3 960:53.41 oraagent.bin
+ 6055 oraprd    20   0 2757m 217m  15m S  1.5  1.4 120:26.38 java
+ 8172 oraprd    -2   0 9511m 5.1g 5.1g S  1.5 32.8   1172:08 oracle
+    1 root      20   0 19364 1328 1008 S  0.0  0.0   6:55.21 init
+    2 root      20   0     0    0    0 S  0.0  0.0   0:05.03 kthreadd
+    3 root      RT   0     0    0    0 S  0.0  0.0   6:03.76 migration/0
+    4 root      20   0     0    0    0 S  0.0  0.0   6:51.20 ksoftirqd/0
+    5 root      RT   0     0    0    0 S  0.0  0.0   0:00.00 stopper/0
+    6 root      RT   0     0    0    0 S  0.0  0.0   0:10.84 watchdog/0
+    7 root      RT   0     0    0    0 S  0.0  0.0   7:42.06 migration/1
+    8 root      RT   0     0    0    0 S  0.0  0.0   0:00.00 stopper/1
+    9 root      20   0     0    0    0 S  0.0  0.0   6:43.97 ksoftirqd/1
+   10 root      RT   0     0    0    0 S  0.0  0.0   0:10.77 watchdog/1
+   11 root      RT   0     0    0    0 S  0.0  0.0   5:55.23 migration/2
+   12 root      RT   0     0    0    0 S  0.0  0.0   0:00.00 stopper/2
+   13 root      20   0     0    0    0 S  0.0  0.0   5:02.56 ksoftirqd/2
+   14 root      RT   0     0    0    0 S  0.0  0.0   0:10.05 watchdog/2
+   15 root      RT   0     0    0    0 S  0.0  0.0   7:32.65 migration/3
+   16 root      RT   0     0    0    0 S  0.0  0.0   0:00.00 stopper/3
+   17 root      20   0     0    0    0 S  0.0  0.0   4:42.28 ksoftirqd/3
+   18 root      RT   0     0    0    0 S  0.0  0.0   0:10.09 watchdog/3
+   19 root      20   0     0    0    0 S  0.0  0.0   7:13.26 events/0
+   20 root      20   0     0    0    0 S  0.0  0.0  70:31.39 events/1
+   21 root      20   0     0    0    0 S  0.0  0.0  71:11.91 events/2
+   22 root      20   0     0    0    0 S  0.0  0.0  75:45.72 events/3
+   23 root      20   0     0    0    0 S  0.0  0.0   0:00.00 cgroup
+   24 root      20   0     0    0    0 S  0.0  0.0   0:21.95 khelper
+   25 root      20   0     0    0    0 S  0.0  0.0   0:00.00 netns
+   26 root      20   0     0    0    0 S  0.0  0.0   0:00.00 async/mgr
+   27 root      20   0     0    0    0 S  0.0  0.0   0:00.00 pm
+   28 root      20   0     0    0    0 S  0.0  0.0   0:29.27 sync_supers
+[root@usnencvl041 ~]# df -h
+
+^C
+[root@usnencvl041 ~]#
+[root@usnencvl041 ~]# tail -f /var/log/messages
+Jul 30 00:04:58 usnencvl041 kernel: nfs: server 10.79.96.213 not responding, timed out
+Jul 30 00:04:58 usnencvl041 kernel: nfs: server 10.79.96.213 not responding, still trying
+Jul 31 00:00:01 usnencvl041 root: Start of cfg2html-linux version 2.50-2012-06-01
+Jul 31 00:00:01 usnencvl041 root: Start of cfg2html-linux version 2.50-2012-06-01
+Aug  1 00:00:01 usnencvl041 root: Start of cfg2html-linux version 2.50-2012-06-01
+Aug  1 00:00:01 usnencvl041 root: Start of cfg2html-linux version 2.50-2012-06-01
+Aug  2 00:00:01 usnencvl041 root: Start of cfg2html-linux version 2.50-2012-06-01
+Aug  2 00:00:01 usnencvl041 root: Start of cfg2html-linux version 2.50-2012-06-01
+Aug  3 00:00:01 usnencvl041 root: Start of cfg2html-linux version 2.50-2012-06-01
+Aug  3 00:00:01 usnencvl041 root: Start of cfg2html-linux version 2.50-2012-06-01
+^C
+[root@usnencvl041 ~]#
+[root@usnencvl041 ~]# vi /etc/fstab
+[root@usnencvl041 ~]# ping 10.79.96.213
+PING 10.79.96.213 (10.79.96.213) 56(84) bytes of data.
+64 bytes from 10.79.96.213: icmp_seq=1 ttl=64 time=0.318 ms
+64 bytes from 10.79.96.213: icmp_seq=2 ttl=64 time=0.321 ms
+64 bytes from 10.79.96.213: icmp_seq=3 ttl=64 time=0.288 ms
+64 bytes from 10.79.96.213: icmp_seq=4 ttl=64 time=0.331 ms
+^C
+--- 10.79.96.213 ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3052ms
+rtt min/avg/max/mdev = 0.288/0.314/0.331/0.023 ms
+[root@usnencvl041 ~]# cat /etc/fstab
+#
+# /etc/fstab
+# Created by anaconda on Thu Sep 10 10:30:15 2015
+#
+# Accessible filesystems, by reference, are maintained under '/dev/disk'
+# See man pages fstab(5), findfs(8), mount(8) and/or blkid(8) for more info
+#
+/dev/mapper/vg00-rootvol /                       ext4    defaults        1 1
+UUID=4eb1d51d-f7ab-4b3b-940f-9bfb228e568f /boot                   ext4    defaults        1 2
+/dev/mapper/vg00-homevol /home                   ext4    defaults        1 2
+/dev/mapper/vg00-tmpvol /tmp                    ext4    defaults        1 2
+/dev/mapper/vg00-varvol /var                    ext4    defaults        1 2
+/dev/mapper/vg00-crashvol /var/crash              ext4    defaults        1 2
+/dev/mapper/vg00-auditvol /var/log/audit          ext4    defaults        1 2
+/dev/mapper/vg00-swapvol swap                    swap    defaults        0 0
+tmpfs                   /dev/shm                tmpfs   defaults,size=12G        0 0
+devpts                  /dev/pts                devpts  gid=5,mode=620  0 0
+sysfs                   /sys                    sysfs   defaults        0 0
+proc                    /proc                   proc    defaults        0 0
+/dev/mapper/vgdbprod-dbpvol01 /041fs01          ext4    defaults        1 2
+/dev/mapper/vgbackup-lvbackup /041fs03         ext4    defaults        0 0
+10.78.79.26:/043fs03 /043fs03  nfs tcp
+10.79.96.213:/037_038fs01 /037_038fs01 nfs tcp
+[root@usnencvl041 ~]# moun t-t nfs 10.78.79.26:/043fs03 /043fs03t nfs ^C
+[root@usnencvl041 ~]# mount -t nfs 10.78.79.26:/043fs03 /043fs03
+[root@usnencvl041 ~]# mount -t nfs  10.79.96.213:/037_038fs01 /037_038fs01
+^C
+[root@usnencvl041 ~]# showmount -e 10.79.96.213
+clnt_create: RPC: Program not registered
+[root@usnencvl041 ~]# showmount -e 10.78.79.26
+Export list for 10.78.79.26:
+/043fs03 10.78.79.25,10.78.79.24
+[root@usnencvl041 ~]# umount -l /037_038fs01
+[root@usnencvl041 ~]# moun^C
+[root@usnencvl041 ~]# df -h
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/mapper/vg00-rootvol
+                      4.8G  2.4G  2.3G  52% /
+tmpfs                  12G  6.0G  6.1G  50% /dev/shm
+/dev/sda1             488M   95M  369M  21% /boot
+/dev/mapper/vg00-homevol
+                      240M   23M  205M  11% /home
+/dev/mapper/vg00-tmpvol
+                      2.0G   95M  1.8G   6% /tmp
+/dev/mapper/vg00-varvol
+                      2.0G  1.3G  584M  69% /var
+/dev/mapper/vg00-crashvol
+                      2.0G  3.0M  1.9G   1% /var/crash
+/dev/mapper/vg00-auditvol
+                      240M  194M   34M  86% /var/log/audit
+/dev/mapper/vgdbprod-dbpvol01
+                       30G   19G  9.8G  66% /041fs01
+/dev/mapper/vgbackup-lvbackup
+                      4.0T  2.1T  1.8T  55% /041fs03
+10.78.79.26:/043fs03   30G   43M   28G   1% /043fs03
+10.78.79.26:/043fs03   30G   43M   28G   1% /043fs03
+[root@usnencvl041 ~]# mount -t nfs  10.79.96.213:/037_038fs01 /037_038fs01
+^C
+[root@usnencvl041 ~]# df -h
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/mapper/vg00-rootvol
+                      4.8G  2.4G  2.3G  52% /
+tmpfs                  12G  6.0G  6.1G  50% /dev/shm
+/dev/sda1             488M   95M  369M  21% /boot
+/dev/mapper/vg00-homevol
+                      240M   23M  205M  11% /home
+/dev/mapper/vg00-tmpvol
+                      2.0G   95M  1.8G   6% /tmp
+/dev/mapper/vg00-varvol
+                      2.0G  1.3G  584M  69% /var
+/dev/mapper/vg00-crashvol
+                      2.0G  3.0M  1.9G   1% /var/crash
+/dev/mapper/vg00-auditvol
+                      240M  194M   34M  86% /var/log/audit
+/dev/mapper/vgdbprod-dbpvol01
+                       30G   19G  9.8G  66% /041fs01
+/dev/mapper/vgbackup-lvbackup
+                      4.0T  2.1T  1.8T  55% /041fs03
+10.78.79.26:/043fs03   30G   43M   28G   1% /043fs03
+10.78.79.26:/043fs03   30G   43M   28G   1% /043fs03
+[root@usnencvl041 ~]# mount -a
+^C
+[root@usnencvl041 ~]# df -h
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/mapper/vg00-rootvol
+                      4.8G  2.4G  2.3G  52% /
+tmpfs                  12G  6.0G  6.1G  50% /dev/shm
+/dev/sda1             488M   95M  369M  21% /boot
+/dev/mapper/vg00-homevol
+                      240M   23M  205M  11% /home
+/dev/mapper/vg00-tmpvol
+                      2.0G   95M  1.8G   6% /tmp
+/dev/mapper/vg00-varvol
+                      2.0G  1.3G  584M  69% /var
+/dev/mapper/vg00-crashvol
+                      2.0G  3.0M  1.9G   1% /var/crash
+/dev/mapper/vg00-auditvol
+                      240M  194M   34M  86% /var/log/audit
+/dev/mapper/vgdbprod-dbpvol01
+                       30G   19G  9.8G  66% /041fs01
+/dev/mapper/vgbackup-lvbackup
+                      4.0T  2.1T  1.8T  55% /041fs03
+10.78.79.26:/043fs03   30G   43M   28G   1% /043fs03
+10.78.79.26:/043fs03   30G   43M   28G   1% /043fs03
+[root@usnencvl041 ~]# mount -t nfs  10.79.96.213:/037_038fs01 /037_038fs01
+^C
+[root@usnencvl041 ~]# showmount -e 10.79.96.213
+Export list for 10.79.96.213:
+/037_038fs01 10.79.96.217,10.79.96.215
+[root@usnencvl041 ~]# mount -t nfs  10.79.96.213:/037_038fs01 /037_038fs01
+^C
+[root@usnencvl041 ~]# nslookup usnencvl041
+Server:         10.64.8.82
+Address:        10.64.8.82#53
+
+Name:   usnencvl041.nmcorp.nissan.biz
+Address: 10.78.79.24
+
+[root@usnencvl041 ~]# nslookup 10.79.96.213
+Server:         10.64.8.82
+Address:        10.64.8.82#53
+
+213.96.79.10.in-addr.arpa       name = usnencvl037_m.nmcorp.nissan.biz.
+
+[root@usnencvl041 ~]# mount -t nfs  10.79.96.213:/037_038fs01 /037_038fs01
+[root@usnencvl041 ~]# df -h
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/mapper/vg00-rootvol
+                      4.8G  2.4G  2.3G  52% /
+tmpfs                  12G  6.0G  6.1G  50% /dev/shm
+/dev/sda1             488M   95M  369M  21% /boot
+/dev/mapper/vg00-homevol
+                      240M   23M  205M  11% /home
+/dev/mapper/vg00-tmpvol
+                      2.0G   99M  1.8G   6% /tmp
+/dev/mapper/vg00-varvol
+                      2.0G  1.3G  583M  70% /var
+/dev/mapper/vg00-crashvol
+                      2.0G  3.0M  1.9G   1% /var/crash
+/dev/mapper/vg00-auditvol
+                      240M  194M   34M  86% /var/log/audit
+/dev/mapper/vgdbprod-dbpvol01
+                       30G   19G  9.8G  66% /041fs01
+/dev/mapper/vgbackup-lvbackup
+                      4.0T  2.1T  1.8T  55% /041fs03
+10.78.79.26:/043fs03   30G   43M   28G   1% /043fs03
+10.78.79.26:/043fs03   30G   43M   28G   1% /043fs03
+10.79.96.213:/037_038fs01
+                     1008G  322G  636G  34% /037_038fs01
+[root@usnencvl041 ~]# uptime
+ 01:35:05 up 86 days,  1:03,  1 user,  load average: 3.55, 15.63, 22.24
+[root@usnencvl041 ~]# uptime
+ 01:35:19 up 86 days,  1:03,  1 user,  load average: 3.28, 14.98, 21.92
+[root@usnencvl041 ~]# uptime
+ 01:35:27 up 86 days,  1:03,  1 user,  load average: 3.24, 14.59, 21.72
+[root@usnencvl041 ~]# uptime
+ 01:35:33 up 86 days,  1:03,  1 user,  load average: 3.14, 14.38, 21.61
+[root@usnencvl041 ~]# top
+top - 01:35:38 up 86 days,  1:03,  1 user,  load average: 3.05, 14.17, 21.51
+Tasks: 346 total,   1 running, 345 sleeping,   0 stopped,   0 zombie
+Cpu(s): 17.6%us,  4.2%sy,  0.0%ni, 72.1%id,  5.8%wa,  0.0%hi,  0.3%si,  0.0%st
+Mem:  16326424k total, 12839740k used,  3486684k free,   154720k buffers
+Swap: 16777212k total,        0k used, 16777212k free,  9524072k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND
+40315 oraprd    20   0 9488m  65m  61m S  6.0  0.4   0:02.63 oracle
+65055 root      20   0 22516  17m 1612 D  6.0  0.1   1:29.50 HPS_SCANNER_lin
+ 8178 oraprd    -2   0 9511m 5.1g 5.1g S  4.5 32.8   1198:45 oracle
+40899 oraprd    20   0 9488m 106m 103m S  4.5  0.7   0:07.43 oracle
+ 8172 oraprd    -2   0 9511m 5.1g 5.1g S  3.0 32.8   1173:47 oracle
+40203 oraprd    20   0 9488m  65m  62m S  3.0  0.4   0:02.88 oracle
+41787 root      20   0 15164 1292  816 R  3.0  0.0   0:00.15 top
+    9 root      20   0     0    0    0 S  1.5  0.0   6:44.17 ksoftirqd/1
+ 4270 root      20   0 1914m  48m  14m S  1.5  0.3 673:10.05 ohasd.bin
+ 5647 oraprd    -2   0 1321m  55m  41m S  1.5  0.4 360:31.36 oracle
+ 8166 oraprd    20   0 9516m 467m 440m S  1.5  2.9 974:32.45 oracle
+    1 root      20   0 19364 1328 1008 S  0.0  0.0   6:55.34 init
+    2 root      20   0     0    0    0 S  0.0  0.0   0:05.03 kthreadd
+    3 root      RT   0     0    0    0 S  0.0  0.0   6:03.86 migration/0
+    4 root      20   0     0    0    0 S  0.0  0.0   6:51.40 ksoftirqd/0
+    5 root      RT   0     0    0    0 S  0.0  0.0   0:00.00 stopper/0
+    6 root      RT   0     0    0    0 S  0.0  0.0   0:10.85 watchdog/0
+    7 root      RT   0     0    0    0 S  0.0  0.0   7:42.21 migration/1
+    8 root      RT   0     0    0    0 S  0.0  0.0   0:00.00 stopper/1
+   10 root      RT   0     0    0    0 S  0.0  0.0   0:10.78 watchdog/1
+   11 root      RT   0     0    0    0 S  0.0  0.0   5:55.33 migration/2
+   12 root      RT   0     0    0    0 S  0.0  0.0   0:00.00 stopper/2
+   13 root      20   0     0    0    0 S  0.0  0.0   5:02.69 ksoftirqd/2
+   14 root      RT   0     0    0    0 S  0.0  0.0   0:10.06 watchdog/2
+   15 root      RT   0     0    0    0 S  0.0  0.0   7:32.80 migration/3
+   16 root      RT   0     0    0    0 S  0.0  0.0   0:00.00 stopper/3
+   17 root      20   0     0    0    0 S  0.0  0.0   4:42.40 ksoftirqd/3
+   18 root      RT   0     0    0    0 S  0.0  0.0   0:10.09 watchdog/3
+   19 root      20   0     0    0    0 S  0.0  0.0   7:13.44 events/0
+   20 root      20   0     0    0    0 S  0.0  0.0  70:33.00 events/1
+   21 root      20   0     0    0    0 S  0.0  0.0  71:13.56 events/2
+   22 root      20   0     0    0    0 S  0.0  0.0  75:47.47 events/3
+   23 root      20   0     0    0    0 S  0.0  0.0   0:00.00 cgroup
+   24 root      20   0     0    0    0 S  0.0  0.0   0:21.95 khelper
+   25 root      20   0     0    0    0 S  0.0  0.0   0:00.00 netns
+   26 root      20   0     0    0    0 S  0.0  0.0   0:00.00 async/mgr
+   27 root      20   0     0    0    0 S  0.0  0.0   0:00.00 pm
+[root@usnencvl041 ~]# top
+top - 01:39:03 up 86 days,  1:07,  1 user,  load average: 2.70, 8.46, 17.77
+Tasks: 341 total,   1 running, 340 sleeping,   0 stopped,   0 zombie
+Cpu(s): 17.2%us,  8.1%sy,  0.0%ni, 55.1%id, 18.0%wa,  0.1%hi,  1.5%si,  0.0%st
+Mem:  16326424k total, 13269540k used,  3056884k free,   161540k buffers
+Swap: 16777212k total,        0k used, 16777212k free,  9913440k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND
+65055 root      20   0 22536  17m 1612 D 31.4  0.1   2:10.84 HPS_SCANNER_lin
+42466 oraprd    20   0 9498m  52m  41m S 28.5  0.3   0:52.87 oracle
+ 8172 oraprd    -2   0 9511m 5.1g 5.1g S  6.0 32.8   1173:57 oracle
+ 8178 oraprd    -2   0 9511m 5.1g 5.1g S  6.0 32.8   1198:55 oracle
+ 4927 root      RT   0  838m 106m  57m S  5.0  0.7   3196:11 osysmond.bin
+65342 oraprd    20   0 9488m  85m  82m S  2.6  0.5   0:04.54 oracle
+40899 oraprd    20   0 9488m 112m 108m S  2.3  0.7   0:09.13 oracle
+44342 oraprd    20   0 9488m 122m 118m S  2.3  0.8   0:08.11 oracle
+ 8152 oraprd    -2   0 9483m  16m  14m S  2.0  0.1   2061:07 oracle
+ 5631 oraprd    -2   0 1306m  14m  12m S  1.3  0.1   2010:46 oracle
+ 1689 root      20   0 2771m 281m 8060 S  1.0  1.8   1912:22 java
+ 5813 oraprd    20   0 2168m  47m  14m S  1.0  0.3 961:21.15 oraagent.bin
+ 5821 root      20   0 1166m  26m  11m S  1.0  0.2   1029:21 orarootagent.bi
+ 1140 root      20   0     0    0    0 S  0.7  0.0  35:27.37 jbd2/dm-4-8
+ 4382 root       0 -20 39040  12m 1752 S  0.7  0.1   3402:27 scopeux
+ 4912 oraprd    20   0  623m  43m  12m S  0.7  0.3 676:06.48 gipcd.bin
+ 4979 oraprd    RT   0 1346m 119m  54m S  0.7  0.7   1007:11 ocssd.bin
+ 5027 root      RT  -5  497m 149m  63m S  0.7  0.9 266:11.73 ologgerd
+ 5637 oraprd    20   0 1312m  22m  14m S  0.7  0.1 112:45.14 oracle
+ 5704 root      20   0 2270m 179m  18m S  0.7  1.1   1040:42 crsd.bin
+ 8166 oraprd    20   0 9516m 467m 440m S  0.7  2.9 974:33.99 oracle
+   11 root      RT   0     0    0    0 S  0.3  0.0   5:55.35 migration/2
+ 1932 root      20   0 10856  672  400 S  0.3  0.0  75:53.78 irqbalance
+ 4227 root      20   0  114m 1344  724 S  0.3  0.0   5:35.79 crond
+ 4270 root      20   0 1914m  48m  14m S  0.3  0.3 673:11.20 ohasd.bin
+ 4842 oraprd    20   0 1965m  36m  14m S  0.3  0.2 481:06.30 oraagent.bin
+ 4911 root      20   0 1630m  58m  14m S  0.3  0.4 869:09.86 orarootagent.bi
+ 5224 root      20   0  750m  25m  10m S  0.3  0.2 418:24.57 octssd.bin
+ 5645 oraprd    20   0 1323m  34m  20m S  0.3  0.2 259:52.70 oracle
+ 5668 oraprd    20   0 1332m  39m  32m S  0.3  0.2  76:13.74 oracle
+ 8150 oraprd    20   0 9485m  17m  15m S  0.3  0.1  25:24.73 oracle
+ 

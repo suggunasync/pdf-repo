@@ -1,0 +1,2005 @@
+        Ending Address: 0x01020EFFFFF
+        Range Size: 64511 MB
+        Physical Device Handle: 0x004D
+        Memory Array Mapped Address Handle: 0x00A7
+        Partition Row Position: Unknown
+        Interleave Position: Unknown
+        Interleaved Data Depth: Unknown
+
+Handle 0x024D, DMI type 20, 35 bytes
+Memory Device Mapped Address
+        Starting Address: 0x00061000000
+        Ending Address: 0x01020EFFFFF
+        Range Size: 64511 MB
+        Physical Device Handle: 0x004E
+        Memory Array Mapped Address Handle: 0x00A7
+        Partition Row Position: Unknown
+        Interleave Position: Unknown
+        Interleaved Data Depth: Unknown
+
+Handle 0x024E, DMI type 20, 35 bytes
+Memory Device Mapped Address
+        Starting Address: 0x00061000000
+        Ending Address: 0x01020EFFFFF
+        Range Size: 64511 MB
+        Physical Device Handle: 0x004F
+        Memory Array Mapped Address Handle: 0x00A7
+        Partition Row Position: Unknown
+        Interleave Position: Unknown
+        Interleaved Data Depth: Unknown
+
+Handle 0x024F, DMI type 20, 35 bytes
+Memory Device Mapped Address
+        Starting Address: 0x00061000000
+        Ending Address: 0x01020EFFFFF
+        Range Size: 64511 MB
+        Physical Device Handle: 0x0050
+        Memory Array Mapped Address Handle: 0x00A7
+        Partition Row Position: Unknown
+        Interleave Position: Unknown
+        Interleaved Data Depth: Unknown
+
+Handle 0x0250, DMI type 20, 35 bytes
+Memory Device Mapped Address
+        Starting Address: 0x00061000000
+        Ending Address: 0x01020EFFFFF
+        Range Size: 64511 MB
+        Physical Device Handle: 0x0051
+        Memory Array Mapped Address Handle: 0x00A7
+        Partition Row Position: Unknown
+        Interleave Position: Unknown
+        Interleaved Data Depth: Unknown
+
+Handle 0x0251, DMI type 20, 35 bytes
+Memory Device Mapped Address
+        Starting Address: 0x00061000000
+        Ending Address: 0x01020EFFFFF
+        Range Size: 64511 MB
+        Physical Device Handle: 0x0052
+        Memory Array Mapped Address Handle: 0x00A7
+        Partition Row Position: Unknown
+        Interleave Position: Unknown
+        Interleaved Data Depth: Unknown
+
+Handle 0x0252, DMI type 20, 35 bytes
+Memory Device Mapped Address
+        Starting Address: 0x00061000000
+        Ending Address: 0x01020EFFFFF
+        Range Size: 64511 MB
+        Physical Device Handle: 0x0053
+        Memory Array Mapped Address Handle: 0x00A7
+        Partition Row Position: Unknown
+        Interleave Position: Unknown
+        Interleaved Data Depth: Unknown
+
+Handle 0x0253, DMI type 20, 35 bytes
+Memory Device Mapped Address
+        Starting Address: 0x00061000000
+        Ending Address: 0x01020EFFFFF
+        Range Size: 64511 MB
+        Physical Device Handle: 0x0054
+        Memory Array Mapped Address Handle: 0x00A7
+        Partition Row Position: Unknown
+        Interleave Position: Unknown
+        Interleaved Data Depth: Unknown
+
+Handle 0x0254, DMI type 20, 35 bytes
+Memory Device Mapped Address
+        Starting Address: 0x00061000000
+        Ending Address: 0x01020EFFFFF
+        Range Size: 64511 MB
+        Physical Device Handle: 0x0055
+        Memory Array Mapped Address Handle: 0x00A7
+        Partition Row Position: Unknown
+        Interleave Position: Unknown
+        Interleaved Data Depth: Unknown
+
+Handle 0x0255, DMI type 20, 35 bytes
+Memory Device Mapped Address
+        Starting Address: 0x00061000000
+        Ending Address: 0x01020EFFFFF
+        Range Size: 64511 MB
+        Physical Device Handle: 0x0056
+        Memory Array Mapped Address Handle: 0x00A7
+        Partition Row Position: Unknown
+        Interleave Position: Unknown
+        Interleaved Data Depth: Unknown
+
+Handle 0x0256, DMI type 20, 35 bytes
+Memory Device Mapped Address
+        Starting Address: 0x00061000000
+        Ending Address: 0x01020EFFFFF
+        Range Size: 64511 MB
+        Physical Device Handle: 0x0057
+        Memory Array Mapped Address Handle: 0x00A7
+        Partition Row Position: Unknown
+        Interleave Position: Unknown
+        Interleaved Data Depth: Unknown
+
+Handle 0x0257, DMI type 20, 35 bytes
+Memory Device Mapped Address
+        Starting Address: 0x00061000000
+        Ending Address: 0x01020EFFFFF
+        Range Size: 64511 MB
+        Physical Device Handle: 0x0058
+        Memory Array Mapped Address Handle: 0x00A7
+        Partition Row Position: Unknown
+        Interleave Position: Unknown
+        Interleaved Data Depth: Unknown
+
+Handle 0x0258, DMI type 20, 35 bytes
+Memory Device Mapped Address
+        Starting Address: 0x00061000000
+        Ending Address: 0x01020EFFFFF
+        Range Size: 64511 MB
+        Physical Device Handle: 0x0059
+        Memory Array Mapped Address Handle: 0x00A7
+        Partition Row Position: Unknown
+        Interleave Position: Unknown
+        Interleaved Data Depth: Unknown
+
+Handle 0x0259, DMI type 20, 35 bytes
+Memory Device Mapped Address
+        Starting Address: 0x00061000000
+        Ending Address: 0x01020EFFFFF
+        Range Size: 64511 MB
+        Physical Device Handle: 0x005A
+        Memory Array Mapped Address Handle: 0x00A7
+        Partition Row Position: Unknown
+        Interleave Position: Unknown
+        Interleaved Data Depth: Unknown
+
+Handle 0x025A, DMI type 20, 35 bytes
+Memory Device Mapped Address
+        Starting Address: 0x00061000000
+        Ending Address: 0x01020EFFFFF
+        Range Size: 64511 MB
+        Physical Device Handle: 0x005B
+        Memory Array Mapped Address Handle: 0x00A7
+        Partition Row Position: Unknown
+        Interleave Position: Unknown
+        Interleaved Data Depth: Unknown
+
+Handle 0x025B, DMI type 20, 35 bytes
+Memory Device Mapped Address
+        Starting Address: 0x00061000000
+        Ending Address: 0x01020EFFFFF
+        Range Size: 64511 MB
+        Physical Device Handle: 0x005C
+        Memory Array Mapped Address Handle: 0x00A7
+        Partition Row Position: Unknown
+        Interleave Position: Unknown
+        Interleaved Data Depth: Unknown
+
+Handle 0x025C, DMI type 20, 35 bytes
+Memory Device Mapped Address
+        Starting Address: 0x00061000000
+        Ending Address: 0x01020EFFFFF
+        Range Size: 64511 MB
+        Physical Device Handle: 0x005D
+        Memory Array Mapped Address Handle: 0x00A7
+        Partition Row Position: Unknown
+        Interleave Position: Unknown
+        Interleaved Data Depth: Unknown
+
+Handle 0x025D, DMI type 20, 35 bytes
+Memory Device Mapped Address
+        Starting Address: 0x00061000000
+        Ending Address: 0x01020EFFFFF
+        Range Size: 64511 MB
+        Physical Device Handle: 0x005E
+        Memory Array Mapped Address Handle: 0x00A7
+        Partition Row Position: Unknown
+        Interleave Position: Unknown
+        Interleaved Data Depth: Unknown
+
+Handle 0x025E, DMI type 20, 35 bytes
+Memory Device Mapped Address
+        Starting Address: 0x00061000000
+        Ending Address: 0x01020EFFFFF
+        Range Size: 64511 MB
+        Physical Device Handle: 0x005F
+        Memory Array Mapped Address Handle: 0x00A7
+        Partition Row Position: Unknown
+        Interleave Position: Unknown
+        Interleaved Data Depth: Unknown
+
+Handle 0x025F, DMI type 20, 35 bytes
+Memory Device Mapped Address
+        Starting Address: 0x00061000000
+        Ending Address: 0x01020EFFFFF
+        Range Size: 64511 MB
+        Physical Device Handle: 0x0060
+        Memory Array Mapped Address Handle: 0x00A7
+        Partition Row Position: Unknown
+        Interleave Position: Unknown
+        Interleaved Data Depth: Unknown
+
+Handle 0x0260, DMI type 20, 35 bytes
+Memory Device Mapped Address
+        Starting Address: 0x00061000000
+        Ending Address: 0x01020EFFFFF
+        Range Size: 64511 MB
+        Physical Device Handle: 0x0061
+        Memory Array Mapped Address Handle: 0x00A7
+        Partition Row Position: Unknown
+        Interleave Position: Unknown
+        Interleaved Data Depth: Unknown
+
+Handle 0x0261, DMI type 20, 35 bytes
+Memory Device Mapped Address
+        Starting Address: 0x00061000000
+        Ending Address: 0x01020EFFFFF
+        Range Size: 64511 MB
+        Physical Device Handle: 0x0062
+        Memory Array Mapped Address Handle: 0x00A7
+        Partition Row Position: Unknown
+        Interleave Position: Unknown
+        Interleaved Data Depth: Unknown
+
+Handle 0x0262, DMI type 20, 35 bytes
+Memory Device Mapped Address
+        Starting Address: 0x00061000000
+        Ending Address: 0x01020EFFFFF
+        Range Size: 64511 MB
+        Physical Device Handle: 0x0063
+        Memory Array Mapped Address Handle: 0x00A7
+        Partition Row Position: Unknown
+        Interleave Position: Unknown
+        Interleaved Data Depth: Unknown
+
+Handle 0x0263, DMI type 20, 35 bytes
+Memory Device Mapped Address
+        Starting Address: 0x00061000000
+        Ending Address: 0x01020EFFFFF
+        Range Size: 64511 MB
+        Physical Device Handle: 0x0064
+        Memory Array Mapped Address Handle: 0x00A7
+        Partition Row Position: Unknown
+        Interleave Position: Unknown
+        Interleaved Data Depth: Unknown
+
+Handle 0x0264, DMI type 20, 35 bytes
+Memory Device Mapped Address
+        Starting Address: 0x00061000000
+        Ending Address: 0x01020EFFFFF
+        Range Size: 64511 MB
+        Physical Device Handle: 0x0065
+        Memory Array Mapped Address Handle: 0x00A7
+        Partition Row Position: Unknown
+        Interleave Position: Unknown
+        Interleaved Data Depth: Unknown
+
+Handle 0x0265, DMI type 23, 13 bytes
+System Reset
+        Status: Enabled
+        Watchdog Timer: Present
+        Boot Option: Do Not Reboot
+        Boot Option On Limit: Do Not Reboot
+        Reset Count: Unknown
+        Reset Limit: Unknown
+        Timer Interval: Unknown
+        Timeout: Unknown
+
+Handle 0x0266, DMI type 24, 5 bytes
+Hardware Security
+        Power-On Password Status: Disabled
+        Keyboard Password Status: Unknown
+        Administrator Password Status: Enabled
+        Front Panel Reset Status: Unknown
+
+Handle 0x0267, DMI type 30, 6 bytes
+Out-of-band Remote Access
+        Manufacturer Name: Intel
+        Inbound Connection: Enabled
+        Outbound Connection: Disabled
+
+Handle 0x0268, DMI type 32, 20 bytes
+System Boot Information
+        Status: No errors detected
+
+Handle 0x0269, DMI type 33, 31 bytes
+64-bit Memory Error Information
+        Type: OK
+        Granularity: Unknown
+        Operation: Unknown
+        Vendor Syndrome: Unknown
+        Memory Array Address: Unknown
+        Device Address: Unknown
+        Resolution: Unknown
+
+Handle 0x026A, DMI type 126, 4 bytes
+Inactive
+
+Handle 0x026B, DMI type 127, 4 bytes
+End Of Table
+
+[root@localhost ~]# uname -a
+Linux localhost.localdomain 2.6.32-696.20.1.el6.x86_64 #1 SMP Fri Jan 26 17:51:45 UTC 2018 x86_64 x86_64 x86_64 GNU/Linux
+[root@localhost ~]#
+[root@localhost ~]# vim  /proc/cpuinfo
+[root@localhost ~]# vim /proc/partitions
+[root@localhost ~]# fdisk
+
+fdisk: Usage:
+ fdisk [options] <disk>    change partition table
+ fdisk [options] -l <disk> list partition table(s)
+ fdisk -s <partition>      give partition size(s) in blocks
+
+Options:
+ -b <size>                 sector size (512, 1024, 2048 or 4096)
+ -c                        switch off DOS-compatible mode
+ -h                        print help
+ -u <size>                 give sizes in sectors instead of cylinders
+ -v                        print version
+ -C <number>               specify the number of cylinders
+ -H <number>               specify the number of heads
+ -S <number>               specify the number of sectors per track
+
+: Success
+[root@localhost ~]# fdisk -l
+
+Disk /dev/sda: 32.2 GB, 32212254720 bytes
+255 heads, 63 sectors/track, 3916 cylinders
+Units = cylinders of 16065 * 512 = 8225280 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disk identifier: 0x000eba14
+
+   Device Boot      Start         End      Blocks   Id  System
+/dev/sda1   *           1        1913    15360000   83  Linux
+/dev/sda2            1913        2426     4120576   82  Linux swap / Solaris
+/dev/sda3            2426        2808     3072000   83  Linux
+/dev/sda4            2808        3461     5242880   83  Linux
+Partition 4 does not end on cylinder boundary.
+[root@localhost ~]# fdisk -lh
+
+fdisk: Usage:
+ fdisk [options] <disk>    change partition table
+ fdisk [options] -l <disk> list partition table(s)
+ fdisk -s <partition>      give partition size(s) in blocks
+
+Options:
+ -b <size>                 sector size (512, 1024, 2048 or 4096)
+ -c                        switch off DOS-compatible mode
+ -h                        print help
+ -u <size>                 give sizes in sectors instead of cylinders
+ -v                        print version
+ -C <number>               specify the number of cylinders
+ -H <number>               specify the number of heads
+ -S <number>               specify the number of sectors per track
+
+: Success
+[root@localhost ~]# fdisk -l
+
+Disk /dev/sda: 32.2 GB, 32212254720 bytes
+255 heads, 63 sectors/track, 3916 cylinders
+Units = cylinders of 16065 * 512 = 8225280 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disk identifier: 0x000eba14
+
+   Device Boot      Start         End      Blocks   Id  System
+/dev/sda1   *           1        1913    15360000   83  Linux
+/dev/sda2            1913        2426     4120576   82  Linux swap / Solaris
+/dev/sda3            2426        2808     3072000   83  Linux
+/dev/sda4            2808        3461     5242880   83  Linux
+Partition 4 does not end on cylinder boundary.
+[root@localhost ~]#
+[root@localhost ~]# pwd
+/root
+[root@localhost ~]# uptime
+ 23:04:22 up  7:51,  3 users,  load average: 0.00, 0.00, 0.00
+[root@localhost ~]# who
+root     tty1         2018-04-05 15:15 (:0)
+root     pts/0        2018-04-05 15:16 (:0.0)
+root     pts/1        2018-04-05 22:05 (192.168.71.1)
+[root@localhost ~]# w
+ 23:07:08 up  7:54,  3 users,  load average: 0.15, 0.03, 0.01
+USER     TTY      FROM              LOGIN@   IDLE   JCPU   PCPU WHAT
+root     tty1     :0               15:15    3days 22.03s 22.03s /usr/bin/Xorg :0 -br -verbose -
+root     pts/0    :0.0             15:16    1:03m  0.43s  0.43s /bin/bash
+root     pts/1    192.168.71.1     22:05    8.00s  8.20s  7.14s w
+[root@localhost ~]# w
+ 23:08:28 up  7:55,  4 users,  load average: 0.11, 0.04, 0.01
+USER     TTY      FROM              LOGIN@   IDLE   JCPU   PCPU WHAT
+root     tty1     :0               15:15    3days 22.06s 22.06s /usr/bin/Xorg :0 -br -verbose -
+root     pts/0    :0.0             15:16    1:04m  0.43s  0.43s /bin/bash
+root     pts/1    192.168.71.1     22:05    0.00s  1.86s  0.28s w
+us1      pts/2    192.168.71.1     23:08    9.00s  0.47s  0.47s -bash
+[root@localhost ~]#
+[root@localhost ~]# ls
+a                             file2      Linux       myfile2           python-scripts
+anaconda-ks.cfg               file2bkp   Linux2      myfile2bkp        recover
+CentOS-7-x86_64-DVD-1708.iso  file32     Linux3      nagios            recover1
+data                          file32bkp  Linux,Suse  nagios.cfg        shellscripts
+databackup.tar.gz             file3bkp   lion        pics              Templates
+dd.pdf                        image.jpg  Music       Pictures          test
+Desktop                       king       mydir2      post-install      test3
+Documents                     kong       mydir3      post-install.log  TLA
+Downloads                     link2      mydoc       Public            t.txt
+Enterprise,Oracle             linux      myfile      pyscrip.py        Videos
+[root@localhost ~]# cd Public/
+[root@localhost Public]# ls
+aws  devops  dir2  f1     file2bkp  link2  link4   oracle_rac  shortcut
+d2   dir1    dir3  file2  hadoop    link3  oracle  oracle-rac
+[root@localhost Public]# tree oracle
+oracle
++-- cloud
+¦   +-- linux1
+¦   +-- oracle10c
+¦   +-- oracle11g
++-- Oracle
+¦   +-- DBA
+¦   +-- Rac
++-- oracledb
+    +-- 18c
+    +-- appdev
+
+9 directories, 1 file
+[root@localhost Public]# cd /root/Public/oracle/cloud/linux1
+-bash: cd: /root/Public/oracle/cloud/linux1: Not a directory
+[root@localhost Public]# cd oracle/cloud/
+[root@localhost cloud]# pwdd
+-bash: pwdd: command not found
+[root@localhost cloud]# pwd
+/root/Public/oracle/cloud
+[root@localhost cloud]# cd ..
+[root@localhost oracle]# cd
+[root@localhost ~]# pwd
+/root
+[root@localhost ~]#
+[root@localhost ~]# ls -a
+.                             file2            link2       .pki
+..                            file2bkp         linux       post-install
+a                             file32           Linux       post-install.log
+anaconda-ks.cfg               file32bkp        Linux2      Public
+.bash_history                 file3bkp         Linux3      .pulse
+.bash_logout                  .gconf           Linux,Suse  .pulse-cookie
+.bash_profile                 .gconfd          lion        pyscrip.py
+.bashrc                       .gnome2          .local      python-scripts
+.cache                        .gnome2_private  .mozilla    recover
+CentOS-7-x86_64-DVD-1708.iso  .gnote           Music       recover1
+.config                       .gnupg           mydir2      shellscripts
+.cshrc                        .gstreamer-0.10  mydir3      .ssh
+data                          .gtk-bookmarks   mydoc       .tcshrc
+databackup.tar.gz             .gvfs            myfile      Templates
+.dbus                         .history         myfile2     test
+dd.pdf                        .ICEauthority    myfile2bkp  test3
+Desktop                       image.jpg        nagios      TLA
+Documents                     .imsettings.log  nagios.cfg  t.txt
+Downloads                     king             .nautilus   Videos
+Enterprise,Oracle             kong             pics        .viminfo
+.esd_auth                     .lesshst         Pictures
+[root@localhost ~]# ls -l
+total 2238284
+-rw-r--r--.  1 root root         23 Mar 24 13:09 a
+-rw-------.  1 root root        746 Feb  6 21:37 anaconda-ks.cfg
+-rw-r--r--.  1 root root 2291815993 Mar 12 22:19 CentOS-7-x86_64-DVD-1708.iso
+drwxr-xr-x.  9 root root       4096 Mar 10 17:49 data
+-rw-r--r--.  1 root root        493 Mar 10 17:25 databackup.tar.gz
+-rw-r--r--.  1 root root          0 Mar 24 13:10 dd.pdf
+drw-r-xr--.  2 root root       4096 Apr  5 18:30 Desktop
+drwxr-xr-x.  2 root root       4096 Feb  6 21:45 Documents
+drwxr-xr-x.  2 root root       4096 Feb  6 21:45 Downloads
+drwxr-xr-x.  2 root root       4096 Mar 24 13:58 Enterprise,Oracle
+-rw-r--r--.  1 root root          0 Mar 24 14:19 file2
+lrwxrwxrwx.  1 root root          7 Mar 24 16:24 file2bkp -> myfile2
+-rwxrwxrwx.  2 root root         35 Apr  5 15:39 file32
+-rwxrwxrwx.  2 root root         35 Apr  5 15:39 file32bkp
+-rw-r--r--.  2 root root        126 Mar 24 16:16 file3bkp
+-rw-r--r--.  1 root root          0 Mar 24 13:10 image.jpg
+-rw-r--r--.  1 root root          0 Mar 24 15:59 king
+drwxr-xr-x.  2 root root       4096 Mar 24 14:09 kong
+-rw-r--r--.  2 root root         41 Apr  5 15:30 link2
+drwxr-xr-x.  2 root root       4096 Mar 24 14:09 linux
+drwxr-xr-x.  3 root root       4096 Mar 24 13:58 Linux
+drwxr-xr-x.  4 root root       4096 Mar 24 14:07 Linux2
+drwxr-xr-x.  5 root root       4096 Mar 24 14:14 Linux3
+drwxr-xr-x.  2 root root       4096 Mar 24 13:58 Linux,Suse
+drwxr-xr-x.  2 root root       4096 Mar 24 14:09 lion
+drwxr-xr-x.  2 root root       4096 Feb  6 21:45 Music
+drwxr-xr-x.  2 root root       4096 Mar 24 21:37 mydir2
+drwxr-xr-x.  5 root root       4096 Mar 24 07:15 mydir3
+-rw-r--r--.  1 root root         42 Mar 24 13:51 mydoc
+-rw-r--r--.  1 root root        106 Mar 24 13:38 myfile
+-rw-r--r--.  2 root root        126 Mar 24 16:16 myfile2
+lrwxrwxrwx.  1 root root          7 Mar 24 16:16 myfile2bkp -> myfile2
+drwxr-xr-x.  4 root root       4096 Mar 12 21:30 nagios
+-rw-r--r--.  1 root root       1026 Mar 15 23:14 nagios.cfg
+drwxr-xr-x.  3 root root       4096 Mar 24 14:02 pics
+drwxr-xr-x.  2 root root       4096 Feb  6 21:45 Pictures
+-rw-r--r--.  1 root root      11955 Nov 29  2013 post-install
+-rw-r--r--.  1 root root        552 Nov 29  2013 post-install.log
+drwxr-xr-x. 13 root root       4096 Apr  5 19:10 Public
+-rwxr-xr-x.  1 root root         64 Mar 16 06:05 pyscrip.py
+drwxr-xr-x.  2 root root       4096 Mar 10 19:17 python-scripts
+drwxr-xr-x.  3 root root       4096 Mar 10 17:24 recover
+drwxr-xr-x.  3 root root       4096 Mar 10 17:53 recover1
+drwxr-xr-x.  2 root root       4096 Mar 24 16:19 shellscripts
+drwxr-xr-x.  3 root root       4096 Mar 24 20:42 Templates
+-rw-r--r--.  1 root root        102 Apr  5 15:57 test
+-rw-r--r--.  1 root root         99 Apr  5 19:39 test3
+drwxr-xr-x.  5 root root       4096 Mar 24 01:40 TLA
+-rw-r--r--.  1 root root          0 Mar 24 13:10 t.txt
+drwxr-xr-x.  2 root root       4096 Feb  6 21:45 Videos
+[root@localhost ~]# ls -lh
+total 2.2G
+-rw-r--r--.  1 root root   23 Mar 24 13:09 a
+-rw-------.  1 root root  746 Feb  6 21:37 anaconda-ks.cfg
+-rw-r--r--.  1 root root 2.2G Mar 12 22:19 CentOS-7-x86_64-DVD-1708.iso
+drwxr-xr-x.  9 root root 4.0K Mar 10 17:49 data
+-rw-r--r--.  1 root root  493 Mar 10 17:25 databackup.tar.gz
+-rw-r--r--.  1 root root    0 Mar 24 13:10 dd.pdf
+drw-r-xr--.  2 root root 4.0K Apr  5 18:30 Desktop
+drwxr-xr-x.  2 root root 4.0K Feb  6 21:45 Documents
+drwxr-xr-x.  2 root root 4.0K Feb  6 21:45 Downloads
+drwxr-xr-x.  2 root root 4.0K Mar 24 13:58 Enterprise,Oracle
+-rw-r--r--.  1 root root    0 Mar 24 14:19 file2
+lrwxrwxrwx.  1 root root    7 Mar 24 16:24 file2bkp -> myfile2
+-rwxrwxrwx.  2 root root   35 Apr  5 15:39 file32
+-rwxrwxrwx.  2 root root   35 Apr  5 15:39 file32bkp
+-rw-r--r--.  2 root root  126 Mar 24 16:16 file3bkp
+-rw-r--r--.  1 root root    0 Mar 24 13:10 image.jpg
+-rw-r--r--.  1 root root    0 Mar 24 15:59 king
+drwxr-xr-x.  2 root root 4.0K Mar 24 14:09 kong
+-rw-r--r--.  2 root root   41 Apr  5 15:30 link2
+drwxr-xr-x.  2 root root 4.0K Mar 24 14:09 linux
+drwxr-xr-x.  3 root root 4.0K Mar 24 13:58 Linux
+drwxr-xr-x.  4 root root 4.0K Mar 24 14:07 Linux2
+drwxr-xr-x.  5 root root 4.0K Mar 24 14:14 Linux3
+drwxr-xr-x.  2 root root 4.0K Mar 24 13:58 Linux,Suse
+drwxr-xr-x.  2 root root 4.0K Mar 24 14:09 lion
+drwxr-xr-x.  2 root root 4.0K Feb  6 21:45 Music
+drwxr-xr-x.  2 root root 4.0K Mar 24 21:37 mydir2
+drwxr-xr-x.  5 root root 4.0K Mar 24 07:15 mydir3
+-rw-r--r--.  1 root root   42 Mar 24 13:51 mydoc
+-rw-r--r--.  1 root root  106 Mar 24 13:38 myfile
+-rw-r--r--.  2 root root  126 Mar 24 16:16 myfile2
+lrwxrwxrwx.  1 root root    7 Mar 24 16:16 myfile2bkp -> myfile2
+drwxr-xr-x.  4 root root 4.0K Mar 12 21:30 nagios
+-rw-r--r--.  1 root root 1.1K Mar 15 23:14 nagios.cfg
+drwxr-xr-x.  3 root root 4.0K Mar 24 14:02 pics
+drwxr-xr-x.  2 root root 4.0K Feb  6 21:45 Pictures
+-rw-r--r--.  1 root root  12K Nov 29  2013 post-install
+-rw-r--r--.  1 root root  552 Nov 29  2013 post-install.log
+drwxr-xr-x. 13 root root 4.0K Apr  5 19:10 Public
+-rwxr-xr-x.  1 root root   64 Mar 16 06:05 pyscrip.py
+drwxr-xr-x.  2 root root 4.0K Mar 10 19:17 python-scripts
+drwxr-xr-x.  3 root root 4.0K Mar 10 17:24 recover
+drwxr-xr-x.  3 root root 4.0K Mar 10 17:53 recover1
+drwxr-xr-x.  2 root root 4.0K Mar 24 16:19 shellscripts
+drwxr-xr-x.  3 root root 4.0K Mar 24 20:42 Templates
+-rw-r--r--.  1 root root  102 Apr  5 15:57 test
+-rw-r--r--.  1 root root   99 Apr  5 19:39 test3
+drwxr-xr-x.  5 root root 4.0K Mar 24 01:40 TLA
+-rw-r--r--.  1 root root    0 Mar 24 13:10 t.txt
+drwxr-xr-x.  2 root root 4.0K Feb  6 21:45 Videos
+[root@localhost ~]# ls -r
+Videos          pyscrip.py        myfile      linux      Enterprise,Oracle
+t.txt           Public            mydoc       link2      Downloads
+TLA             post-install.log  mydir3      kong       Documents
+test3           post-install      mydir2      king       Desktop
+test            Pictures          Music       image.jpg  dd.pdf
+Templates       pics              lion        file3bkp   databackup.tar.gz
+shellscripts    nagios.cfg        Linux,Suse  file32bkp  data
+recover1        nagios            Linux3      file32     CentOS-7-x86_64-DVD-1708.iso
+recover         myfile2bkp        Linux2      file2bkp   anaconda-ks.cfg
+python-scripts  myfile2           Linux       file2      a
+[root@localhost ~]# ls -S
+CentOS-7-x86_64-DVD-1708.iso  Linux2      Public           post-install.log   file32
+post-install                  Linux3      python-scripts   databackup.tar.gz  file32bkp
+data                          Linux,Suse  recover          file3bkp           a
+Desktop                       lion        recover1         myfile2            file2bkp
+Documents                     Music       shellscripts     myfile             myfile2bkp
+Downloads                     mydir2      Templates        test               dd.pdf
+Enterprise,Oracle             mydir3      TLA              test3              file2
+kong                          nagios      Videos           pyscrip.py         image.jpg
+linux                         pics        nagios.cfg       mydoc              king
+Linux                         Pictures    anaconda-ks.cfg  link2              t.txt
+[root@localhost ~]# ls -lS
+total 2238284
+-rw-r--r--.  1 root root 2291815993 Mar 12 22:19 CentOS-7-x86_64-DVD-1708.iso
+-rw-r--r--.  1 root root      11955 Nov 29  2013 post-install
+drwxr-xr-x.  9 root root       4096 Mar 10 17:49 data
+drw-r-xr--.  2 root root       4096 Apr  5 18:30 Desktop
+drwxr-xr-x.  2 root root       4096 Feb  6 21:45 Documents
+drwxr-xr-x.  2 root root       4096 Feb  6 21:45 Downloads
+drwxr-xr-x.  2 root root       4096 Mar 24 13:58 Enterprise,Oracle
+drwxr-xr-x.  2 root root       4096 Mar 24 14:09 kong
+drwxr-xr-x.  2 root root       4096 Mar 24 14:09 linux
+drwxr-xr-x.  3 root root       4096 Mar 24 13:58 Linux
+drwxr-xr-x.  4 root root       4096 Mar 24 14:07 Linux2
+drwxr-xr-x.  5 root root       4096 Mar 24 14:14 Linux3
+drwxr-xr-x.  2 root root       4096 Mar 24 13:58 Linux,Suse
+drwxr-xr-x.  2 root root       4096 Mar 24 14:09 lion
+drwxr-xr-x.  2 root root       4096 Feb  6 21:45 Music
+drwxr-xr-x.  2 root root       4096 Mar 24 21:37 mydir2
+drwxr-xr-x.  5 root root       4096 Mar 24 07:15 mydir3
+drwxr-xr-x.  4 root root       4096 Mar 12 21:30 nagios
+drwxr-xr-x.  3 root root       4096 Mar 24 14:02 pics
+drwxr-xr-x.  2 root root       4096 Feb  6 21:45 Pictures
+drwxr-xr-x. 13 root root       4096 Apr  5 19:10 Public
+drwxr-xr-x.  2 root root       4096 Mar 10 19:17 python-scripts
+drwxr-xr-x.  3 root root       4096 Mar 10 17:24 recover
+drwxr-xr-x.  3 root root       4096 Mar 10 17:53 recover1
+drwxr-xr-x.  2 root root       4096 Mar 24 16:19 shellscripts
+drwxr-xr-x.  3 root root       4096 Mar 24 20:42 Templates
+drwxr-xr-x.  5 root root       4096 Mar 24 01:40 TLA
+drwxr-xr-x.  2 root root       4096 Feb  6 21:45 Videos
+-rw-r--r--.  1 root root       1026 Mar 15 23:14 nagios.cfg
+-rw-------.  1 root root        746 Feb  6 21:37 anaconda-ks.cfg
+-rw-r--r--.  1 root root        552 Nov 29  2013 post-install.log
+-rw-r--r--.  1 root root        493 Mar 10 17:25 databackup.tar.gz
+-rw-r--r--.  2 root root        126 Mar 24 16:16 file3bkp
+-rw-r--r--.  2 root root        126 Mar 24 16:16 myfile2
+-rw-r--r--.  1 root root        106 Mar 24 13:38 myfile
+-rw-r--r--.  1 root root        102 Apr  5 15:57 test
+-rw-r--r--.  1 root root         99 Apr  5 19:39 test3
+-rwxr-xr-x.  1 root root         64 Mar 16 06:05 pyscrip.py
+-rw-r--r--.  1 root root         42 Mar 24 13:51 mydoc
+-rw-r--r--.  2 root root         41 Apr  5 15:30 link2
+-rwxrwxrwx.  2 root root         35 Apr  5 15:39 file32
+-rwxrwxrwx.  2 root root         35 Apr  5 15:39 file32bkp
+-rw-r--r--.  1 root root         23 Mar 24 13:09 a
+lrwxrwxrwx.  1 root root          7 Mar 24 16:24 file2bkp -> myfile2
+lrwxrwxrwx.  1 root root          7 Mar 24 16:16 myfile2bkp -> myfile2
+-rw-r--r--.  1 root root          0 Mar 24 13:10 dd.pdf
+-rw-r--r--.  1 root root          0 Mar 24 14:19 file2
+-rw-r--r--.  1 root root          0 Mar 24 13:10 image.jpg
+-rw-r--r--.  1 root root          0 Mar 24 15:59 king
+-rw-r--r--.  1 root root          0 Mar 24 13:10 t.txt
+[root@localhost ~]# ls -ls
+total 2238284
+      4 -rw-r--r--.  1 root root         23 Mar 24 13:09 a
+      4 -rw-------.  1 root root        746 Feb  6 21:37 anaconda-ks.cfg
+2238108 -rw-r--r--.  1 root root 2291815993 Mar 12 22:19 CentOS-7-x86_64-DVD-1708.iso
+      4 drwxr-xr-x.  9 root root       4096 Mar 10 17:49 data
+      4 -rw-r--r--.  1 root root        493 Mar 10 17:25 databackup.tar.gz
+      0 -rw-r--r--.  1 root root          0 Mar 24 13:10 dd.pdf
+      4 drw-r-xr--.  2 root root       4096 Apr  5 18:30 Desktop
+      4 drwxr-xr-x.  2 root root       4096 Feb  6 21:45 Documents
+      4 drwxr-xr-x.  2 root root       4096 Feb  6 21:45 Downloads
+      4 drwxr-xr-x.  2 root root       4096 Mar 24 13:58 Enterprise,Oracle
+      0 -rw-r--r--.  1 root root          0 Mar 24 14:19 file2
+      0 lrwxrwxrwx.  1 root root          7 Mar 24 16:24 file2bkp -> myfile2
+      4 -rwxrwxrwx.  2 root root         35 Apr  5 15:39 file32
+      4 -rwxrwxrwx.  2 root root         35 Apr  5 15:39 file32bkp
+      4 -rw-r--r--.  2 root root        126 Mar 24 16:16 file3bkp
+      0 -rw-r--r--.  1 root root          0 Mar 24 13:10 image.jpg
+      0 -rw-r--r--.  1 root root          0 Mar 24 15:59 king
+      4 drwxr-xr-x.  2 root root       4096 Mar 24 14:09 kong
+      4 -rw-r--r--.  2 root root         41 Apr  5 15:30 link2
+      4 drwxr-xr-x.  2 root root       4096 Mar 24 14:09 linux
+      4 drwxr-xr-x.  3 root root       4096 Mar 24 13:58 Linux
+      4 drwxr-xr-x.  4 root root       4096 Mar 24 14:07 Linux2
+      4 drwxr-xr-x.  5 root root       4096 Mar 24 14:14 Linux3
+      4 drwxr-xr-x.  2 root root       4096 Mar 24 13:58 Linux,Suse
+      4 drwxr-xr-x.  2 root root       4096 Mar 24 14:09 lion
+      4 drwxr-xr-x.  2 root root       4096 Feb  6 21:45 Music
+      4 drwxr-xr-x.  2 root root       4096 Mar 24 21:37 mydir2
+      4 drwxr-xr-x.  5 root root       4096 Mar 24 07:15 mydir3
+      4 -rw-r--r--.  1 root root         42 Mar 24 13:51 mydoc
+      4 -rw-r--r--.  1 root root        106 Mar 24 13:38 myfile
+      4 -rw-r--r--.  2 root root        126 Mar 24 16:16 myfile2
+      0 lrwxrwxrwx.  1 root root          7 Mar 24 16:16 myfile2bkp -> myfile2
+      4 drwxr-xr-x.  4 root root       4096 Mar 12 21:30 nagios
+      4 -rw-r--r--.  1 root root       1026 Mar 15 23:14 nagios.cfg
+      4 drwxr-xr-x.  3 root root       4096 Mar 24 14:02 pics
+      4 drwxr-xr-x.  2 root root       4096 Feb  6 21:45 Pictures
+     12 -rw-r--r--.  1 root root      11955 Nov 29  2013 post-install
+      4 -rw-r--r--.  1 root root        552 Nov 29  2013 post-install.log
+      4 drwxr-xr-x. 13 root root       4096 Apr  5 19:10 Public
+      4 -rwxr-xr-x.  1 root root         64 Mar 16 06:05 pyscrip.py
+      4 drwxr-xr-x.  2 root root       4096 Mar 10 19:17 python-scripts
+      4 drwxr-xr-x.  3 root root       4096 Mar 10 17:24 recover
+      4 drwxr-xr-x.  3 root root       4096 Mar 10 17:53 recover1
+      4 drwxr-xr-x.  2 root root       4096 Mar 24 16:19 shellscripts
+      4 drwxr-xr-x.  3 root root       4096 Mar 24 20:42 Templates
+      4 -rw-r--r--.  1 root root        102 Apr  5 15:57 test
+      4 -rw-r--r--.  1 root root         99 Apr  5 19:39 test3
+      4 drwxr-xr-x.  5 root root       4096 Mar 24 01:40 TLA
+      0 -rw-r--r--.  1 root root          0 Mar 24 13:10 t.txt
+      4 drwxr-xr-x.  2 root root       4096 Feb  6 21:45 Videos
+[root@localhost ~]# ls -R
+.:
+a                             file2      Linux       myfile2           python-scripts
+anaconda-ks.cfg               file2bkp   Linux2      myfile2bkp        recover
+CentOS-7-x86_64-DVD-1708.iso  file32     Linux3      nagios            recover1
+data                          file32bkp  Linux,Suse  nagios.cfg        shellscripts
+databackup.tar.gz             file3bkp   lion        pics              Templates
+dd.pdf                        image.jpg  Music       Pictures          test
+Desktop                       king       mydir2      post-install      test3
+Documents                     kong       mydir3      post-install.log  TLA
+Downloads                     link2      mydoc       Public            t.txt
+Enterprise,Oracle             linux      myfile      pyscrip.py        Videos
+
+./data:
+backup  green  highway  king  lion  samba  tree
+
+./data/backup:
+
+./data/green:
+hype.txt
+
+./data/highway:
+
+./data/king:
+
+./data/lion:
+jiak.doc  lojn.jpg  test3.txt  test.txt  tgt.doc
+
+./data/samba:
+cheatsheet.txt  conf.txt  jack.pdf  joe.jpg  red.doc
+
+./data/tree:
+
+./Desktop:
+file2
+
+./Documents:
+
+./Downloads:
+
+./Enterprise,Oracle:
+
+./kong:
+
+./linux:
+
+./Linux:
+{Redhat
+
+./Linux/{Redhat:
+Centos,Oracle  Fedora,Oracle  Ubuntu,Oracle
+
+./Linux/{Redhat/Centos,Oracle:
+{Oracle
+
+./Linux/{Redhat/Centos,Oracle/{Oracle:
+
+./Linux/{Redhat/Fedora,Oracle:
+{Oracle
+
+./Linux/{Redhat/Fedora,Oracle/{Oracle:
+
+./Linux/{Redhat/Ubuntu,Oracle:
+{Oracle
+
+./Linux/{Redhat/Ubuntu,Oracle/{Oracle:
+
+./Linux2:
+Oracle  Redhat
+
+./Linux2/Oracle:
+cloud  Database
+
+./Linux2/Oracle/cloud:
+
+./Linux2/Oracle/Database:
+
+./Linux2/Redhat:
+centOS  linux
+
+./Linux2/Redhat/centOS:
+
+./Linux2/Redhat/linux:
+
+./Linux3:
+Cloud  Networking  Scripting
+
+./Linux3/Cloud:
+AWS  DEVOPS
+
+./Linux3/Cloud/AWS:
+
+./Linux3/Cloud/DEVOPS:
+
+./Linux3/Networking:
+CCIE  CCNA  CCNP
+
+./Linux3/Networking/CCIE:
+
+./Linux3/Networking/CCNA:
+
+./Linux3/Networking/CCNP:
+
+./Linux3/Scripting:
+Python  Shell
+
+./Linux3/Scripting/Python:
+
+./Linux3/Scripting/Shell:
+
+./Linux,Suse:
+
+./lion:
+
+./Music:
+
+./mydir2:
+file1  file2  file3  file4  file5  king  myfile
+
+./mydir3:
+mydir  mydir4  mydir5  myfilebkp
+
+./mydir3/mydir:
+myfile
+
+./mydir3/mydir4:
+
+./mydir3/mydir5:
+
+./nagios:
+nagios-4.3.4  nagios-4.3.4.tar.gz  nagios-plugins-2.2.1  nagios-plugins-2.2.1.tar.gz
+
+./nagios/nagios-4.3.4:
+base           CONTRIBUTING.md  install-sh        openrc-init      test
+cgi            daemon-init      LEGAL             openrc-init.in   THANKS
+Changelog      daemon-init.in   lib               pkginfo          t-tap
+common         docs             LICENSE           pkginfo.in       update-version
+config.guess   doxy.conf        Makefile          README           UPGRADING
+config.log     functions        Makefile.in       README.asciidoc  worker
+config.status  html             make-tarball      sample-config    xdata
+config.sub     include          mkpackage         subst
+configure      indent-all.sh    module            subst.in
+configure.ac   indent.sh        nagios.spec       t
+contrib        INSTALLING       nagios.sysconfig  tap
+
+./nagios/nagios-4.3.4/base:
+broker.c         events.o       nagiostats       perfdata-base.o    workers.c
+broker.o         flapping.c     nagiostats.c     perfdata.c         workers.o
+checks.c         flapping.o     nebmods.c        query-handler.c    wp-phash.c
+checks.o         logging.c      nebmods.o        query-handler.o    wpres.gperf
+commands.c       logging.o      nerd.c           retention-base.o   wpres-phash.h
+commands.o       macros-base.o  nerd.o           sehandlers.c       xcomments-base.o
+comments-base.o  Makefile       netutils.c       sehandlers.o       xobjects-base.o
+config.c         Makefile.in    netutils.o       sretention.c       xperfdata-base.o
+config.o         nagios         notifications.c  statusdata-base.o  xretention-base.o
+downtime-base.o  nagios.c       notifications.o  utils.c            xstatusdata-base.o
+events.c         nagios.o       objects-base.o   utils.o
+
+./nagios/nagios-4.3.4/cgi:
+archivejson.c    comments-cgi.o  history.c          outages.c         statuswml.cgi
+archivejson.cgi  config.c        history.cgi        outages.cgi       statuswrl.c
+archiveutils.c   config.cgi      jsonutils.c        showlog.c         statuswrl.cgi
+archiveutils.o   downtime-cgi.o  jsonutils.o        showlog.cgi       summary.c
+avail.c          extcmd_list.c   macros-cgi.o       status.c          summary.cgi
+avail.cgi        extcmd_list.o   Makefile           status.cgi        tac.c
+cgiauth.c        extinfo.c       Makefile.in        statusdata-cgi.o  tac.cgi
+cgiauth.o        extinfo.cgi     notifications.c    statusjson.c      trends.c
+cgiutils.c       getcgi.c        notifications.cgi  statusjson.cgi    trends.cgi
+cgiutils.o       getcgi.o        objectjson.c       statusmap.c       xobjects-cgi.o
+cmd.c            histogram.c     objectjson.cgi     statusmap.cgi     xstatusdata-cgi.o
+cmd.cgi          histogram.cgi   objects-cgi.o      statuswml.c
+
+./nagios/nagios-4.3.4/common:
+comments.c  macros.c  Makefile.in  shared.c  statusdata.c
+downtime.c  Makefile  objects.c    shared.o
+
+./nagios/nagios-4.3.4/contrib:
+convertcfg.c  eventhandlers  Makefile     nagios-qh.rb     README
+daemonchk.c   exfoliation    Makefile.in  nagios-worker.c  traceroute.cgi
+
+./nagios/nagios-4.3.4/contrib/eventhandlers:
+disable_active_service_checks  enable_active_service_checks  submit_check_result
+disable_notifications          enable_notifications
+distributed-monitoring         redundancy-scenario1
+
+./nagios/nagios-4.3.4/contrib/eventhandlers/distributed-monitoring:
+obsessive_svc_handler  submit_check_result_via_nsca
+
+./nagios/nagios-4.3.4/contrib/eventhandlers/redundancy-scenario1:
+handle-master-host-event  handle-master-proc-event
+
+./nagios/nagios-4.3.4/contrib/exfoliation:
+images  readme.txt  stylesheets
+
+./nagios/nagios-4.3.4/contrib/exfoliation/images:
+ack.gif            extinfo.gif                           orangedot.gif     tacdisabled.png
+action.gif         favicon.ico                           passiveonly.gif   tacenabled.jpg
+action-graph.gif   flapping.gif                          recovery.png      tacenabled.png
+action-nagios.gif  graph.gif                             redundancy.png    thermcrit.png
+action-orig.gif    greendot.gif                          restart.gif       thermok.png
+command.png        histogram.png                         right.gif         thermwarn.png
+comment.gif        history.gif                           sblogo.png        trends.gif
+contexthelp1.gif   hostevent.gif                         serviceevent.gif  trendshost.png
+contexthelp2.gif   info.png                              sflogo.png        trendssvc.png
+critical.png       left.gif                              splunk1.gif       unknown.png
+delay.gif          logofullsize.png                      splunk2.gif       up.gif
+delete.gif         logos                                 start.gif         warning.png
+detail.gif         logrotate.png                         status2.gif       weblogo1.png
+disabled.gif       NagiosEnterprises-whitebg-112x46.png  status3.gif       zoom1.gif
+down.gif           ndisabled.gif                         status4.gif       zoom2.gif
+downtime.gif       noack.gif                             status.gif
+empty.gif          notes.gif                             stop.gif
+enabled.gif        notify.gif                            tacdisabled.jpg
+
+./nagios/nagios-4.3.4/contrib/exfoliation/images/logos:
+aix.gd2             freebsd40.gd2        mandrake.gif     router40.gif   switch40.png
+aix.gif             freebsd40.gif        mandrake.jpg     router40.jpg   switch.gd2
+aix.jpg             freebsd40.jpg        mandrake.png     router40.png   switch.gif
+aix.png             freebsd40.png        monitor.png      router.gd2     thin-client.gd2
+amiga.gd2           globe.png            nagios.gd2       router.gif     thin-client.gif
+amiga.gif           graph.gif            nagios.gif       san.gd2        turbolinux.gd2
+amiga.jpg           hp-printer40.gd2     nagiosvrml.png   san.gif        turbolinux.gif
+amiga.png           hp-printer40.gif     netbsd.gif       satellite.png  turbolinux.jpg
+apple.gd2           hp-printer40.jpg     netbsd.jpg       server.png     turbolinux.png
+apple.gif           hp-printer40.png     netbsd.png       signal.png     ultrapenguin.gd2
+apple.jpg           hpux.gd2             next.gd2         slackware.gd2  ultrapenguin.gif
+apple.png           hpux.gif             next.gif         slackware.gif  ultrapenguin.jpg
+beos.gd2            hpux.jpg             next.jpg         slackware.jpg  ultrapenguin.png
+beos.gif            hpux.png             next.png         slackware.png  unicos.gd2
+beos.jpg            hub.gd2              ng-switch40.gd2  stampede.gd2   unicos.gif
+beos.png            hub.gif              ng-switch40.gif  stampede.gif   unicos.jpg
+bluetooth.png       internet_device.png  ng-switch40.jpg  stampede.jpg   unicos.png
+caldera.gd2         internet.gd2         ng-switch40.png  stampede.png   unknown.gd2
+caldera.gif         internet.gif         notebook.gd2     station.gd2    unknown.gif
+caldera.jpg         ip-pbx.gd2           notebook.gif     storm.gd2      webcamera.png
+caldera.png         ip-pbx.gif           novell40.gd2     storm.gif      wifi.gd2
+cat1900.gd2         irix.gd2             novell40.gif     storm.jpg      wifi.gif
+cat2900.gd2         irix.gif             novell40.jpg     storm.png      wifi_modem.png
+cat5000.gd2         irix.jpg             novell40.png     sun40.gd2      win40.gd2
+database.gd2        irix.png             openbsd.gd2      sun40.gif      win40.gif
+database.gif        linux40.gd2          openbsd.gif      sun40.jpg      win40.jpg
+debian.gd2          linux40.gif          openbsd.jpg      sun40.png      win40.png
+debian.gif          linux40.jpg          openbsd.png      sunlogo.gd2    workstation.gd2
+debian.jpg          linux40.png          printer.gd2      sunlogo.gif    workstation.gif
+debian.png          logo.gd2             printer.gif      sunlogo.jpg    workstation_locked.png
+desktop-server.gd2  mac40.gd2            rack-server.gd2  sunlogo.png    workstation.png
+desktop-server.gif  mac40.gif            rack-server.gif  suse.gif       yellowdog.gd2
+ethernet_card.png   mac40.jpg            redhat.gd2       suse.jpg       yellowdog.gif
+fax.gd2             mac40.png            redhat.gif       suse.png       yellowdog.jpg
+fax.gif             mainframe.gd2        redhat.jpg       switch40.gd2   yellowdog.png
+firewall.gd2        mainframe.gif        redhat.png       switch40.gif
+firewall.gif        mandrake.gd2         router40.gd2     switch40.jpg
+
+./nagios/nagios-4.3.4/contrib/exfoliation/stylesheets:
+avail.css        common.css   histogram.css   notifications.css  status.css     tac.css
+checksanity.css  config.css   history.css     outages.css        statusmap.css  trends.css
+cmd.css          extinfo.css  ministatus.css  showlog.css        summary.css
+
+./nagios/nagios-4.3.4/docs:
+api-incompat3to4.dox  config-incompat3to4.dox  mainpage.dox  queryhandlers.dox  workers.dox
+
+./nagios/nagios-4.3.4/html:
+angularjs                 histogram-form.html   jsonquery.html      side.php
+bootstrap-3.3.0           histogram-graph.html  main.php            spin
+bootstrap-3.3.0-dist.zip  histogram.html        Makefile            ssi
+config.inc.php            histogram-links.html  Makefile.in         stylesheets
+config.inc.php.in         images                map-directive.html  trends-form.html
+contexthelp               includes              map-form.html       trends-graph.html
+d3                        index.php             map-links.html      trends-host-yaxis.html
+d3-3.5.3.zip              index.php.in          map.php             trends.html
+docs                      infobox.html          map-popup.html      trends-links.html
+graph-header.html         js                    robots.txt          trends-service-yaxis.html
+
+./nagios/nagios-4.3.4/html/angularjs:
+angular-1.3.9      ui-bootstrap-tpls-0.12.0.min.js  ui-utils-0.2.1.zip
+angular-1.3.9.zip  ui-utils-0.2.1
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9:
+angular-animate.js          angular-loader.min.js.map    angular-sanitize.js
+angular-animate.min.js      angular-messages.js          angular-sanitize.min.js
+angular-animate.min.js.map  angular-messages.min.js      angular-sanitize.min.js.map
+angular-aria.js             angular-messages.min.js.map  angular-scenario.js
+angular-aria.min.js         angular.min.js               angular-touch.js
+angular-aria.min.js.map     angular.min.js.map           angular-touch.min.js
+angular-cookies.js          angular-mocks.js             angular-touch.min.js.map
+angular-cookies.min.js      angular-resource.js          docs
+angular-cookies.min.js.map  angular-resource.min.js      errors.json
+angular-csp.css             angular-resource.min.js.map  i18n
+angular.js                  angular-route.js             version.json
+angular-loader.js           angular-route.min.js         version.txt
+angular-loader.min.js       angular-route.min.js.map
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs:
+components     examples     index-debug.html   index-production.html  ptore2e
+css            favicon.ico  index.html         js
+Error404.html  img          index-jquery.html  partials
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/components:
+bootstrap-3.1.1             jquery-2.1.1   marked-0.3.2
+google-code-prettify-1.0.1  lunr.js-0.4.2  open-sans-fontface-1.0.4
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/components/bootstrap-3.1.1:
+css  fonts  js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/components/bootstrap-3.1.1/css:
+bootstrap.css      bootstrap.min.css    bootstrap-theme.css.map
+bootstrap.css.map  bootstrap-theme.css  bootstrap-theme.min.css
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/components/bootstrap-3.1.1/fonts:
+glyphicons-halflings-regular.eot  glyphicons-halflings-regular.ttf
+glyphicons-halflings-regular.svg  glyphicons-halflings-regular.woff
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/components/bootstrap-3.1.1/js:
+bootstrap.js  bootstrap.min.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/components/google-code-prettify-1.0.1:
+bower.json  CHANGES.html  COPYING  README.html  README.md  README-zh-Hans.html  src  styles
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/components/google-code-prettify-1.0.1/src:
+lang-apollo.js  lang-go.js    lang-ml.js     lang-sql.js   lang-wiki.js  prettify.js
+lang-clj.js     lang-hs.js    lang-n.js      lang-tex.js   lang-xq.js
+lang-css.js     lang-lisp.js  lang-proto.js  lang-vb.js    lang-yaml.js
+lang-dart.js    lang-lua.js   lang-scala.js  lang-vhdl.js  prettify.css
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/components/google-code-prettify-1.0.1/styles:
+demo.html  desert.css  index.html  sons-of-obsidian.css  sunburst.css
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/components/jquery-2.1.1:
+jquery.js  jquery.min.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/components/lunr.js-0.4.2:
+lunr.js  lunr.min.js  server.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/components/marked-0.3.2:
+index.js  lib
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/components/marked-0.3.2/lib:
+marked.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/components/open-sans-fontface-1.0.4:
+bower.json  fonts  index.html  open-sans.css  open-sans.less  open-sans.scss  README.md
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/components/open-sans-fontface-1.0.4/fonts:
+Bold        ExtraBold        Italic  LightItalic  Semibold
+BoldItalic  ExtraBoldItalic  Light   Regular      SemiboldItalic
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/components/open-sans-fontface-1.0.4/fonts/Bold:
+OpenSans-Bold.eot  OpenSans-Bold.svg  OpenSans-Bold.ttf  OpenSans-Bold.woff
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/components/open-sans-fontface-1.0.4/fonts/BoldItalic:
+OpenSans-BoldItalic.eot  OpenSans-BoldItalic.ttf
+OpenSans-BoldItalic.svg  OpenSans-BoldItalic.woff
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/components/open-sans-fontface-1.0.4/fonts/ExtraBold:
+OpenSans-ExtraBold.eot  OpenSans-ExtraBold.svg  OpenSans-ExtraBold.ttf  OpenSans-ExtraBold.woff
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/components/open-sans-fontface-1.0.4/fonts/ExtraBoldItalic:
+OpenSans-ExtraBoldItalic.eot  OpenSans-ExtraBoldItalic.ttf
+OpenSans-ExtraBoldItalic.svg  OpenSans-ExtraBoldItalic.woff
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/components/open-sans-fontface-1.0.4/fonts/Italic:
+OpenSans-Italic.eot  OpenSans-Italic.svg  OpenSans-Italic.ttf  OpenSans-Italic.woff
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/components/open-sans-fontface-1.0.4/fonts/Light:
+OpenSans-Light.eot  OpenSans-Light.svg  OpenSans-Light.ttf  OpenSans-Light.woff
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/components/open-sans-fontface-1.0.4/fonts/LightItalic:
+OpenSans-LightItalic.eot  OpenSans-LightItalic.ttf
+OpenSans-LightItalic.svg  OpenSans-LightItalic.woff
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/components/open-sans-fontface-1.0.4/fonts/Regular:
+OpenSans-Regular.eot  OpenSans-Regular.svg  OpenSans-Regular.ttf  OpenSans-Regular.woff
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/components/open-sans-fontface-1.0.4/fonts/Semibold:
+OpenSans-Semibold.eot  OpenSans-Semibold.svg  OpenSans-Semibold.ttf  OpenSans-Semibold.woff
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/components/open-sans-fontface-1.0.4/fonts/SemiboldItalic:
+OpenSans-SemiboldItalic.eot  OpenSans-SemiboldItalic.ttf
+OpenSans-SemiboldItalic.svg  OpenSans-SemiboldItalic.woff
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/css:
+animations.css  docs.css  doc_widgets.css  prettify.css  prettify-theme.css
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples:
+example-checkbox-input-directive       example-example59
+example-date-input-directive           example-example6
+example-datetimelocal-input-directive  example-example60
+example-email-input-directive          example-example61
+example-error-$rootScope-inprog        example-example62
+example-example                        example-example63
+example-example1                       example-example64
+example-example10                      example-example65
+example-example100                     example-example66
+example-example101                     example-example67
+example-example102                     example-example68
+example-example103                     example-example69
+example-example104                     example-example7
+example-example105                     example-example70
+example-example106                     example-example71
+example-example107                     example-example72
+example-example108                     example-example73
+example-example109                     example-example74
+example-example11                      example-example75
+example-example110                     example-example76
+example-example111                     example-example77
+example-example112                     example-example78
+example-example113                     example-example79
+example-example114                     example-example8
+example-example115                     example-example80
+example-example116                     example-example81
+example-example12                      example-example82
+example-example13                      example-example83
+example-example14                      example-example84
+example-example15                      example-example85
+example-example16                      example-example86
+example-example17                      example-example87
+example-example18                      example-example88
+example-example19                      example-example89
+example-example2                       example-example9
+example-example20                      example-example90
+example-example21                      example-example91
+example-example22                      example-example92
+example-example23                      example-example93
+example-example24                      example-example94
+example-example25                      example-example95
+example-example26                      example-example96
+example-example27                      example-example97
+example-example28                      example-example98
+example-example29                      example-example99
+example-example3                       example-example.csp
+example-example30                      example-$filter
+example-example31                      example-guide-concepts-1
+example-example32                      example-guide-concepts-2
+example-example33                      example-guide-concepts-21
+example-example34                      example-guide-concepts-3
+example-example35                      example-input-directive
+example-example36                      example-location-hashbang-mode
+example-example37                      example-location-html5-mode
+example-example38                      example-month-input-directive
+example-example39                      example-ngChange-directive
+example-example4                       example-ngController
+example-example40                      example-ngControllerAs
+example-example41                      example-ngList-directive
+example-example42                      example-ngList-directive-newlines
+example-example43                      example-ngMessages-directive
+example-example44                      example-ng-model-cancel-update
+example-example45                      example-NgModelController
+example-example46                      example-ngModel-getter-setter
+example-example47                      example-ngModelOptions-directive-blur
+example-example48                      example-ngModelOptions-directive-debounce
+example-example49                      example-ngModelOptions-directive-getter-setter
+example-example5                       example-ngValue-directive
+example-example50                      example-ngView-directive
+example-example51                      example-number-input-directive
+example-example52                      example-radio-input-directive
+example-example53                      example-$route-service
+example-example54                      example-text-input-directive
+example-example55                      example-time-input-directive
+example-example56                      example-url-input-directive
+example-example57                      example-week-input-directive
+example-example58
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-checkbox-input-directive:
+index-debug.html  index-jquery.html      manifest.json
+index.html        index-production.html  protractor.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-date-input-directive:
+index-debug.html  index-jquery.html      manifest.json
+index.html        index-production.html  protractor.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-datetimelocal-input-directive:
+index-debug.html  index-jquery.html      manifest.json
+index.html        index-production.html  protractor.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-email-input-directive:
+index-debug.html  index-jquery.html      manifest.json
+index.html        index-production.html  protractor.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-error-$rootScope-inprog:
+app.js  index-debug.html  index.html  index-jquery.html  index-production.html  manifest.json
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example:
+index-debug.html  index-jquery.html      manifest.json
+index.html        index-production.html  script.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example1:
+index-debug.html  index.html  index-jquery.html  index-production.html  manifest.json
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example10:
+index-debug.html  index-jquery.html      manifest.json
+index.html        index-production.html  script.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example100:
+index-debug.html  index-jquery.html      manifest.json
+index.html        index-production.html  protractor.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example101:
+index-debug.html  index-jquery.html      manifest.json
+index.html        index-production.html  protractor.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example102:
+index-debug.html  index-jquery.html      manifest.json
+index.html        index-production.html  protractor.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example103:
+index-debug.html  index.html  index-jquery.html  index-production.html  manifest.json
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example104:
+index-debug.html  index-jquery.html      manifest.json
+index.html        index-production.html  script.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example105:
+http-hello.html   index.html         index-production.html  protractor.js
+index-debug.html  index-jquery.html  manifest.json          script.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example106:
+index-debug.html  index-jquery.html      manifest.json
+index.html        index-production.html  protractor.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example107:
+index-debug.html  index.html  index-jquery.html  index-production.html  manifest.json
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example108:
+index-debug.html  index.html  index-jquery.html  index-production.html  manifest.json
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example109:
+index-debug.html  index-jquery.html      manifest.json
+index.html        index-production.html  script.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example11:
+index-debug.html  index-jquery.html      manifest.json     script.js
+index.html        index-production.html  my-customer.html
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example110:
+index-debug.html  index-jquery.html      manifest.json  script.js
+index.html        index-production.html  protractor.js  test_data.json
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example111:
+index-debug.html  index-jquery.html      manifest.json
+index.html        index-production.html  protractor.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example112:
+index-debug.html  index-jquery.html      manifest.json
+index.html        index-production.html  protractor.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example113:
+index-debug.html  index-jquery.html      manifest.json
+index.html        index-production.html  protractor.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example114:
+index-debug.html  index-jquery.html      manifest.json
+index.html        index-production.html  script.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example115:
+index-debug.html  index-jquery.html      manifest.json
+index.html        index-production.html  script.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example116:
+index-debug.html  index-jquery.html      manifest.json
+index.html        index-production.html  script.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example12:
+customer-address.html  index-debug.html  index-jquery.html      manifest.json
+customer-name.html     index.html        index-production.html  script.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example13:
+index-debug.html  index-jquery.html      manifest.json     script.js
+index.html        index-production.html  my-customer.html
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example14:
+index-debug.html  index-jquery.html      manifest.json     script.js
+index.html        index-production.html  my-customer.html
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example15:
+index-debug.html  index-jquery.html      manifest.json         script.js
+index.html        index-production.html  my-customer-iso.html
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example16:
+index-debug.html  index-jquery.html      manifest.json                script.js
+index.html        index-production.html  my-customer-plus-vojta.html
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example17:
+index-debug.html  index-jquery.html      manifest.json
+index.html        index-production.html  script.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example18:
+index-debug.html  index-jquery.html      manifest.json   script.js
+index.html        index-production.html  my-dialog.html
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example19:
+index-debug.html  index-jquery.html      manifest.json   script.js
+index.html        index-production.html  my-dialog.html
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example2:
+index-debug.html  index.html  index-jquery.html  index-production.html  manifest.json
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example20:
+index-debug.html  index-jquery.html      manifest.json         script.js
+index.html        index-production.html  my-dialog-close.html
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example21:
+index-debug.html  index-jquery.html      manifest.json
+index.html        index-production.html  script.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example22:
+index-debug.html  index-jquery.html      manifest.json  my-tabs.html
+index.html        index-production.html  my-pane.html   script.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example23:
+index-debug.html  index-jquery.html      manifest.json
+index.html        index-production.html  protractor.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example24:
+index-debug.html  index-jquery.html      manifest.json  script.js
+index.html        index-production.html  protractor.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example25:
+index-debug.html  index-jquery.html      manifest.json  script.js
+index.html        index-production.html  protractor.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example26:
+index-debug.html  index-jquery.html      manifest.json
+index.html        index-production.html  script.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example27:
+index-debug.html  index-jquery.html      manifest.json  script.js
+index.html        index-production.html  protractor.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example28:
+index-debug.html  index-jquery.html      manifest.json
+index.html        index-production.html  script.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example29:
+index-debug.html  index-jquery.html      manifest.json
+index.html        index-production.html  script.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example3:
+animations.css    index.html         index-production.html
+index-debug.html  index-jquery.html  manifest.json
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example30:
+index-debug.html  index-jquery.html      manifest.json
+index.html        index-production.html  script.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example31:
+index-debug.html  index.html  index-jquery.html  index-production.html  manifest.json
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example32:
+index-debug.html  index.html  index-jquery.html  index-production.html  manifest.json
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example33:
+index-debug.html  index-jquery.html      manifest.json
+index.html        index-production.html  script.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example34:
+index-debug.html  index-jquery.html      manifest.json
+index.html        index-production.html  script.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example35:
+index-debug.html  index-jquery.html      manifest.json
+index.html        index-production.html  script.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example36:
+index-debug.html  index-jquery.html      manifest.json
+index.html        index-production.html  script.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example37:
+index-debug.html  index-jquery.html      manifest.json
+index.html        index-production.html  script.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example38:
+index-debug.html  index-jquery.html      manifest.json
+index.html        index-production.html  script.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example39:
+index-debug.html  index-jquery.html      manifest.json  script.js
+index.html        index-production.html  protractor.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example4:
+index-debug.html  index-jquery.html      manifest.json
+index.html        index-production.html  style.css
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example40:
+index-debug.html  index-jquery.html      manifest.json  script.js
+index.html        index-production.html  protractor.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example41:
+index-debug.html  index-jquery.html      manifest.json
+index.html        index-production.html  script.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example42:
+index-debug.html  index-jquery.html      manifest.json  style.css
+index.html        index-production.html  script.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example43:
+index-debug.html  index-jquery.html      manifest.json
+index.html        index-production.html  script.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example44:
+index-debug.html  index-jquery.html      manifest.json  script.js
+index.html        index-production.html  protractor.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example45:
+index-debug.html  index.html  index-jquery.html  index-production.html  manifest.json
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example46:
+index-debug.html  index-jquery.html      manifest.json
+index.html        index-production.html  script.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example47:
+index-debug.html  index-jquery.html      manifest.json  style.css
+index.html        index-production.html  script.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example48:
+index-debug.html  index-jquery.html      manifest.json  style.css
+index.html        index-production.html  script.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example49:
+index-debug.html  index-jquery.html      manifest.json  style.css
+index.html        index-production.html  script.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example5:
+index-debug.html  index-jquery.html      manifest.json
+index.html        index-production.html  script.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example50:
+index-debug.html  index-jquery.html      manifest.json  style.css
+index.html        index-production.html  script.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example51:
+index-debug.html  index-jquery.html      manifest.json
+index.html        index-production.html  protractor.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example52:
+index-debug.html  index-jquery.html      manifest.json
+index.html        index-production.html  protractor.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example53:
+index-debug.html  index-jquery.html      manifest.json
+index.html        index-production.html  protractor.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example54:
+index-debug.html  index-jquery.html      manifest.json
+index.html        index-production.html  protractor.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example55:
+index-debug.html  index-jquery.html      manifest.json
+index.html        index-production.html  protractor.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example56:
+index-debug.html  index-jquery.html      manifest.json
+index.html        index-production.html  protractor.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example57:
+index-debug.html  index-jquery.html      manifest.json
+index.html        index-production.html  protractor.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example58:
+index-debug.html  index-jquery.html      manifest.json
+index.html        index-production.html  protractor.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example59:
+index-debug.html  index-jquery.html      manifest.json
+index.html        index-production.html  protractor.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example6:
+app.js  index-debug.html  index.html  index-jquery.html  index-production.html  manifest.json
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example60:
+index-debug.html  index-jquery.html      manifest.json
+index.html        index-production.html  protractor.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example61:
+index-debug.html  index-jquery.html      manifest.json  script.js
+index.html        index-production.html  protractor.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example62:
+index-debug.html  index-jquery.html      manifest.json  style.css
+index.html        index-production.html  protractor.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example63:
+index-debug.html  index-jquery.html      manifest.json  style.css
+index.html        index-production.html  protractor.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example64:
+index-debug.html  index-jquery.html      manifest.json  style.css
+index.html        index-production.html  protractor.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example65:
+index-debug.html  index-jquery.html      manifest.json  style.css
+index.html        index-production.html  protractor.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example66:
+index-debug.html  index-jquery.html      manifest.json
+index.html        index-production.html  protractor.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example67:
+index-debug.html  index-jquery.html      manifest.json
+index.html        index-production.html  protractor.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example68:
+index-debug.html  index.html  index-jquery.html  index-production.html  manifest.json
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example69:
+index-debug.html  index.html  index-jquery.html  index-production.html  manifest.json
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example7:
+app.js  index-debug.html  index.html  index-jquery.html  index-production.html  manifest.json
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example70:
+index-debug.html  index.html  index-jquery.html  index-production.html  manifest.json
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example71:
+index-debug.html  index.html  index-jquery.html  index-production.html  manifest.json
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example72:
+index-debug.html  index.html  index-jquery.html  index-production.html  manifest.json
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example73:
+index-debug.html  index.html  index-jquery.html  index-production.html  manifest.json
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example74:
+index-debug.html  index.html  index-jquery.html  index-production.html  manifest.json
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example75:
+index-debug.html  index.html  index-jquery.html  index-production.html  manifest.json
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example76:
+index-debug.html  index.html  index-jquery.html  index-production.html  manifest.json
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example77:
+index-debug.html  index.html  index-jquery.html  index-production.html  manifest.json
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example78:
+index-debug.html  index-jquery.html      manifest.json
+index.html        index-production.html  protractor.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example79:
+index-debug.html  index.html  index-jquery.html  index-production.html  manifest.json
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example8:
+app.css  index-debug.html  index-jquery.html      manifest.json
+app.js   index.html        index-production.html
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example80:
+index-debug.html  index.html  index-jquery.html  index-production.html  manifest.json
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example81:
+index-debug.html  index.html  index-jquery.html  index-production.html  manifest.json
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example82:
+animations.css    index.html         index-production.html
+index-debug.html  index-jquery.html  manifest.json
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example83:
+animations.css    index.html         index-production.html  protractor.js  template1.html
+index-debug.html  index-jquery.html  manifest.json          script.js      template2.html
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example84:
+index-debug.html  index-jquery.html      manifest.json
+index.html        index-production.html  protractor.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example85:
+^Zindex-debug.html  index.html  index-jquery.html  index-production.html  manifest.json
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example86:
+index-debug.html  index-jquery.html      manifest.json
+index.html        index-production.html  protractor.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example87:
+index-debug.html  index-jquery.html      manifest.json
+index.html        index-production.html  protractor.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example88:
+animations.css    index.html         index-production.html  protractor.js
+index-debug.html  index-jquery.html  manifest.json
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example89:
+animations.css  index-debug.html  index-jquery.html      manifest.json
+glyphicons.css  index.html        index-production.html  protractor.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example9:
+index-debug.html  index-jquery.html      manifest.json  script.js
+index.html        index-production.html  protractor.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example90:
+animations.css  index-debug.html  index-jquery.html      manifest.json
+glyphicons.css  index.html        index-production.html  protractor.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example91:
+index-debug.html  index-jquery.html      manifest.json  style.css
+index.html        index-production.html  protractor.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example92:
+animations.css    index.html         index-production.html  protractor.js
+index-debug.html  index-jquery.html  manifest.json          script.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example93:
+index-debug.html  index-jquery.html      manifest.json
+index.html        index-production.html  protractor.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example94:
+index-debug.html  index-jquery.html      manifest.json
+index.html        index-production.html  protractor.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example95:
+index-debug.html  index-jquery.html      manifest.json
+index.html        index-production.html  protractor.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example96:
+index-debug.html  index-jquery.html      manifest.json
+index.html        index-production.html  script.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example97:
+index-debug.html  index-jquery.html      manifest.json
+index.html        index-production.html  protractor.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example98:
+index-debug.html  index-jquery.html      manifest.json
+index.html        index-production.html  protractor.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example99:
+index-debug.html  index-jquery.html      manifest.json
+index.html        index-production.html  protractor.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-example.csp:
+index-debug.html  index-jquery.html      manifest.json  script.js
+index.html        index-production.html  protractor.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-$filter:
+index-debug.html  index-jquery.html      manifest.json
+index.html        index-production.html  script.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-guide-concepts-1:
+index-debug.html  index.html  index-jquery.html  index-production.html  manifest.json
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-guide-concepts-2:
+index-debug.html  index-jquery.html      invoice1.js
+index.html        index-production.html  manifest.json
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-guide-concepts-21:
+finance2.js       index.html         index-production.html  manifest.json
+index-debug.html  index-jquery.html  invoice2.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-guide-concepts-3:
+finance3.js       index.html         index-production.html  manifest.json
+index-debug.html  index-jquery.html  invoice3.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-input-directive:
+index-debug.html  index-jquery.html      manifest.json
+index.html        index-production.html  protractor.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-location-hashbang-mode:
+addressBar.js  fakeBrowser.js    index.html         index-production.html  protractor.js
+app.js         index-debug.html  index-jquery.html  manifest.json
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-location-html5-mode:
+addressBar.js  fakeBrowser.js    index.html         index-production.html  protractor.js
+app.js         index-debug.html  index-jquery.html  manifest.json
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-month-input-directive:
+index-debug.html  index-jquery.html      manifest.json
+index.html        index-production.html  protractor.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-ngChange-directive:
+index-debug.html  index-jquery.html      manifest.json
+index.html        index-production.html  protractor.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-ngController:
+app.js            index.html         index-production.html  protractor.js
+index-debug.html  index-jquery.html  manifest.json
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-ngControllerAs:
+app.js            index.html         index-production.html  protractor.js
+index-debug.html  index-jquery.html  manifest.json
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-ngList-directive:
+app.js            index.html         index-production.html  protractor.js
+index-debug.html  index-jquery.html  manifest.json
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-ngList-directive-newlines:
+index-debug.html  index-jquery.html      manifest.json
+index.html        index-production.html  protractor.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-ngMessages-directive:
+index-debug.html  index-jquery.html      manifest.json
+index.html        index-production.html  script.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-ng-model-cancel-update:
+app.js  index-debug.html  index.html  index-jquery.html  index-production.html  manifest.json
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-NgModelController:
+index-debug.html  index-jquery.html      manifest.json  script.js
+index.html        index-production.html  protractor.js  style.css
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-ngModel-getter-setter:
+app.js  index-debug.html  index.html  index-jquery.html  index-production.html  manifest.json
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-ngModelOptions-directive-blur:
+app.js            index.html         index-production.html  protractor.js
+index-debug.html  index-jquery.html  manifest.json
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-ngModelOptions-directive-debounce:
+app.js  index-debug.html  index.html  index-jquery.html  index-production.html  manifest.json
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-ngModelOptions-directive-getter-setter:
+app.js  index-debug.html  index.html  index-jquery.html  index-production.html  manifest.json
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-ngValue-directive:
+index-debug.html  index-jquery.html      manifest.json
+index.html        index-production.html  protractor.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-ngView-directive:
+animations.css  chapter.html      index.html         index-production.html  protractor.js
+book.html       index-debug.html  index-jquery.html  manifest.json          script.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-number-input-directive:
+index-debug.html  index-jquery.html      manifest.json
+index.html        index-production.html  protractor.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-radio-input-directive:
+index-debug.html  index-jquery.html      manifest.json
+index.html        index-production.html  protractor.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-$route-service:
+book.html     index-debug.html  index-jquery.html      manifest.json  script.js
+chapter.html  index.html        index-production.html  protractor.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-text-input-directive:
+index-debug.html  index-jquery.html      manifest.json
+index.html        index-production.html  protractor.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-time-input-directive:
+index-debug.html  index-jquery.html      manifest.json
+index.html        index-production.html  protractor.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-url-input-directive:
+index-debug.html  index-jquery.html      manifest.json
+index.html        index-production.html  protractor.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/examples/example-week-input-directive:
+index-debug.html  index-jquery.html      manifest.json
+index.html        index-production.html  protractor.js
+
+./nagios/nagios-4.3.4/html/angularjs/angular-1.3.9/docs/img:
+angularjs-for-header-only.svg
+[1]+  Stopped                 ls --color=auto -R
+[root@localhost ~]# cd Public/
+[root@localhost Public]# ls -R
+.:
+aws  devops  dir2  f1     file2bkp  link2  link4   oracle_rac  shortcut
+d2   dir1    dir3  file2  hadoop    link3  oracle  oracle-rac
+
+./aws:
+
+./d2:
+HP  Redhat  Suse
+
+./d2/HP:
+{UX}
+
+./d2/HP/{UX}:
+
+./d2/Redhat:
+centos  fedora
+
+./d2/Redhat/centos:
+link
+
+./d2/Redhat/fedora:
+
+./d2/Suse:
+susecloud  suselinux
+
+./d2/Suse/susecloud:
+
+./d2/Suse/suselinux:
+
+./devops:
+
+./dir1:
+dir3
+
+./dir1/dir3:
+d3
+
+./dir1/dir3/d3:
+d4
+
+./dir1/dir3/d3/d4:
+
+./dir2:
+
+./dir3:
+
+./f1:
+f2
+
+./f1/f2:
+f3
+
+./f1/f2/f3:
+f4
+
+./f1/f2/f3/f4:
+f5
+
+./f1/f2/f3/f4/f5:
+
+./hadoop:
+
+./oracle:
+cloud  Oracle  oracledb
+
+./oracle/cloud:
+linux1  oracle10c  oracle11g
+
+./oracle/cloud/oracle10c:
+
+./oracle/cloud/oracle11g:
+
+./oracle/Oracle:
+DBA  Rac
+
+./oracle/Oracle/DBA:
+
+./oracle/Oracle/Rac:
+
+./oracle/oracledb:
+18c  appdev
+
+./oracle/oracledb/18c:
+
+./oracle/oracledb/appdev:
+
+./oracle_rac:
+
+./oracle-rac:
+linux3
+[root@localhost Public]# tree
+.
++-- aws
++-- d2
+¦   +-- HP
+¦   ¦   +-- {UX}
+¦   +-- Redhat
+¦   ¦   +-- centos
+¦   ¦   ¦   +-- link
+¦   ¦   +-- fedora
+¦   +-- Suse
+¦       +-- susecloud
+¦       +-- suselinux
++-- devops
++-- dir1
+¦   +-- dir3
+¦       +-- d3
+¦           +-- d4
++-- dir2
++-- dir3
++-- f1
+¦   +-- f2
+¦       +-- f3
+¦           +-- f4
+¦               +-- f5
++-- file2 -> file2
++-- file2bkp
++-- hadoop
++-- link2
++-- link3 -> link2
++-- link4 -> link4
++-- oracle
+¦   +-- cloud
+¦   ¦   +-- linux1
+¦   ¦   +-- oracle10c
+¦   ¦   +-- oracle11g
+¦   +-- Oracle
+¦   ¦   +-- DBA
+¦   ¦   +-- Rac
+¦   +-- oracledb
+¦       +-- 18c
+¦       +-- appdev
++-- oracle_rac
++-- oracle-rac
+¦   +-- linux3
++-- shortcut -> d2/Redhat/centos/
+
+36 directories, 8 files
+[root@localhost Public]#
+[root@localhost Public]# cd
+[root@localhost ~]# ls -t
+test3      shellscripts  Linux2             a                             databackup.tar.gz
+Public     myfile2bkp    pics               mydir3                        recover
+Desktop    file3bkp      Linux,Suse         TLA                           Documents
+test       myfile2       Enterprise,Oracle  pyscrip.py                    Downloads
+file32     king          Linux              nagios.cfg                    Music
+file32bkp  file2         mydoc              CentOS-7-x86_64-DVD-1708.iso  Pictures
+link2      Linux3        myfile             nagios                        Videos
+mydir2     kong          dd.pdf             python-scripts                anaconda-ks.cfg
+Templates  linux         image.jpg          recover1                      post-install.log
+file2bkp   lion          t.txt              data                          post-install
+[root@localhost ~]# ls -li
+total 2238284
+140955 -rw-r--r--.  1 root root         23 Mar 24 13:09 a
+191877 -rw-------.  1 root root        746 Feb  6 21:37 anaconda-ks.cfg
+140687 -rw-r--r--.  1 root root 2291815993 Mar 12 22:19 CentOS-7-x86_64-DVD-1708.iso
+402332 drwxr-xr-x.  9 root root       4096 Mar 10 17:49 data
+137887 -rw-r--r--.  1 root root        493 Mar 10 17:25 databackup.tar.gz
+140959 -rw-r--r--.  1 root root          0 Mar 24 13:10 dd.pdf
+391737 drw-r-xr--.  2 root root       4096 Apr  5 18:30 Desktop
+391741 drwxr-xr-x.  2 root root       4096 Feb  6 21:45 Documents
+391738 drwxr-xr-x.  2 root root       4096 Feb  6 21:45 Downloads
+403592 drwxr-xr-x.  2 root root       4096 Mar 24 13:58 Enterprise,Oracle
+140962 -rw-r--r--.  1 root root          0 Mar 24 14:19 file2
+140948 lrwxrwxrwx.  1 root root          7 Mar 24 16:24 file2bkp -> myfile2
+140964 -rwxrwxrwx.  2 root root         35 Apr  5 15:39 file32
+140964 -rwxrwxrwx.  2 root root         35 Apr  5 15:39 file32bkp
+140900 -rw-r--r--.  2 root root        126 Mar 24 16:16 file3bkp
+140958 -rw-r--r--.  1 root root          0 Mar 24 13:10 image.jpg
+130604 -rw-r--r--.  1 root root          0 Mar 24 15:59 king
+403618 drwxr-xr-x.  2 root root       4096 Mar 24 14:09 kong
+140960 -rw-r--r--.  2 root root         41 Apr  5 15:30 link2
+403617 drwxr-xr-x.  2 root root       4096 Mar 24 14:09 linux
+403584 drwxr-xr-x.  3 root root       4096 Mar 24 13:58 Linux
+403609 drwxr-xr-x.  4 root root       4096 Mar 24 14:07 Linux2
+403593 drwxr-xr-x.  5 root root       4096 Mar 24 14:14 Linux3
+403595 drwxr-xr-x.  2 root root       4096 Mar 24 13:58 Linux,Suse
+403616 drwxr-xr-x.  2 root root       4096 Mar 24 14:09 lion
+391742 drwxr-xr-x.  2 root root       4096 Feb  6 21:45 Music
+403577 drwxr-xr-x.  2 root root       4096 Mar 24 21:37 mydir2
+403579 drwxr-xr-x.  5 root root       4096 Mar 24 07:15 mydir3
+140963 -rw-r--r--.  1 root root         42 Mar 24 13:51 mydoc
+140961 -rw-r--r--.  1 root root        106 Mar 24 13:38 myfile
+140900 -rw-r--r--.  2 root root        126 Mar 24 16:16 myfile2
+137860 lrwxrwxrwx.  1 root root          7 Mar 24 16:16 myfile2bkp -> myfile2
+522298 drwxr-xr-x.  4 root root       4096 Mar 12 21:30 nagios
+137872 -rw-r--r--.  1 root root       1026 Mar 15 23:14 nagios.cfg
+403597 drwxr-xr-x.  3 root root       4096 Mar 24 14:02 pics
+391743 drwxr-xr-x.  2 root root       4096 Feb  6 21:45 Pictures
+191836 -rw-r--r--.  1 root root      11955 Nov 29  2013 post-install
+191839 -rw-r--r--.  1 root root        552 Nov 29  2013 post-install.log
+391740 drwxr-xr-x. 13 root root       4096 Apr  5 19:10 Public
+140920 -rwxr-xr-x.  1 root root         64 Mar 16 06:05 pyscrip.py
+391697 drwxr-xr-x.  2 root root       4096 Mar 10 19:17 python-scripts
+402567 drwxr-xr-x.  3 root root       4096 Mar 10 17:24 recover
+391871 drwxr-xr-x.  3 root root       4096 Mar 10 17:53 recover1
+656305 drwxr-xr-x.  2 root root       4096 Mar 24 16:19 shellscripts
+391739 drwxr-xr-x.  3 root root       4096 Mar 24 20:42 Templates
+140967 -rw-r--r--.  1 root root        102 Apr  5 15:57 test
+140845 -rw-r--r--.  1 root root         99 Apr  5 19:39 test3
+402349 drwxr-xr-x.  5 root root       4096 Mar 24 01:40 TLA
+140956 -rw-r--r--.  1 root root          0 Mar 24 13:10 t.txt
+391744 drwxr-xr-x.  2 root root       4096 Feb  6 21:45 Videos
+[root@localhost ~]#
+[root@localhost ~]# cd Documents/
+[root@localhost Documents]# ls
+[root@localhost Documents]# mkdir linux
+[root@localhost Documents]# ls
+linux
+[root@localhost Documents]# cd linux/
+[root@localhost linux]# pwd
+/root/Documents/linux
+[root@localhost linux]# cat > myfile
+hi, hello welcome to Think Linux Academy
+[root@localhost linux]# cat myfile
+hi, hello welcome to Think Linux Academy
+[root@localhost linux]# cat >> myfile
+linux is opensource
+[root@localhost linux]# cat myfile
+hi, hello welcome to Think Linux Academy
+linux is opensource
+[root@localhost linux]# mkdir -p linux/Redhat/Suse/Oracle/Amazon
+[root@localhost linux]# tree linux
+linux
++-- Redhat
+    +-- Suse
+        +-- Oracle
+            +-- Amazon
+
+4 directories, 0 files
+[root@localhost linux]# mkdir dir dir2 dir3
+[root@localhost linux]# pwd
+/root/Documents/linux
+[root@localhost linux]# ls
+dir  dir2  dir3  linux  myfile
+[root@localhost linux]# mkdir -p cloud/{AWS/{s3,ebl,ebs},Devops/{git,jenkins,chef}}
+[root@localhost linux]# tree cloud
+cloud
++-- AWS
+¦   +-- ebl
+¦   +-- ebs
+¦   +-- s3
++-- Devops
+    +-- chef
+    +-- git
+    +-- jenkins
+
+8 directories, 0 files
+[root@localhost linux]# vi myfile
+[root@localhost linux]# nani myfile
+-bash: nani: command not found
+[root@localhost linux]# nano myfile
+[root@localhost linux]#

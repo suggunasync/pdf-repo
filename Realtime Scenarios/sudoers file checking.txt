@@ -1,0 +1,12 @@
+How to check the particularuser in sudoers file or not ?
+
+# cat /etc/sudoers | grep -i jboss
+
+
+
+
+
+Ex :=======
+=========
+Can you please help us out with some additional information? 
+What are the steps you use to identify the JBoss Admins who have access to the VIMS servers? 

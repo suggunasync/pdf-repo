@@ -1,0 +1,34 @@
+Please find below the screenshot, we tried to resolve but not able to, Please do the needful ASAP.
+
+The user not able to sudo ID – scmmqcadmin.
+
+ID - kathirr
+
+Servers - usnencvl806
+
+I have few more user’s having the same issue, kindly let me know how to proceed with this, so that I can do for the remaining user’s.
+
+
+
+Solution :===
+==============
+
+[root@usnencvl806 ~]# /etc/sudoers^C
+[root@usnencvl806 ~]# cp -p /etc/sudoers /etc/sudoers-org
+[root@usnencvl806 ~]# vi /etc/sudoers
+[root@usnencvl806 ~]# su - x325328
+[x325328@usnencvl806 ~]$ sudo su - scmmqcadmin
+[scmmqcadmin@usnencvl806 ~]$ exit
+logout
+
+
+[root@usnencvl806 ~]# cat /etc/sudoers |grep -i scmmqcadmin
+x858556 ALL=(ALL) NOPASSWD: /bin/su - scmmqcadmin
+x004252 ALL=(ALL) NOPASSWD: /bin/su - scmmqcadmin
+x764498 ALL=(ALL) NOPASSWD: /bin/su - scmmqcadmin
+x756530 ALL=(ALL) NOPASSWD: /bin/su - scmmqcadmin
+x325328 ALL=(ALL) NOPASSWD: /bin/su - scmmqcadmin
+x305783 ALL=(ALL) NOPASSWD: /bin/su - scmmqcadmin
+ramaiyr ALL=(ALL) NOPASSWD: /bin/su - scmmqcadmin
+kathirr ALL=(ALL) NOPASSWD: /bin/su - scmmqcadmin
+ananths ALL=(ALL) NOPASSWD: /bin/su - scmmqcadmin

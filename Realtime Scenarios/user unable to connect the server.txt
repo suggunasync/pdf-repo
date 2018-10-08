@@ -1,0 +1,19 @@
+Could you please check for this issue while connecting to the server for id   x536051  ,
+ as I am not able to connect to the server USNENCVL371
+
+step :-1>> id <userid>
+
+if user existed 
+
+step 2:->> pam_tally2 --user=x536051
+Output:=
+=======
+Login           Failures Latest failure     From
+x536051            19    09/28/16 10:31:41  10.78.52.160
+
+
+Step 3:->> faillog -r -u x536051
+Step 4:->> faillock --user  x536051
+STep 5:->>        
+pam_tally2 --user=x536051 --reset=0       
+

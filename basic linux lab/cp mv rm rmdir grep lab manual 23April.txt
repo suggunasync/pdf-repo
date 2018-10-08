@@ -1,0 +1,1996 @@
+        Locator: NVD #9
+        Bank Locator: NVD #9
+        Type: Other
+        Type Detail: Unknown
+        Speed: Unknown
+        Manufacturer: Not Specified
+        Serial Number: Not Specified
+        Asset Tag: Not Specified
+        Part Number: Not Specified
+        Rank: Unknown
+        Configured Clock Speed: Unknown
+
+Handle 0x01ED, DMI type 17, 34 bytes
+Memory Device
+        Array Handle: 0x0025
+        Error Information Handle: No Error
+        Total Width: 32 bits
+        Data Width: 32 bits
+        Size: No Module Installed
+        Form Factor: DIMM
+        Set: None
+        Locator: NVD #10
+        Bank Locator: NVD #10
+        Type: Other
+        Type Detail: Unknown
+        Speed: Unknown
+        Manufacturer: Not Specified
+        Serial Number: Not Specified
+        Asset Tag: Not Specified
+        Part Number: Not Specified
+        Rank: Unknown
+        Configured Clock Speed: Unknown
+
+Handle 0x01EE, DMI type 17, 34 bytes
+Memory Device
+        Array Handle: 0x0025
+        Error Information Handle: No Error
+        Total Width: 32 bits
+        Data Width: 32 bits
+        Size: No Module Installed
+        Form Factor: DIMM
+        Set: None
+        Locator: NVD #11
+        Bank Locator: NVD #11
+        Type: Other
+        Type Detail: Unknown
+        Speed: Unknown
+        Manufacturer: Not Specified
+        Serial Number: Not Specified
+        Asset Tag: Not Specified
+        Part Number: Not Specified
+        Rank: Unknown
+        Configured Clock Speed: Unknown
+
+Handle 0x01EF, DMI type 17, 34 bytes
+Memory Device
+        Array Handle: 0x0025
+        Error Information Handle: No Error
+        Total Width: 32 bits
+        Data Width: 32 bits
+        Size: No Module Installed
+        Form Factor: DIMM
+        Set: None
+        Locator: NVD #12
+        Bank Locator: NVD #12
+        Type: Other
+        Type Detail: Unknown
+        Speed: Unknown
+        Manufacturer: Not Specified
+        Serial Number: Not Specified
+        Asset Tag: Not Specified
+        Part Number: Not Specified
+        Rank: Unknown
+        Configured Clock Speed: Unknown
+
+Handle 0x01F0, DMI type 17, 34 bytes
+Memory Device
+        Array Handle: 0x0025
+        Error Information Handle: No Error
+        Total Width: 32 bits
+        Data Width: 32 bits
+        Size: No Module Installed
+        Form Factor: DIMM
+        Set: None
+        Locator: NVD #13
+        Bank Locator: NVD #13
+        Type: Other
+        Type Detail: Unknown
+        Speed: Unknown
+        Manufacturer: Not Specified
+        Serial Number: Not Specified
+        Asset Tag: Not Specified
+        Part Number: Not Specified
+        Rank: Unknown
+        Configured Clock Speed: Unknown
+
+Handle 0x01F1, DMI type 17, 34 bytes
+Memory Device
+        Array Handle: 0x0025
+        Error Information Handle: No Error
+        Total Width: 32 bits
+        Data Width: 32 bits
+        Size: No Module Installed
+        Form Factor: DIMM
+        Set: None
+        Locator: NVD #14
+        Bank Locator: NVD #14
+        Type: Other
+        Type Detail: Unknown
+        Speed: Unknown
+        Manufacturer: Not Specified
+        Serial Number: Not Specified
+        Asset Tag: Not Specified
+        Part Number: Not Specified
+        Rank: Unknown
+        Configured Clock Speed: Unknown
+
+Handle 0x01F2, DMI type 17, 34 bytes
+Memory Device
+        Array Handle: 0x0025
+        Error Information Handle: No Error
+        Total Width: 32 bits
+        Data Width: 32 bits
+        Size: No Module Installed
+        Form Factor: DIMM
+        Set: None
+        Locator: NVD #15
+        Bank Locator: NVD #15
+        Type: Other
+        Type Detail: Unknown
+        Speed: Unknown
+        Manufacturer: Not Specified
+        Serial Number: Not Specified
+        Asset Tag: Not Specified
+        Part Number: Not Specified
+        Rank: Unknown
+        Configured Clock Speed: Unknown
+
+Handle 0x01F3, DMI type 17, 34 bytes
+Memory Device
+        Array Handle: 0x0025
+        Error Information Handle: No Error
+        Total Width: 32 bits
+        Data Width: 32 bits
+        Size: No Module Installed
+        Form Factor: DIMM
+        Set: None
+        Locator: NVD #16
+        Bank Locator: NVD #16
+        Type: Other
+        Type Detail: Unknown
+        Speed: Unknown
+        Manufacturer: Not Specified
+        Serial Number: Not Specified
+        Asset Tag: Not Specified
+        Part Number: Not Specified
+        Rank: Unknown
+        Configured Clock Speed: Unknown
+
+Handle 0x01F4, DMI type 17, 34 bytes
+Memory Device
+        Array Handle: 0x0025
+        Error Information Handle: No Error
+        Total Width: 32 bits
+        Data Width: 32 bits
+        Size: No Module Installed
+        Form Factor: DIMM
+        Set: None
+        Locator: NVD #17
+        Bank Locator: NVD #17
+        Type: Other
+        Type Detail: Unknown
+        Speed: Unknown
+        Manufacturer: Not Specified
+        Serial Number: Not Specified
+        Asset Tag: Not Specified
+        Part Number: Not Specified
+        Rank: Unknown
+        Configured Clock Speed: Unknown
+
+Handle 0x01F5, DMI type 17, 34 bytes
+Memory Device
+        Array Handle: 0x0025
+        Error Information Handle: No Error
+        Total Width: 32 bits
+        Data Width: 32 bits
+        Size: No Module Installed
+        Form Factor: DIMM
+        Set: None
+        Locator: NVD #18
+        Bank Locator: NVD #18
+        Type: Other
+        Type Detail: Unknown
+        Speed: Unknown
+        Manufacturer: Not Specified
+        Serial Number: Not Specified
+        Asset Tag: Not Specified
+        Part Number: Not Specified
+        Rank: Unknown
+        Configured Clock Speed: Unknown
+
+Handle 0x01F6, DMI type 17, 34 bytes
+Memory Device
+        Array Handle: 0x0025
+        Error Information Handle: No Error
+        Total Width: 32 bits
+        Data Width: 32 bits
+        Size: No Module Installed
+        Form Factor: DIMM
+        Set: None
+        Locator: NVD #19
+        Bank Locator: NVD #19
+        Type: Other
+        Type Detail: Unknown
+        Speed: Unknown
+        Manufacturer: Not Specified
+        Serial Number: Not Specified
+        Asset Tag: Not Specified
+        Part Number: Not Specified
+        Rank: Unknown
+        Configured Clock Speed: Unknown
+
+Handle 0x01F7, DMI type 17, 34 bytes
+Memory Device
+        Array Handle: 0x0025
+        Error Information Handle: No Error
+        Total Width: 32 bits
+        Data Width: 32 bits
+        Size: No Module Installed
+        Form Factor: DIMM
+        Set: None
+        Locator: NVD #20
+        Bank Locator: NVD #20
+        Type: Other
+        Type Detail: Unknown
+        Speed: Unknown
+        Manufacturer: Not Specified
+        Serial Number: Not Specified
+        Asset Tag: Not Specified
+        Part Number: Not Specified
+        Rank: Unknown
+        Configured Clock Speed: Unknown
+
+Handle 0x01F8, DMI type 17, 34 bytes
+Memory Device
+        Array Handle: 0x0025
+        Error Information Handle: No Error
+        Total Width: 32 bits
+        Data Width: 32 bits
+        Size: No Module Installed
+        Form Factor: DIMM
+        Set: None
+        Locator: NVD #21
+        Bank Locator: NVD #21
+        Type: Other
+        Type Detail: Unknown
+        Speed: Unknown
+        Manufacturer: Not Specified
+        Serial Number: Not Specified
+        Asset Tag: Not Specified
+        Part Number: Not Specified
+        Rank: Unknown
+        Configured Clock Speed: Unknown
+
+Handle 0x01F9, DMI type 17, 34 bytes
+Memory Device
+        Array Handle: 0x0025
+        Error Information Handle: No Error
+        Total Width: 32 bits
+        Data Width: 32 bits
+        Size: No Module Installed
+        Form Factor: DIMM
+        Set: None
+        Locator: NVD #22
+        Bank Locator: NVD #22
+        Type: Other
+        Type Detail: Unknown
+        Speed: Unknown
+        Manufacturer: Not Specified
+        Serial Number: Not Specified
+        Asset Tag: Not Specified
+        Part Number: Not Specified
+        Rank: Unknown
+        Configured Clock Speed: Unknown
+
+Handle 0x01FA, DMI type 17, 34 bytes
+Memory Device
+        Array Handle: 0x0025
+        Error Information Handle: No Error
+        Total Width: 32 bits
+        Data Width: 32 bits
+        Size: No Module Installed
+        Form Factor: DIMM
+        Set: None
+        Locator: NVD #23
+        Bank Locator: NVD #23
+        Type: Other
+        Type Detail: Unknown
+        Speed: Unknown
+        Manufacturer: Not Specified
+        Serial Number: Not Specified
+        Asset Tag: Not Specified
+        Part Number: Not Specified
+        Rank: Unknown
+        Configured Clock Speed: Unknown
+
+Handle 0x01FB, DMI type 17, 34 bytes
+Memory Device
+        Array Handle: 0x0025
+        Error Information Handle: No Error
+        Total Width: 32 bits
+        Data Width: 32 bits
+        Size: No Module Installed
+        Form Factor: DIMM
+        Set: None
+        Locator: NVD #24
+        Bank Locator: NVD #24
+        Type: Other
+        Type Detail: Unknown
+        Speed: Unknown
+        Manufacturer: Not Specified
+        Serial Number: Not Specified
+        Asset Tag: Not Specified
+        Part Number: Not Specified
+        Rank: Unknown
+        Configured Clock Speed: Unknown
+
+Handle 0x01FC, DMI type 17, 34 bytes
+Memory Device
+        Array Handle: 0x0025
+        Error Information Handle: No Error
+        Total Width: 32 bits
+        Data Width: 32 bits
+        Size: No Module Installed
+        Form Factor: DIMM
+        Set: None
+        Locator: NVD #25
+        Bank Locator: NVD #25
+        Type: Other
+        Type Detail: Unknown
+        Speed: Unknown
+        Manufacturer: Not Specified
+        Serial Number: Not Specified
+        Asset Tag: Not Specified
+        Part Number: Not Specified
+        Rank: Unknown
+        Configured Clock Speed: Unknown
+
+Handle 0x01FD, DMI type 17, 34 bytes
+Memory Device
+        Array Handle: 0x0025
+        Error Information Handle: No Error
+        Total Width: 32 bits
+        Data Width: 32 bits
+        Size: No Module Installed
+        Form Factor: DIMM
+        Set: None
+        Locator: NVD #26
+        Bank Locator: NVD #26
+        Type: Other
+        Type Detail: Unknown
+        Speed: Unknown
+        Manufacturer: Not Specified
+        Serial Number: Not Specified
+        Asset Tag: Not Specified
+        Part Number: Not Specified
+        Rank: Unknown
+        Configured Clock Speed: Unknown
+
+Handle 0x01FE, DMI type 17, 34 bytes
+Memory Device
+        Array Handle: 0x0025
+        Error Information Handle: No Error
+        Total Width: 32 bits
+        Data Width: 32 bits
+        Size: No Module Installed
+        Form Factor: DIMM
+        Set: None
+        Locator: NVD #27
+        Bank Locator: NVD #27
+        Type: Other
+        Type Detail: Unknown
+        Speed: Unknown
+        Manufacturer: Not Specified
+        Serial Number: Not Specified
+        Asset Tag: Not Specified
+        Part Number: Not Specified
+        Rank: Unknown
+        Configured Clock Speed: Unknown
+
+Handle 0x01FF, DMI type 17, 34 bytes
+Memory Device
+        Array Handle: 0x0025
+        Error Information Handle: No Error
+        Total Width: 32 bits
+        Data Width: 32 bits
+        Size: No Module Installed
+        Form Factor: DIMM
+        Set: None
+        Locator: NVD #28
+        Bank Locator: NVD #28
+        Type: Other
+        Type Detail: Unknown
+        Speed: Unknown
+        Manufacturer: Not Specified
+        Serial Number: Not Specified
+        Asset Tag: Not Specified
+        Part Number: Not Specified
+        Rank: Unknown
+        Configured Clock Speed: Unknown
+
+Handle 0x0200, DMI type 17, 34 bytes
+Memory Device
+        Array Handle: 0x0025
+        Error Information Handle: No Error
+        Total Width: 32 bits
+        Data Width: 32 bits
+        Size: No Module Installed
+        Form Factor: DIMM
+        Set: None
+        Locator: NVD #29
+        Bank Locator: NVD #29
+        Type: Other
+        Type Detail: Unknown
+        Speed: Unknown
+        Manufacturer: Not Specified
+        Serial Number: Not Specified
+        Asset Tag: Not Specified
+        Part Number: Not Specified
+        Rank: Unknown
+        Configured Clock Speed: Unknown
+
+Handle 0x0201, DMI type 17, 34 bytes
+Memory Device
+        Array Handle: 0x0025
+        Error Information Handle: No Error
+        Total Width: 32 bits
+        Data Width: 32 bits
+        Size: No Module Installed
+        Form Factor: DIMM
+        Set: None
+        Locator: NVD #30
+        Bank Locator: NVD #30
+        Type: Other
+        Type Detail: Unknown
+        Speed: Unknown
+        Manufacturer: Not Specified
+        Serial Number: Not Specified
+        Asset Tag: Not Specified
+        Part Number: Not Specified
+        Rank: Unknown
+        Configured Clock Speed: Unknown
+
+Handle 0x0202, DMI type 17, 34 bytes
+Memory Device
+        Array Handle: 0x0025
+        Error Information Handle: No Error
+        Total Width: 32 bits
+        Data Width: 32 bits
+        Size: No Module Installed
+        Form Factor: DIMM
+        Set: None
+        Locator: NVD #31
+        Bank Locator: NVD #31
+        Type: Other
+        Type Detail: Unknown
+        Speed: Unknown
+        Manufacturer: Not Specified
+        Serial Number: Not Specified
+        Asset Tag: Not Specified
+        Part Number: Not Specified
+        Rank: Unknown
+        Configured Clock Speed: Unknown
+
+Handle 0x0203, DMI type 17, 34 bytes
+Memory Device
+        Array Handle: 0x0025
+        Error Information Handle: No Error
+        Total Width: 32 bits
+        Data Width: 32 bits
+        Size: No Module Installed
+        Form Factor: DIMM
+        Set: None
+        Locator: NVD #32
+        Bank Locator: NVD #32
+        Type: Other
+        Type Detail: Unknown
+        Speed: Unknown
+        Manufacturer: Not Specified
+        Serial Number: Not Specified
+        Asset Tag: Not Specified
+        Part Number: Not Specified
+        Rank: Unknown
+        Configured Clock Speed: Unknown
+
+Handle 0x0204, DMI type 17, 34 bytes
+Memory Device
+        Array Handle: 0x0025
+        Error Information Handle: No Error
+        Total Width: 32 bits
+        Data Width: 32 bits
+        Size: No Module Installed
+        Form Factor: DIMM
+        Set: None
+        Locator: NVD #33
+        Bank Locator: NVD #33
+        Type: Other
+        Type Detail: Unknown
+        Speed: Unknown
+        Manufacturer: Not Specified
+        Serial Number: Not Specified
+        Asset Tag: Not Specified
+        Part Number: Not Specified
+        Rank: Unknown
+        Configured Clock Speed: Unknown
+
+Handle 0x0205, DMI type 17, 34 bytes
+Memory Device
+        Array Handle: 0x0025
+        Error Information Handle: No Error
+        Total Width: 32 bits
+        Data Width: 32 bits
+        Size: No Module Installed
+        Form Factor: DIMM
+        Set: None
+        Locator: NVD #34
+        Bank Locator: NVD #34
+        Type: Other
+        Type Detail: Unknown
+        Speed: Unknown
+        Manufacturer: Not Specified
+        Serial Number: Not Specified
+        Asset Tag: Not Specified
+        Part Number: Not Specified
+        Rank: Unknown
+        Configured Clock Speed: Unknown
+
+Handle 0x0206, DMI type 17, 34 bytes
+Memory Device
+        Array Handle: 0x0025
+        Error Information Handle: No Error
+        Total Width: 32 bits
+        Data Width: 32 bits
+        Size: No Module Installed
+        Form Factor: DIMM
+        Set: None
+        Locator: NVD #35
+        Bank Locator: NVD #35
+        Type: Other
+        Type Detail: Unknown
+        Speed: Unknown
+        Manufacturer: Not Specified
+        Serial Number: Not Specified
+        Asset Tag: Not Specified
+        Part Number: Not Specified
+        Rank: Unknown
+        Configured Clock Speed: Unknown
+
+Handle 0x0207, DMI type 17, 34 bytes
+Memory Device
+        Array Handle: 0x0025
+        Error Information Handle: No Error
+        Total Width: 32 bits
+        Data Width: 32 bits
+        Size: No Module Installed
+        Form Factor: DIMM
+        Set: None
+        Locator: NVD #36
+        Bank Locator: NVD #36
+        Type: Other
+        Type Detail: Unknown
+        Speed: Unknown
+        Manufacturer: Not Specified
+        Serial Number: Not Specified
+        Asset Tag: Not Specified
+        Part Number: Not Specified
+        Rank: Unknown
+        Configured Clock Speed: Unknown
+
+Handle 0x0208, DMI type 17, 34 bytes
+Memory Device
+        Array Handle: 0x0025
+        Error Information Handle: No Error
+        Total Width: 32 bits
+        Data Width: 32 bits
+        Size: No Module Installed
+        Form Factor: DIMM
+        Set: None
+        Locator: NVD #37
+        Bank Locator: NVD #37
+        Type: Other
+        Type Detail: Unknown
+        Speed: Unknown
+        Manufacturer: Not Specified
+        Serial Number: Not Specified
+        Asset Tag: Not Specified
+        Part Number: Not Specified
+        Rank: Unknown
+        Configured Clock Speed: Unknown
+
+Handle 0x0209, DMI type 17, 34 bytes
+Memory Device
+        Array Handle: 0x0025
+        Error Information Handle: No Error
+        Total Width: 32 bits
+        Data Width: 32 bits
+        Size: No Module Installed
+        Form Factor: DIMM
+        Set: None
+        Locator: NVD #38
+        Bank Locator: NVD #38
+        Type: Other
+        Type Detail: Unknown
+        Speed: Unknown
+        Manufacturer: Not Specified
+        Serial Number: Not Specified
+        Asset Tag: Not Specified
+        Part Number: Not Specified
+        Rank: Unknown
+        Configured Clock Speed: Unknown
+
+Handle 0x020A, DMI type 17, 34 bytes
+Memory Device
+        Array Handle: 0x0025
+        Error Information Handle: No Error
+        Total Width: 32 bits
+        Data Width: 32 bits
+        Size: No Module Installed
+        Form Factor: DIMM
+        Set: None
+        Locator: NVD #39
+        Bank Locator: NVD #39
+        Type: Other
+        Type Detail: Unknown
+        Speed: Unknown
+        Manufacturer: Not Specified
+        Serial Number: Not Specified
+        Asset Tag: Not Specified
+        Part Number: Not Specified
+        Rank: Unknown
+        Configured Clock Speed: Unknown
+
+Handle 0x020B, DMI type 17, 34 bytes
+Memory Device
+        Array Handle: 0x0025
+        Error Information Handle: No Error
+        Total Width: 32 bits
+        Data Width: 32 bits
+        Size: No Module Installed
+        Form Factor: DIMM
+        Set: None
+        Locator: NVD #40
+        Bank Locator: NVD #40
+        Type: Other
+        Type Detail: Unknown
+        Speed: Unknown
+        Manufacturer: Not Specified
+        Serial Number: Not Specified
+        Asset Tag: Not Specified
+        Part Number: Not Specified
+        Rank: Unknown
+        Configured Clock Speed: Unknown
+
+Handle 0x020C, DMI type 17, 34 bytes
+Memory Device
+        Array Handle: 0x0025
+        Error Information Handle: No Error
+        Total Width: 32 bits
+        Data Width: 32 bits
+        Size: No Module Installed
+        Form Factor: DIMM
+        Set: None
+        Locator: NVD #41
+        Bank Locator: NVD #41
+        Type: Other
+        Type Detail: Unknown
+        Speed: Unknown
+        Manufacturer: Not Specified
+        Serial Number: Not Specified
+        Asset Tag: Not Specified
+        Part Number: Not Specified
+        Rank: Unknown
+        Configured Clock Speed: Unknown
+
+Handle 0x020D, DMI type 17, 34 bytes
+Memory Device
+        Array Handle: 0x0025
+        Error Information Handle: No Error
+        Total Width: 32 bits
+        Data Width: 32 bits
+        Size: No Module Installed
+        Form Factor: DIMM
+        Set: None
+        Locator: NVD #42
+        Bank Locator: NVD #42
+        Type: Other
+        Type Detail: Unknown
+        Speed: Unknown
+        Manufacturer: Not Specified
+        Serial Number: Not Specified
+        Asset Tag: Not Specified
+        Part Number: Not Specified
+        Rank: Unknown
+        Configured Clock Speed: Unknown
+
+Handle 0x020E, DMI type 17, 34 bytes
+Memory Device
+        Array Handle: 0x0025
+        Error Information Handle: No Error
+        Total Width: 32 bits
+        Data Width: 32 bits
+        Size: No Module Installed
+        Form Factor: DIMM
+        Set: None
+        Locator: NVD #43
+        Bank Locator: NVD #43
+        Type: Other
+        Type Detail: Unknown
+        Speed: Unknown
+        Manufacturer: Not Specified
+        Serial Number: Not Specified
+        Asset Tag: Not Specified
+        Part Number: Not Specified
+        Rank: Unknown
+        Configured Clock Speed: Unknown
+
+Handle 0x020F, DMI type 17, 34 bytes
+Memory Device
+        Array Handle: 0x0025
+        Error Information Handle: No Error
+        Total Width: 32 bits
+        Data Width: 32 bits
+        Size: No Module Installed
+        Form Factor: DIMM
+        Set: None
+        Locator: NVD #44
+        Bank Locator: NVD #44
+        Type: Other
+        Type Detail: Unknown
+        Speed: Unknown
+        Manufacturer: Not Specified
+        Serial Number: Not Specified
+        Asset Tag: Not Specified
+        Part Number: Not Specified
+        Rank: Unknown
+        Configured Clock Speed: Unknown
+
+Handle 0x0210, DMI type 17, 34 bytes
+Memory Device
+        Array Handle: 0x0025
+        Error Information Handle: No Error
+        Total Width: 32 bits
+        Data Width: 32 bits
+        Size: No Module Installed
+        Form Factor: DIMM
+        Set: None
+        Locator: NVD #45
+        Bank Locator: NVD #45
+        Type: Other
+        Type Detail: Unknown
+        Speed: Unknown
+        Manufacturer: Not Specified
+        Serial Number: Not Specified
+        Asset Tag: Not Specified
+        Part Number: Not Specified
+        Rank: Unknown
+        Configured Clock Speed: Unknown
+
+Handle 0x0211, DMI type 17, 34 bytes
+Memory Device
+        Array Handle: 0x0025
+        Error Information Handle: No Error
+        Total Width: 32 bits
+        Data Width: 32 bits
+        Size: No Module Installed
+        Form Factor: DIMM
+        Set: None
+        Locator: NVD #46
+        Bank Locator: NVD #46
+        Type: Other
+        Type Detail: Unknown
+        Speed: Unknown
+        Manufacturer: Not Specified
+        Serial Number: Not Specified
+        Asset Tag: Not Specified
+        Part Number: Not Specified
+        Rank: Unknown
+        Configured Clock Speed: Unknown
+
+Handle 0x0212, DMI type 17, 34 bytes
+Memory Device
+        Array Handle: 0x0025
+        Error Information Handle: No Error
+        Total Width: 32 bits
+        Data Width: 32 bits
+        Size: No Module Installed
+        Form Factor: DIMM
+        Set: None
+        Locator: NVD #47
+        Bank Locator: NVD #47
+        Type: Other
+        Type Detail: Unknown
+        Speed: Unknown
+        Manufacturer: Not Specified
+        Serial Number: Not Specified
+        Asset Tag: Not Specified
+        Part Number: Not Specified
+        Rank: Unknown
+        Configured Clock Speed: Unknown
+
+Handle 0x0213, DMI type 17, 34 bytes
+Memory Device
+        Array Handle: 0x0025
+        Error Information Handle: No Error
+        Total Width: 32 bits
+        Data Width: 32 bits
+        Size: No Module Installed
+        Form Factor: DIMM
+        Set: None
+        Locator: NVD #48
+        Bank Locator: NVD #48
+        Type: Other
+        Type Detail: Unknown
+        Speed: Unknown
+        Manufacturer: Not Specified
+        Serial Number: Not Specified
+        Asset Tag: Not Specified
+        Part Number: Not Specified
+        Rank: Unknown
+        Configured Clock Speed: Unknown
+
+Handle 0x0214, DMI type 17, 34 bytes
+Memory Device
+        Array Handle: 0x0025
+        Error Information Handle: No Error
+        Total Width: 32 bits
+        Data Width: 32 bits
+        Size: No Module Installed
+        Form Factor: DIMM
+        Set: None
+        Locator: NVD #49
+        Bank Locator: NVD #49
+        Type: Other
+        Type Detail: Unknown
+        Speed: Unknown
+        Manufacturer: Not Specified
+        Serial Number: Not Specified
+        Asset Tag: Not Specified
+        Part Number: Not Specified
+        Rank: Unknown
+        Configured Clock Speed: Unknown
+
+Handle 0x0215, DMI type 17, 34 bytes
+Memory Device
+        Array Handle: 0x0025
+        Error Information Handle: No Error
+        Total Width: 32 bits
+        Data Width: 32 bits
+        Size: No Module Installed
+        Form Factor: DIMM
+        Set: None
+        Locator: NVD #50
+        Bank Locator: NVD #50
+        Type: Other
+        Type Detail: Unknown
+        Speed: Unknown
+        Manufacturer: Not Specified
+        Serial Number: Not Specified
+        Asset Tag: Not Specified
+        Part Number: Not Specified
+        Rank: Unknown
+        Configured Clock Speed: Unknown
+
+Handle 0x0216, DMI type 17, 34 bytes
+Memory Device
+        Array Handle: 0x0025
+        Error Information Handle: No Error
+        Total Width: 32 bits
+        Data Width: 32 bits
+        Size: No Module Installed
+        Form Factor: DIMM
+        Set: None
+        Locator: NVD #51
+        Bank Locator: NVD #51
+        Type: Other
+        Type Detail: Unknown
+        Speed: Unknown
+        Manufacturer: Not Specified
+        Serial Number: Not Specified
+        Asset Tag: Not Specified
+        Part Number: Not Specified
+        Rank: Unknown
+        Configured Clock Speed: Unknown
+
+Handle 0x0217, DMI type 17, 34 bytes
+Memory Device
+        Array Handle: 0x0025
+        Error Information Handle: No Error
+        Total Width: 32 bits
+        Data Width: 32 bits
+        Size: No Module Installed
+        Form Factor: DIMM
+        Set: None
+        Locator: NVD #52
+        Bank Locator: NVD #52
+        Type: Other
+        Type Detail: Unknown
+        Speed: Unknown
+        Manufacturer: Not Specified
+        Serial Number: Not Specified
+        Asset Tag: Not Specified
+        Part Number: Not Specified
+        Rank: Unknown
+        Configured Clock Speed: Unknown
+
+Handle 0x0218, DMI type 17, 34 bytes
+Memory Device
+        Array Handle: 0x0025
+        Error Information Handle: No Error
+        Total Width: 32 bits
+        Data Width: 32 bits
+        Size: No Module Installed
+        Form Factor: DIMM
+        Set: None
+        Locator: NVD #53
+        Bank Locator: NVD #53
+        Type: Other
+        Type Detail: Unknown
+        Speed: Unknown
+        Manufacturer: Not Specified
+        Serial Number: Not Specified
+        Asset Tag: Not Specified
+        Part Number: Not Specified
+        Rank: Unknown
+        Configured Clock Speed: Unknown
+
+Handle 0x0219, DMI type 17, 34 bytes
+Memory Device
+        Array Handle: 0x0025
+        Error Information Handle: No Error
+        Total Width: 32 bits
+        Data Width: 32 bits
+        Size: No Module Installed
+        Form Factor: DIMM
+        Set: None
+        Locator: NVD #54
+        Bank Locator: NVD #54
+        Type: Other
+        Type Detail: Unknown
+        Speed: Unknown
+        Manufacturer: Not Specified
+        Serial Number: Not Specified
+        Asset Tag: Not Specified
+        Part Number: Not Specified
+        Rank: Unknown
+        Configured Clock Speed: Unknown
+
+Handle 0x021A, DMI type 17, 34 bytes
+Memory Device
+        Array Handle: 0x0025
+        Error Information Handle: No Error
+        Total Width: 32 bits
+        Data Width: 32 bits
+        Size: No Module Installed
+        Form Factor: DIMM
+        Set: None
+        Locator: NVD #55
+        Bank Locator: NVD #55
+        Type: Other
+        Type Detail: Unknown
+        Speed: Unknown
+        Manufacturer: Not Specified
+        Serial Number: Not Specified
+        Asset Tag: Not Specified
+        Part Number: Not Specified
+        Rank: Unknown
+        Configured Clock Speed: Unknown
+
+Handle 0x021B, DMI type 17, 34 bytes
+Memory Device
+        Array Handle: 0x0025
+        Error Information Handle: No Error
+        Total Width: 32 bits
+        Data Width: 32 bits
+        Size: No Module Installed
+        Form Factor: DIMM
+        Set: None
+        Locator: NVD #56
+        Bank Locator: NVD #56
+        Type: Other
+        Type Detail: Unknown
+        Speed: Unknown
+        Manufacturer: Not Specified
+        Serial Number: Not Specified
+        Asset Tag: Not Specified
+        Part Number: Not Specified
+        Rank: Unknown
+        Configured Clock Speed: Unknown
+
+Handle 0x021C, DMI type 17, 34 bytes
+Memory Device
+        Array Handle: 0x0025
+        Error Information Handle: No Error
+        Total Width: 32 bits
+        Data Width: 32 bits
+        Size: No Module Installed
+        Form Factor: DIMM
+        Set: None
+        Locator: NVD #57
+        Bank Locator: NVD #57
+        Type: Other
+        Type Detail: Unknown
+        Speed: Unknown
+        Manufacturer: Not Specified
+        Serial Number: Not Specified
+        Asset Tag: Not Specified
+        Part Number: Not Specified
+        Rank: Unknown
+        Configured Clock Speed: Unknown
+
+Handle 0x021D, DMI type 17, 34 bytes
+Memory Device
+        Array Handle: 0x0025
+        Error Information Handle: No Error
+        Total Width: 32 bits
+        Data Width: 32 bits
+        Size: No Module Installed
+        Form Factor: DIMM
+        Set: None
+        Locator: NVD #58
+        Bank Locator: NVD #58
+        Type: Other
+        Type Detail: Unknown
+        Speed: Unknown
+        Manufacturer: Not Specified
+        Serial Number: Not Specified
+        Asset Tag: Not Specified
+        Part Number: Not Specified
+        Rank: Unknown
+        Configured Clock Speed: Unknown
+
+Handle 0x021E, DMI type 17, 34 bytes
+Memory Device
+        Array Handle: 0x0025
+        Error Information Handle: No Error
+        Total Width: 32 bits
+        Data Width: 32 bits
+        Size: No Module Installed
+        Form Factor: DIMM
+        Set: None
+        Locator: NVD #59
+        Bank Locator: NVD #59
+        Type: Other
+        Type Detail: Unknown
+        Speed: Unknown
+        Manufacturer: Not Specified
+        Serial Number: Not Specified
+        Asset Tag: Not Specified
+        Part Number: Not Specified
+        Rank: Unknown
+        Configured Clock Speed: Unknown
+
+Handle 0x021F, DMI type 17, 34 bytes
+Memory Device
+        Array Handle: 0x0025
+        Error Information Handle: No Error
+        Total Width: 32 bits
+        Data Width: 32 bits
+        Size: No Module Installed
+        Form Factor: DIMM
+        Set: None
+        Locator: NVD #60
+        Bank Locator: NVD #60
+        Type: Other
+        Type Detail: Unknown
+        Speed: Unknown
+        Manufacturer: Not Specified
+        Serial Number: Not Specified
+        Asset Tag: Not Specified
+        Part Number: Not Specified
+        Rank: Unknown
+        Configured Clock Speed: Unknown
+
+Handle 0x0220, DMI type 17, 34 bytes
+Memory Device
+        Array Handle: 0x0025
+        Error Information Handle: No Error
+        Total Width: 32 bits
+        Data Width: 32 bits
+        Size: No Module Installed
+        Form Factor: DIMM
+        Set: None
+        Locator: NVD #61
+        Bank Locator: NVD #61
+        Type: Other
+        Type Detail: Unknown
+        Speed: Unknown
+        Manufacturer: Not Specified
+        Serial Number: Not Specified
+        Asset Tag: Not Specified
+        Part Number: Not Specified
+        Rank: Unknown
+        Configured Clock Speed: Unknown
+
+Handle 0x0221, DMI type 17, 34 bytes
+Memory Device
+        Array Handle: 0x0025
+        Error Information Handle: No Error
+        Total Width: 32 bits
+        Data Width: 32 bits
+        Size: No Module Installed
+        Form Factor: DIMM
+        Set: None
+        Locator: NVD #62
+        Bank Locator: NVD #62
+        Type: Other
+        Type Detail: Unknown
+        Speed: Unknown
+        Manufacturer: Not Specified
+        Serial Number: Not Specified
+        Asset Tag: Not Specified
+        Part Number: Not Specified
+        Rank: Unknown
+        Configured Clock Speed: Unknown
+
+Handle 0x0222, DMI type 17, 34 bytes
+Memory Device
+        Array Handle: 0x0025
+        Error Information Handle: No Error
+        Total Width: 32 bits
+        Data Width: 32 bits
+        Size: No Module Installed
+        Form Factor: DIMM
+        Set: None
+        Locator: NVD #63
+        Bank Locator: NVD #63
+        Type: Other
+        Type Detail: Unknown
+        Speed: Unknown
+        Manufacturer: Not Specified
+        Serial Number: Not Specified
+        Asset Tag: Not Specified
+        Part Number: Not Specified
+        Rank: Unknown
+        Configured Clock Speed: Unknown
+
+Handle 0x0223, DMI type 18, 23 bytes
+32-bit Memory Error Information
+        Type: OK
+        Granularity: Unknown
+        Operation: Unknown
+        Vendor Syndrome: Unknown
+        Memory Array Address: Unknown
+        Device Address: Unknown
+        Resolution: Unknown
+
+Handle 0x0224, DMI type 19, 31 bytes
+Memory Array Mapped Address
+        Starting Address: 0x00000000000
+        Ending Address: 0x00060FFFFFF
+        Range Size: 1552 MB
+        Physical Array Handle: 0x0025
+        Partition Width: 64
+
+Handle 0x0225, DMI type 20, 35 bytes
+Memory Device Mapped Address
+        Starting Address: 0x00061000000
+        Ending Address: 0x01020EFFFFF
+        Range Size: 64511 MB
+        Physical Device Handle: 0x0026
+        Memory Array Mapped Address Handle: 0x00A7
+        Partition Row Position: Unknown
+        Interleave Position: Unknown
+        Interleaved Data Depth: Unknown
+
+Handle 0x0226, DMI type 20, 35 bytes
+Memory Device Mapped Address
+        Starting Address: 0x00061000000
+        Ending Address: 0x01020EFFFFF
+        Range Size: 64511 MB
+        Physical Device Handle: 0x0027
+        Memory Array Mapped Address Handle: 0x00A7
+        Partition Row Position: Unknown
+        Interleave Position: Unknown
+        Interleaved Data Depth: Unknown
+
+Handle 0x0227, DMI type 20, 35 bytes
+Memory Device Mapped Address
+        Starting Address: 0x00061000000
+        Ending Address: 0x01020EFFFFF
+        Range Size: 64511 MB
+        Physical Device Handle: 0x0028
+        Memory Array Mapped Address Handle: 0x00A7
+        Partition Row Position: Unknown
+        Interleave Position: Unknown
+        Interleaved Data Depth: Unknown
+
+Handle 0x0228, DMI type 20, 35 bytes
+Memory Device Mapped Address
+        Starting Address: 0x00061000000
+        Ending Address: 0x01020EFFFFF
+        Range Size: 64511 MB
+        Physical Device Handle: 0x0029
+        Memory Array Mapped Address Handle: 0x00A7
+        Partition Row Position: Unknown
+        Interleave Position: Unknown
+        Interleaved Data Depth: Unknown
+
+Handle 0x0229, DMI type 20, 35 bytes
+Memory Device Mapped Address
+        Starting Address: 0x00061000000
+        Ending Address: 0x01020EFFFFF
+        Range Size: 64511 MB
+        Physical Device Handle: 0x002A
+        Memory Array Mapped Address Handle: 0x00A7
+        Partition Row Position: Unknown
+        Interleave Position: Unknown
+        Interleaved Data Depth: Unknown
+
+Handle 0x022A, DMI type 20, 35 bytes
+Memory Device Mapped Address
+        Starting Address: 0x00061000000
+        Ending Address: 0x01020EFFFFF
+        Range Size: 64511 MB
+        Physical Device Handle: 0x002B
+        Memory Array Mapped Address Handle: 0x00A7
+        Partition Row Position: Unknown
+        Interleave Position: Unknown
+        Interleaved Data Depth: Unknown
+
+Handle 0x022B, DMI type 20, 35 bytes
+Memory Device Mapped Address
+        Starting Address: 0x00061000000
+        Ending Address: 0x01020EFFFFF
+        Range Size: 64511 MB
+        Physical Device Handle: 0x002C
+        Memory Array Mapped Address Handle: 0x00A7
+        Partition Row Position: Unknown
+        Interleave Position: Unknown
+        Interleaved Data Depth: Unknown
+
+Handle 0x022C, DMI type 20, 35 bytes
+Memory Device Mapped Address
+        Starting Address: 0x00061000000
+        Ending Address: 0x01020EFFFFF
+        Range Size: 64511 MB
+        Physical Device Handle: 0x002D
+        Memory Array Mapped Address Handle: 0x00A7
+        Partition Row Position: Unknown
+        Interleave Position: Unknown
+        Interleaved Data Depth: Unknown
+
+Handle 0x022D, DMI type 20, 35 bytes
+Memory Device Mapped Address
+        Starting Address: 0x00061000000
+        Ending Address: 0x01020EFFFFF
+        Range Size: 64511 MB
+        Physical Device Handle: 0x002E
+        Memory Array Mapped Address Handle: 0x00A7
+        Partition Row Position: Unknown
+        Interleave Position: Unknown
+        Interleaved Data Depth: Unknown
+
+Handle 0x022E, DMI type 20, 35 bytes
+Memory Device Mapped Address
+        Starting Address: 0x00061000000
+        Ending Address: 0x01020EFFFFF
+        Range Size: 64511 MB
+        Physical Device Handle: 0x002F
+        Memory Array Mapped Address Handle: 0x00A7
+        Partition Row Position: Unknown
+        Interleave Position: Unknown
+        Interleaved Data Depth: Unknown
+
+Handle 0x022F, DMI type 20, 35 bytes
+Memory Device Mapped Address
+        Starting Address: 0x00061000000
+        Ending Address: 0x01020EFFFFF
+        Range Size: 64511 MB
+        Physical Device Handle: 0x0030
+        Memory Array Mapped Address Handle: 0x00A7
+        Partition Row Position: Unknown
+        Interleave Position: Unknown
+        Interleaved Data Depth: Unknown
+
+Handle 0x0230, DMI type 20, 35 bytes
+Memory Device Mapped Address
+        Starting Address: 0x00061000000
+        Ending Address: 0x01020EFFFFF
+        Range Size: 64511 MB
+        Physical Device Handle: 0x0031
+        Memory Array Mapped Address Handle: 0x00A7
+        Partition Row Position: Unknown
+        Interleave Position: Unknown
+        Interleaved Data Depth: Unknown
+
+Handle 0x0231, DMI type 20, 35 bytes
+Memory Device Mapped Address
+        Starting Address: 0x00061000000
+        Ending Address: 0x01020EFFFFF
+        Range Size: 64511 MB
+        Physical Device Handle: 0x0032
+        Memory Array Mapped Address Handle: 0x00A7
+        Partition Row Position: Unknown
+        Interleave Position: Unknown
+        Interleaved Data Depth: Unknown
+
+Handle 0x0232, DMI type 20, 35 bytes
+Memory Device Mapped Address
+        Starting Address: 0x00061000000
+        Ending Address: 0x01020EFFFFF
+        Range Size: 64511 MB
+        Physical Device Handle: 0x0033
+        Memory Array Mapped Address Handle: 0x00A7
+        Partition Row Position: Unknown
+        Interleave Position: Unknown
+        Interleaved Data Depth: Unknown
+
+Handle 0x0233, DMI type 20, 35 bytes
+Memory Device Mapped Address
+        Starting Address: 0x00061000000
+        Ending Address: 0x01020EFFFFF
+        Range Size: 64511 MB
+        Physical Device Handle: 0x0034
+        Memory Array Mapped Address Handle: 0x00A7
+        Partition Row Position: Unknown
+        Interleave Position: Unknown
+        Interleaved Data Depth: Unknown
+
+Handle 0x0234, DMI type 20, 35 bytes
+Memory Device Mapped Address
+        Starting Address: 0x00061000000
+        Ending Address: 0x01020EFFFFF
+        Range Size: 64511 MB
+        Physical Device Handle: 0x0035
+        Memory Array Mapped Address Handle: 0x00A7
+        Partition Row Position: Unknown
+        Interleave Position: Unknown
+        Interleaved Data Depth: Unknown
+
+Handle 0x0235, DMI type 20, 35 bytes
+Memory Device Mapped Address
+        Starting Address: 0x00061000000
+        Ending Address: 0x01020EFFFFF
+        Range Size: 64511 MB
+        Physical Device Handle: 0x0036
+        Memory Array Mapped Address Handle: 0x00A7
+        Partition Row Position: Unknown
+        Interleave Position: Unknown
+        Interleaved Data Depth: Unknown
+
+Handle 0x0236, DMI type 20, 35 bytes
+Memory Device Mapped Address
+        Starting Address: 0x00061000000
+        Ending Address: 0x01020EFFFFF
+        Range Size: 64511 MB
+        Physical Device Handle: 0x0037
+        Memory Array Mapped Address Handle: 0x00A7
+        Partition Row Position: Unknown
+        Interleave Position: Unknown
+        Interleaved Data Depth: Unknown
+
+Handle 0x0237, DMI type 20, 35 bytes
+Memory Device Mapped Address
+        Starting Address: 0x00061000000
+        Ending Address: 0x01020EFFFFF
+        Range Size: 64511 MB
+        Physical Device Handle: 0x0038
+        Memory Array Mapped Address Handle: 0x00A7
+        Partition Row Position: Unknown
+        Interleave Position: Unknown
+        Interleaved Data Depth: Unknown
+
+Handle 0x0238, DMI type 20, 35 bytes
+Memory Device Mapped Address
+        Starting Address: 0x00061000000
+        Ending Address: 0x01020EFFFFF
+        Range Size: 64511 MB
+        Physical Device Handle: 0x0039
+        Memory Array Mapped Address Handle: 0x00A7
+        Partition Row Position: Unknown
+        Interleave Position: Unknown
+        Interleaved Data Depth: Unknown
+
+Handle 0x0239, DMI type 20, 35 bytes
+Memory Device Mapped Address
+        Starting Address: 0x00061000000
+        Ending Address: 0x01020EFFFFF
+        Range Size: 64511 MB
+        Physical Device Handle: 0x003A
+        Memory Array Mapped Address Handle: 0x00A7
+        Partition Row Position: Unknown
+        Interleave Position: Unknown
+        Interleaved Data Depth: Unknown
+
+Handle 0x023A, DMI type 20, 35 bytes
+Memory Device Mapped Address
+        Starting Address: 0x00061000000
+        Ending Address: 0x01020EFFFFF
+        Range Size: 64511 MB
+        Physical Device Handle: 0x003B
+        Memory Array Mapped Address Handle: 0x00A7
+        Partition Row Position: Unknown
+        Interleave Position: Unknown
+        Interleaved Data Depth: Unknown
+
+Handle 0x023B, DMI type 20, 35 bytes
+Memory Device Mapped Address
+        Starting Address: 0x00061000000
+        Ending Address: 0x01020EFFFFF
+        Range Size: 64511 MB
+        Physical Device Handle: 0x003C
+        Memory Array Mapped Address Handle: 0x00A7
+        Partition Row Position: Unknown
+        Interleave Position: Unknown
+        Interleaved Data Depth: Unknown
+
+Handle 0x023C, DMI type 20, 35 bytes
+Memory Device Mapped Address
+        Starting Address: 0x00061000000
+        Ending Address: 0x01020EFFFFF
+        Range Size: 64511 MB
+        Physical Device Handle: 0x003D
+        Memory Array Mapped Address Handle: 0x00A7
+        Partition Row Position: Unknown
+        Interleave Position: Unknown
+        Interleaved Data Depth: Unknown
+
+Handle 0x023D, DMI type 20, 35 bytes
+Memory Device Mapped Address
+        Starting Address: 0x00061000000
+        Ending Address: 0x01020EFFFFF
+        Range Size: 64511 MB
+        Physical Device Handle: 0x003E
+        Memory Array Mapped Address Handle: 0x00A7
+        Partition Row Position: Unknown
+        Interleave Position: Unknown
+        Interleaved Data Depth: Unknown
+
+Handle 0x023E, DMI type 20, 35 bytes
+Memory Device Mapped Address
+        Starting Address: 0x00061000000
+        Ending Address: 0x01020EFFFFF
+        Range Size: 64511 MB
+        Physical Device Handle: 0x003F
+        Memory Array Mapped Address Handle: 0x00A7
+        Partition Row Position: Unknown
+        Interleave Position: Unknown
+        Interleaved Data Depth: Unknown
+
+Handle 0x023F, DMI type 20, 35 bytes
+Memory Device Mapped Address
+        Starting Address: 0x00061000000
+        Ending Address: 0x01020EFFFFF
+        Range Size: 64511 MB
+        Physical Device Handle: 0x0040
+        Memory Array Mapped Address Handle: 0x00A7
+        Partition Row Position: Unknown
+        Interleave Position: Unknown
+        Interleaved Data Depth: Unknown
+
+Handle 0x0240, DMI type 20, 35 bytes
+Memory Device Mapped Address
+        Starting Address: 0x00061000000
+        Ending Address: 0x01020EFFFFF
+        Range Size: 64511 MB
+        Physical Device Handle: 0x0041
+        Memory Array Mapped Address Handle: 0x00A7
+        Partition Row Position: Unknown
+        Interleave Position: Unknown
+        Interleaved Data Depth: Unknown
+
+Handle 0x0241, DMI type 20, 35 bytes
+Memory Device Mapped Address
+        Starting Address: 0x00061000000
+        Ending Address: 0x01020EFFFFF
+        Range Size: 64511 MB
+        Physical Device Handle: 0x0042
+        Memory Array Mapped Address Handle: 0x00A7
+        Partition Row Position: Unknown
+        Interleave Position: Unknown
+        Interleaved Data Depth: Unknown
+
+Handle 0x0242, DMI type 20, 35 bytes
+Memory Device Mapped Address
+        Starting Address: 0x00061000000
+        Ending Address: 0x01020EFFFFF
+        Range Size: 64511 MB
+        Physical Device Handle: 0x0043
+        Memory Array Mapped Address Handle: 0x00A7
+        Partition Row Position: Unknown
+        Interleave Position: Unknown
+        Interleaved Data Depth: Unknown
+
+Handle 0x0243, DMI type 20, 35 bytes
+Memory Device Mapped Address
+        Starting Address: 0x00061000000
+        Ending Address: 0x01020EFFFFF
+        Range Size: 64511 MB
+        Physical Device Handle: 0x0044
+        Memory Array Mapped Address Handle: 0x00A7
+        Partition Row Position: Unknown
+        Interleave Position: Unknown
+        Interleaved Data Depth: Unknown
+
+Handle 0x0244, DMI type 20, 35 bytes
+Memory Device Mapped Address
+        Starting Address: 0x00061000000
+        Ending Address: 0x01020EFFFFF
+        Range Size: 64511 MB
+        Physical Device Handle: 0x0045
+        Memory Array Mapped Address Handle: 0x00A7
+        Partition Row Position: Unknown
+        Interleave Position: Unknown
+        Interleaved Data Depth: Unknown
+
+Handle 0x0245, DMI type 20, 35 bytes
+Memory Device Mapped Address
+        Starting Address: 0x00061000000
+        Ending Address: 0x01020EFFFFF
+        Range Size: 64511 MB
+        Physical Device Handle: 0x0046
+        Memory Array Mapped Address Handle: 0x00A7
+        Partition Row Position: Unknown
+        Interleave Position: Unknown
+        Interleaved Data Depth: Unknown
+
+Handle 0x0246, DMI type 20, 35 bytes
+Memory Device Mapped Address
+        Starting Address: 0x00061000000
+        Ending Address: 0x01020EFFFFF
+        Range Size: 64511 MB
+        Physical Device Handle: 0x0047
+        Memory Array Mapped Address Handle: 0x00A7
+        Partition Row Position: Unknown
+        Interleave Position: Unknown
+        Interleaved Data Depth: Unknown
+
+Handle 0x0247, DMI type 20, 35 bytes
+Memory Device Mapped Address
+        Starting Address: 0x00061000000
+        Ending Address: 0x01020EFFFFF
+        Range Size: 64511 MB
+        Physical Device Handle: 0x0048
+        Memory Array Mapped Address Handle: 0x00A7
+        Partition Row Position: Unknown
+        Interleave Position: Unknown
+        Interleaved Data Depth: Unknown
+
+Handle 0x0248, DMI type 20, 35 bytes
+Memory Device Mapped Address
+        Starting Address: 0x00061000000
+        Ending Address: 0x01020EFFFFF
+        Range Size: 64511 MB
+        Physical Device Handle: 0x0049
+        Memory Array Mapped Address Handle: 0x00A7
+        Partition Row Position: Unknown
+        Interleave Position: Unknown
+        Interleaved Data Depth: Unknown
+
+Handle 0x0249, DMI type 20, 35 bytes
+Memory Device Mapped Address
+        Starting Address: 0x00061000000
+        Ending Address: 0x01020EFFFFF
+        Range Size: 64511 MB
+        Physical Device Handle: 0x004A
+        Memory Array Mapped Address Handle: 0x00A7
+        Partition Row Position: Unknown
+        Interleave Position: Unknown
+        Interleaved Data Depth: Unknown
+
+Handle 0x024A, DMI type 20, 35 bytes
+Memory Device Mapped Address
+        Starting Address: 0x00061000000
+        Ending Address: 0x01020EFFFFF
+        Range Size: 64511 MB
+        Physical Device Handle: 0x004B
+        Memory Array Mapped Address Handle: 0x00A7
+        Partition Row Position: Unknown
+        Interleave Position: Unknown
+        Interleaved Data Depth: Unknown
+
+Handle 0x024B, DMI type 20, 35 bytes
+Memory Device Mapped Address
+        Starting Address: 0x00061000000
+        Ending Address: 0x01020EFFFFF
+        Range Size: 64511 MB
+        Physical Device Handle: 0x004C
+        Memory Array Mapped Address Handle: 0x00A7
+        Partition Row Position: Unknown
+        Interleave Position: Unknown
+        Interleaved Data Depth: Unknown
+
+Handle 0x024C, DMI type 20, 35 bytes
+Memory Device Mapped Address
+        Starting Address: 0x00061000000
+        Ending Address: 0x01020EFFFFF
+        Range Size: 64511 MB
+        Physical Device Handle: 0x004D
+        Memory Array Mapped Address Handle: 0x00A7
+        Partition Row Position: Unknown
+        Interleave Position: Unknown
+        Interleaved Data Depth: Unknown
+
+Handle 0x024D, DMI type 20, 35 bytes
+Memory Device Mapped Address
+        Starting Address: 0x00061000000
+        Ending Address: 0x01020EFFFFF
+        Range Size: 64511 MB
+        Physical Device Handle: 0x004E
+        Memory Array Mapped Address Handle: 0x00A7
+        Partition Row Position: Unknown
+        Interleave Position: Unknown
+        Interleaved Data Depth: Unknown
+
+Handle 0x024E, DMI type 20, 35 bytes
+Memory Device Mapped Address
+        Starting Address: 0x00061000000
+        Ending Address: 0x01020EFFFFF
+        Range Size: 64511 MB
+        Physical Device Handle: 0x004F
+        Memory Array Mapped Address Handle: 0x00A7
+        Partition Row Position: Unknown
+        Interleave Position: Unknown
+        Interleaved Data Depth: Unknown
+
+Handle 0x024F, DMI type 20, 35 bytes
+Memory Device Mapped Address
+        Starting Address: 0x00061000000
+        Ending Address: 0x01020EFFFFF
+        Range Size: 64511 MB
+        Physical Device Handle: 0x0050
+        Memory Array Mapped Address Handle: 0x00A7
+        Partition Row Position: Unknown
+        Interleave Position: Unknown
+        Interleaved Data Depth: Unknown
+
+Handle 0x0250, DMI type 20, 35 bytes
+Memory Device Mapped Address
+        Starting Address: 0x00061000000
+        Ending Address: 0x01020EFFFFF
+        Range Size: 64511 MB
+        Physical Device Handle: 0x0051
+        Memory Array Mapped Address Handle: 0x00A7
+        Partition Row Position: Unknown
+        Interleave Position: Unknown
+        Interleaved Data Depth: Unknown
+
+Handle 0x0251, DMI type 20, 35 bytes
+Memory Device Mapped Address
+        Starting Address: 0x00061000000
+        Ending Address: 0x01020EFFFFF
+        Range Size: 64511 MB
+        Physical Device Handle: 0x0052
+        Memory Array Mapped Address Handle: 0x00A7
+        Partition Row Position: Unknown
+        Interleave Position: Unknown
+        Interleaved Data Depth: Unknown
+
+Handle 0x0252, DMI type 20, 35 bytes
+Memory Device Mapped Address
+        Starting Address: 0x00061000000
+        Ending Address: 0x01020EFFFFF
+        Range Size: 64511 MB
+        Physical Device Handle: 0x0053
+        Memory Array Mapped Address Handle: 0x00A7
+        Partition Row Position: Unknown
+        Interleave Position: Unknown
+        Interleaved Data Depth: Unknown
+
+Handle 0x0253, DMI type 20, 35 bytes
+Memory Device Mapped Address
+        Starting Address: 0x00061000000
+        Ending Address: 0x01020EFFFFF
+        Range Size: 64511 MB
+        Physical Device Handle: 0x0054
+        Memory Array Mapped Address Handle: 0x00A7
+        Partition Row Position: Unknown
+        Interleave Position: Unknown
+        Interleaved Data Depth: Unknown
+
+Handle 0x0254, DMI type 20, 35 bytes
+Memory Device Mapped Address
+        Starting Address: 0x00061000000
+        Ending Address: 0x01020EFFFFF
+        Range Size: 64511 MB
+        Physical Device Handle: 0x0055
+        Memory Array Mapped Address Handle: 0x00A7
+        Partition Row Position: Unknown
+        Interleave Position: Unknown
+        Interleaved Data Depth: Unknown
+
+Handle 0x0255, DMI type 20, 35 bytes
+Memory Device Mapped Address
+        Starting Address: 0x00061000000
+        Ending Address: 0x01020EFFFFF
+        Range Size: 64511 MB
+        Physical Device Handle: 0x0056
+        Memory Array Mapped Address Handle: 0x00A7
+        Partition Row Position: Unknown
+        Interleave Position: Unknown
+        Interleaved Data Depth: Unknown
+
+Handle 0x0256, DMI type 20, 35 bytes
+Memory Device Mapped Address
+        Starting Address: 0x00061000000
+        Ending Address: 0x01020EFFFFF
+        Range Size: 64511 MB
+        Physical Device Handle: 0x0057
+        Memory Array Mapped Address Handle: 0x00A7
+        Partition Row Position: Unknown
+        Interleave Position: Unknown
+        Interleaved Data Depth: Unknown
+
+Handle 0x0257, DMI type 20, 35 bytes
+Memory Device Mapped Address
+        Starting Address: 0x00061000000
+        Ending Address: 0x01020EFFFFF
+        Range Size: 64511 MB
+        Physical Device Handle: 0x0058
+        Memory Array Mapped Address Handle: 0x00A7
+        Partition Row Position: Unknown
+        Interleave Position: Unknown
+        Interleaved Data Depth: Unknown
+
+Handle 0x0258, DMI type 20, 35 bytes
+Memory Device Mapped Address
+        Starting Address: 0x00061000000
+        Ending Address: 0x01020EFFFFF
+        Range Size: 64511 MB
+        Physical Device Handle: 0x0059
+        Memory Array Mapped Address Handle: 0x00A7
+        Partition Row Position: Unknown
+        Interleave Position: Unknown
+        Interleaved Data Depth: Unknown
+
+Handle 0x0259, DMI type 20, 35 bytes
+Memory Device Mapped Address
+        Starting Address: 0x00061000000
+        Ending Address: 0x01020EFFFFF
+        Range Size: 64511 MB
+        Physical Device Handle: 0x005A
+        Memory Array Mapped Address Handle: 0x00A7
+        Partition Row Position: Unknown
+        Interleave Position: Unknown
+        Interleaved Data Depth: Unknown
+
+Handle 0x025A, DMI type 20, 35 bytes
+Memory Device Mapped Address
+        Starting Address: 0x00061000000
+        Ending Address: 0x01020EFFFFF
+        Range Size: 64511 MB
+        Physical Device Handle: 0x005B
+        Memory Array Mapped Address Handle: 0x00A7
+        Partition Row Position: Unknown
+        Interleave Position: Unknown
+        Interleaved Data Depth: Unknown
+
+Handle 0x025B, DMI type 20, 35 bytes
+Memory Device Mapped Address
+        Starting Address: 0x00061000000
+        Ending Address: 0x01020EFFFFF
+        Range Size: 64511 MB
+        Physical Device Handle: 0x005C
+        Memory Array Mapped Address Handle: 0x00A7
+        Partition Row Position: Unknown
+        Interleave Position: Unknown
+        Interleaved Data Depth: Unknown
+
+Handle 0x025C, DMI type 20, 35 bytes
+Memory Device Mapped Address
+        Starting Address: 0x00061000000
+        Ending Address: 0x01020EFFFFF
+        Range Size: 64511 MB
+        Physical Device Handle: 0x005D
+        Memory Array Mapped Address Handle: 0x00A7
+        Partition Row Position: Unknown
+        Interleave Position: Unknown
+        Interleaved Data Depth: Unknown
+
+Handle 0x025D, DMI type 20, 35 bytes
+Memory Device Mapped Address
+        Starting Address: 0x00061000000
+        Ending Address: 0x01020EFFFFF
+        Range Size: 64511 MB
+        Physical Device Handle: 0x005E
+        Memory Array Mapped Address Handle: 0x00A7
+        Partition Row Position: Unknown
+        Interleave Position: Unknown
+        Interleaved Data Depth: Unknown
+
+Handle 0x025E, DMI type 20, 35 bytes
+Memory Device Mapped Address
+        Starting Address: 0x00061000000
+        Ending Address: 0x01020EFFFFF
+        Range Size: 64511 MB
+        Physical Device Handle: 0x005F
+        Memory Array Mapped Address Handle: 0x00A7
+        Partition Row Position: Unknown
+        Interleave Position: Unknown
+        Interleaved Data Depth: Unknown
+
+Handle 0x025F, DMI type 20, 35 bytes
+Memory Device Mapped Address
+        Starting Address: 0x00061000000
+        Ending Address: 0x01020EFFFFF
+        Range Size: 64511 MB
+        Physical Device Handle: 0x0060
+        Memory Array Mapped Address Handle: 0x00A7
+        Partition Row Position: Unknown
+        Interleave Position: Unknown
+        Interleaved Data Depth: Unknown
+
+Handle 0x0260, DMI type 20, 35 bytes
+Memory Device Mapped Address
+        Starting Address: 0x00061000000
+        Ending Address: 0x01020EFFFFF
+        Range Size: 64511 MB
+        Physical Device Handle: 0x0061
+        Memory Array Mapped Address Handle: 0x00A7
+        Partition Row Position: Unknown
+        Interleave Position: Unknown
+        Interleaved Data Depth: Unknown
+
+Handle 0x0261, DMI type 20, 35 bytes
+Memory Device Mapped Address
+        Starting Address: 0x00061000000
+        Ending Address: 0x01020EFFFFF
+        Range Size: 64511 MB
+        Physical Device Handle: 0x0062
+        Memory Array Mapped Address Handle: 0x00A7
+        Partition Row Position: Unknown
+        Interleave Position: Unknown
+        Interleaved Data Depth: Unknown
+
+Handle 0x0262, DMI type 20, 35 bytes
+Memory Device Mapped Address
+        Starting Address: 0x00061000000
+        Ending Address: 0x01020EFFFFF
+        Range Size: 64511 MB
+        Physical Device Handle: 0x0063
+        Memory Array Mapped Address Handle: 0x00A7
+        Partition Row Position: Unknown
+        Interleave Position: Unknown
+        Interleaved Data Depth: Unknown
+
+Handle 0x0263, DMI type 20, 35 bytes
+Memory Device Mapped Address
+        Starting Address: 0x00061000000
+        Ending Address: 0x01020EFFFFF
+        Range Size: 64511 MB
+        Physical Device Handle: 0x0064
+        Memory Array Mapped Address Handle: 0x00A7
+        Partition Row Position: Unknown
+        Interleave Position: Unknown
+        Interleaved Data Depth: Unknown
+
+Handle 0x0264, DMI type 20, 35 bytes
+Memory Device Mapped Address
+        Starting Address: 0x00061000000
+        Ending Address: 0x01020EFFFFF
+        Range Size: 64511 MB
+        Physical Device Handle: 0x0065
+        Memory Array Mapped Address Handle: 0x00A7
+        Partition Row Position: Unknown
+        Interleave Position: Unknown
+        Interleaved Data Depth: Unknown
+
+Handle 0x0265, DMI type 23, 13 bytes
+System Reset
+        Status: Enabled
+        Watchdog Timer: Present
+        Boot Option: Do Not Reboot
+        Boot Option On Limit: Do Not Reboot
+        Reset Count: Unknown
+        Reset Limit: Unknown
+        Timer Interval: Unknown
+        Timeout: Unknown
+
+Handle 0x0266, DMI type 24, 5 bytes
+Hardware Security
+        Power-On Password Status: Disabled
+        Keyboard Password Status: Unknown
+        Administrator Password Status: Enabled
+        Front Panel Reset Status: Unknown
+
+Handle 0x0267, DMI type 30, 6 bytes
+Out-of-band Remote Access
+        Manufacturer Name: Intel
+        Inbound Connection: Enabled
+        Outbound Connection: Disabled
+
+Handle 0x0268, DMI type 32, 20 bytes
+System Boot Information
+        Status: No errors detected
+
+Handle 0x0269, DMI type 33, 31 bytes
+64-bit Memory Error Information
+        Type: OK
+        Granularity: Unknown
+        Operation: Unknown
+        Vendor Syndrome: Unknown
+        Memory Array Address: Unknown
+        Device Address: Unknown
+        Resolution: Unknown
+
+Handle 0x026A, DMI type 126, 4 bytes
+Inactive
+
+Handle 0x026B, DMI type 127, 4 bytes
+End Of Table
+
+[root@server1 Documents]#
+[root@server1 Documents]# cat /proc/meminfo
+MemTotal:        1533508 kB
+MemFree:           76864 kB
+Buffers:           73716 kB
+Cached:           918636 kB
+SwapCached:            8 kB
+Active:           806888 kB
+Inactive:         374580 kB
+Active(anon):      89688 kB
+Inactive(anon):   105556 kB
+Active(file):     717200 kB
+Inactive(file):   269024 kB
+Unevictable:       24604 kB
+Mlocked:            8252 kB
+SwapTotal:       4120572 kB
+SwapFree:        4120564 kB
+Dirty:                 0 kB
+Writeback:             0 kB
+AnonPages:        213728 kB
+Mapped:            65840 kB
+Shmem:              3576 kB
+Slab:             149984 kB
+SReclaimable:      76604 kB
+SUnreclaim:        73380 kB
+KernelStack:        5200 kB
+PageTables:        31408 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:     4887324 kB
+Committed_AS:     857556 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:      189764 kB
+VmallocChunk:   34359528952 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:     73728 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+DirectMap4k:        6144 kB
+DirectMap2M:     1583104 kB
+DirectMap1G:           0 kB
+[root@server1 Documents]# cat /proc/partitions
+major minor  #blocks  name
+
+   8        0   31457280 sda
+   8        1   15360000 sda1
+   8        2    4120576 sda2
+   8        3    3072000 sda3
+   8        4    2098142 sda4
+You have new mail in /var/spool/mail/root
+[root@server1 Documents]# cat /proc/cpuinfo
+processor       : 0
+vendor_id       : GenuineIntel
+cpu family      : 6
+model           : 69
+model name      : Intel(R) Core(TM) i3-4005U CPU @ 1.70GHz
+stepping        : 1
+microcode       : 29
+cpu MHz         : 1701.000
+cache size      : 3072 KB
+physical id     : 0
+siblings        : 1
+core id         : 0
+cpu cores       : 1
+apicid          : 0
+initial apicid  : 0
+fpu             : yes
+fpu_exception   : yes
+cpuid level     : 13
+wp              : yes
+flags           : fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts mmx fxsr sse sse2 ss syscall nx pdpe1gb rdtscp lm constant_tsc up arch_perfmon pebs bts xtopology tsc_reliable nonstop_tsc aperfmperf unfair_spinlock pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm ida arat epb xsaveopt pln pts dtherm invpcid_single fsgsbase bmi1 avx2 smep bmi2 invpcid
+bogomips        : 3402.00
+clflush size    : 64
+cache_alignment : 64
+address sizes   : 42 bits physical, 48 bits virtual
+power management:
+
+You have new mail in /var/spool/mail/root
+[root@server1 Documents]#
+[root@server1 Documents]#

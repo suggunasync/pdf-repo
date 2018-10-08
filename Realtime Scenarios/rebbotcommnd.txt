@@ -1,0 +1,11 @@
+ reboot finding command means when last rebooted who rebooted the server:=
+======================================================================
+
+
+# egrep -i "reboot|runlevel|exiting on signal 15|sigterm|fenced|panic|machine check|temperature|dazed|soft lockup|block for|stack trace" messages*
+
+
+To check the cluster is configured or not in redhat linux:=
+======================================================
+
+#clustat

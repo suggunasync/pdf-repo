@@ -1,0 +1,49 @@
+Help Desk,
+Please open a P4 ticket for the following user and task, and assign to the ITO - ESM | Capacity and Performance Team.
+User id: russem2
+Location: Franklin, HQ
+Phone: 615-725-9370
+Request: Please provide a performance report for the following servers (in the order they are listed below), detailing the peak CPU/RAM parameters for the last 12 months.
+usnencvl439
+
+
+[root@usnencvl698 ~]# ps -ef |grep -i perfalarm
+root     14924 14106  0 06:56 pts/0    00:00:00 grep -i perfalarm
+[root@usnencvl698 ~]# opcagt -status
+scopeux     Perf Agent data collector                        (3246)   Running
+midaemon    Measurement Interface daemon                     (3254)   Running
+ttd         ARM registration daemon                          (3234)   Running
+perfalarm   Alarm generator                                           Stopped
+coda        OV Performance Core                 COREXT       (3703)   Running
+opcacta     OVO Action Agent                    AGENT,EA     (3717)   Running
+opcle       OVO Logfile Encapsulator            AGENT,EA     (3761)   Running
+opcmona     OVO Monitor Agent                   AGENT,EA     (3757)   Running
+opcmsga     OVO Message Agent                   AGENT,EA     (3728)   Running
+opcmsgi     OVO Message Interceptor             AGENT,EA     (3739)   Running
+ovbbccb     OV Communication Broker             CORE         (3374)   Running
+ovcd        OV Control                          CORE         (3366)   Running
+ovconfd     OV Config and Deploy                COREXT       (3393)   Running
+Message Agent is not buffering.
+[root@usnencvl698 ~]# opcagt -cleanstart
+[root@usnencvl698 ~]# opcagt -status
+scopeux     Perf Agent data collector                        (16093)  Running
+midaemon    Measurement Interface daemon                     (15839)  Running
+ttd         ARM registration daemon                          (3234)   Running
+perfalarm   Alarm generator                                  (16134)  Running
+coda        OV Performance Core                 COREXT       (15904)  Running
+opcacta     OVO Action Agent                    AGENT,EA     (15917)  Running
+opcle       OVO Logfile Encapsulator            AGENT,EA     (15970)  Running
+opcmona     OVO Monitor Agent                   AGENT,EA     (15955)  Running
+opcmsga     OVO Message Agent                   AGENT,EA     (15927)  Running
+opcmsgi     OVO Message Interceptor             AGENT,EA     (15945)  Running
+ovbbccb     OV Communication Broker             CORE         (15850)  Running
+ovcd        OV Control                          CORE         (15842)  Running
+ovconfd     OV Config and Deploy                COREXT       (15869)  Running
+Message Agent is not buffering.
+[root@usnencvl698 ~]#
+
+
+Solution :-
+===============
+cd /var/adm/sa
+ls -l 

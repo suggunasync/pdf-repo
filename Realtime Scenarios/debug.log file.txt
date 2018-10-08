@@ -1,0 +1,101 @@
+[root@usnencpl033 log]# cat debug.log |tail -100
+DbgDumpStack() - no stack.
+
+11/13/2016 07:53:52 PM  UTILSAP.52334.0 ["/lib/cmn/posixio.c $Rev: 45330 $ $Date:: 2014-11-06 11:15:15":175] A.09.00 bQCCR2A60606_HF1
+
+[OB2_WriteFile] write(3) failed, errno=[28] No space left on device
+
+11/13/2016 07:54:05 PM  UTILSAP.52339.0 ["/lib/cmn/posixio.c $Rev: 45330 $ $Date:: 2014-11-06 11:15:15":175] A.09.00 bQCCR2A60606_HF1
+
+[OB2_WriteFile] write(3) failed, errno=[28] No space left on device
+
+11/13/2016 08:03:00 PM  UTILSAP.53210.0 ["/lib/cmn/posixio.c $Rev: 45330 $ $Date:: 2014-11-06 11:15:15":175] A.09.00 bQCCR2A60606_HF1
+
+[OB2_WriteFile] write(3) failed, errno=[28] No space left on device
+
+11/13/2016 08:06:50 PM  UTILSAP.53599.0 ["/lib/cmn/posixio.c $Rev: 45330 $ $Date:: 2014-11-06 11:15:15":175] A.09.00 bQCCR2A60606_HF1
+
+[OB2_WriteFile] write(3) failed, errno=[28] No space left on device
+
+11/13/2016 08:07:05 PM  UTILSAP.53601.0 ["/lib/cmn/posixio.c $Rev: 45330 $ $Date:: 2014-11-06 11:15:15":175] A.09.00 bQCCR2A60606_HF1
+
+[OB2_WriteFile] write(3) failed, errno=[28] No space left on device
+
+11/13/2016 08:07:11 PM  UTILSAP.53603.0 ["/lib/cmn/posixio.c $Rev: 45330 $ $Date:: 2014-11-06 11:15:15":175] A.09.00 bQCCR2A60606_HF1
+
+[OB2_WriteFile] write(3) failed, errno=[28] No space left on device
+
+11/13/2016 08:16:02 PM  UTILSAP.54429.0 ["/
+11/14/2016 04:00:26 AM  BDA-NET.45243.0 ["/lib/ipc/ipc.c $Rev: 47663 $ $Date:: 2015-04-01 21:07:43":8002] A.09.00 b103
+IPC_FSM_NO_RECEIVE
+
+11/14/2016 04:00:47 AM  BDA-NET.45268.0 ["/lib/ipc/ipc.c $Rev: 47663 $ $Date:: 2015-04-01 21:07:43":8002] A.09.00 b103
+IPC_FSM_NO_RECEIVE
+
+11/14/2016 04:01:00 AM  BDA-NET.45278.0 ["/lib/ipc/ipc.c $Rev: 47663 $ $Date:: 2015-04-01 21:07:43":8002] A.09.00 b103
+IPC_FSM_NO_RECEIVE
+
+11/14/2016 09:03:19 AM  UTILSAP.8148.0 ["/lib/cmn/posixio.c $Rev: 45330 $ $Date:: 2014-11-06 11:15:15":175] A.09.00 bQCCR2A60606_HF1
+
+[OB2_WriteFile] write(3) failed, errno=[28] No space left on device
+
+11/14/2016 09:07:07 AM  UTILSAP.8550.0 ["/lib/cmn/posixio.c $Rev: 45330 $ $Date:: 2014-11-06 11:15:15":175] A.09.00 bQCCR2A60606_HF1
+
+[OB2_WriteFile] write(3) failed, errno=[28] No space left on device
+
+11/14/2016 10:42:32 AM  UTILSAP.17440.0 ["/lib/cmn/posixio.c $Rev: 45330 $ $Date:: 2014-11-06 11:15:15":175] A.09.00 bQCCR2A60606_HF1
+
+[OB2_WriteFile] write(3) failed, errno=[28] No space left on device
+
+11/14/2016 10:45:50 AM  UTILSAP.17857.0 ["/lib/cmn/posixio.c $Rev: 45330 $ $Date:: 2014-11-06 11:15:15":175] A.09.00 bQCCR2A60606_HF1
+
+[OB2_WriteFile] write(3) failed, errno=[28] No space left on device
+
+11/14/2016 10:48:49 AM  UTILSAP.17912.0 ["/lib/cmn/posixio.c $Rev: 45330 $ $Date:: 2014-11-06 11:15:15":175] A.09.00 bQCCR2A60606_HF1
+
+[OB2_WriteFile] write(3) failed, errno=[28] No space left on device
+
+2016-11-14 10:57:34.716  INET.18807.0 ["/inet/inet.c $Rev: 53558 $ $Date:: 2016-05-30 10:38:11 ":2409] A.09.00 b109
+[RxExecCmd] peerHost:usnencplms001.nmcorp.nissan.biz, peerProg:BMSETUP, event:Command/parameter 'if [ -f /etc/UnitedLinux-release -a ! -f /etc/SuSE-release ]; then echo 0; else echo 1; fi' refused!
+
+11/14/2016 11:02:22 AM  UTILSAP.20153.0 ["/lib/cmn/posixio.c $Rev: 40881 $ $Date:: 2014-01-23 03:14:07":180] A.09.00 b88
+[OB2_WriteFile] write(3) failed, errno=[28] No space left on device
+
+11/14/2016 11:03:55 AM  UTILSAP.20193.0 ["/lib/cmn/posixio.c $Rev: 40881 $ $Date:: 2014-01-23 03:14:07":180] A.09.00 b88
+[OB2_WriteFile] write(3) failed, errno=[28] No space left on device
+
+11/14/2016 11:05:58 AM  UTILSAP.20564.0 ["/lib/cmn/posixio.c $Rev: 40881 $ $Date:: 2014-01-23 03:14:07":180] A.09.00 b88
+[OB2_WriteFile] write(3) failed, errno=[28] No space left on device
+
+11/14/2016 11:10:58 AM  UTILSAP.21072.0 ["/lib/cmn/posixio.c $Rev: 40881 $ $Date:: 2014-01-23 03:14:07":180] A.09.00 b88
+[OB2_WriteFile] write(3) failed, errno=[28] No space left on device
+
+2016-11-15 15:40:19.327  INET.57451.0 ["/lib/ipc/ipc.c $Rev: 53537 $ $Date:: 2016-05-27 08:12:05 ":6999] A.09.00 b109
+cmd:inet.log
+Function trace (currentLevel=2):
+        Level  2: ipc_receiveDataExBase(handle=1, buffer size=0, timeout=0)
+        Level  1: ipcI_ReceiveStrMsgExL()
+        Level  0: IpcReceiveStrMsgExL()
+
+[ipc_receiveDataExBase] invalid IPC packet header (51779610) => fail with ERROR
+[ipc_receiveDataExBase] from connectionIP:[10.79.112.128], peerHost:[], peerProg:, pid:0
+Dump of the first 4 bytes
+[DbgDumpMem] 4/4 bytes
+        03 16 18 1A                                                               ....
+
+11/15/2016 03:50:32 PM  UTILSAP.58437.0 ["/lib/cmn/posixio.c $Rev: 40881 $ $Date:: 2014-01-23 03:14:07":180] A.09.00 b88
+[OB2_WriteFile] write(3) failed, errno=[28] No space left on device
+
+11/15/2016 03:51:04 PM  UTILSAP.58452.0 ["/lib/cmn/posixio.c $Rev: 40881 $ $Date:: 2014-01-23 03:14:07":180] A.09.00 b88
+[OB2_WriteFile] write(3) failed, errno=[28] No space left on device
+
+11/15/2016 03:52:19 PM  UTILSAP.58474.0 ["/lib/cmn/posixio.c $Rev: 40881 $ $Date:: 2014-01-23 03:14:07":180] A.09.00 b88
+[OB2_WriteFile] write(3) failed, errno=[28] No space left on device
+
+11/15/2016 03:52:49 PM  UTILSAP.58484.0 ["/lib/cmn/posixio.c $Rev: 40881 $ $Date:: 2014-01-23 03:14:07":180] A.09.00 b88
+[OB2_WriteFile] write(3) failed, errno=[28] No space left on device
+
+11/15/2016 03:52:59 PM  UTILSAP.58490.0 ["/lib/cmn/posixio.c $Rev: 40881 $ $Date:: 2014-01-23 03:14:07":180] A.09.00 b88
+[OB2_WriteFile] write(3) failed, errno=[28] No space left on device
+
+11/15/2016 03:54:27 PM  UTILSAP.5[root@usnencpl033 log]#

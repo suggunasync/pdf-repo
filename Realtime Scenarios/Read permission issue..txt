@@ -1,0 +1,55 @@
+issue:=======
+=============
+Please give write permission to  /data02/software/path in the below servers and give the 'user' and 'group' permissions accordingly.
+
+                
+USNENCVL639   	Dev EWS Web Server     	10.78.176.113
+USNENCVL640   	Dev JBOSS App Server   	10.78.181.1
+usnencvl747	Dev - Jboss App Server 	10.78.189.58
+usnencvl750	Dev - EWS Web Server   	10.78.184.119
+
+  708  df -hPT
+  709  cd /data02/software
+  710  ls -al
+  711  id apache
+  712  pwd
+  713  cd ..
+  714  ls -al
+  715  chown apache.apache /data02/software
+  716  ls -al
+  717  cd software
+  718  ls -al
+  719  sudo su - apache
+  720  df -h
+  721  cd /data02/software
+  722  ls -l
+  723  mkdir JON
+  724  chown apache:webadmin JON
+  725  exit
+  726  cd /data02
+  727  chown -R apache.webadmin software
+  728  ls -ltr
+  729  cd software/
+  730  ls -ltr
+  731  history
+
+  742  df -hPT
+  743  df -h
+  744  cd /data02/software
+  745  df -h
+  746  mkdir /data02/software/JON
+  747  mkdir -p /data02/software/JON
+  748  chown 775 /data02/software/JON
+  749  exit
+  750  df -hPT
+  751  vgs
+  752  cd /data02
+  753  ls -al
+  754  cd software/
+  755  ls
+  756  ls -al
+  757  cd ..
+  758  chown -R jboss.jboss software
+  759  ls -al
+  760  cd software/
+  761  ls -al

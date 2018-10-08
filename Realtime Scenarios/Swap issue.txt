@@ -1,0 +1,23 @@
+       These metrics exceeded their threshold. Please check OS:SwapTotalUtilzation:SwapTotalUtilzation ACTUAL
+   ===============================================================================================================
+
+ free -m
+ free -g
+ top
+ echo 3 >/proc/sys/vm/drop_caches
+
+ here based on the viritual memory we can find which user is occupying the swap space
+  
+# top
+
+EX:- 13719 pbiadm    15   0 66.7g 1.2g 129m S 11.5  0.6  20:38.35 PBI_00_BTC_W38
+     17296 pbiadm    16   0 66.7g 1.2g  93m S 11.5  0.6  20:09.29 PBI_00_BTC_W34
+     23425 pbiadm    15   0 66.6g 1.1g  93m S  7.6  0.6  16:49.24 PBI_00_BTC_W30 
+
+ Here pbiadm is occuping more swap space
+
+if more catche is there in free -m we need to remove the catche with above command
+ 
+ if its a application or normal user by using cat /etc/passwd |grep -i pbiadm 
+
+   

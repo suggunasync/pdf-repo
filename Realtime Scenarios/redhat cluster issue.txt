@@ -1,0 +1,90 @@
+Rhel cluster issue:==
+=======================
+
+Rhel cluster server :-
+======================
+we have one TASK like
+What is being changed (in terms the business can understand)?
+Restarting and configuring the  production harmony servers  to accomplish  below tasks.
+1.       Failover the RHEL cluster  (currently pointing to the secondary ).
+          usnencpl025 is the main server and usnencpl026 is the secondary server 
+          PGP team will start and stop harmony after HP team is done with the changes in RHEL cluster 
+ Move connection changes so that "cluster share" is referenced in the file path statements instead of hardcoded file system names.
+3.       The secondary Harmony server does not have the VL Proxy configuration showing so it needs to be manually updated
+
+Why is the change being performed?
+Restarting and configuring the  production harmony servers  to accomplish  below tasks 
+To do changes below changes in Production Harmony  server.  
+
+Implimenatation:==
+===================
+
+Failver the Service Group
+
+=> Check the cluster service status..
+
+# service cmirror status
+# service clvmd status
+# service rgmanager status
+# service cman status
+
+# chkconfig --list |grep -e cman -e clvmd -e rgmanager -e qdisk -e ricci  
+
+
+=> Failver the service group.
+
+# clusvcadm –r <service> -m <Node name>
+
+=> To verify the cluster
+clustat –i 2 
+   
+#exp
+
+[root@usnencpl025 ~]# clustat –i 2
+Cluster Status for USNENCLFS003 @ Fri Sep  9 11:17:41 2016
+Member Status: Quorate
+
+Member Name                                                     ID   Status
+------ ----                                                     ---- ------
+usnencpl025.nmcorp.nissan.biz                                       1 Online, Local, rgmanager
+usnencpl026.nmcorp.nissan.biz                                       2 Online, rgmanager
+
+Service Name                                                     Owner (Last)                                                     State
+------- ----                                                     ----- ------                                                     -----
+service:FTP                                                      usnencpl026.nmcorp.nissan.biz                                    started
+[root@usnencpl025 ~]# 
+
+=> Failover the Service group from usnencpl026 to usnencpl025
+
+# clusvcadm –r service:FTP -m usnencpl025
+
+# Ex:-[root@usnencpl026 ~]# clusvcadm -r FTP -m usnencpl025.nmcorp.nissan.biz
+  Trying to relocate service:FTP to usnencpl025.nmcorp.nissan.biz 
+
+
+# before activity and after activity
+# outputs
+  Seems @FTP source switch over to @25 server
+
+ 
+
+[root@usnencpl026 ~]# clustat i 2
+Cluster Status for USNENCLFS003 @ Sat Sep 10 21:48:24 2016
+Member Status: Quorate
+
+ Member Name                                                     ID   Status
+ ------ ----                                                     ---- ------
+ usnencpl025.nmcorp.nissan.biz                                       1 Online, rgmanager
+ usnencpl026.nmcorp.nissan.biz                                       2 Online, Local, rgmanager
+
+ Service Name                                                     Owner (Last)                                                     State
+ ------- ----                                                     ----- ------                                                     -----
+ service:FTP                                                      usnencpl025.nmcorp.nissan.biz                                    started
+
+
+
+=> If cluster not getting started, start the cluster manually. 
+# clusvcadm -e -m 
+or
+# clusvcadm -r <service name> -m <node name>
+

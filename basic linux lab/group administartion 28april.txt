@@ -1,0 +1,1295 @@
+login as: root
+root@192.168.71.142's password:
+Last login: Sat Apr 28 10:21:12 2018 from 192.168.71.1
+[root@rhelserver ~]#
+[root@rhelserver ~]# vi /etc/hosts
+[root@rhelserver ~]# /etc/init.d/hostname restart
+-bash: /etc/init.d/hostname: No such file or directory
+[root@rhelserver ~]# hostnamectl set-hostname rhelserver
+-bash: hostnamectl: command not found
+[root@rhelserver ~]# service network restart
+Shutting down interface Wired_connection_1:  ERROR    : [ipv6_test_device_status    ] Missing parameter 'device' (arg 1)
+                                                           [  OK  ]
+Shutting down interface eth0:  Device state: 3 (disconnected)
+                                                           [  OK  ]
+Shutting down loopback interface:                          [  OK  ]
+Bringing up loopback interface:                            [  OK  ]
+Bringing up interface Wired_connection_1:  Active connection state: activated
+Active connection path: /org/freedesktop/NetworkManager/ActiveConnection/15
+                                                           [  OK  ]
+Bringing up interface eth0:  Active connection state: activating
+Active connection path: /org/freedesktop/NetworkManager/ActiveConnection/16
+state: activated
+Connection activated
+                                                           [  OK  ]
+[root@rhelserver ~]# hostname
+sharu
+[root@rhelserver ~]# vi /etc/hosts
+[root@rhelserver ~]# dnsdomain
+-bash: dnsdomain: command not found
+[root@rhelserver ~]# dnsdomainname
+dnsdomainname: Host name lookup failure
+[root@rhelserver ~]# vim /etc/sys
+sysconfig/          sysctl.d/           system-release-cpe
+sysctl.conf         system-release
+[root@rhelserver ~]# vim /etc/sysconfig/network
+[root@rhelserver ~]# vim /etc/hosts
+
+[1]+  Stopped                 vim /etc/hosts
+[root@rhelserver ~]# vim /etc/hosts
+[root@rhelserver ~]# hostname rhelserver
+[root@rhelserver ~]# service network restart
+Shutting down interface Wired_connection_1:  ERROR    : [ipv6_test_device_status] Missing parameter 'device' (arg 1)
+                                                           [  OK  ]
+Shutting down interface eth0:  Device state: 3 (disconnected)
+                                                           [  OK  ]
+Shutting down loopback interface:                          [  OK  ]
+Bringing up loopback interface:                            [  OK  ]
+Bringing up interface Wired_connection_1:  Active connection state: activated
+Active connection path: /org/freedesktop/NetworkManager/ActiveConnection/17
+                                                           [  OK  ]
+Bringing up interface eth0:  Active connection state: activating
+Active connection path: /org/freedesktop/NetworkManager/ActiveConnection/18
+state: activated
+Connection activated
+                                                           [  OK  ]
+[root@rhelserver ~]# hostname
+sharu
+[root@rhelserver ~]# vim /etc/sysconfig/network
+[root@rhelserver ~]# hostname rhelserver
+[root@rhelserver ~]# vim /etc/hosts
+[root@rhelserver ~]# vim /etc/hosts
+[root@rhelserver ~]# kill -l 14789
+-bash: kill: 14789: invalid signal specification
+[root@rhelserver ~]# kill -9 14789
+[root@rhelserver ~]# vim /etc/hosts
+[1]+  Killed                  vim /etc/hosts
+[root@rhelserver ~]#
+[root@rhelserver ~]# cat /etc/group
+root:x:0:
+bin:x:1:bin,daemon
+daemon:x:2:bin,daemon
+sys:x:3:bin,adm
+adm:x:4:adm,daemon
+tty:x:5:
+disk:x:6:
+lp:x:7:daemon
+mem:x:8:
+kmem:x:9:
+wheel:x:10:
+mail:x:12:mail,postfix
+uucp:x:14:
+man:x:15:
+games:x:20:
+gopher:x:30:
+video:x:39:
+dip:x:40:
+ftp:x:50:
+lock:x:54:
+audio:x:63:
+nobody:x:99:
+users:x:100:
+dbus:x:81:
+usbmuxd:x:113:
+rpc:x:32:
+utmp:x:22:
+utempter:x:35:
+desktop_admin_r:x:499:
+desktop_user_r:x:498:
+rtkit:x:497:
+avahi-autoipd:x:170:
+floppy:x:19:
+vcsa:x:69:
+cdrom:x:11:
+tape:x:33:
+dialout:x:18:
+wbpriv:x:88:
+pulse:x:496:
+pulse-access:x:495:
+fuse:x:494:
+haldaemon:x:68:haldaemon
+ntp:x:38:
+apache:x:48:
+saslauth:x:76:
+postdrop:x:90:
+postfix:x:89:
+rpcuser:x:29:
+nfsnobody:x:65534:
+abrt:x:173:
+gdm:x:42:
+sshd:x:74:
+slocate:x:21:
+stapusr:x:156:
+stapsys:x:157:
+stapdev:x:158:
+tcpdump:x:72:
+ss:x:500:
+named:x:25:
+leo:x:501:
+dovecot:x:97:
+dovenull:x:493:
+tomcat:x:91:
+[root@rhelserver ~]# cat /etc/passwd | tail -2
+dovenull:x:496:493:Dovecot's unauthorized user:/usr/libexec/dovecot:/sbin/nologin
+tomcat:x:91:91:Apache Tomcat:/usr/share/tomcat:/bin/nologin
+[root@rhelserver ~]# cat /etc/passwd | tail -8
+sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin
+tcpdump:x:72:72::/:/sbin/nologin
+ss:x:500:500:ss:/home/ss:/bin/bash
+named:x:25:25:Named:/var/named:/sbin/nologin
+leo:x:501:501::/home/leo:/bin/bash
+dovecot:x:97:97:Dovecot IMAP server:/usr/libexec/dovecot:/sbin/nologin
+dovenull:x:496:493:Dovecot's unauthorized user:/usr/libexec/dovecot:/sbin/nologin
+tomcat:x:91:91:Apache Tomcat:/usr/share/tomcat:/bin/nologin
+[root@rhelserver ~]#
+[root@rhelserver ~]# cat /etc/gpasswd
+cat: /etc/gpasswd: No such file or directory
+[root@rhelserver ~]# groupadd oracle
+[root@rhelserver ~]# gpasswd oracle
+Changing the password for group oracle
+New Password:
+Re-enter new password:
+[root@rhelserver ~]# cat /etc/gpasswd
+cat: /etc/gpasswd: No such file or directory
+[root@rhelserver ~]# cat /etc/grppasswd
+cat: /etc/grppasswd: No such file or directory
+[root@rhelserver ~]# cat /etc/grouppasswd
+cat: /etc/grouppasswd: No such file or directory
+[root@rhelserver ~]# cat /etc/gshadow
+root:::
+bin:::bin,daemon
+daemon:::bin,daemon
+sys:::bin,adm
+adm:::adm,daemon
+tty:::
+disk:::
+lp:::daemon
+mem:::
+kmem:::
+wheel:::
+mail:::mail,postfix
+uucp:::
+man:::
+games:::
+gopher:::
+video:::
+dip:::
+ftp:::
+lock:::
+audio:::
+nobody:::
+users:::
+dbus:!::
+usbmuxd:!::
+rpc:!::
+utmp:!::
+utempter:!::
+desktop_admin_r:!::
+desktop_user_r:!::
+rtkit:!::
+avahi-autoipd:!::
+floppy:!::
+vcsa:!::
+cdrom:!::
+tape:!::
+dialout:!::
+wbpriv:!::
+pulse:!::
+pulse-access:!::
+fuse:!::
+haldaemon:!::haldaemon
+ntp:!::
+apache:!::
+saslauth:!::
+postdrop:!::
+postfix:!::
+rpcuser:!::
+nfsnobody:!::
+abrt:!::
+gdm:!::
+sshd:!::
+slocate:!::
+stapusr:!::
+stapsys:!::
+stapdev:!::
+tcpdump:!::
+ss:!!::
+named:!::
+leo:!::
+dovecot:!::
+dovenull:!::
+tomcat:!::
+oracle:$6$Gy4Lp/wbJanOZbEX$zEUae8yeKN7ORBU6TJsNhYae2C2yvHnBSGMFpTls0Rrydrsc.J4RIQqIMg6KtgCJ5si3EG0sgXgqg/a9eLtzZ1::
+[root@rhelserver ~]#
+[root@rhelserver ~]# useradd user1 user2
+Usage: useradd [options] LOGIN
+       useradd -D
+       useradd -D [options]
+
+Options:
+  -b, --base-dir BASE_DIR       base directory for the home directory of the
+                                new account
+  -c, --comment COMMENT         GECOS field of the new account
+  -d, --home-dir HOME_DIR       home directory of the new account
+  -D, --defaults                print or change default useradd configuration
+  -e, --expiredate EXPIRE_DATE  expiration date of the new account
+  -f, --inactive INACTIVE       password inactivity period of the new account
+  -g, --gid GROUP               name or ID of the primary group of the new
+                                account
+  -G, --groups GROUPS           list of supplementary groups of the new
+                                account
+  -h, --help                    display this help message and exit
+  -k, --skel SKEL_DIR           use this alternative skeleton directory
+  -K, --key KEY=VALUE           override /etc/login.defs defaults
+  -l, --no-log-init             do not add the user to the lastlog and
+                                faillog databases
+  -m, --create-home             create the user's home directory
+  -M, --no-create-home          do not create the user's home directory
+  -N, --no-user-group           do not create a group with the same name as
+                                the user
+  -o, --non-unique              allow to create users with duplicate
+                                (non-unique) UID
+  -p, --password PASSWORD       encrypted password of the new account
+  -r, --system                  create a system account
+  -R, --root CHROOT_DIR         directory to chroot into
+  -s, --shell SHELL             login shell of the new account
+  -u, --uid UID                 user ID of the new account
+  -U, --user-group              create a group with the same name as the user
+  -Z, --selinux-user SEUSER     use a specific SEUSER for the SELinux user mapping
+
+[root@rhelserver ~]# useradd user1
+[root@rhelserver ~]# useradd user2
+[root@rhelserver ~]# useradd user3
+[root@rhelserver ~]# useradd user4
+[root@rhelserver ~]# useradd user54
+[root@rhelserver ~]# cat /etc/passwsd
+cat: /etc/passwsd: No such file or directory
+[root@rhelserver ~]# cat /etc/passwd
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+sync:x:5:0:sync:/sbin:/bin/sync
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+halt:x:7:0:halt:/sbin:/sbin/halt
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+uucp:x:10:14:uucp:/var/spool/uucp:/sbin/nologin
+operator:x:11:0:operator:/root:/sbin/nologin
+games:x:12:100:games:/usr/games:/sbin/nologin
+gopher:x:13:30:gopher:/var/gopher:/sbin/nologin
+ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+nobody:x:99:99:Nobody:/:/sbin/nologin
+dbus:x:81:81:System message bus:/:/sbin/nologin
+usbmuxd:x:113:113:usbmuxd user:/:/sbin/nologin
+rpc:x:32:32:Rpcbind Daemon:/var/lib/rpcbind:/sbin/nologin
+rtkit:x:499:497:RealtimeKit:/proc:/sbin/nologin
+avahi-autoipd:x:170:170:Avahi IPv4LL Stack:/var/lib/avahi-autoipd:/sbin/nologin
+vcsa:x:69:69:virtual console memory owner:/dev:/sbin/nologin
+pulse:x:498:496:PulseAudio System Daemon:/var/run/pulse:/sbin/nologin
+haldaemon:x:68:68:HAL daemon:/:/sbin/nologin
+ntp:x:38:38::/etc/ntp:/sbin/nologin
+apache:x:48:48:Apache:/var/www:/sbin/nologin
+saslauth:x:497:76:Saslauthd user:/var/empty/saslauth:/sbin/nologin
+postfix:x:89:89::/var/spool/postfix:/sbin/nologin
+rpcuser:x:29:29:RPC Service User:/var/lib/nfs:/sbin/nologin
+nfsnobody:x:65534:65534:Anonymous NFS User:/var/lib/nfs:/sbin/nologin
+abrt:x:173:173::/etc/abrt:/sbin/nologin
+gdm:x:42:42::/var/lib/gdm:/sbin/nologin
+sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin
+tcpdump:x:72:72::/:/sbin/nologin
+ss:x:500:500:ss:/home/ss:/bin/bash
+named:x:25:25:Named:/var/named:/sbin/nologin
+leo:x:501:501::/home/leo:/bin/bash
+dovecot:x:97:97:Dovecot IMAP server:/usr/libexec/dovecot:/sbin/nologin
+dovenull:x:496:493:Dovecot's unauthorized user:/usr/libexec/dovecot:/sbin/nologin
+tomcat:x:91:91:Apache Tomcat:/usr/share/tomcat:/bin/nologin
+user1:x:502:503::/home/user1:/bin/bash
+user2:x:503:504::/home/user2:/bin/bash
+user3:x:504:505::/home/user3:/bin/bash
+user4:x:505:506::/home/user4:/bin/bash
+user54:x:506:507::/home/user54:/bin/bash
+[root@rhelserver ~]# cat /etc/passwd
+[root@rhelserver ~]# gpasswd -M user1,user2,user3 oracle
+[root@rhelserver ~]# cat /etc/
+cat: /etc/: Is a directory
+[root@rhelserver ~]# cat /etc/passwd
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+sync:x:5:0:sync:/sbin:/bin/sync
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+halt:x:7:0:halt:/sbin:/sbin/halt
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+uucp:x:10:14:uucp:/var/spool/uucp:/sbin/nologin
+operator:x:11:0:operator:/root:/sbin/nologin
+games:x:12:100:games:/usr/games:/sbin/nologin
+gopher:x:13:30:gopher:/var/gopher:/sbin/nologin
+ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+nobody:x:99:99:Nobody:/:/sbin/nologin
+dbus:x:81:81:System message bus:/:/sbin/nologin
+usbmuxd:x:113:113:usbmuxd user:/:/sbin/nologin
+rpc:x:32:32:Rpcbind Daemon:/var/lib/rpcbind:/sbin/nologin
+rtkit:x:499:497:RealtimeKit:/proc:/sbin/nologin
+avahi-autoipd:x:170:170:Avahi IPv4LL Stack:/var/lib/avahi-autoipd:/sbin/nologin
+vcsa:x:69:69:virtual console memory owner:/dev:/sbin/nologin
+pulse:x:498:496:PulseAudio System Daemon:/var/run/pulse:/sbin/nologin
+haldaemon:x:68:68:HAL daemon:/:/sbin/nologin
+ntp:x:38:38::/etc/ntp:/sbin/nologin
+apache:x:48:48:Apache:/var/www:/sbin/nologin
+saslauth:x:497:76:Saslauthd user:/var/empty/saslauth:/sbin/nologin
+postfix:x:89:89::/var/spool/postfix:/sbin/nologin
+rpcuser:x:29:29:RPC Service User:/var/lib/nfs:/sbin/nologin
+nfsnobody:x:65534:65534:Anonymous NFS User:/var/lib/nfs:/sbin/nologin
+abrt:x:173:173::/etc/abrt:/sbin/nologin
+gdm:x:42:42::/var/lib/gdm:/sbin/nologin
+sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin
+tcpdump:x:72:72::/:/sbin/nologin
+ss:x:500:500:ss:/home/ss:/bin/bash
+named:x:25:25:Named:/var/named:/sbin/nologin
+leo:x:501:501::/home/leo:/bin/bash
+dovecot:x:97:97:Dovecot IMAP server:/usr/libexec/dovecot:/sbin/nologin
+dovenull:x:496:493:Dovecot's unauthorized user:/usr/libexec/dovecot:/sbin/nologin
+tomcat:x:91:91:Apache Tomcat:/usr/share/tomcat:/bin/nologin
+user1:x:502:503::/home/user1:/bin/bash
+user2:x:503:504::/home/user2:/bin/bash
+user3:x:504:505::/home/user3:/bin/bash
+user4:x:505:506::/home/user4:/bin/bash
+user54:x:506:507::/home/user54:/bin/bash
+[root@rhelserver ~]#
+[root@rhelserver ~]# tail /etc/group
+leo:x:501:
+dovecot:x:97:
+dovenull:x:493:
+tomcat:x:91:
+oracle:x:502:user1,user2,user3
+user1:x:503:
+user2:x:504:
+user3:x:505:
+user4:x:506:
+user54:x:507:
+[root@rhelserver ~]# useradd john -g 502
+[root@rhelserver ~]# tail /etc/group
+leo:x:501:
+dovecot:x:97:
+dovenull:x:493:
+tomcat:x:91:
+oracle:x:502:user1,user2,user3
+user1:x:503:
+user2:x:504:
+user3:x:505:
+user4:x:506:
+user54:x:507:
+[root@rhelserver ~]# gpasswd -a john oracle
+Adding user john to group oracle
+[root@rhelserver ~]# tail /etc/group
+leo:x:501:
+dovecot:x:97:
+dovenull:x:493:
+tomcat:x:91:
+oracle:x:502:user1,user2,user3,john
+user1:x:503:
+user2:x:504:
+user3:x:505:
+user4:x:506:
+user54:x:507:
+[root@rhelserver ~]# gpasswd -A john oracle
+[root@rhelserver ~]# grep oracle /etc/gshadow
+oracle:$6$Gy4Lp/wbJanOZbEX$zEUae8yeKN7ORBU6TJsNhYae2C2yvHnBSGMFpTls0Rrydrsc.J4RIQqIMg6KtgCJ5si3EG0sgXgqg/a9eLtzZ1:john:user1,user2,user3,john
+[root@rhelserver ~]# group -d oracle
+-bash: group: command not found
+[root@rhelserver ~]# gpasswd -d oracle
+Usage: gpasswd [option] GROUP
+
+Options:
+  -a, --add USER                add USER to GROUP
+  -d, --delete USER             remove USER from GROUP
+  -h, --help                    display this help message and exit
+  -Q, --root CHROOT_DIR         directory to chroot into
+  -r, --delete-password         remove the GROUP's password
+  -R, --restrict                restrict access to GROUP to its members
+  -M, --members USER,...        set the list of members of GROUP
+  -A, --administrators ADMIN,...
+                                set the list of administrators for GROUP
+Except for the -A and -M options, the options cannot be combined.
+[root@rhelserver ~]# groupadd java
+[root@rhelserver ~]# gpasswd -d java
+Usage: gpasswd [option] GROUP
+
+Options:
+  -a, --add USER                add USER to GROUP
+  -d, --delete USER             remove USER from GROUP
+  -h, --help                    display this help message and exit
+  -Q, --root CHROOT_DIR         directory to chroot into
+  -r, --delete-password         remove the GROUP's password
+  -R, --restrict                restrict access to GROUP to its members
+  -M, --members USER,...        set the list of members of GROUP
+  -A, --administrators ADMIN,...
+                                set the list of administrators for GROUP
+Except for the -A and -M options, the options cannot be combined.
+[root@rhelserver ~]# groupdel java
+[root@rhelserver ~]# tail /etc/group
+leo:x:501:
+dovecot:x:97:
+dovenull:x:493:
+tomcat:x:91:
+oracle:x:502:user1,user2,user3,john
+user1:x:503:
+user2:x:504:
+user3:x:505:
+user4:x:506:
+user54:x:507:
+[root@rhelserver ~]# groupdel user1
+groupdel: cannot remove the primary group of user 'user1'
+[root@rhelserver ~]# groupdel user2
+groupdel: cannot remove the primary group of user 'user2'
+[root@rhelserver ~]# groupmod -n user2 java
+groupmod: group 'java' does not exist
+[root@rhelserver ~]# groupmod -n user2 oracle
+groupmod: group 'user2' already exists
+[root@rhelserver ~]# groupmod -o  user2 hadoop
+Usage: groupmod [options] GROUP
+
+Options:
+  -g, --gid GID                 change the group ID to GID
+  -h, --help                    display this help message and exit
+  -n, --new-name NEW_GROUP      change the name to NEW_GROUP
+  -o, --non-unique              allow to use a duplicate (non-unique) GID
+  -p, --password PASSWORD       change the password to this (encrypted)
+                                PASSWORD
+  -R, --root CHROOT_DIR         directory to chroot into
+
+[root@rhelserver ~]# groupmod -o hadoop user2
+Usage: groupmod [options] GROUP
+
+Options:
+  -g, --gid GID                 change the group ID to GID
+  -h, --help                    display this help message and exit
+  -n, --new-name NEW_GROUP      change the name to NEW_GROUP
+  -o, --non-unique              allow to use a duplicate (non-unique) GID
+  -p, --password PASSWORD       change the password to this (encrypted)
+                                PASSWORD
+  -R, --root CHROOT_DIR         directory to chroot into
+
+[root@rhelserver ~]# groupmod -n hadoop user2
+[root@rhelserver ~]# tail /etc/group
+leo:x:501:
+dovecot:x:97:
+dovenull:x:493:
+tomcat:x:91:
+oracle:x:502:user1,user2,user3,john
+user1:x:503:
+user3:x:505:
+user4:x:506:
+user54:x:507:
+hadoop:x:504:
+[root@rhelserver ~]# groupdel hadoop
+groupdel: cannot remove the primary group of user 'user2'
+[root@rhelserver ~]# man groupdel
+[root@rhelserver ~]# useradd greg -g 502 oracle
+Usage: useradd [options] LOGIN
+       useradd -D
+       useradd -D [options]
+
+Options:
+  -b, --base-dir BASE_DIR       base directory for the home directory of the
+                                new account
+  -c, --comment COMMENT         GECOS field of the new account
+  -d, --home-dir HOME_DIR       home directory of the new account
+  -D, --defaults                print or change default useradd configuration
+  -e, --expiredate EXPIRE_DATE  expiration date of the new account
+  -f, --inactive INACTIVE       password inactivity period of the new account
+  -g, --gid GROUP               name or ID of the primary group of the new
+                                account
+  -G, --groups GROUPS           list of supplementary groups of the new
+                                account
+  -h, --help                    display this help message and exit
+  -k, --skel SKEL_DIR           use this alternative skeleton directory
+  -K, --key KEY=VALUE           override /etc/login.defs defaults
+  -l, --no-log-init             do not add the user to the lastlog and
+                                faillog databases
+  -m, --create-home             create the user's home directory
+  -M, --no-create-home          do not create the user's home directory
+  -N, --no-user-group           do not create a group with the same name as
+                                the user
+  -o, --non-unique              allow to create users with duplicate
+                                (non-unique) UID
+  -p, --password PASSWORD       encrypted password of the new account
+  -r, --system                  create a system account
+  -R, --root CHROOT_DIR         directory to chroot into
+  -s, --shell SHELL             login shell of the new account
+  -u, --uid UID                 user ID of the new account
+  -U, --user-group              create a group with the same name as the user
+  -Z, --selinux-user SEUSER     use a specific SEUSER for the SELinux user mapping
+
+[root@rhelserver ~]#
+[root@rhelserver ~]# groupadd -g 600 java
+[root@rhelserver ~]# tail /etc/group
+dovecot:x:97:
+dovenull:x:493:
+tomcat:x:91:
+oracle:x:502:user1,user2,user3,john
+user1:x:503:
+user3:x:505:
+user4:x:506:
+user54:x:507:
+hadoop:x:504:
+java:x:600:
+[root@rhelserver ~]# gpasswd -M user4,user54 java
+[root@rhelserver ~]# gpasswd -d user54
+Usage: gpasswd [option] GROUP
+
+Options:
+  -a, --add USER                add USER to GROUP
+  -d, --delete USER             remove USER from GROUP
+  -h, --help                    display this help message and exit
+  -Q, --root CHROOT_DIR         directory to chroot into
+  -r, --delete-password         remove the GROUP's password
+  -R, --restrict                restrict access to GROUP to its members
+  -M, --members USER,...        set the list of members of GROUP
+  -A, --administrators ADMIN,...
+                                set the list of administrators for GROUP
+Except for the -A and -M options, the options cannot be combined.
+[root@rhelserver ~]# gpasswd -d user54 java
+Removing user user54 from group java
+[root@rhelserver ~]# tail /etc/java
+tail: error reading `/etc/java': Is a directory
+[root@rhelserver ~]# tail /etc/group
+dovecot:x:97:
+dovenull:x:493:
+tomcat:x:91:
+oracle:x:502:user1,user2,user3,john
+user1:x:503:
+user3:x:505:
+user4:x:506:
+user54:x:507:
+hadoop:x:504:
+java:x:600:user4
+[root@rhelserver ~]# gpasswd -A user4 java
+You have new mail in /var/spool/mail/root
+[root@rhelserver ~]# grouddel java
+-bash: grouddel: command not found
+[root@rhelserver ~]# groupdel java
+[root@rhelserver ~]# tail /etc/java
+tail: error reading `/etc/java': Is a directory
+[root@rhelserver ~]#
+[root@rhelserver ~]# groupmod -g 603 oracle
+[root@rhelserver ~]# tail /etc/group
+leo:x:501:
+dovecot:x:97:
+dovenull:x:493:
+tomcat:x:91:
+oracle:x:603:user1,user2,user3,john
+user1:x:503:
+user3:x:505:
+user4:x:506:
+user54:x:507:
+hadoop:x:504:
+[root@rhelserver ~]# groupmod -n oracleapps oracle
+[root@rhelserver ~]# tail /etc/group
+leo:x:501:
+dovecot:x:97:
+dovenull:x:493:
+tomcat:x:91:
+user1:x:503:
+user3:x:505:
+user4:x:506:
+user54:x:507:
+hadoop:x:504:
+oracleapps:x:603:user1,user2,user3,john
+[root@rhelserver ~]#
+[root@rhelserver ~]# man groupmod
+[root@rhelserver ~]#
+[root@rhelserver ~]# groupadd -g 603 oracledba
+groupadd: GID '603' already exists
+[root@rhelserver ~]# groupadd -o 603 oracledba
+Usage: groupadd [options] GROUP
+
+Options:
+  -f, --force                   exit successfully if the group already exists,
+                                and cancel -g if the GID is already used
+  -g, --gid GID                 use GID for the new group
+  -h, --help                    display this help message and exit
+  -K, --key KEY=VALUE           override /etc/login.defs defaults
+  -o, --non-unique              allow to create groups with duplicate
+                                (non-unique) GID
+  -p, --password PASSWORD       use this encrypted password for the new group
+  -r, --system                  create a system account
+  -R, --root CHROOT_DIR         directory to chroot into
+
+[root@rhelserver ~]# tail /etc/group
+leo:x:501:
+dovecot:x:97:
+dovenull:x:493:
+tomcat:x:91:
+user1:x:503:
+user3:x:505:
+user4:x:506:
+user54:x:507:
+hadoop:x:504:
+oracleapps:x:603:user1,user2,user3,john
+[root@rhelserver ~]# groupadd -o 603 oracledba
+Usage: groupadd [options] GROUP
+
+Options:
+  -f, --force                   exit successfully if the group already exists,
+                                and cancel -g if the GID is already used
+  -g, --gid GID                 use GID for the new group
+  -h, --help                    display this help message and exit
+  -K, --key KEY=VALUE           override /etc/login.defs defaults
+  -o, --non-unique              allow to create groups with duplicate
+                                (non-unique) GID
+  -p, --password PASSWORD       use this encrypted password for the new group
+  -r, --system                  create a system account
+  -R, --root CHROOT_DIR         directory to chroot into
+
+[root@rhelserver ~]# groupadd -of 603 oracledba
+Usage: groupadd [options] GROUP
+
+Options:
+  -f, --force                   exit successfully if the group already exists,
+                                and cancel -g if the GID is already used
+  -g, --gid GID                 use GID for the new group
+  -h, --help                    display this help message and exit
+  -K, --key KEY=VALUE           override /etc/login.defs defaults
+  -o, --non-unique              allow to create groups with duplicate
+                                (non-unique) GID
+  -p, --password PASSWORD       use this encrypted password for the new group
+  -r, --system                  create a system account
+  -R, --root CHROOT_DIR         directory to chroot into
+
+[root@rhelserver ~]# tail /etc/group
+leo:x:501:
+dovecot:x:97:
+dovenull:x:493:
+tomcat:x:91:
+user1:x:503:
+user3:x:505:
+user4:x:506:
+user54:x:507:
+hadoop:x:504:
+oracleapps:x:603:user1,user2,user3,john
+[root@rhelserver ~]# groupadd hadoop
+groupadd: group 'hadoop' already exists
+[root@rhelserver ~]# groupadd hadoopdev
+[root@rhelserver ~]# groupmod -o oracleapps hadoopdev
+Usage: groupmod [options] GROUP
+
+Options:
+  -g, --gid GID                 change the group ID to GID
+  -h, --help                    display this help message and exit
+  -n, --new-name NEW_GROUP      change the name to NEW_GROUP
+  -o, --non-unique              allow to use a duplicate (non-unique) GID
+  -p, --password PASSWORD       change the password to this (encrypted)
+                                PASSWORD
+  -R, --root CHROOT_DIR         directory to chroot into
+
+[root@rhelserver ~]# groupmod -o  603 oracleapps hadoopdev
+Usage: groupmod [options] GROUP
+
+Options:
+  -g, --gid GID                 change the group ID to GID
+  -h, --help                    display this help message and exit
+  -n, --new-name NEW_GROUP      change the name to NEW_GROUP
+  -o, --non-unique              allow to use a duplicate (non-unique) GID
+  -p, --password PASSWORD       change the password to this (encrypted)
+                                PASSWORD
+  -R, --root CHROOT_DIR         directory to chroot into
+
+[root@rhelserver ~]# tail /etc/hadoop
+tail: cannot open `/etc/hadoop' for reading: No such file or directory
+[root@rhelserver ~]# tail /etc/group
+dovecot:x:97:
+dovenull:x:493:
+tomcat:x:91:
+user1:x:503:
+user3:x:505:
+user4:x:506:
+user54:x:507:
+hadoop:x:504:
+oracleapps:x:603:user1,user2,user3,john
+hadoopdev:x:604:
+[root@rhelserver ~]# groupmod -o 604 oracleapps hadoopdev
+Usage: groupmod [options] GROUP
+
+Options:
+  -g, --gid GID                 change the group ID to GID
+  -h, --help                    display this help message and exit
+  -n, --new-name NEW_GROUP      change the name to NEW_GROUP
+  -o, --non-unique              allow to use a duplicate (non-unique) GID
+  -p, --password PASSWORD       change the password to this (encrypted)
+                                PASSWORD
+  -R, --root CHROOT_DIR         directory to chroot into
+
+[root@rhelserver ~]# groupmod -o -g 604 oracleapps hadoopdev
+Usage: groupmod [options] GROUP
+
+Options:
+  -g, --gid GID                 change the group ID to GID
+  -h, --help                    display this help message and exit
+  -n, --new-name NEW_GROUP      change the name to NEW_GROUP
+  -o, --non-unique              allow to use a duplicate (non-unique) GID
+  -p, --password PASSWORD       change the password to this (encrypted)
+                                PASSWORD
+  -R, --root CHROOT_DIR         directory to chroot into
+
+[root@rhelserver ~]# groupmod -o -g 604 oracleapps
+[root@rhelserver ~]# tail /etc/group
+dovecot:x:97:
+dovenull:x:493:
+tomcat:x:91:
+user1:x:503:
+user3:x:505:
+user4:x:506:
+user54:x:507:
+hadoop:x:504:
+oracleapps:x:604:user1,user2,user3,john
+hadoopdev:x:604:
+[root@rhelserver ~]#
+[root@rhelserver ~]# yum info openssh
+Loaded plugins: fastestmirror, refresh-packagekit, security
+Loading mirror speeds from cached hostfile
+ * base:
+ * epel: del-mirrors.extreme-ix.org
+ * extras: centos.excellmedia.net
+ * updates: centos.excellmedia.net
+http://centos.excellmedia.net/6.9/extras/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'centos.excellmedia.net'"
+Trying other mirror.
+http://centos.myfahim.com/centos/6.9/extras/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'centos.myfahim.com'"
+Trying other mirror.
+http://del-mirrors.extreme-ix.org/centos/6.9/extras/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'del-mirrors.extreme-ix.org'"
+Trying other mirror.
+http://ftp.iitm.ac.in/centos/6.9/extras/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'ftp.iitm.ac.in'"
+Trying other mirror.
+http://mirror.dhakacom.com/centos/6.9/extras/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'mirror.dhakacom.com'"
+Trying other mirror.
+http://mirror.nbrc.ac.in/centos/6.9/extras/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'mirror.nbrc.ac.in'"
+Trying other mirror.
+http://mirror.vbctv.in/centos/6.9/extras/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'mirror.vbctv.in'"
+Trying other mirror.
+http://mirror.xeonbd.com/centos/6.9/extras/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'mirror.xeonbd.com'"
+Trying other mirror.
+http://mirrors.vhost.vn/centos/6.9/extras/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'mirrors.vhost.vn'"
+Trying other mirror.
+http://mirrors.vonline.vn/centos/6.9/extras/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'mirrors.vonline.vn'"
+Trying other mirror.
+http://centos.excellmedia.net/6.9/updates/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'centos.excellmedia.net'"
+Trying other mirror.
+http://centos.myfahim.com/centos/6.9/updates/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'centos.myfahim.com'"
+Trying other mirror.
+http://del-mirrors.extreme-ix.org/centos/6.9/updates/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'del-mirrors.extreme-ix.org'"
+Trying other mirror.
+http://ftp.iitm.ac.in/centos/6.9/updates/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'ftp.iitm.ac.in'"
+Trying other mirror.
+http://mirror.dhakacom.com/centos/6.9/updates/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'mirror.dhakacom.com'"
+Trying other mirror.
+http://mirror.ehost.vn/centos/6.9/updates/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'mirror.ehost.vn'"
+Trying other mirror.
+http://mirror.nbrc.ac.in/centos/6.9/updates/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'mirror.nbrc.ac.in'"
+Trying other mirror.
+http://mirror.vbctv.in/centos/6.9/updates/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'mirror.vbctv.in'"
+Trying other mirror.
+http://mirror.xeonbd.com/centos/6.9/updates/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'mirror.xeonbd.com'"
+Trying other mirror.
+http://mirrors.vinahost.vn/centos/6.9/updates/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'mirrors.vinahost.vn'"
+Trying other mirror.
+Installed Packages
+Name        : openssh
+Arch        : i686
+Version     : 5.3p1
+Release     : 123.el6_9
+Size        : 767 k
+Repo        : installed
+From repo   : updates
+Summary     : An open source implementation of SSH protocol versions 1 and 2
+URL         : http://www.openssh.com/portable.html
+License     : BSD
+Description : SSH (Secure SHell) is a program for logging into and executing
+            : commands on a remote machine. SSH is intended to replace rlogin and
+            : rsh, and to provide secure encrypted communications between two
+            : untrusted hosts over an insecure network. X11 connections and
+            : arbitrary TCP/IP ports can also be forwarded over the secure channel.
+            :
+            : OpenSSH is OpenBSD's version of the last free version of SSH, bringing
+            : it up to date in terms of security and features.
+            :
+            : This package includes the core files necessary for both the OpenSSH
+            : client and server. To make this package useful, you should also
+            : install openssh-clients, openssh-server, or both.
+
+[root@rhelserver ~]# yum search openldap
+Loaded plugins: fastestmirror, refresh-packagekit, security
+Loading mirror speeds from cached hostfile
+ * base:
+ * epel: del-mirrors.extreme-ix.org
+ * extras: centos.excellmedia.net
+ * updates: centos.excellmedia.net
+http://centos.excellmedia.net/6.9/extras/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'centos.excellmedia.net'"
+Trying other mirror.
+http://centos.myfahim.com/centos/6.9/extras/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'centos.myfahim.com'"
+Trying other mirror.
+http://del-mirrors.extreme-ix.org/centos/6.9/extras/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'del-mirrors.extreme-ix.org'"
+Trying other mirror.
+http://ftp.iitm.ac.in/centos/6.9/extras/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'ftp.iitm.ac.in'"
+Trying other mirror.
+http://mirror.dhakacom.com/centos/6.9/extras/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'mirror.dhakacom.com'"
+Trying other mirror.
+http://mirror.nbrc.ac.in/centos/6.9/extras/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'mirror.nbrc.ac.in'"
+Trying other mirror.
+http://mirror.vbctv.in/centos/6.9/extras/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'mirror.vbctv.in'"
+Trying other mirror.
+http://mirror.xeonbd.com/centos/6.9/extras/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'mirror.xeonbd.com'"
+Trying other mirror.
+http://mirrors.vhost.vn/centos/6.9/extras/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'mirrors.vhost.vn'"
+Trying other mirror.
+http://mirrors.vonline.vn/centos/6.9/extras/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'mirrors.vonline.vn'"
+Trying other mirror.
+http://centos.excellmedia.net/6.9/updates/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'centos.excellmedia.net'"
+Trying other mirror.
+http://centos.myfahim.com/centos/6.9/updates/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'centos.myfahim.com'"
+Trying other mirror.
+http://del-mirrors.extreme-ix.org/centos/6.9/updates/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'del-mirrors.extreme-ix.org'"
+Trying other mirror.
+http://ftp.iitm.ac.in/centos/6.9/updates/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'ftp.iitm.ac.in'"
+Trying other mirror.
+http://mirror.dhakacom.com/centos/6.9/updates/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'mirror.dhakacom.com'"
+Trying other mirror.
+http://mirror.ehost.vn/centos/6.9/updates/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'mirror.ehost.vn'"
+Trying other mirror.
+http://mirror.nbrc.ac.in/centos/6.9/updates/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'mirror.nbrc.ac.in'"
+Trying other mirror.
+http://mirror.vbctv.in/centos/6.9/updates/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'mirror.vbctv.in'"
+Trying other mirror.
+http://mirror.xeonbd.com/centos/6.9/updates/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'mirror.xeonbd.com'"
+Trying other mirror.
+http://mirrors.vinahost.vn/centos/6.9/updates/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'mirrors.vinahost.vn'"
+Trying other mirror.
+============================== N/S Matched: openldap ===============================
+compat-openldap.i686 : OpenLDAP compatibility shared libraries
+openldap-servers-sql.i686 : SQL support module for OpenLDAP server
+golang-github-armon-gomdb-devel.i686 : Go wrapper for LMDB - OpenLDAP Lightning
+                                     : Memory-Mapped Database
+lua-ldap.i686 : LDAP client library for Lua, using OpenLDAP
+openldap.i686 : LDAP support libraries
+openldap-clients.i686 : LDAP client utilities
+openldap-devel.i686 : LDAP development libraries and header files
+openldap-servers.i686 : LDAP server
+perl-Mozilla-LDAP.i686 : LDAP Perl module that wraps the OpenLDAP C SDK
+smbldap-tools.noarch : User and group administration tools for Samba/OpenLDAP
+
+  Name and summary matches only, use "search all" for everything.
+[root@rhelserver ~]# yum info openldap
+Loaded plugins: fastestmirror, refresh-packagekit, security
+Loading mirror speeds from cached hostfile
+ * base:
+ * epel: del-mirrors.extreme-ix.org
+ * extras: centos.excellmedia.net
+ * updates: centos.excellmedia.net
+http://centos.excellmedia.net/6.9/extras/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'centos.excellmedia.net'"
+Trying other mirror.
+http://centos.myfahim.com/centos/6.9/extras/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'centos.myfahim.com'"
+Trying other mirror.
+http://del-mirrors.extreme-ix.org/centos/6.9/extras/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'del-mirrors.extreme-ix.org'"
+Trying other mirror.
+http://ftp.iitm.ac.in/centos/6.9/extras/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'ftp.iitm.ac.in'"
+Trying other mirror.
+http://mirror.dhakacom.com/centos/6.9/extras/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'mirror.dhakacom.com'"
+Trying other mirror.
+http://mirror.nbrc.ac.in/centos/6.9/extras/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'mirror.nbrc.ac.in'"
+Trying other mirror.
+http://mirror.vbctv.in/centos/6.9/extras/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'mirror.vbctv.in'"
+Trying other mirror.
+http://mirror.xeonbd.com/centos/6.9/extras/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'mirror.xeonbd.com'"
+Trying other mirror.
+http://mirrors.vhost.vn/centos/6.9/extras/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'mirrors.vhost.vn'"
+Trying other mirror.
+http://mirrors.vonline.vn/centos/6.9/extras/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'mirrors.vonline.vn'"
+Trying other mirror.
+http://centos.excellmedia.net/6.9/updates/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'centos.excellmedia.net'"
+Trying other mirror.
+http://centos.myfahim.com/centos/6.9/updates/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'centos.myfahim.com'"
+Trying other mirror.
+http://del-mirrors.extreme-ix.org/centos/6.9/updates/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'del-mirrors.extreme-ix.org'"
+Trying other mirror.
+http://ftp.iitm.ac.in/centos/6.9/updates/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'ftp.iitm.ac.in'"
+Trying other mirror.
+http://mirror.dhakacom.com/centos/6.9/updates/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'mirror.dhakacom.com'"
+Trying other mirror.
+http://mirror.ehost.vn/centos/6.9/updates/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'mirror.ehost.vn'"
+Trying other mirror.
+http://mirror.nbrc.ac.in/centos/6.9/updates/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'mirror.nbrc.ac.in'"
+Trying other mirror.
+http://mirror.vbctv.in/centos/6.9/updates/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'mirror.vbctv.in'"
+Trying other mirror.
+http://mirror.xeonbd.com/centos/6.9/updates/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'mirror.xeonbd.com'"
+Trying other mirror.
+http://mirrors.vinahost.vn/centos/6.9/updates/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'mirrors.vinahost.vn'"
+Trying other mirror.
+Installed Packages
+Name        : openldap
+Arch        : i686
+Version     : 2.4.40
+Release     : 16.el6
+Size        : 847 k
+Repo        : installed
+From repo   : anaconda-CentOS-201703281202.i386
+Summary     : LDAP support libraries
+URL         : http://www.openldap.org/
+License     : OpenLDAP
+Description : OpenLDAP is an open source suite of LDAP (Lightweight Directory Access
+            : Protocol) applications and development tools. LDAP is a set of
+            : protocols for accessing directory services (usually phone book style
+            : information, but other information is possible) over the Internet,
+            : similar to the way DNS (Domain Name System) information is propagated
+            : over the Internet. The openldap package contains configuration files,
+            : libraries, and documentation for OpenLDAP.
+
+[root@rhelserver ~]# yum info mariadb
+Loaded plugins: fastestmirror, refresh-packagekit, security
+Loading mirror speeds from cached hostfile
+ * base:
+ * epel: del-mirrors.extreme-ix.org
+ * extras: centos.excellmedia.net
+ * updates: centos.excellmedia.net
+http://centos.excellmedia.net/6.9/extras/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'centos.excellmedia.net'"
+Trying other mirror.
+http://centos.myfahim.com/centos/6.9/extras/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'centos.myfahim.com'"
+Trying other mirror.
+http://del-mirrors.extreme-ix.org/centos/6.9/extras/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'del-mirrors.extreme-ix.org'"
+Trying other mirror.
+http://ftp.iitm.ac.in/centos/6.9/extras/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'ftp.iitm.ac.in'"
+Trying other mirror.
+http://mirror.dhakacom.com/centos/6.9/extras/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'mirror.dhakacom.com'"
+Trying other mirror.
+http://mirror.nbrc.ac.in/centos/6.9/extras/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'mirror.nbrc.ac.in'"
+Trying other mirror.
+http://mirror.vbctv.in/centos/6.9/extras/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'mirror.vbctv.in'"
+Trying other mirror.
+http://mirror.xeonbd.com/centos/6.9/extras/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'mirror.xeonbd.com'"
+Trying other mirror.
+http://mirrors.vhost.vn/centos/6.9/extras/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'mirrors.vhost.vn'"
+Trying other mirror.
+http://mirrors.vonline.vn/centos/6.9/extras/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'mirrors.vonline.vn'"
+Trying other mirror.
+http://centos.excellmedia.net/6.9/updates/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'centos.excellmedia.net'"
+Trying other mirror.
+http://centos.myfahim.com/centos/6.9/updates/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'centos.myfahim.com'"
+Trying other mirror.
+http://del-mirrors.extreme-ix.org/centos/6.9/updates/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'del-mirrors.extreme-ix.org'"
+Trying other mirror.
+http://ftp.iitm.ac.in/centos/6.9/updates/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'ftp.iitm.ac.in'"
+Trying other mirror.
+http://mirror.dhakacom.com/centos/6.9/updates/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'mirror.dhakacom.com'"
+Trying other mirror.
+http://mirror.ehost.vn/centos/6.9/updates/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'mirror.ehost.vn'"
+Trying other mirror.
+http://mirror.nbrc.ac.in/centos/6.9/updates/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'mirror.nbrc.ac.in'"
+Trying other mirror.
+http://mirror.vbctv.in/centos/6.9/updates/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'mirror.vbctv.in'"
+Trying other mirror.
+http://mirror.xeonbd.com/centos/6.9/updates/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'mirror.xeonbd.com'"
+Trying other mirror.
+http://mirrors.vinahost.vn/centos/6.9/updates/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'mirrors.vinahost.vn'"
+Trying other mirror.
+Error: No matching Packages to list
+[root@rhelserver ~]# yum info ft
+Loaded plugins: fastestmirror, refresh-packagekit, security
+Loading mirror speeds from cached hostfile
+ * base:
+ * epel: del-mirrors.extreme-ix.org
+ * extras: centos.excellmedia.net
+ * updates: centos.excellmedia.net
+http://centos.excellmedia.net/6.9/extras/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'centos.excellmedia.net'"
+Trying other mirror.
+http://centos.myfahim.com/centos/6.9/extras/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'centos.myfahim.com'"
+Trying other mirror.
+http://del-mirrors.extreme-ix.org/centos/6.9/extras/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'del-mirrors.extreme-ix.org'"
+Trying other mirror.
+http://ftp.iitm.ac.in/centos/6.9/extras/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'ftp.iitm.ac.in'"
+Trying other mirror.
+http://mirror.dhakacom.com/centos/6.9/extras/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'mirror.dhakacom.com'"
+Trying other mirror.
+http://mirror.nbrc.ac.in/centos/6.9/extras/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'mirror.nbrc.ac.in'"
+Trying other mirror.
+http://mirror.vbctv.in/centos/6.9/extras/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'mirror.vbctv.in'"
+Trying other mirror.
+http://mirror.xeonbd.com/centos/6.9/extras/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'mirror.xeonbd.com'"
+Trying other mirror.
+http://mirrors.vhost.vn/centos/6.9/extras/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'mirrors.vhost.vn'"
+Trying other mirror.
+http://mirrors.vonline.vn/centos/6.9/extras/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'mirrors.vonline.vn'"
+Trying other mirror.
+http://centos.excellmedia.net/6.9/updates/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'centos.excellmedia.net'"
+Trying other mirror.
+http://centos.myfahim.com/centos/6.9/updates/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'centos.myfahim.com'"
+Trying other mirror.
+http://del-mirrors.extreme-ix.org/centos/6.9/updates/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'del-mirrors.extreme-ix.org'"
+Trying other mirror.
+http://ftp.iitm.ac.in/centos/6.9/updates/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'ftp.iitm.ac.in'"
+Trying other mirror.
+http://mirror.dhakacom.com/centos/6.9/updates/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'mirror.dhakacom.com'"
+Trying other mirror.
+http://mirror.ehost.vn/centos/6.9/updates/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'mirror.ehost.vn'"
+Trying other mirror.
+http://mirror.nbrc.ac.in/centos/6.9/updates/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'mirror.nbrc.ac.in'"
+Trying other mirror.
+http://mirror.vbctv.in/centos/6.9/updates/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'mirror.vbctv.in'"
+Trying other mirror.
+http://mirror.xeonbd.com/centos/6.9/updates/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'mirror.xeonbd.com'"
+Trying other mirror.
+http://mirrors.vinahost.vn/centos/6.9/updates/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'mirrors.vinahost.vn'"
+Trying other mirror.
+Error: No matching Packages to list
+[root@rhelserver ~]# yum info ftp
+Loaded plugins: fastestmirror, refresh-packagekit, security
+Loading mirror speeds from cached hostfile
+ * base:
+ * epel: del-mirrors.extreme-ix.org
+ * extras: centos.excellmedia.net
+ * updates: centos.excellmedia.net
+http://centos.excellmedia.net/6.9/extras/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'centos.excellmedia.net'"
+Trying other mirror.
+http://centos.myfahim.com/centos/6.9/extras/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'centos.myfahim.com'"
+Trying other mirror.
+http://del-mirrors.extreme-ix.org/centos/6.9/extras/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'del-mirrors.extreme-ix.org'"
+Trying other mirror.
+http://ftp.iitm.ac.in/centos/6.9/extras/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'ftp.iitm.ac.in'"
+Trying other mirror.
+http://mirror.dhakacom.com/centos/6.9/extras/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'mirror.dhakacom.com'"
+Trying other mirror.
+http://mirror.nbrc.ac.in/centos/6.9/extras/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'mirror.nbrc.ac.in'"
+Trying other mirror.
+http://mirror.vbctv.in/centos/6.9/extras/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'mirror.vbctv.in'"
+Trying other mirror.
+http://mirror.xeonbd.com/centos/6.9/extras/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'mirror.xeonbd.com'"
+Trying other mirror.
+http://mirrors.vhost.vn/centos/6.9/extras/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'mirrors.vhost.vn'"
+Trying other mirror.
+http://mirrors.vonline.vn/centos/6.9/extras/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'mirrors.vonline.vn'"
+Trying other mirror.
+http://centos.excellmedia.net/6.9/updates/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'centos.excellmedia.net'"
+Trying other mirror.
+http://centos.myfahim.com/centos/6.9/updates/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'centos.myfahim.com'"
+Trying other mirror.
+http://del-mirrors.extreme-ix.org/centos/6.9/updates/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'del-mirrors.extreme-ix.org'"
+Trying other mirror.
+http://ftp.iitm.ac.in/centos/6.9/updates/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'ftp.iitm.ac.in'"
+Trying other mirror.
+http://mirror.dhakacom.com/centos/6.9/updates/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'mirror.dhakacom.com'"
+Trying other mirror.
+http://mirror.ehost.vn/centos/6.9/updates/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'mirror.ehost.vn'"
+Trying other mirror.
+http://mirror.nbrc.ac.in/centos/6.9/updates/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'mirror.nbrc.ac.in'"
+Trying other mirror.
+http://mirror.vbctv.in/centos/6.9/updates/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'mirror.vbctv.in'"
+Trying other mirror.
+http://mirror.xeonbd.com/centos/6.9/updates/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'mirror.xeonbd.com'"
+Trying other mirror.
+http://mirrors.vinahost.vn/centos/6.9/updates/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'mirrors.vinahost.vn'"
+Trying other mirror.
+Available Packages
+Name        : ftp
+Arch        : i686
+Version     : 0.17
+Release     : 54.el6
+Size        : 56 k
+Repo        : base
+Summary     : The standard UNIX FTP (File Transfer Protocol) client
+URL         : ftp://ftp.uk.linux.org/pub/linux/Networking/netkit
+License     : BSD with advertising
+Description : The ftp package provides the standard UNIX command-line FTP (File
+            : Transfer Protocol) client.  FTP is a widely used protocol for
+            : transferring files over the Internet and for archiving files.
+            :
+            : If your system is on a network, you should install ftp in order to do
+            : file transfers.
+
+[root@rhelserver ~]# yum install ftp
+Loaded plugins: fastestmirror, refresh-packagekit, security
+Setting up Install Process
+Loading mirror speeds from cached hostfile
+ * base:
+ * epel: del-mirrors.extreme-ix.org
+ * extras: centos.excellmedia.net
+ * updates: centos.excellmedia.net
+http://centos.excellmedia.net/6.9/extras/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'centos.excellmedia.net'"
+Trying other mirror.
+http://centos.myfahim.com/centos/6.9/extras/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'centos.myfahim.com'"
+Trying other mirror.
+http://del-mirrors.extreme-ix.org/centos/6.9/extras/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'del-mirrors.extreme-ix.org'"
+Trying other mirror.
+http://ftp.iitm.ac.in/centos/6.9/extras/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'ftp.iitm.ac.in'"
+Trying other mirror.
+http://mirror.dhakacom.com/centos/6.9/extras/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'mirror.dhakacom.com'"
+Trying other mirror.
+http://mirror.nbrc.ac.in/centos/6.9/extras/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'mirror.nbrc.ac.in'"
+Trying other mirror.
+http://mirror.vbctv.in/centos/6.9/extras/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'mirror.vbctv.in'"
+Trying other mirror.
+http://mirror.xeonbd.com/centos/6.9/extras/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'mirror.xeonbd.com'"
+Trying other mirror.
+http://mirrors.vhost.vn/centos/6.9/extras/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'mirrors.vhost.vn'"
+Trying other mirror.
+http://mirrors.vonline.vn/centos/6.9/extras/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'mirrors.vonline.vn'"
+Trying other mirror.
+http://centos.excellmedia.net/6.9/updates/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'centos.excellmedia.net'"
+Trying other mirror.
+http://centos.myfahim.com/centos/6.9/updates/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'centos.myfahim.com'"
+Trying other mirror.
+http://del-mirrors.extreme-ix.org/centos/6.9/updates/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'del-mirrors.extreme-ix.org'"
+Trying other mirror.
+http://ftp.iitm.ac.in/centos/6.9/updates/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'ftp.iitm.ac.in'"
+Trying other mirror.
+http://mirror.dhakacom.com/centos/6.9/updates/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'mirror.dhakacom.com'"
+Trying other mirror.
+http://mirror.ehost.vn/centos/6.9/updates/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'mirror.ehost.vn'"
+Trying other mirror.
+http://mirror.nbrc.ac.in/centos/6.9/updates/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'mirror.nbrc.ac.in'"
+Trying other mirror.
+http://mirror.vbctv.in/centos/6.9/updates/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'mirror.vbctv.in'"
+Trying other mirror.
+http://mirror.xeonbd.com/centos/6.9/updates/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'mirror.xeonbd.com'"
+Trying other mirror.
+http://mirrors.vinahost.vn/centos/6.9/updates/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'mirrors.vinahost.vn'"
+Trying other mirror.
+Resolving Dependencies
+--> Running transaction check
+---> Package ftp.i686 0:0.17-54.el6 will be installed
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+====================================================================================
+ Package         Arch             Version                    Repository        Size
+====================================================================================
+Installing:
+ ftp             i686             0.17-54.el6                base              56 k
+
+Transaction Summary
+====================================================================================
+Install       1 Package(s)
+
+Total download size: 56 k
+Installed size: 91 k
+Is this ok [y/N]: y
+Downloading Packages:
+Running rpm_check_debug
+Running Transaction Test
+Transaction Test Succeeded
+Running Transaction
+  Installing : ftp-0.17-54.el6.i686                                             1/1
+  Verifying  : ftp-0.17-54.el6.i686                                             1/1
+
+Installed:
+  ftp.i686 0:0.17-54.el6
+
+Complete!
+[root@rhelserver ~]# yum info ftp
+Loaded plugins: fastestmirror, refresh-packagekit, security
+Loading mirror speeds from cached hostfile
+ * base:
+ * epel: del-mirrors.extreme-ix.org
+ * extras: centos.excellmedia.net
+ * updates: centos.excellmedia.net
+http://centos.excellmedia.net/6.9/extras/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'centos.excellmedia.net'"
+Trying other mirror.
+http://centos.myfahim.com/centos/6.9/extras/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'centos.myfahim.com'"
+Trying other mirror.
+http://del-mirrors.extreme-ix.org/centos/6.9/extras/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'del-mirrors.extreme-ix.org'"
+Trying other mirror.
+http://ftp.iitm.ac.in/centos/6.9/extras/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'ftp.iitm.ac.in'"
+Trying other mirror.
+http://mirror.dhakacom.com/centos/6.9/extras/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'mirror.dhakacom.com'"
+Trying other mirror.
+http://mirror.nbrc.ac.in/centos/6.9/extras/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'mirror.nbrc.ac.in'"
+Trying other mirror.
+http://mirror.vbctv.in/centos/6.9/extras/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'mirror.vbctv.in'"
+Trying other mirror.
+http://mirror.xeonbd.com/centos/6.9/extras/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'mirror.xeonbd.com'"
+Trying other mirror.
+http://mirrors.vhost.vn/centos/6.9/extras/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'mirrors.vhost.vn'"
+Trying other mirror.
+http://mirrors.vonline.vn/centos/6.9/extras/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'mirrors.vonline.vn'"
+Trying other mirror.
+http://centos.excellmedia.net/6.9/updates/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'centos.excellmedia.net'"
+Trying other mirror.
+http://centos.myfahim.com/centos/6.9/updates/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'centos.myfahim.com'"
+Trying other mirror.
+http://del-mirrors.extreme-ix.org/centos/6.9/updates/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'del-mirrors.extreme-ix.org'"
+Trying other mirror.
+http://ftp.iitm.ac.in/centos/6.9/updates/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'ftp.iitm.ac.in'"
+Trying other mirror.
+http://mirror.dhakacom.com/centos/6.9/updates/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'mirror.dhakacom.com'"
+Trying other mirror.
+http://mirror.ehost.vn/centos/6.9/updates/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'mirror.ehost.vn'"
+Trying other mirror.
+http://mirror.nbrc.ac.in/centos/6.9/updates/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'mirror.nbrc.ac.in'"
+Trying other mirror.
+http://mirror.vbctv.in/centos/6.9/updates/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'mirror.vbctv.in'"
+Trying other mirror.
+http://mirror.xeonbd.com/centos/6.9/updates/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'mirror.xeonbd.com'"
+Trying other mirror.
+http://mirrors.vinahost.vn/centos/6.9/updates/i386/repodata/repomd.xml: [Errno 14] PYCURL ERROR 6 - "Couldn't resolve host 'mirrors.vinahost.vn'"
+Trying other mirror.
+Installed Packages
+Name        : ftp
+Arch        : i686
+Version     : 0.17
+Release     : 54.el6
+Size        : 91 k
+Repo        : installed
+From repo   : base
+Summary     : The standard UNIX FTP (File Transfer Protocol) client
+URL         : ftp://ftp.uk.linux.org/pub/linux/Networking/netkit
+License     : BSD with advertising
+Description : The ftp package provides the standard UNIX command-line FTP (File
+            : Transfer Protocol) client.  FTP is a widely used protocol for
+            : transferring files over the Internet and for archiving files.
+            :
+            : If your system is on a network, you should install ftp in order to do
+            : file transfers.
+
+[root@rhelserver ~]# yum remove ftp
+Loaded plugins: fastestmirror, refresh-packagekit, security
+Existing lock /var/run/yum.pid: another copy is running as pid 16323.
+Another app is currently holding the yum lock; waiting for it to exit...
+  The other application is: PackageKit
+    Memory : 108 M RSS (123 MB VSZ)
+    Started: Sat Apr 28 11:58:05 2018 - 00:14 ago
+    State  : Sleeping, pid: 16323
+Setting up Remove Process
+Resolving Dependencies
+--> Running transaction check
+---> Package ftp.i686 0:0.17-54.el6 will be erased
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+====================================================================================
+ Package         Arch             Version                   Repository         Size
+====================================================================================
+Removing:
+ ftp             i686             0.17-54.el6               @base              91 k
+
+Transaction Summary
+====================================================================================
+Remove        1 Package(s)
+
+Installed size: 91 k
+Is this ok [y/N]: y
+Downloading Packages:
+Running rpm_check_debug
+Running Transaction Test
+Transaction Test Succeeded
+Running Transaction
+  Erasing    : ftp-0.17-54.el6.i686                                             1/1
+  Verifying  : ftp-0.17-54.el6.i686                                             1/1
+
+Removed:
+  ftp.i686 0:0.17-54.el6
+
+Complete!
+[root@rhelserver ~]# kill -9
+[root@rhelserver ~]#
